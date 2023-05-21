@@ -1,0 +1,9 @@
+whatsdesk
+spotify
+notion-snap
+xmind
+beekeeper-studio
+code --classic
+postman
+utorrent
+slack
