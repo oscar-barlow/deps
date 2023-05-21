@@ -1,27 +1,12 @@
 # Utils
-steam
 zsh
 git
 curl
 xclip
-blueman
-gimp
-python3-pydrive
-p7zip-full
-vlc
-rclone
 jq
 silversearcher-ag
 rename
 net-tools
-
-# Zoom
-libxcb-xtest0
-
-# Proton VPN
-protonvpn
-gnome-shell-extension-appindicator
-gir1.2-appindicator3-0.1
 
 # Terraform
 gnome-shell-pomodoro
