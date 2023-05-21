@@ -1,7 +1,0 @@
-.PHONY: install
-install: refresh
-	cat snapfile.txt | xargs sudo snap install
-
-.PHONY: refresh
-refresh:
-	sudo snap refresh
