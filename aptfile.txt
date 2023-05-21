@@ -1,5 +1,4 @@
 # Utils
-zsh
 git
 curl
 xclip
@@ -8,31 +7,8 @@ silversearcher-ag
 rename
 net-tools
 
-# Terraform
-gnome-shell-pomodoro
-gnupg
-software-properties-common
-terraform
-
 # Security
 libpam-u2f
-
-# Python
-build-essential
-libssl-dev
-zlib1g-dev
-libbz2-dev
-libreadline-dev
-libsqlite3-dev
-wget
-llvm
-libncursesw5-dev
-xz-utils
-tk-dev
-libxml2-dev
-libxmlsec1-dev
-libffi-dev
-liblzma-dev
 
 # Docker
 ca-certificates
