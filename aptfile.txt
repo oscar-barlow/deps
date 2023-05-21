@@ -1,5 +1,4 @@
 # Utils
-zsh
 git
 curl
 xclip
@@ -42,3 +41,27 @@ docker-ce
 docker-ce-cli
 containerd.io
 docker-compose
+
+# Desktop Software
+steam
+zsh
+blueman
+gimp
+python3-pydrive
+p7zip-full
+vlc
+rclone
+
+# Zoom
+libxcb-xtest0
+
+# Proton VPN
+protonvpn
+gnome-shell-extension-appindicator
+gir1.2-appindicator3-0.1
+
+# Terraform
+gnome-shell-pomodoro
+gnupg
+software-properties-common
+terraform
