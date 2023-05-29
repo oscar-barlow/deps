@@ -11,10 +11,10 @@ update:
 upgrade:
 	sudo apt-get upgrade --yes
 
-.PHONY: snap-install
-install: refresh
+PHONY: snap-install
+snap-install: snap-refresh
 	cat snapfile.txt | xargs sudo snap install
 
 .PHONY: snap-refresh
-refresh:
+snap-refresh:
 	sudo snap refresh
