@@ -6,6 +6,10 @@ jq
 silversearcher-ag
 rename
 net-tools
+libdvd-pkg
+libdvdnav4
+ttf-mscorefonts-installer
+ubuntu-restricted-extras
 
 # Terraform
 gnome-shell-pomodoro
@@ -51,6 +55,8 @@ python3-pydrive
 p7zip-full
 vlc
 rclone
+handbrake
+handbrake-cli
 
 # Zoom
 libxcb-xtest0
