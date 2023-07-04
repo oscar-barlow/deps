@@ -22,6 +22,7 @@ brew "jless"
 brew "gradle"
 brew "jd"
 brew "kafka"
+brew "kind"
 
 # Casks
 cask "gpg-suite"
