@@ -14,7 +14,9 @@ upgrade:
 PHONY: snap-install
 snap-install: snap-refresh
 	cat snapfile.txt | xargs sudo snap install
+	sudo snap list > snapfile.lock
 
 .PHONY: snap-refresh
 snap-refresh:
 	sudo snap refresh
+	sudo snap list > snapfile.lock
