@@ -2,7 +2,7 @@ Name                    Version                     Rev    Tracking         Publ
 bare                    1.0                         5      latest/stable    canonical**       base
 beekeeper-studio        3.9.18                      224    latest/stable    matthew-rathbone  -
 canonical-livepatch     10.6.0                      235    latest/stable    canonical**       -
-chromium                114.0.5735.198              2529   latest/stable/…  canonical**       -
+chromium                115.0.5790.102              2556   latest/stable/…  canonical**       -
 code                    74f6148e                    134    latest/stable    vscode**          classic
 core                    16-2.59.5                   15511  latest/stable    canonical**       core
 core18                  20230530                    2785   latest/stable    canonical**       base
@@ -17,10 +17,10 @@ gtk-common-themes       0.1-81-g442e511             1535   latest/stable/…  ca
 notion-snap             1.4.0                       16     latest/stable    steverydz         -
 obsidian                1.1.9                       x1     -                -                 classic
 postman                 9.31.28                     206    v9/stable        postman-inc**     -
-slack                   4.32.127                    79     latest/stable    slack**           -
+slack                   4.33.73                     82     latest/stable    slack**           -
 snap-store              41.3-71-g709398e            959    latest/stable/…  canonical**       -
 spotify                 1.2.11.916.geb595a67        67     latest/stable    spotify**         -
 whatsdesk               0.3.8                       28     latest/stable    zerkc             -
 wine-platform-6-stable  6.0.4                       19     latest/stable    mmtrt             -
 wine-platform-runtime   v1.0                        349    latest/stable    mmtrt             -
-xmind                   22.11.3771                  25     latest/stable    xmindltd          -
+xmind                   23.7.180256                 26     latest/stable    xmindltd          -
