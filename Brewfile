@@ -23,6 +23,8 @@ brew "gradle"
 brew "jd"
 brew "kafka"
 brew "kind"
+brew "kubernetes-cli"
+brew "k9s"
 
 # Casks
 cask "gpg-suite"
