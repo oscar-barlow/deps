@@ -10,6 +10,7 @@ libdvd-pkg
 libdvdnav4
 ttf-mscorefonts-installer
 ubuntu-restricted-extras
+update-manager-core
 
 # Terraform
 gnome-shell-pomodoro
