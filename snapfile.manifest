@@ -1,4 +1,5 @@
 Name                       Version                     Rev    Tracking         Publisher         Notes
+0ad                        0.0.26-alpha                592    latest/stable    play0ad**         -
 bare                       1.0                         5      latest/stable    canonical**       base
 beekeeper-studio           3.9.20                      226    latest/stable    matthew-rathbone  -
 canonical-livepatch        10.7.0                      246    latest/stable    canonical**       -
