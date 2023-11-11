@@ -14,7 +14,7 @@ upgrade:
 	sudo apt-get upgrade --yes
 	sudo apt list > aptfile.manifest
 
-PHONY: snap-install
+.PHONY: snap-install
 snap-install: snap-refresh
 	cat snapfile.txt | xargs sudo snap install
 	sudo snap list > snapfile.manifest
