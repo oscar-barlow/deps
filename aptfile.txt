@@ -12,6 +12,7 @@ ttf-mscorefonts-installer
 ubuntu-restricted-extras
 update-manager-core
 p7zip-full
+yarn
 
 # Terraform
 gnome-shell-pomodoro
