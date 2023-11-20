@@ -13,6 +13,8 @@ ubuntu-restricted-extras
 update-manager-core
 p7zip-full
 yarn
+fuse
+libfuse2
 
 # Terraform
 gnome-shell-pomodoro
