@@ -15,6 +15,7 @@ p7zip-full
 yarn
 fuse
 libfuse2
+xdg-desktop-portal-gtk
 
 # Terraform
 gnome-shell-pomodoro
