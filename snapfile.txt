@@ -9,3 +9,4 @@ utorrent
 slack
 0ad
 obsidian
+brave
