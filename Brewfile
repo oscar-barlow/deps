@@ -25,6 +25,7 @@ brew "kafka"
 brew "kind"
 brew "kubernetes-cli"
 brew "k9s"
+brew "mackup"
 
 # Casks
 cask "gpg-suite"
