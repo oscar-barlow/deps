@@ -1136,6 +1136,50 @@
             }
           }
         }
+      },
+      "mise": {
+        "version": "2024.5.3",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_sonoma": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/mise/blobs/sha256:59fac3fd2b2a87125df3072b6ef49b2e9af0cd8eaa99bb45feace820ef41aaa7",
+              "sha256": "59fac3fd2b2a87125df3072b6ef49b2e9af0cd8eaa99bb45feace820ef41aaa7"
+            },
+            "arm64_ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/mise/blobs/sha256:9c945dae8231604e62bbc963a6eccee89308cdca496ec3691e007b5c92ba0afc",
+              "sha256": "9c945dae8231604e62bbc963a6eccee89308cdca496ec3691e007b5c92ba0afc"
+            },
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/mise/blobs/sha256:1117174e107fd0a73c5d27571a2d8447c9610ee9a7722f8960b6ec270c10ecd9",
+              "sha256": "1117174e107fd0a73c5d27571a2d8447c9610ee9a7722f8960b6ec270c10ecd9"
+            },
+            "sonoma": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/mise/blobs/sha256:3697e3ac88234ad6725bc97a3f4d68bbd9f73efc2d25668d02fa5db3ded44d99",
+              "sha256": "3697e3ac88234ad6725bc97a3f4d68bbd9f73efc2d25668d02fa5db3ded44d99"
+            },
+            "ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/mise/blobs/sha256:f6138b386f14ca7c8ef36d87c81db70d3f57795521c700a2dc6a3ca67003b638",
+              "sha256": "f6138b386f14ca7c8ef36d87c81db70d3f57795521c700a2dc6a3ca67003b638"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/mise/blobs/sha256:59e8a2822f35faaa1a9b22de6f72c9e164691205eddaffd0a2872794dc36fa2f",
+              "sha256": "59e8a2822f35faaa1a9b22de6f72c9e164691205eddaffd0a2872794dc36fa2f"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/mise/blobs/sha256:9584af06b155c191bea9745862e90349f1847fa36ada6097e8d0613986c51189",
+              "sha256": "9584af06b155c191bea9745862e90349f1847fa36ada6097e8d0613986c51189"
+            }
+          }
+        }
       }
     },
     "cask": {

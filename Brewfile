@@ -23,6 +23,7 @@ brew "kubernetes-cli"
 brew "k9s"
 brew "llm"
 brew "zsh-syntax-highlighting"
+brew "mise"
 
 # Casks
 cask "alfred"
