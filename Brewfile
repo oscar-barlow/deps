@@ -25,6 +25,8 @@ brew "mise"
 brew "docker"
 brew "docker-machine"
 brew "docker-buildx"
+brew "colima"
+brew "pipx"
 
 # Casks
 cask "alfred"
