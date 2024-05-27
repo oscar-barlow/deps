@@ -23,3 +23,8 @@ snap-install: snap-refresh
 snap-refresh:
 	sudo snap refresh
 	sudo snap list > snapfile.manifest
+
+.PHONY: manifest
+manifest:
+	sudo apt list > aptfile.manifest
+	sudo snap list > snapfile.manifest
