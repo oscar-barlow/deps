@@ -18,7 +18,7 @@ gnome-42-2204              0+git.510a601               176    latest/stable    c
 gtk-common-themes          0.1-81-g442e511             1535   latest/stable/…  canonical**       -
 notion-snap                1.4.0                       16     latest/stable    steverydz         -
 postman                    9.31.30                     233    v9/stable        postman-inc**     -
-slack                      4.38.121                    147    latest/stable    slack**           -
+slack                      4.38.125                    149    latest/stable    slack**           -
 snap-store                 41.3-77-g7dc86c8            1113   latest/stable/…  canonical**       -
 snapd-desktop-integration  0.9                         157    latest/stable/…  canonical**       -
 spotify                    1.2.31.1205.g4d59ad7c       75     latest/stable    spotify**         -
