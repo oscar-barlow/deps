@@ -4,7 +4,7 @@ bare                       1.0                         5      latest/stable    c
 beekeeper-studio           4.1.10                      244    latest/stable    matthew-rathbone  -
 brave                      1.65.133                    404    latest/stable    brave**           -
 canonical-livepatch        10.8.2                      278    latest/stable    canonical**       -
-chromium                   124.0.6367.201              2851   latest/stable/…  canonical**       -
+chromium                   125.0.6422.141              2873   latest/stable/…  canonical**       -
 code                       dc96b837                    159    latest/stable    vscode**          classic
 core                       16-2.61.2                   16928  latest/stable    canonical**       core
 core18                     20240416                    2823   latest/stable    canonical**       base
@@ -21,5 +21,5 @@ postman                    9.31.30                     233    v9/stable        p
 slack                      4.38.125                    149    latest/stable    slack**           -
 snap-store                 41.3-77-g7dc86c8            1113   latest/stable/…  canonical**       -
 snapd-desktop-integration  0.9                         157    latest/stable/…  canonical**       -
-spotify                    1.2.31.1205.g4d59ad7c       75     latest/stable    spotify**         -
+spotify                    1.2.37.701.ge66eb7bc        76     latest/stable    spotify**         -
 whatsdesk                  0.3.8                       28     latest/stable    zerkc             -

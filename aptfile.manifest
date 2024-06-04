@@ -321,8 +321,8 @@ amanda-common/jammy-updates,jammy-security 1:3.5.1-8ubuntu1.4 amd64
 amanda-server/jammy-updates,jammy-security 1:3.5.1-8ubuntu1.4 amd64
 amap-align/jammy 2.2+git20080214.600fc29+dfsg-2 amd64
 amavisd-milter/jammy 1.7.1-2 amd64
-amavisd-new-postfix/jammy,jammy 1:2.12.2-1ubuntu1 all
-amavisd-new/jammy,jammy 1:2.12.2-1ubuntu1 all
+amavisd-new-postfix/jammy-updates,jammy-updates,jammy-security,jammy-security 1:2.12.2-1ubuntu1.1 all
+amavisd-new/jammy-updates,jammy-updates,jammy-security,jammy-security 1:2.12.2-1ubuntu1.1 all
 amazon-ec2-utils/jammy,jammy 1.4-1 all
 amazon-ecr-credential-helper/jammy 0.5.0-1build1 amd64
 amb-plugins/jammy 0.8.1-7build1 amd64
@@ -2755,12 +2755,12 @@ cim-schema/jammy,jammy 2.48.0-0ubuntu1 all
 cimg-dev/jammy,jammy 2.9.4+dfsg-3 all
 cimg-doc/jammy,jammy 2.9.4+dfsg-3 all
 cimg-examples/jammy,jammy 2.9.4+dfsg-3 all
-cinder-api/jammy-updates,jammy-updates 2:20.3.1-0ubuntu1.1 all
-cinder-backup/jammy-updates,jammy-updates 2:20.3.1-0ubuntu1.1 all
-cinder-common/jammy-updates,jammy-updates 2:20.3.1-0ubuntu1.1 all
-cinder-scheduler/jammy-updates,jammy-updates 2:20.3.1-0ubuntu1.1 all
+cinder-api/jammy-updates,jammy-updates 2:20.3.1-0ubuntu1.2 all
+cinder-backup/jammy-updates,jammy-updates 2:20.3.1-0ubuntu1.2 all
+cinder-common/jammy-updates,jammy-updates 2:20.3.1-0ubuntu1.2 all
+cinder-scheduler/jammy-updates,jammy-updates 2:20.3.1-0ubuntu1.2 all
 cinder-tempest-plugin/jammy,jammy 1.5.0-2 all
-cinder-volume/jammy-updates,jammy-updates 2:20.3.1-0ubuntu1.1 all
+cinder-volume/jammy-updates,jammy-updates 2:20.3.1-0ubuntu1.2 all
 cinnamon-common/jammy,jammy 5.2.7-4 all
 cinnamon-control-center-data/jammy,jammy 5.2.1-2 all
 cinnamon-control-center-goa/jammy 5.2.1-2 amd64
@@ -7422,7 +7422,7 @@ fonts-oldstandard/jammy,jammy 2.2really-4 all
 fonts-open-sans/jammy,jammy 1.11-2 all
 fonts-opendin/jammy,jammy 1.0-4 all
 fonts-opendyslexic/jammy,jammy 20160623-4 all
-fonts-opensymbol/jammy-updates,jammy-updates,jammy-security,jammy-security,now 2:102.12+LibO7.3.7-0ubuntu0.22.04.4 all [installed]
+fonts-opensymbol/jammy-updates,jammy-updates,jammy-security,jammy-security,now 2:102.12+LibO7.3.7-0ubuntu0.22.04.5 all [installed]
 fonts-oradano-mincho-gsrr/jammy,jammy 0.2018-3 all
 fonts-orya-extra/jammy,jammy,now 2.0-6 all [installed,automatic]
 fonts-orya/jammy,jammy,now 2:1.3 all [installed,automatic]
@@ -7941,11 +7941,11 @@ frogr/jammy 1.7-1 amd64
 frotz/jammy 2.53+dfsg-1 amd64
 frozen-bubble-data/jammy,jammy 2.212-10build1 all
 frozen-bubble/jammy 2.212-10build1 amd64
-frr-doc/jammy-updates,jammy-updates,jammy-security,jammy-security 8.1-1ubuntu1.9 all
-frr-pythontools/jammy-updates,jammy-updates,jammy-security,jammy-security 8.1-1ubuntu1.9 all
-frr-rpki-rtrlib/jammy-updates,jammy-security 8.1-1ubuntu1.9 amd64
-frr-snmp/jammy-updates,jammy-security 8.1-1ubuntu1.9 amd64
-frr/jammy-updates,jammy-security 8.1-1ubuntu1.9 amd64
+frr-doc/jammy-updates,jammy-updates,jammy-security,jammy-security 8.1-1ubuntu1.10 all
+frr-pythontools/jammy-updates,jammy-updates,jammy-security,jammy-security 8.1-1ubuntu1.10 all
+frr-rpki-rtrlib/jammy-updates,jammy-security 8.1-1ubuntu1.10 amd64
+frr-snmp/jammy-updates,jammy-security 8.1-1ubuntu1.10 amd64
+frr/jammy-updates,jammy-security 8.1-1ubuntu1.10 amd64
 fruit/jammy 2.1.dfsg-9 amd64
 fs-uae-arcade/jammy,jammy 3.1.63-2 all
 fs-uae/jammy 3.1.66-1 amd64
@@ -10708,8 +10708,8 @@ gir1.2-gssdp-1.2/jammy 1.4.0.1-2build1 amd64
 gir1.2-gssdp-1.2/jammy 1.4.0.1-2build1 i386
 gir1.2-gst-plugins-bad-1.0/jammy-updates,jammy-security 1.20.3-0ubuntu1.1 amd64
 gir1.2-gst-plugins-bad-1.0/jammy-updates,jammy-security 1.20.3-0ubuntu1.1 i386
-gir1.2-gst-plugins-base-1.0/jammy-updates,jammy-security,now 1.20.1-1ubuntu0.1 amd64 [installed,automatic]
-gir1.2-gst-plugins-base-1.0/jammy-updates,jammy-security 1.20.1-1ubuntu0.1 i386
+gir1.2-gst-plugins-base-1.0/jammy-updates,jammy-security,now 1.20.1-1ubuntu0.2 amd64 [installed,automatic]
+gir1.2-gst-plugins-base-1.0/jammy-updates,jammy-security 1.20.1-1ubuntu0.2 i386
 gir1.2-gst-rtsp-server-1.0/jammy 1.20.1-1 amd64
 gir1.2-gstreamer-1.0/jammy-updates,now 1.20.3-0ubuntu1 amd64 [installed,automatic]
 gir1.2-gstreamer-1.0/jammy-updates 1.20.3-0ubuntu1 i386
@@ -10766,12 +10766,12 @@ gir1.2-infinity-0.7/jammy 0.7.2-1 amd64
 gir1.2-inputpad-1.1/jammy 1.0.99.20210817-2 amd64
 gir1.2-isocodes-1.2/jammy 1.2.4-1 amd64
 gir1.2-itl-1.0/jammy 0.3-1 amd64
-gir1.2-javascriptcoregtk-4.0/jammy-updates,jammy-security,now 2.44.0-0ubuntu0.22.04.1 amd64 [installed,automatic]
-gir1.2-javascriptcoregtk-4.0/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 i386
-gir1.2-javascriptcoregtk-4.1/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 amd64
-gir1.2-javascriptcoregtk-4.1/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 i386
-gir1.2-javascriptcoregtk-6.0/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 amd64
-gir1.2-javascriptcoregtk-6.0/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 i386
+gir1.2-javascriptcoregtk-4.0/jammy-updates,jammy-security,now 2.44.2-0ubuntu0.22.04.1 amd64 [installed,automatic]
+gir1.2-javascriptcoregtk-4.0/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 i386
+gir1.2-javascriptcoregtk-4.1/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 amd64
+gir1.2-javascriptcoregtk-4.1/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 i386
+gir1.2-javascriptcoregtk-6.0/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 amd64
+gir1.2-javascriptcoregtk-6.0/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 i386
 gir1.2-jcat-1.0/jammy 0.1.9-1 amd64
 gir1.2-json-1.0/jammy,now 1.6.6-1build1 amd64 [installed,automatic]
 gir1.2-json-1.0/jammy 1.6.6-1build1 i386
@@ -10791,7 +10791,7 @@ gir1.2-libxfce4ui-2.0/jammy 4.16.1-1 i386
 gir1.2-libxfce4util-1.0/jammy 4.16.0-1 amd64
 gir1.2-libxfce4util-1.0/jammy 4.16.0-1 i386
 gir1.2-lightdm-1/jammy 1.30.0-0ubuntu5 amd64
-gir1.2-lokdocview-0.1/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
+gir1.2-lokdocview-0.1/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
 gir1.2-lunardate-3.0/jammy 3.0.1-2 amd64
 gir1.2-malcontent-0/jammy 0.10.4-1 amd64
 gir1.2-malcontentui-0/jammy 0.10.4-1 amd64
@@ -10882,12 +10882,12 @@ gir1.2-urfkill-glib0/jammy 0.6.0~20150318.103828.5539c0d.1-0ubuntu9 amd64
 gir1.2-v-sim-1.0/jammy 3.7.2-8build7 amd64
 gir1.2-vips-8.0/jammy 8.12.1-1build1 amd64
 gir1.2-vte-2.91/jammy,now 0.68.0-1 amd64 [installed,automatic]
-gir1.2-webkit-6.0/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 amd64
-gir1.2-webkit-6.0/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 i386
-gir1.2-webkit2-4.0/jammy-updates,jammy-security,now 2.44.0-0ubuntu0.22.04.1 amd64 [installed,automatic]
-gir1.2-webkit2-4.0/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 i386
-gir1.2-webkit2-4.1/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 amd64
-gir1.2-webkit2-4.1/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 i386
+gir1.2-webkit-6.0/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 amd64
+gir1.2-webkit-6.0/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 i386
+gir1.2-webkit2-4.0/jammy-updates,jammy-security,now 2.44.2-0ubuntu0.22.04.1 amd64 [installed,automatic]
+gir1.2-webkit2-4.0/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 i386
+gir1.2-webkit2-4.1/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 amd64
+gir1.2-webkit2-4.1/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 i386
 gir1.2-wnck-1.0/jammy 1:2.30.7-5.1ubuntu2 amd64
 gir1.2-wnck-3.0/jammy,now 40.1-1 amd64 [installed,automatic]
 gir1.2-wnck-3.0/jammy 40.1-1 i386
@@ -10914,7 +10914,7 @@ gis-web/jammy,jammy 0.0.20 all
 gis-workstation/jammy,jammy 0.0.20 all
 gist/jammy,jammy 6.0.0-2 all
 git-absorb/jammy 0.6.6-2build2 amd64
-git-all/jammy-updates,jammy-updates 1:2.34.1-1ubuntu1.10 all
+git-all/jammy-updates,jammy-updates,jammy-security,jammy-security 1:2.34.1-1ubuntu1.11 all
 git-annex-remote-rclone/jammy,jammy 0.6-1 all
 git-annex/jammy 8.20210223-2ubuntu2 amd64
 git-autofixup/jammy,jammy 0.003001-2 all
@@ -10926,26 +10926,26 @@ git-bump/jammy,jammy 1.1.0-2 all
 git-cola/jammy,jammy 3.12.0-1 all
 git-crecord/jammy,jammy 20201025.0-1 all
 git-crypt/jammy 0.6.0-1ubuntu1 amd64
-git-cvs/jammy-updates,jammy-updates 1:2.34.1-1ubuntu1.10 all
-git-daemon-run/jammy-updates,jammy-updates 1:2.34.1-1ubuntu1.10 all
-git-daemon-sysvinit/jammy-updates,jammy-updates 1:2.34.1-1ubuntu1.10 all
+git-cvs/jammy-updates,jammy-updates,jammy-security,jammy-security 1:2.34.1-1ubuntu1.11 all
+git-daemon-run/jammy-updates,jammy-updates,jammy-security,jammy-security 1:2.34.1-1ubuntu1.11 all
+git-daemon-sysvinit/jammy-updates,jammy-updates,jammy-security,jammy-security 1:2.34.1-1ubuntu1.11 all
 git-debpush/jammy,jammy 9.15 all
 git-debrebase/jammy,jammy 9.15 all
-git-doc/jammy-updates,jammy-updates 1:2.34.1-1ubuntu1.10 all
+git-doc/jammy-updates,jammy-updates,jammy-security,jammy-security 1:2.34.1-1ubuntu1.11 all
 git-dpm/jammy,jammy 0.10.0-1.1 all
-git-email/jammy-updates,jammy-updates 1:2.34.1-1ubuntu1.10 all
+git-email/jammy-updates,jammy-updates,jammy-security,jammy-security 1:2.34.1-1ubuntu1.11 all
 git-evtag-tests/jammy,jammy 2016.1-2 all
 git-evtag/jammy 2016.1-2 amd64
 git-extras/jammy,jammy 6.1.0-1 all
 git-filter-repo/jammy,jammy 2.34.0-1 all
 git-flow/jammy,jammy 1.12.3-3 all
 git-ftp/jammy,jammy 1.6.0+dfsg-1 all
-git-gui/jammy-updates,jammy-updates 1:2.34.1-1ubuntu1.10 all
+git-gui/jammy-updates,jammy-updates,jammy-security,jammy-security 1:2.34.1-1ubuntu1.11 all
 git-hub/jammy,jammy 2.1.3-1 all
 git-imerge/jammy,jammy 1.2.0-3 all
 git-lfs/jammy-updates,jammy-security 3.0.2-1ubuntu0.2 amd64
-git-man/jammy-updates,jammy-updates,now 1:2.34.1-1ubuntu1.10 all [installed,automatic]
-git-mediawiki/jammy-updates,jammy-updates 1:2.34.1-1ubuntu1.10 all
+git-man/jammy-updates,jammy-updates,jammy-security,jammy-security,now 1:2.34.1-1ubuntu1.11 all [installed,automatic]
+git-mediawiki/jammy-updates,jammy-updates,jammy-security,jammy-security 1:2.34.1-1ubuntu1.11 all
 git-merge-changelog/jammy 20210822~d383792-1 amd64
 git-merge-changelog/jammy 20210822~d383792-1 i386
 git-phab/jammy,jammy 2.9.0~git20170531+6877964-2 all
@@ -10962,10 +10962,10 @@ git-revise/jammy,jammy 0.6.0-2 all
 git-secret/jammy,jammy 0.4.0-1 all
 git-secrets/jammy,jammy 1.3.0-4 all
 git-sizer/jammy 1.3.0+dfsg-1build2 amd64
-git-svn/jammy-updates,jammy-updates 1:2.34.1-1ubuntu1.10 all
+git-svn/jammy-updates,jammy-updates,jammy-security,jammy-security 1:2.34.1-1ubuntu1.11 all
 git2cl/jammy,jammy 1:2.0+git20120920-3 all
-git/jammy-updates,now 1:2.34.1-1ubuntu1.10 amd64 [installed]
-git/jammy-updates 1:2.34.1-1ubuntu1.10 i386
+git/jammy-updates,jammy-security,now 1:2.34.1-1ubuntu1.11 amd64 [installed]
+git/jammy-updates,jammy-security 1:2.34.1-1ubuntu1.11 i386
 gita/jammy,jammy 0.16.2-1 all
 gitbatch/jammy-updates,jammy-security 0.5.0-3ubuntu0.22.04.2 amd64
 gitbrute/jammy 0~12-4 amd64
@@ -10973,7 +10973,7 @@ gitg/jammy 41-2 amd64
 github-backup/jammy 1.20200721-2build1 amd64
 gitinspector/jammy,jammy 0.4.4+dfsg-11 all
 gitit/jammy 0.13.0.0+dfsg-2build5 amd64
-gitk/jammy-updates,jammy-updates 1:2.34.1-1ubuntu1.10 all
+gitk/jammy-updates,jammy-updates,jammy-security,jammy-security 1:2.34.1-1ubuntu1.11 all
 gitlab-cli/jammy,jammy 1:2.10.1-2 all
 gitlab-rulez/jammy,jammy 0.0~git20220111.6a67fc5-1 all
 gitlab-shell/jammy-updates,jammy-security 13.19.1-2ubuntu0.20.04.2 amd64
@@ -10985,7 +10985,7 @@ gitolite3/jammy,jammy 3.6.12-1 all
 gitpkg/jammy,jammy 0.30 all
 gitso/jammy,jammy 0.6.2+svn158+dfsg-4 all
 gitsome/jammy,jammy 0.8.0+ds-6ubuntu1 all
-gitweb/jammy-updates,jammy-updates 1:2.34.1-1ubuntu1.10 all
+gitweb/jammy-updates,jammy-updates,jammy-security,jammy-security 1:2.34.1-1ubuntu1.11 all
 givaro-dev-doc/jammy,jammy 4.2.0-1 all
 givaro-user-doc/jammy,jammy 4.2.0-1 all
 giza-dev/jammy 1.3.1-1 amd64
@@ -11068,8 +11068,8 @@ glib-networking-tests/jammy 2.72.0-1 i386
 glib-networking/jammy,now 2.72.0-1 amd64 [installed,automatic]
 glib-networking/jammy 2.72.0-1 i386
 glibc-doc-reference/jammy,jammy 2.35-0ubuntu1 all
-glibc-doc/jammy-updates,jammy-updates,jammy-security,jammy-security 2.35-0ubuntu3.7 all
-glibc-source/jammy-updates,jammy-updates,jammy-security,jammy-security 2.35-0ubuntu3.7 all
+glibc-doc/jammy-updates,jammy-updates,jammy-security,jammy-security 2.35-0ubuntu3.8 all
+glibc-source/jammy-updates,jammy-updates,jammy-security,jammy-security 2.35-0ubuntu3.8 all
 glibc-tools/jammy 0.0~git3.23fd2b9-0ubuntu1 amd64
 glibc-tools/jammy 0.0~git3.23fd2b9-0ubuntu1 i386
 gliese/jammy,jammy 3.0.95-2 all
@@ -14755,16 +14755,16 @@ gst-omx-listcomponents/jammy 1.18.3-1 amd64
 gst123/jammy 0.3.5-2build1 amd64
 gstreamer-qapt/jammy 3.0.5-1ubuntu1 amd64
 gstreamer1.0-adapter-pulseeffects/jammy 4.8.4-1 amd64
-gstreamer1.0-alsa/jammy-updates,jammy-security,now 1.20.1-1ubuntu0.1 amd64 [installed]
-gstreamer1.0-alsa/jammy-updates,jammy-security 1.20.1-1ubuntu0.1 i386
+gstreamer1.0-alsa/jammy-updates,jammy-security,now 1.20.1-1ubuntu0.2 amd64 [installed]
+gstreamer1.0-alsa/jammy-updates,jammy-security 1.20.1-1ubuntu0.2 i386
 gstreamer1.0-autogain-pulseeffects/jammy 4.8.4-1 amd64
 gstreamer1.0-clutter-3.0/jammy-updates,now 3.0.27-2ubuntu1 amd64 [installed,automatic]
 gstreamer1.0-convolver-pulseeffects/jammy 4.8.4-1 amd64
 gstreamer1.0-crystalizer-pulseeffects/jammy 4.8.4-1 amd64
 gstreamer1.0-espeak/jammy 0.5.0-1 amd64
 gstreamer1.0-fdkaac/jammy 1.20.0-1 amd64
-gstreamer1.0-gl/jammy-updates,jammy-security,now 1.20.1-1ubuntu0.1 amd64 [installed,automatic]
-gstreamer1.0-gl/jammy-updates,jammy-security 1.20.1-1ubuntu0.1 i386
+gstreamer1.0-gl/jammy-updates,jammy-security,now 1.20.1-1ubuntu0.2 amd64 [installed,automatic]
+gstreamer1.0-gl/jammy-updates,jammy-security 1.20.1-1ubuntu0.2 i386
 gstreamer1.0-gtk3/jammy-updates,jammy-security,now 1.20.3-0ubuntu1.1 amd64 [installed,automatic]
 gstreamer1.0-gtk3/jammy-updates,jammy-security 1.20.3-0ubuntu1.1 i386
 gstreamer1.0-libav/jammy-updates,now 1.20.3-0ubuntu1 amd64 [installed,automatic]
@@ -14782,10 +14782,10 @@ gstreamer1.0-plugins-bad-apps/jammy-updates,jammy-security 1.20.3-0ubuntu1.1 amd
 gstreamer1.0-plugins-bad-apps/jammy-updates,jammy-security 1.20.3-0ubuntu1.1 i386
 gstreamer1.0-plugins-bad/jammy-updates,jammy-security 1.20.3-0ubuntu1.1 amd64
 gstreamer1.0-plugins-bad/jammy-updates,jammy-security 1.20.3-0ubuntu1.1 i386
-gstreamer1.0-plugins-base-apps/jammy-updates,jammy-security,now 1.20.1-1ubuntu0.1 amd64 [installed]
-gstreamer1.0-plugins-base-apps/jammy-updates,jammy-security 1.20.1-1ubuntu0.1 i386
-gstreamer1.0-plugins-base/jammy-updates,jammy-security,now 1.20.1-1ubuntu0.1 amd64 [installed,automatic]
-gstreamer1.0-plugins-base/jammy-updates,jammy-security,now 1.20.1-1ubuntu0.1 i386 [installed,automatic]
+gstreamer1.0-plugins-base-apps/jammy-updates,jammy-security,now 1.20.1-1ubuntu0.2 amd64 [installed]
+gstreamer1.0-plugins-base-apps/jammy-updates,jammy-security 1.20.1-1ubuntu0.2 i386
+gstreamer1.0-plugins-base/jammy-updates,jammy-security,now 1.20.1-1ubuntu0.2 amd64 [installed,automatic]
+gstreamer1.0-plugins-base/jammy-updates,jammy-security,now 1.20.1-1ubuntu0.2 i386 [installed,automatic]
 gstreamer1.0-plugins-good/jammy-updates,jammy-security,now 1.20.3-0ubuntu1.1 amd64 [installed,automatic]
 gstreamer1.0-plugins-good/jammy-updates,jammy-security 1.20.3-0ubuntu1.1 i386
 gstreamer1.0-plugins-rtp/jammy 1.14.4.1 amd64
@@ -14802,8 +14802,8 @@ gstreamer1.0-tools/jammy-updates,now 1.20.3-0ubuntu1 amd64 [installed,automatic]
 gstreamer1.0-tools/jammy-updates 1.20.3-0ubuntu1 i386
 gstreamer1.0-vaapi/jammy-updates,now 1.20.1-1ubuntu1 amd64 [installed,automatic]
 gstreamer1.0-wpe/jammy-updates,jammy-security 1.20.3-0ubuntu1.1 amd64
-gstreamer1.0-x/jammy-updates,jammy-security,now 1.20.1-1ubuntu0.1 amd64 [installed,automatic]
-gstreamer1.0-x/jammy-updates,jammy-security 1.20.1-1ubuntu0.1 i386
+gstreamer1.0-x/jammy-updates,jammy-security,now 1.20.1-1ubuntu0.2 amd64 [installed,automatic]
+gstreamer1.0-x/jammy-updates,jammy-security 1.20.1-1ubuntu0.2 i386
 gsutil/jammy,jammy 3.1-4 all
 gt5/jammy,jammy 1.5.0~20111220+bzr29-4 all
 gtamsanalyzer.app/jammy 0.42-8 amd64
@@ -16069,7 +16069,7 @@ intel-media-va-driver-non-free/jammy-updates 22.3.1+ds1-1ubuntu0.1 amd64
 intel-media-va-driver-non-free/jammy-updates 22.3.1+ds1-1ubuntu0.1 i386
 intel-media-va-driver/jammy-updates,now 22.3.1+dfsg1-1ubuntu2 amd64 [installed,automatic]
 intel-media-va-driver/jammy-updates,now 22.3.1+dfsg1-1ubuntu2 i386 [installed,automatic]
-intel-microcode/jammy-updates,jammy-security,now 3.20231114.0ubuntu0.22.04.1 amd64 [installed,automatic]
+intel-microcode/jammy-updates,jammy-security,now 3.20240514.0ubuntu0.22.04.1 amd64 [installed,automatic]
 intel-mkl-cluster/jammy 2020.4.304-2ubuntu3 amd64
 intel-mkl-doc/jammy,jammy 2020.4.304-2ubuntu3 all
 intel-mkl-full/jammy 2020.4.304-2ubuntu3 amd64
@@ -19264,16 +19264,16 @@ libarchive-any-lite-perl/jammy,jammy 0.11-1 all
 libarchive-any-perl/jammy,jammy 0.0946-1 all
 libarchive-ar-perl/jammy,jammy 2.02-2 all
 libarchive-cpio-perl/jammy,jammy,now 0.10-1.1 all [installed,automatic]
-libarchive-dev/jammy 3.6.0-1ubuntu1 amd64
-libarchive-dev/jammy 3.6.0-1ubuntu1 i386
+libarchive-dev/jammy-updates,jammy-security 3.6.0-1ubuntu1.1 amd64
+libarchive-dev/jammy-updates,jammy-security 3.6.0-1ubuntu1.1 i386
 libarchive-extract-perl/jammy,jammy 0.88-1 all
 libarchive-peek-perl/jammy,jammy 0.37-1 all
 libarchive-tar-wrapper-perl/jammy,jammy 0.38-1 all
-libarchive-tools/jammy 3.6.0-1ubuntu1 amd64
-libarchive-tools/jammy 3.6.0-1ubuntu1 i386
+libarchive-tools/jammy-updates,jammy-security 3.6.0-1ubuntu1.1 amd64
+libarchive-tools/jammy-updates,jammy-security 3.6.0-1ubuntu1.1 i386
 libarchive-zip-perl/jammy,jammy,now 1.68-1 all [installed,automatic]
-libarchive13/jammy,now 3.6.0-1ubuntu1 amd64 [installed,automatic]
-libarchive13/jammy 3.6.0-1ubuntu1 i386
+libarchive13/jammy-updates,jammy-security,now 3.6.0-1ubuntu1.1 amd64 [installed,automatic]
+libarchive13/jammy-updates,jammy-security 3.6.0-1ubuntu1.1 i386
 libarcus-dev/jammy 4.13.0-2build1 amd64
 libarcus3/jammy 4.13.0-2build1 amd64
 libargh-dev/jammy,jammy 1.3.1+ds-3 all
@@ -20530,16 +20530,16 @@ libc-ares-dev/jammy-updates,jammy-security 1.18.1-1ubuntu0.22.04.3 amd64
 libc-ares-dev/jammy-updates,jammy-security 1.18.1-1ubuntu0.22.04.3 i386
 libc-ares2/jammy-updates,jammy-security,now 1.18.1-1ubuntu0.22.04.3 amd64 [installed,automatic]
 libc-ares2/jammy-updates,jammy-security 1.18.1-1ubuntu0.22.04.3 i386
-libc-bin/jammy-updates,jammy-security,now 2.35-0ubuntu3.7 amd64 [installed]
-libc-bin/jammy-updates,jammy-security 2.35-0ubuntu3.7 i386
+libc-bin/jammy-updates,jammy-security,now 2.35-0ubuntu3.8 amd64 [installed]
+libc-bin/jammy-updates,jammy-security 2.35-0ubuntu3.8 i386
 libc-client2007e-dev/jammy 8:2007f~dfsg-7build1 amd64
 libc-client2007e-dev/jammy 8:2007f~dfsg-7build1 i386
 libc-client2007e/jammy 8:2007f~dfsg-7build1 amd64
 libc-client2007e/jammy 8:2007f~dfsg-7build1 i386
-libc-dev-bin/jammy-updates,jammy-security,now 2.35-0ubuntu3.7 amd64 [installed,automatic]
-libc-dev-bin/jammy-updates,jammy-security 2.35-0ubuntu3.7 i386
-libc-devtools/jammy-updates,jammy-security 2.35-0ubuntu3.7 amd64
-libc-devtools/jammy-updates,jammy-security 2.35-0ubuntu3.7 i386
+libc-dev-bin/jammy-updates,jammy-security,now 2.35-0ubuntu3.8 amd64 [installed,automatic]
+libc-dev-bin/jammy-updates,jammy-security 2.35-0ubuntu3.8 i386
+libc-devtools/jammy-updates,jammy-security 2.35-0ubuntu3.8 amd64
+libc-devtools/jammy-updates,jammy-security 2.35-0ubuntu3.8 i386
 libc-icap-mod-contentfiltering/jammy 1:0.5.5-1 amd64
 libc-icap-mod-urlcheck/jammy 1:0.5.5-1 amd64
 libc-icap-mod-virus-scan/jammy 1:0.5.5-1 amd64
@@ -20548,7 +20548,7 @@ libc3p0-java/jammy,jammy 0.9.1.2-10ubuntu1 all
 libc6-amd64-cross/jammy,jammy 2.35-0ubuntu1cross3 all
 libc6-amd64-i386-cross/jammy,jammy 2.35-0ubuntu1cross3 all
 libc6-amd64-x32-cross/jammy,jammy 2.35-0ubuntu3cross4 all
-libc6-amd64/jammy-updates,jammy-security 2.35-0ubuntu3.7 i386
+libc6-amd64/jammy-updates,jammy-security 2.35-0ubuntu3.8 i386
 libc6-arm64-cross/jammy,jammy 2.35-0ubuntu1cross3 all
 libc6-armel-cross/jammy,jammy 2.35-0ubuntu1cross3 all
 libc6-armhf-cross/jammy,jammy 2.35-0ubuntu1cross3 all
@@ -20567,12 +20567,12 @@ libc6-dbg-s390x-cross/jammy,jammy 2.35-0ubuntu1cross3 all
 libc6-dbg-sh4-cross/jammy,jammy 2.35-0ubuntu3cross4 all
 libc6-dbg-sparc64-cross/jammy,jammy 2.35-0ubuntu3cross4 all
 libc6-dbg-x32-cross/jammy,jammy 2.35-0ubuntu3cross4 all
-libc6-dbg/jammy-updates,jammy-security,now 2.35-0ubuntu3.7 amd64 [installed,automatic]
-libc6-dbg/jammy-updates,jammy-security 2.35-0ubuntu3.7 i386
+libc6-dbg/jammy-updates,jammy-security,now 2.35-0ubuntu3.8 amd64 [installed,automatic]
+libc6-dbg/jammy-updates,jammy-security 2.35-0ubuntu3.8 i386
 libc6-dev-amd64-cross/jammy,jammy 2.35-0ubuntu1cross3 all
 libc6-dev-amd64-i386-cross/jammy,jammy 2.35-0ubuntu1cross3 all
 libc6-dev-amd64-x32-cross/jammy,jammy 2.35-0ubuntu3cross4 all
-libc6-dev-amd64/jammy-updates,jammy-security 2.35-0ubuntu3.7 i386
+libc6-dev-amd64/jammy-updates,jammy-security 2.35-0ubuntu3.8 i386
 libc6-dev-arm64-cross/jammy,jammy 2.35-0ubuntu1cross3 all
 libc6-dev-armel-cross/jammy,jammy 2.35-0ubuntu1cross3 all
 libc6-dev-armhf-cross/jammy,jammy 2.35-0ubuntu1cross3 all
@@ -20580,7 +20580,7 @@ libc6-dev-hppa-cross/jammy,jammy 2.35-0ubuntu3cross4 all
 libc6-dev-i386-amd64-cross/jammy,jammy 2.35-0ubuntu1cross3 all
 libc6-dev-i386-cross/jammy,jammy 2.35-0ubuntu1cross3 all
 libc6-dev-i386-x32-cross/jammy,jammy 2.35-0ubuntu3cross4 all
-libc6-dev-i386/jammy-updates,jammy-security 2.35-0ubuntu3.7 amd64
+libc6-dev-i386/jammy-updates,jammy-security 2.35-0ubuntu3.8 amd64
 libc6-dev-m68k-cross/jammy,jammy 2.35-0ubuntu3cross4 all
 libc6-dev-mips-cross/jammy,jammy 2.35-0ubuntu1cross1 all
 libc6-dev-mips32-mips64-cross/jammy,jammy 2.35-0ubuntu1cross1 all
@@ -20632,15 +20632,15 @@ libc6-dev-sparc64-cross/jammy,jammy 2.35-0ubuntu3cross4 all
 libc6-dev-x32-amd64-cross/jammy,jammy 2.35-0ubuntu1cross3 all
 libc6-dev-x32-cross/jammy,jammy 2.35-0ubuntu3cross4 all
 libc6-dev-x32-i386-cross/jammy,jammy 2.35-0ubuntu1cross3 all
-libc6-dev-x32/jammy-updates,jammy-security 2.35-0ubuntu3.7 amd64
-libc6-dev-x32/jammy-updates,jammy-security 2.35-0ubuntu3.7 i386
-libc6-dev/jammy-updates,jammy-security,now 2.35-0ubuntu3.7 amd64 [installed,automatic]
-libc6-dev/jammy-updates,jammy-security 2.35-0ubuntu3.7 i386
+libc6-dev-x32/jammy-updates,jammy-security 2.35-0ubuntu3.8 amd64
+libc6-dev-x32/jammy-updates,jammy-security 2.35-0ubuntu3.8 i386
+libc6-dev/jammy-updates,jammy-security,now 2.35-0ubuntu3.8 amd64 [installed,automatic]
+libc6-dev/jammy-updates,jammy-security 2.35-0ubuntu3.8 i386
 libc6-hppa-cross/jammy,jammy 2.35-0ubuntu3cross4 all
 libc6-i386-amd64-cross/jammy,jammy 2.35-0ubuntu1cross3 all
 libc6-i386-cross/jammy,jammy 2.35-0ubuntu1cross3 all
 libc6-i386-x32-cross/jammy,jammy 2.35-0ubuntu3cross4 all
-libc6-i386/jammy-updates,jammy-security 2.35-0ubuntu3.7 amd64
+libc6-i386/jammy-updates,jammy-security 2.35-0ubuntu3.8 amd64
 libc6-m68k-cross/jammy,jammy 2.35-0ubuntu3cross4 all
 libc6-mips-cross/jammy,jammy 2.35-0ubuntu1cross1 all
 libc6-mips32-mips64-cross/jammy,jammy 2.35-0ubuntu1cross1 all
@@ -20683,7 +20683,7 @@ libc6-powerpc-ppc64-cross/jammy,jammy 2.35-0ubuntu3cross4 all
 libc6-ppc64-cross/jammy,jammy 2.35-0ubuntu3cross4 all
 libc6-ppc64-powerpc-cross/jammy,jammy 2.35-0ubuntu1cross3 all
 libc6-ppc64el-cross/jammy,jammy 2.35-0ubuntu1cross3 all
-libc6-prof/jammy-updates,jammy-security 2.35-0ubuntu3.7 amd64
+libc6-prof/jammy-updates,jammy-security 2.35-0ubuntu3.8 amd64
 libc6-riscv64-cross/jammy,jammy 2.35-0ubuntu3cross4 all
 libc6-s390-s390x-cross/jammy,jammy 2.35-0ubuntu1cross3 all
 libc6-s390x-cross/jammy,jammy 2.35-0ubuntu1cross3 all
@@ -20693,13 +20693,13 @@ libc6-sparc64-cross/jammy,jammy 2.35-0ubuntu3cross4 all
 libc6-x32-amd64-cross/jammy,jammy 2.35-0ubuntu1cross3 all
 libc6-x32-cross/jammy,jammy 2.35-0ubuntu3cross4 all
 libc6-x32-i386-cross/jammy,jammy 2.35-0ubuntu1cross3 all
-libc6-x32/jammy-updates,jammy-security 2.35-0ubuntu3.7 amd64
-libc6-x32/jammy-updates,jammy-security 2.35-0ubuntu3.7 i386
+libc6-x32/jammy-updates,jammy-security 2.35-0ubuntu3.8 amd64
+libc6-x32/jammy-updates,jammy-security 2.35-0ubuntu3.8 i386
 libc6.1-alpha-cross/jammy,jammy 2.35-0ubuntu3cross4 all
 libc6.1-dbg-alpha-cross/jammy,jammy 2.35-0ubuntu3cross4 all
 libc6.1-dev-alpha-cross/jammy,jammy 2.35-0ubuntu3cross4 all
-libc6/jammy-updates,jammy-security,now 2.35-0ubuntu3.7 amd64 [installed]
-libc6/jammy-updates,jammy-security,now 2.35-0ubuntu3.7 i386 [installed,automatic]
+libc6/jammy-updates,jammy-security,now 2.35-0ubuntu3.8 amd64 [installed]
+libc6/jammy-updates,jammy-security,now 2.35-0ubuntu3.8 i386 [installed,automatic]
 libca-certs-ocaml-dev/jammy 0.2.2-2build2 amd64
 libca-certs-ocaml/jammy 0.2.2-2build2 amd64
 libca-dev/jammy 7.0.3.1-3 amd64
@@ -23629,12 +23629,12 @@ libecore-x1/jammy 1.26.2-1 amd64
 libecore-x1/jammy 1.26.2-1 i386
 libecore1/jammy 1.26.2-1 amd64
 libecore1/jammy 1.26.2-1 i386
-libecpg-compat3/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 amd64
-libecpg-compat3/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 i386
-libecpg-dev/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 amd64
-libecpg-dev/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 i386
-libecpg6/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 amd64
-libecpg6/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 i386
+libecpg-compat3/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 amd64
+libecpg-compat3/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 i386
+libecpg-dev/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 amd64
+libecpg-dev/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 i386
+libecpg6/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 amd64
+libecpg6/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 i386
 libecpint-dev/jammy 1.0.7-1 amd64
 libecryptfs-dev/jammy 111-5ubuntu1 amd64
 libecryptfs1/jammy 111-5ubuntu1 amd64
@@ -30122,8 +30122,8 @@ libgst-dev/jammy 3.2.5-1.3ubuntu1 amd64
 libgst-dev/jammy 3.2.5-1.3ubuntu1 i386
 libgst7/jammy 3.2.5-1.3ubuntu1 amd64
 libgst7/jammy 3.2.5-1.3ubuntu1 i386
-libgstreamer-gl1.0-0/jammy-updates,jammy-security,now 1.20.1-1ubuntu0.1 amd64 [installed,automatic]
-libgstreamer-gl1.0-0/jammy-updates,jammy-security 1.20.1-1ubuntu0.1 i386
+libgstreamer-gl1.0-0/jammy-updates,jammy-security,now 1.20.1-1ubuntu0.2 amd64 [installed,automatic]
+libgstreamer-gl1.0-0/jammy-updates,jammy-security 1.20.1-1ubuntu0.2 i386
 libgstreamer-ocaml-dev/jammy 0.3.1-1build1 amd64
 libgstreamer-ocaml/jammy 0.3.1-1build1 amd64
 libgstreamer-opencv1.0-0/jammy-updates,jammy-security 1.20.3-0ubuntu1.1 amd64
@@ -30131,10 +30131,10 @@ libgstreamer-plugins-bad1.0-0/jammy-updates,jammy-security,now 1.20.3-0ubuntu1.1
 libgstreamer-plugins-bad1.0-0/jammy-updates,jammy-security 1.20.3-0ubuntu1.1 i386
 libgstreamer-plugins-bad1.0-dev/jammy-updates,jammy-security 1.20.3-0ubuntu1.1 amd64
 libgstreamer-plugins-bad1.0-dev/jammy-updates,jammy-security 1.20.3-0ubuntu1.1 i386
-libgstreamer-plugins-base1.0-0/jammy-updates,jammy-security,now 1.20.1-1ubuntu0.1 amd64 [installed,automatic]
-libgstreamer-plugins-base1.0-0/jammy-updates,jammy-security,now 1.20.1-1ubuntu0.1 i386 [installed,automatic]
-libgstreamer-plugins-base1.0-dev/jammy-updates,jammy-security 1.20.1-1ubuntu0.1 amd64
-libgstreamer-plugins-base1.0-dev/jammy-updates,jammy-security 1.20.1-1ubuntu0.1 i386
+libgstreamer-plugins-base1.0-0/jammy-updates,jammy-security,now 1.20.1-1ubuntu0.2 amd64 [installed,automatic]
+libgstreamer-plugins-base1.0-0/jammy-updates,jammy-security,now 1.20.1-1ubuntu0.2 i386 [installed,automatic]
+libgstreamer-plugins-base1.0-dev/jammy-updates,jammy-security 1.20.1-1ubuntu0.2 amd64
+libgstreamer-plugins-base1.0-dev/jammy-updates,jammy-security 1.20.1-1ubuntu0.2 i386
 libgstreamer-plugins-good1.0-0/jammy-updates,jammy-security,now 1.20.3-0ubuntu1.1 amd64 [installed,automatic]
 libgstreamer-plugins-good1.0-0/jammy-updates,jammy-security 1.20.3-0ubuntu1.1 i386
 libgstreamer-plugins-good1.0-dev/jammy-updates,jammy-security 1.20.3-0ubuntu1.1 amd64
@@ -31718,20 +31718,20 @@ libjavascript-minifier-perl/jammy,jammy 1.16-1 all
 libjavascript-minifier-xs-perl/jammy 0.15-1build1 amd64
 libjavascript-packer-perl/jammy,jammy 2.08+dfsg-1 all
 libjavascript-rpc-perl/jammy,jammy 0.10-2 all
-libjavascriptcoregtk-4.0-18/jammy-updates,jammy-security,now 2.44.0-0ubuntu0.22.04.1 amd64 [installed,automatic]
-libjavascriptcoregtk-4.0-18/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 i386
-libjavascriptcoregtk-4.0-bin/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 amd64
-libjavascriptcoregtk-4.0-bin/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 i386
-libjavascriptcoregtk-4.0-dev/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 amd64
-libjavascriptcoregtk-4.0-dev/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 i386
-libjavascriptcoregtk-4.1-0/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 amd64
-libjavascriptcoregtk-4.1-0/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 i386
-libjavascriptcoregtk-4.1-dev/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 amd64
-libjavascriptcoregtk-4.1-dev/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 i386
-libjavascriptcoregtk-6.0-1/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 amd64
-libjavascriptcoregtk-6.0-1/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 i386
-libjavascriptcoregtk-6.0-dev/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 amd64
-libjavascriptcoregtk-6.0-dev/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 i386
+libjavascriptcoregtk-4.0-18/jammy-updates,jammy-security,now 2.44.2-0ubuntu0.22.04.1 amd64 [installed,automatic]
+libjavascriptcoregtk-4.0-18/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 i386
+libjavascriptcoregtk-4.0-bin/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 amd64
+libjavascriptcoregtk-4.0-bin/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 i386
+libjavascriptcoregtk-4.0-dev/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 amd64
+libjavascriptcoregtk-4.0-dev/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 i386
+libjavascriptcoregtk-4.1-0/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 amd64
+libjavascriptcoregtk-4.1-0/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 i386
+libjavascriptcoregtk-4.1-dev/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 amd64
+libjavascriptcoregtk-4.1-dev/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 i386
+libjavascriptcoregtk-6.0-1/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 amd64
+libjavascriptcoregtk-6.0-1/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 i386
+libjavascriptcoregtk-6.0-dev/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 amd64
+libjavascriptcoregtk-6.0-dev/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 i386
 libjavassist-java-doc/jammy,jammy 1:3.27.0-1 all
 libjavassist-java/jammy,jammy 1:3.27.0-1 all
 libjavatuples-java/jammy,jammy 1.2-2 all
@@ -32488,7 +32488,7 @@ libjuce-doc/jammy,jammy 6.1.5~ds0-1 all
 libjudy-dev/jammy 1.0.5-5 amd64
 libjudydebian1/jammy 1.0.5-5 amd64
 libjug-java/jammy,jammy 3.1.5-1 all
-libjuh-java/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
+libjuh-java/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
 libjulia-openblas64/jammy 0.3.20+ds-1 amd64
 libjulius-dev/jammy 4.2.2-0ubuntu3 amd64
 libjuman-dev/jammy 7.0-3.4 amd64
@@ -32499,7 +32499,7 @@ libjung-free-java/jammy,jammy 2.1.1-1 all
 libjuniversalchardet-java/jammy,jammy 2.4.0-2 all
 libjunixsocket-java/jammy,jammy 2.0.4-1.1 all
 libjunixsocket-jni/jammy 2.0.4-1.1 amd64
-libjurt-java/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
+libjurt-java/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
 libjutils-java/jammy,jammy 20100502+dfsg-5 all
 libjvmti-oprofile0/jammy 1.4.0-0ubuntu7 amd64
 libjvyamlb-java/jammy,jammy 0.2.5-2.1 all
@@ -33435,8 +33435,8 @@ liblib-abs-perl/jammy,jammy 0.95-1 all
 liblib-relative-perl/jammy,jammy 1.000-2 all
 libliberator-clojure/jammy,jammy 0.15.3-1 all
 liblibrary-callnumber-lc-perl/jammy,jammy 0.23-1.1 all
-liblibreoffice-java/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-liblibreofficekitgtk/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
+liblibreoffice-java/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+liblibreofficekitgtk/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
 liblief-dev/jammy 0.9.0-1build3 amd64
 liblief0/jammy 0.9.0-1build3 amd64
 libliggghts-dev/jammy 3.8.0+repack1-9build1 amd64
@@ -37182,7 +37182,7 @@ libofa0/jammy 0.9.3-21 i386
 libofapi-dev/jammy 0git20070620-9 amd64
 libofapi-example/jammy,jammy 0git20070620-9 all
 libofapi0/jammy 0git20070620-9 amd64
-libofficebean-java/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
+libofficebean-java/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
 libofx-dev/jammy 1:0.10.3-1 amd64
 libofx-doc/jammy,jammy 1:0.10.3-1 all
 libofx7/jammy 1:0.10.3-1 amd64
@@ -38448,8 +38448,8 @@ libpgraphutil-smlnj/jammy 110.79-6 amd64
 libpgsbox7/jammy 7.7+ds-1 amd64
 libpgtcl-dev/jammy 1:2.8.0-1 amd64
 libpgtcl/jammy 1:2.8.0-1 amd64
-libpgtypes3/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 amd64
-libpgtypes3/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 i386
+libpgtypes3/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 amd64
+libpgtypes3/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 i386
 libphat-dev/jammy,jammy 1.6-2build2 all
 libphitsmcpl1/jammy 1.3.2-3 amd64
 libphobos2-ldc-shared-dev/jammy 1:1.28.0-1ubuntu1 amd64
@@ -38961,10 +38961,10 @@ libppx-variants-conv-ocaml/jammy 0.14.2-1build1 amd64
 libppx-visitors-ocaml-dev/jammy 20210608-1build1 amd64
 libppx-visitors-ocaml-doc/jammy,jammy 20210608-1build1 all
 libppxlib-ocaml-dev/jammy 0.24.0-1build2 amd64
-libpq-dev/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 amd64
-libpq-dev/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 i386
-libpq5/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 amd64
-libpq5/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 i386
+libpq-dev/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 amd64
+libpq-dev/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 i386
+libpq5/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 amd64
+libpq5/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 i386
 libpqtypes-dev/jammy 1.5.1-7 amd64
 libpqtypes0/jammy 1.5.1-7 amd64
 libpqxx-6.4/jammy 6.4.5-2build1 amd64
@@ -40073,226 +40073,226 @@ librenaissance0-dev/jammy 0.9.0-4.1build1 amd64
 librenaissance0/jammy 0.9.0-4.1build1 amd64
 librenderdoc-dev/jammy 1.18+dfsg-1 amd64
 librenderdoc/jammy 1.18+dfsg-1 amd64
-libreoffice-avmedia-backend-gstreamer/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreoffice-base-core/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.4 amd64 [installed,automatic]
-libreoffice-base-drivers/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreoffice-base-nogui/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreoffice-base/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreoffice-calc-nogui/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreoffice-calc/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.4 amd64 [installed]
+libreoffice-avmedia-backend-gstreamer/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreoffice-base-core/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.5 amd64 [installed,automatic]
+libreoffice-base-drivers/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreoffice-base-nogui/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreoffice-base/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreoffice-calc-nogui/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreoffice-calc/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.5 amd64 [installed]
 libreoffice-canzeley-client/jammy,jammy 0.5.1-5 all
-libreoffice-common/jammy-updates,jammy-updates,jammy-security,jammy-security,now 1:7.3.7-0ubuntu0.22.04.4 all [installed,automatic]
-libreoffice-core-nogui/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreoffice-core/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.4 amd64 [installed,automatic]
-libreoffice-dev-common/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-dev-doc/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-dev-gui/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreoffice-dev/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
+libreoffice-common/jammy-updates,jammy-updates,jammy-security,jammy-security,now 1:7.3.7-0ubuntu0.22.04.5 all [installed,automatic]
+libreoffice-core-nogui/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreoffice-core/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.5 amd64 [installed,automatic]
+libreoffice-dev-common/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-dev-doc/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-dev-gui/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreoffice-dev/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
 libreoffice-dmaths/jammy,jammy 4.4.0.0+dfsg1-1 all
-libreoffice-draw-nogui/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreoffice-draw/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.4 amd64 [installed,automatic]
-libreoffice-evolution/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreoffice-gnome/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.4 amd64 [installed]
-libreoffice-gtk2/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-gtk3/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.4 amd64 [installed,automatic]
-libreoffice-gtk/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-ca/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-common/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-cs/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-da/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-de/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-dz/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-el/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-en-gb/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-en-us/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-es/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-et/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-eu/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-fi/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-fr/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-gl/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-hi/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-hu/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-id/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-it/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-ja/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-km/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-ko/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-nl/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-om/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-pl/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-pt-br/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-pt/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-ru/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-sk/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-sl/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-sv/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-tr/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-vi/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-zh-cn/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-help-zh-tw/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-impress-nogui/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreoffice-impress/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.4 amd64 [installed]
-libreoffice-java-common/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-kde4/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-kde5/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreoffice-kde/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-kf5/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreoffice-l10n-af/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-am/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-ar/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-as/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-ast/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-be/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-bg/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-bn/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-br/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-bs/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-ca/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-cs/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-cy/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-da/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-de/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-dz/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-el/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-en-gb/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-en-za/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-eo/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-es/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-et/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-eu/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-fa/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-fi/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-fr/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-ga/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-gd/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-gl/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-gu/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-gug/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-he/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-hi/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-hr/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-hu/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-id/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-in/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-is/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-it/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-ja/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-ka/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-kk/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-km/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-kmr/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-kn/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-ko/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-lt/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-lv/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-mk/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-ml/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-mn/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-mr/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-nb/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-ne/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-nl/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-nn/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-nr/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-nso/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-oc/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-om/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-or/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-pa-in/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-pl/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-pt-br/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-pt/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-ro/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-ru/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-rw/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-si/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-sk/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-sl/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-sr/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-ss/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-st/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-sv/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-szl/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-ta/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-te/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-tg/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-th/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-tn/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-tr/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-ts/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-ug/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-uk/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-uz/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-ve/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-vi/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-xh/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-za/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-zh-cn/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-zh-tw/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-l10n-zu/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-librelogo/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
+libreoffice-draw-nogui/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreoffice-draw/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.5 amd64 [installed,automatic]
+libreoffice-evolution/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreoffice-gnome/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.5 amd64 [installed]
+libreoffice-gtk2/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-gtk3/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.5 amd64 [installed,automatic]
+libreoffice-gtk/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-ca/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-common/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-cs/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-da/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-de/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-dz/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-el/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-en-gb/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-en-us/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-es/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-et/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-eu/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-fi/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-fr/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-gl/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-hi/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-hu/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-id/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-it/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-ja/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-km/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-ko/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-nl/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-om/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-pl/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-pt-br/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-pt/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-ru/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-sk/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-sl/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-sv/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-tr/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-vi/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-zh-cn/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-help-zh-tw/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-impress-nogui/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreoffice-impress/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.5 amd64 [installed]
+libreoffice-java-common/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-kde4/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-kde5/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreoffice-kde/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-kf5/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreoffice-l10n-af/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-am/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-ar/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-as/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-ast/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-be/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-bg/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-bn/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-br/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-bs/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-ca/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-cs/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-cy/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-da/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-de/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-dz/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-el/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-en-gb/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-en-za/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-eo/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-es/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-et/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-eu/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-fa/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-fi/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-fr/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-ga/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-gd/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-gl/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-gu/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-gug/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-he/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-hi/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-hr/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-hu/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-id/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-in/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-is/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-it/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-ja/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-ka/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-kk/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-km/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-kmr/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-kn/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-ko/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-lt/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-lv/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-mk/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-ml/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-mn/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-mr/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-nb/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-ne/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-nl/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-nn/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-nr/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-nso/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-oc/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-om/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-or/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-pa-in/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-pl/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-pt-br/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-pt/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-ro/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-ru/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-rw/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-si/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-sk/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-sl/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-sr/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-ss/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-st/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-sv/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-szl/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-ta/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-te/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-tg/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-th/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-tn/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-tr/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-ts/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-ug/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-uk/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-uz/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-ve/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-vi/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-xh/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-za/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-zh-cn/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-zh-tw/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-l10n-zu/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-librelogo/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
 libreoffice-lightproof-en/jammy,jammy 0.4.3+1.6-2 all
 libreoffice-lightproof-hu/jammy,jammy 1.6.2+1.6-2 all
 libreoffice-lightproof-pt-br/jammy,jammy 1:7.2.0-2 all
 libreoffice-lightproof-ru-ru/jammy,jammy 0.3.4+1.6-2 all
-libreoffice-math-nogui/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreoffice-math/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.4 amd64 [installed]
-libreoffice-mysql-connector/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreoffice-nlpsolver/jammy-updates,jammy-updates,jammy-security,jammy-security 0.9+LibO7.3.7-0ubuntu0.22.04.4 all
-libreoffice-nogui/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
+libreoffice-math-nogui/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreoffice-math/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.5 amd64 [installed]
+libreoffice-mysql-connector/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreoffice-nlpsolver/jammy-updates,jammy-updates,jammy-security,jammy-security 0.9+LibO7.3.7-0ubuntu0.22.04.5 all
+libreoffice-nogui/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
 libreoffice-numbertext/jammy,jammy 1.0.8-1 all
-libreoffice-officebean/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreoffice-ogltrans/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
+libreoffice-officebean/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreoffice-ogltrans/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
 libreoffice-parlatype/jammy,jammy 3.0-1 all
-libreoffice-pdfimport/jammy-updates,jammy-updates,jammy-security,jammy-security,now 1:7.3.7-0ubuntu0.22.04.4 all [installed]
-libreoffice-plasma/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreoffice-qt5/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreoffice-report-builder-bin-nogui/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreoffice-report-builder-bin/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreoffice-report-builder/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-script-provider-bsh/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-script-provider-js/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-script-provider-python/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-sdbc-firebird/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreoffice-sdbc-hsqldb/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreoffice-sdbc-mysql/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreoffice-sdbc-postgresql/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreoffice-smoketest-data/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-style-breeze/jammy-updates,jammy-updates,jammy-security,jammy-security,now 1:7.3.7-0ubuntu0.22.04.4 all [installed]
-libreoffice-style-colibre/jammy-updates,jammy-updates,jammy-security,jammy-security,now 1:7.3.7-0ubuntu0.22.04.4 all [installed,automatic]
-libreoffice-style-elementary/jammy-updates,jammy-updates,jammy-security,jammy-security,now 1:7.3.7-0ubuntu0.22.04.4 all [installed,automatic]
-libreoffice-style-galaxy/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-style-hicontrast/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-style-human/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-style-karasa-jaga/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-style-oxygen/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-style-sifr/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-style-sukapura/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-style-tango/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all [residual-config]
-libreoffice-style-yaru/jammy-updates,jammy-updates,jammy-security,jammy-security,now 1:7.3.7-0ubuntu0.22.04.4 all [installed,automatic]
-libreoffice-subsequentcheckbase/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreoffice-systray/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
+libreoffice-pdfimport/jammy-updates,jammy-updates,jammy-security,jammy-security,now 1:7.3.7-0ubuntu0.22.04.5 all [installed]
+libreoffice-plasma/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreoffice-qt5/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreoffice-report-builder-bin-nogui/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreoffice-report-builder-bin/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreoffice-report-builder/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-script-provider-bsh/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-script-provider-js/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-script-provider-python/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-sdbc-firebird/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreoffice-sdbc-hsqldb/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreoffice-sdbc-mysql/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreoffice-sdbc-postgresql/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreoffice-smoketest-data/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-style-breeze/jammy-updates,jammy-updates,jammy-security,jammy-security,now 1:7.3.7-0ubuntu0.22.04.5 all [installed]
+libreoffice-style-colibre/jammy-updates,jammy-updates,jammy-security,jammy-security,now 1:7.3.7-0ubuntu0.22.04.5 all [installed,automatic]
+libreoffice-style-elementary/jammy-updates,jammy-updates,jammy-security,jammy-security,now 1:7.3.7-0ubuntu0.22.04.5 all [installed,automatic]
+libreoffice-style-galaxy/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-style-hicontrast/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-style-human/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-style-karasa-jaga/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-style-oxygen/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-style-sifr/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-style-sukapura/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-style-tango/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all [residual-config]
+libreoffice-style-yaru/jammy-updates,jammy-updates,jammy-security,jammy-security,now 1:7.3.7-0ubuntu0.22.04.5 all [installed,automatic]
+libreoffice-subsequentcheckbase/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreoffice-systray/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
 libreoffice-templates/jammy,jammy 0.1.20120814-0ubuntu3 all
 libreoffice-texmaths/jammy,jammy 0.43-2.1 all
-libreoffice-uiconfig-base/jammy-backports,jammy-backports 4:7.6.6-0ubuntu0.23.10.1~bpo22.04.1 all
-libreoffice-uiconfig-calc/jammy-backports,jammy-backports 4:7.6.6-0ubuntu0.23.10.1~bpo22.04.1 all
-libreoffice-uiconfig-common/jammy-backports,jammy-backports 4:7.6.6-0ubuntu0.23.10.1~bpo22.04.1 all
-libreoffice-uiconfig-draw/jammy-backports,jammy-backports 4:7.6.6-0ubuntu0.23.10.1~bpo22.04.1 all
-libreoffice-uiconfig-impress/jammy-backports,jammy-backports 4:7.6.6-0ubuntu0.23.10.1~bpo22.04.1 all
-libreoffice-uiconfig-math/jammy-backports,jammy-backports 4:7.6.6-0ubuntu0.23.10.1~bpo22.04.1 all
-libreoffice-uiconfig-report-builder/jammy-backports,jammy-backports 4:7.6.6-0ubuntu0.23.10.1~bpo22.04.1 all
-libreoffice-uiconfig-writer/jammy-backports,jammy-backports 4:7.6.6-0ubuntu0.23.10.1~bpo22.04.1 all
+libreoffice-uiconfig-base/jammy-backports,jammy-backports 4:7.6.7-0ubuntu0.23.10.1~bpo22.04.1 all
+libreoffice-uiconfig-calc/jammy-backports,jammy-backports 4:7.6.7-0ubuntu0.23.10.1~bpo22.04.1 all
+libreoffice-uiconfig-common/jammy-backports,jammy-backports 4:7.6.7-0ubuntu0.23.10.1~bpo22.04.1 all
+libreoffice-uiconfig-draw/jammy-backports,jammy-backports 4:7.6.7-0ubuntu0.23.10.1~bpo22.04.1 all
+libreoffice-uiconfig-impress/jammy-backports,jammy-backports 4:7.6.7-0ubuntu0.23.10.1~bpo22.04.1 all
+libreoffice-uiconfig-math/jammy-backports,jammy-backports 4:7.6.7-0ubuntu0.23.10.1~bpo22.04.1 all
+libreoffice-uiconfig-report-builder/jammy-backports,jammy-backports 4:7.6.7-0ubuntu0.23.10.1~bpo22.04.1 all
+libreoffice-uiconfig-writer/jammy-backports,jammy-backports 4:7.6.7-0ubuntu0.23.10.1~bpo22.04.1 all
 libreoffice-voikko/jammy 5.0-4build1 amd64
-libreoffice-wiki-publisher/jammy-updates,jammy-updates,jammy-security,jammy-security 1.2.0+LibO7.3.7-0ubuntu0.22.04.4 all
-libreoffice-writer-nogui/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
+libreoffice-wiki-publisher/jammy-updates,jammy-updates,jammy-security,jammy-security 1.2.0+LibO7.3.7-0ubuntu0.22.04.5 all
+libreoffice-writer-nogui/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
 libreoffice-writer2latex/jammy,jammy 1.4-11 all
 libreoffice-writer2xhtml/jammy,jammy 1.4-11 all
-libreoffice-writer/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.4 amd64 [installed]
+libreoffice-writer/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.5 amd64 [installed]
 libreoffice-zemberek/jammy,jammy 1.0~rc2-10.4 all
-libreoffice/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-libreofficekit-data/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libreofficekit-dev/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
+libreoffice/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+libreofficekit-data/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libreofficekit-dev/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
 librep-dbg/jammy 0.92.5-3build5 amd64
 librep-dev/jammy 0.92.5-3build5 amd64
 librep16/jammy 0.92.5-3build5 amd64
@@ -40388,7 +40388,7 @@ librhythmbox-core10/jammy,now 3.4.4-5ubuntu1 amd64 [installed,automatic]
 libricohcamerasdk-dev/jammy 1.1.0-2 amd64
 libricohcamerasdk/jammy 1.1.0-2 amd64
 libriddley-clojure/jammy,jammy 0.2.0-2 all
-libridl-java/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
+libridl-java/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
 libriemann-client-dev/jammy 1.10.4-2build2 amd64
 libriemann-client0/jammy 1.10.4-2build2 amd64
 librime-bin/jammy 1.7.3+dfsg3-2build2 amd64
@@ -45206,19 +45206,19 @@ libtspi-dev/jammy 0.3.15-0.2 amd64
 libtspi1/jammy 0.3.15-0.2 amd64
 libtss-dev/jammy 1045-1.2build1 amd64
 libtss0/jammy 1045-1.2build1 amd64
-libtss2-dev/jammy 3.2.0-1ubuntu1 amd64
-libtss2-esys-3.0.2-0/jammy,now 3.2.0-1ubuntu1 amd64 [installed,automatic]
-libtss2-fapi1/jammy 3.2.0-1ubuntu1 amd64
-libtss2-mu0/jammy,now 3.2.0-1ubuntu1 amd64 [installed,automatic]
-libtss2-rc0/jammy 3.2.0-1ubuntu1 amd64
-libtss2-sys1/jammy,now 3.2.0-1ubuntu1 amd64 [installed,automatic]
-libtss2-tcti-cmd0/jammy,now 3.2.0-1ubuntu1 amd64 [installed,automatic]
-libtss2-tcti-device0/jammy,now 3.2.0-1ubuntu1 amd64 [installed,automatic]
-libtss2-tcti-mssim0/jammy,now 3.2.0-1ubuntu1 amd64 [installed,automatic]
-libtss2-tcti-swtpm0/jammy,now 3.2.0-1ubuntu1 amd64 [installed,automatic]
+libtss2-dev/jammy-updates,jammy-security 3.2.0-1ubuntu1.1 amd64
+libtss2-esys-3.0.2-0/jammy-updates,jammy-security,now 3.2.0-1ubuntu1.1 amd64 [installed,automatic]
+libtss2-fapi1/jammy-updates,jammy-security 3.2.0-1ubuntu1.1 amd64
+libtss2-mu0/jammy-updates,jammy-security,now 3.2.0-1ubuntu1.1 amd64 [installed,automatic]
+libtss2-rc0/jammy-updates,jammy-security 3.2.0-1ubuntu1.1 amd64
+libtss2-sys1/jammy-updates,jammy-security,now 3.2.0-1ubuntu1.1 amd64 [installed,automatic]
+libtss2-tcti-cmd0/jammy-updates,jammy-security,now 3.2.0-1ubuntu1.1 amd64 [installed,automatic]
+libtss2-tcti-device0/jammy-updates,jammy-security,now 3.2.0-1ubuntu1.1 amd64 [installed,automatic]
+libtss2-tcti-mssim0/jammy-updates,jammy-security,now 3.2.0-1ubuntu1.1 amd64 [installed,automatic]
+libtss2-tcti-swtpm0/jammy-updates,jammy-security,now 3.2.0-1ubuntu1.1 amd64 [installed,automatic]
 libtss2-tcti-tabrmd-dev/jammy 2.4.0-1 amd64
 libtss2-tcti-tabrmd0/jammy 2.4.0-1 amd64
-libtss2-tctildr0/jammy 3.2.0-1ubuntu1 amd64
+libtss2-tctildr0/jammy-updates,jammy-security 3.2.0-1ubuntu1.1 amd64
 libttfautohint-dev/jammy 1.8.3-2build1 amd64
 libttfautohint1/jammy 1.8.3-2build1 amd64
 libttspico-data/jammy,jammy 1.0+git20130326-12 all
@@ -45441,10 +45441,10 @@ libunarr-dev/jammy 1.0.1-1 amd64
 libunarr1/jammy 1.0.1-1 amd64
 libunbescape-java-doc/jammy,jammy 1.1.5-1.1 all
 libunbescape-java/jammy,jammy 1.1.5-1.1 all
-libunbound-dev/jammy-updates,jammy-security 1.13.1-1ubuntu5.4 amd64
-libunbound-dev/jammy-updates,jammy-security 1.13.1-1ubuntu5.4 i386
-libunbound8/jammy-updates,jammy-security,now 1.13.1-1ubuntu5.4 amd64 [installed,automatic]
-libunbound8/jammy-updates,jammy-security 1.13.1-1ubuntu5.4 i386
+libunbound-dev/jammy-updates,jammy-security 1.13.1-1ubuntu5.5 amd64
+libunbound-dev/jammy-updates,jammy-security 1.13.1-1ubuntu5.5 i386
+libunbound8/jammy-updates,jammy-security,now 1.13.1-1ubuntu5.5 amd64 [installed,automatic]
+libunbound8/jammy-updates,jammy-security 1.13.1-1ubuntu5.5 i386
 libuncommons-maths-java-doc/jammy,jammy 1.2.3-2 all
 libuncommons-maths-java/jammy,jammy 1.2.3-2 all
 libuncommons-watchmaker-framework-java/jammy,jammy 0.7.1-1.1 all
@@ -45529,13 +45529,13 @@ libunix-mknod-perl/jammy 0.04-5build1 amd64
 libunix-processors-perl/jammy 2.046-2build2 amd64
 libunix-syslog-perl/jammy 1.1-3build5 amd64
 libunixsocket-java/jammy 0.8.1-1.1 amd64
-libuno-cppu3/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.4 amd64 [installed,automatic]
-libuno-cppuhelpergcc3-3/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.4 amd64 [installed,automatic]
-libuno-purpenvhelpergcc3-3/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.4 amd64 [installed,automatic]
-libuno-sal3/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.4 amd64 [installed,automatic]
-libuno-salhelpergcc3-3/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.4 amd64 [installed,automatic]
-libunoil-java/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
-libunoloader-java/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
+libuno-cppu3/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.5 amd64 [installed,automatic]
+libuno-cppuhelpergcc3-3/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.5 amd64 [installed,automatic]
+libuno-purpenvhelpergcc3-3/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.5 amd64 [installed,automatic]
+libuno-sal3/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.5 amd64 [installed,automatic]
+libuno-salhelpergcc3-3/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.5 amd64 [installed,automatic]
+libunoil-java/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
+libunoloader-java/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
 libunrar-dev/jammy 1:6.1.5-1 amd64
 libunrar-headers/jammy,jammy 1:6.1.5-1 all
 libunrar5/jammy 1:6.1.5-1 amd64
@@ -46209,19 +46209,19 @@ libwebjars-locator-core-java/jammy,jammy 0.30-1.1 all
 libwebjars-locator-java/jammy,jammy 0.32-1.1 all
 libwebkit2-sharp-4.0-cil-dev/jammy 2.10.9+git20160917-1.1 amd64
 libwebkit2-sharp-4.0-cil/jammy 2.10.9+git20160917-1.1 amd64
-libwebkit2gtk-4.0-37/jammy-updates,jammy-security,now 2.44.0-0ubuntu0.22.04.1 amd64 [installed,automatic]
-libwebkit2gtk-4.0-37/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 i386
-libwebkit2gtk-4.0-dev/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 amd64
-libwebkit2gtk-4.0-dev/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 i386
-libwebkit2gtk-4.0-doc/jammy-updates,jammy-updates,jammy-security,jammy-security 2.44.0-0ubuntu0.22.04.1 all
-libwebkit2gtk-4.1-0/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 amd64
-libwebkit2gtk-4.1-0/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 i386
-libwebkit2gtk-4.1-dev/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 amd64
-libwebkit2gtk-4.1-dev/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 i386
-libwebkitgtk-6.0-4/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 amd64
-libwebkitgtk-6.0-4/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 i386
-libwebkitgtk-6.0-dev/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 amd64
-libwebkitgtk-6.0-dev/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 i386
+libwebkit2gtk-4.0-37/jammy-updates,jammy-security,now 2.44.2-0ubuntu0.22.04.1 amd64 [installed,automatic]
+libwebkit2gtk-4.0-37/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 i386
+libwebkit2gtk-4.0-dev/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 amd64
+libwebkit2gtk-4.0-dev/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 i386
+libwebkit2gtk-4.0-doc/jammy-updates,jammy-updates,jammy-security,jammy-security 2.44.2-0ubuntu0.22.04.1 all
+libwebkit2gtk-4.1-0/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 amd64
+libwebkit2gtk-4.1-0/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 i386
+libwebkit2gtk-4.1-dev/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 amd64
+libwebkit2gtk-4.1-dev/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 i386
+libwebkitgtk-6.0-4/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 amd64
+libwebkitgtk-6.0-4/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 i386
+libwebkitgtk-6.0-dev/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 amd64
+libwebkitgtk-6.0-dev/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 i386
 libwebm-dev/jammy 1.0.0.28-1 amd64
 libwebm-tools/jammy 1.0.0.28-1 amd64
 libwebm1/jammy 1.0.0.28-1 amd64
@@ -64633,8 +64633,9 @@ linux-xilinx-zynqmp-headers-5.15.0-1022/jammy-updates,jammy-updates,jammy-securi
 linux-xilinx-zynqmp-headers-5.15.0-1023/jammy-updates,jammy-updates,jammy-security,jammy-security 5.15.0-1023.27 all
 linux-xilinx-zynqmp-headers-5.15.0-1025/jammy-updates,jammy-updates,jammy-security,jammy-security 5.15.0-1025.29 all
 linux-xilinx-zynqmp-headers-5.15.0-1027/jammy-updates,jammy-updates,jammy-security,jammy-security 5.15.0-1027.31 all
-linux-xilinx-zynqmp-tools-common/jammy-updates,jammy-updates,jammy-security,jammy-security 5.15.0-1027.31 all
-linux-xilinx-zynqmp-tools-host/jammy-updates,jammy-updates,jammy-security,jammy-security 5.15.0-1027.31 all
+linux-xilinx-zynqmp-headers-5.15.0-1030/jammy-updates,jammy-updates,jammy-security,jammy-security 5.15.0-1030.34 all
+linux-xilinx-zynqmp-tools-common/jammy-updates,jammy-updates,jammy-security,jammy-security 5.15.0-1030.34 all
+linux-xilinx-zynqmp-tools-host/jammy-updates,jammy-updates,jammy-security,jammy-security 5.15.0-1030.34 all
 linuxaudio-new-session-manager/jammy 1.5.3-0ubuntu1 amd64
 linuxdoc-tools-info/jammy,jammy 0.9.82-1 all
 linuxdoc-tools-latex/jammy,jammy 0.9.82-1 all
@@ -64829,9 +64830,9 @@ local-apt-repository/jammy,jammy 0.6+nmu1 all
 localechooser-data/jammy,jammy 2.89ubuntu3 all
 localehelper/jammy,jammy 0.1.4-3 all
 localepurge/jammy,jammy 0.7.3.10 all
-locales-all/jammy-updates,jammy-security 2.35-0ubuntu3.7 amd64
-locales-all/jammy-updates,jammy-security 2.35-0ubuntu3.7 i386
-locales/jammy-updates,jammy-updates,jammy-security,jammy-security,now 2.35-0ubuntu3.7 all [installed]
+locales-all/jammy-updates,jammy-security 2.35-0ubuntu3.8 amd64
+locales-all/jammy-updates,jammy-security 2.35-0ubuntu3.8 i386
+locales/jammy-updates,jammy-updates,jammy-security,jammy-security,now 2.35-0ubuntu3.8 all [installed]
 localslackirc/jammy,jammy 1.14-1 all
 locate/jammy 4.8.0-1ubuntu3 amd64
 locate/jammy 4.8.0-1ubuntu3 i386
@@ -67547,7 +67548,7 @@ node-browserify-cipher/jammy,jammy 1.0.1-2 all
 node-browserify-des/jammy,jammy 1.0.2-5 all
 node-browserify-lite/jammy,jammy 0.5.1+~cs7.1.5-2 all
 node-browserify-rsa/jammy,jammy 4.1.0-2 all
-node-browserify-sign/jammy,jammy 4.2.1-2 all
+node-browserify-sign/jammy-updates,jammy-updates,jammy-security,jammy-security 4.2.1-2ubuntu0.1 all
 node-browserify-zlib/jammy,jammy 0.2.0+20170820git8b3f0a862f6b+dfsg-6 all
 node-browserify/jammy,jammy 17.0.0+ds-3 all
 node-browserslist/jammy,jammy 4.19.3+~cs5.1.3-1 all
@@ -68988,8 +68989,8 @@ nsca-client/jammy 2.10.1-1 amd64
 nsca-ng-client/jammy 1.6-4build1 amd64
 nsca-ng-server/jammy 1.6-4build1 amd64
 nsca/jammy 2.10.1-1 amd64
-nscd/jammy-updates,jammy-security 2.35-0ubuntu3.7 amd64
-nscd/jammy-updates,jammy-security 2.35-0ubuntu3.7 i386
+nscd/jammy-updates,jammy-security 2.35-0ubuntu3.8 amd64
+nscd/jammy-updates,jammy-security 2.35-0ubuntu3.8 i386
 nsd/jammy 4.3.9-1 amd64
 nsf-dev/jammy 2.3.0-1 amd64
 nsf-shells/jammy,jammy 2.3.0-1 all
@@ -72351,28 +72352,28 @@ postgresql-14-tds-fdw/jammy 2.0.2-3 amd64
 postgresql-14-toastinfo/jammy 1.4-2 amd64
 postgresql-14-unit/jammy 7.4-2 amd64
 postgresql-14-wal2json/jammy 2.4-2 amd64
-postgresql-14/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 amd64
-postgresql-14/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 i386
+postgresql-14/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 amd64
+postgresql-14/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 i386
 postgresql-all/jammy,jammy 238 all
 postgresql-autodoc/jammy,jammy 1.41+20200921-1 all
-postgresql-client-14/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 amd64
-postgresql-client-14/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 i386
+postgresql-client-14/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 amd64
+postgresql-client-14/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 i386
 postgresql-client-common/jammy,jammy 238 all
 postgresql-client/jammy,jammy 14+238 all
 postgresql-common/jammy,jammy 238 all
 postgresql-comparator/jammy 2.3.2-2 amd64
 postgresql-contrib/jammy,jammy 14+238 all
-postgresql-doc-14/jammy-updates,jammy-updates,jammy-security,jammy-security 14.11-0ubuntu0.22.04.1 all
+postgresql-doc-14/jammy-updates,jammy-updates,jammy-security,jammy-security 14.12-0ubuntu0.22.04.1 all
 postgresql-doc/jammy,jammy 14+238 all
 postgresql-filedump/jammy 14.0-2 amd64
-postgresql-plperl-14/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 amd64
-postgresql-plperl-14/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 i386
-postgresql-plpython3-14/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 amd64
-postgresql-plpython3-14/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 i386
-postgresql-pltcl-14/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 amd64
-postgresql-pltcl-14/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 i386
-postgresql-server-dev-14/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 amd64
-postgresql-server-dev-14/jammy-updates,jammy-security 14.11-0ubuntu0.22.04.1 i386
+postgresql-plperl-14/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 amd64
+postgresql-plperl-14/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 i386
+postgresql-plpython3-14/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 amd64
+postgresql-plpython3-14/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 i386
+postgresql-pltcl-14/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 amd64
+postgresql-pltcl-14/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 i386
+postgresql-server-dev-14/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 amd64
+postgresql-server-dev-14/jammy-updates,jammy-security 14.12-0ubuntu0.22.04.1 i386
 postgresql-server-dev-all/jammy 238 amd64
 postgresql/jammy,jammy 14+238 all
 postgrey/jammy,jammy 1.36-5.2 all
@@ -73389,7 +73390,7 @@ python-itsdangerous-doc/jammy,jammy 2.1.0-1 all
 python-jellyfish-doc/jammy,jammy 0.8.9-1build1 all
 python-jenkins-doc/jammy,jammy 1.4.0-2 all
 python-jieba-doc/jammy,jammy 0.42.1-3 all
-python-jinja2-doc/jammy-updates,jammy-updates,jammy-security,jammy-security 3.0.3-1ubuntu0.1 all
+python-jinja2-doc/jammy-updates,jammy-updates,jammy-security,jammy-security 3.0.3-1ubuntu0.2 all
 python-jira-doc/jammy,jammy 3.1.1-1 all
 python-jose-doc/jammy,jammy 3.3.0+dfsg-1 all
 python-josepy-doc/jammy,jammy 1.10.0-1 all
@@ -73657,7 +73658,7 @@ python-pymeasure-doc/jammy,jammy 0.9.0-1 all
 python-pymediainfo-doc/jammy,jammy 5.0.3-1 all
 python-pymodbus-doc/jammy,jammy 2.1.0+dfsg-2 all
 python-pymongo-doc/jammy,jammy 3.11.0-1build4 all
-python-pymysql-doc/jammy,jammy 1.0.2-1ubuntu1 all
+python-pymysql-doc/jammy-updates,jammy-updates,jammy-security,jammy-security 1.0.2-1ubuntu1.22.04.1 all
 python-pymzml-doc/jammy,jammy 2.4.7-3 all
 python-pynfft-doc/jammy,jammy 1.3.2-5build1 all
 python-pyopencl-doc/jammy,jammy 2021.2.13-1build1 all
@@ -73851,7 +73852,7 @@ python-webob-doc/jammy,jammy 1:1.8.6-1.1 all
 python-webpy-doc/jammy,jammy 1:0.61-1 all
 python-webtest-doc/jammy,jammy 2.0.35-1 all
 python-webvtt-doc/jammy,jammy 0.4.6-1 all
-python-werkzeug-doc/jammy-updates,jammy-updates,jammy-security,jammy-security 2.0.2+dfsg1-1ubuntu0.22.04.1 all
+python-werkzeug-doc/jammy-updates,jammy-updates,jammy-security,jammy-security 2.0.2+dfsg1-1ubuntu0.22.04.2 all
 python-wheel-common/jammy-updates,jammy-updates,jammy-security,jammy-security 0.37.1-2ubuntu0.22.04.1 all
 python-whoosh-doc/jammy,jammy 2.7.4+git6-g9134ad92-5 all
 python-willow-doc/jammy,jammy 1.4-1 all
@@ -73904,7 +73905,7 @@ python3-aafigure/jammy,jammy 0.6-2 all
 python3-aalib/jammy,jammy 0.4-2 all
 python3-absl/jammy,jammy 0.15.0-1 all
 python3-abydos/jammy,jammy 0.5.0+git20201231.344346a-6 all
-python3-access2base/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.4 all
+python3-access2base/jammy-updates,jammy-updates,jammy-security,jammy-security 1:7.3.7-0ubuntu0.22.04.5 all
 python3-acme/jammy-updates,jammy-updates 1.21.0-1ubuntu0.1 all
 python3-acora/jammy 2.2-1.3build4 amd64
 python3-acoustid/jammy,jammy 1.2.2-1 all
@@ -74371,7 +74372,7 @@ python3-chm/jammy 0.8.6-3build1 amd64
 python3-ci-info/jammy,jammy 0.2.0-2 all
 python3-cif2cell/jammy,jammy 2.0.0a3+dfsg-1 all
 python3-cigar/jammy,jammy 0.1.3-2 all
-python3-cinder/jammy-updates,jammy-updates 2:20.3.1-0ubuntu1.1 all
+python3-cinder/jammy-updates,jammy-updates 2:20.3.1-0ubuntu1.2 all
 python3-cinderclient/jammy,jammy 1:8.3.0-0ubuntu1 all
 python3-circuitbreaker/jammy,jammy 1.3.2-2 all
 python3-circuits/jammy,jammy 3.1.0+ds1-3 all
@@ -75072,7 +75073,7 @@ python3-flask-peewee/jammy,jammy 0.6.7-3 all
 python3-flask-principal/jammy,jammy 0.4.0-4 all
 python3-flask-restful/jammy,jammy 0.3.9-2 all
 python3-flask-script/jammy,jammy 2.0.6-2 all
-python3-flask-security/jammy,jammy 4.0.0-1 all
+python3-flask-security/jammy-updates,jammy-updates,jammy-security,jammy-security 4.0.0-1ubuntu0.1 all
 python3-flask-seeder/jammy,jammy 0.1~a2-2 all
 python3-flask-silk/jammy,jammy 0.2-18 all
 python3-flask-socketio/jammy,jammy 5.0.1-1 all
@@ -75500,7 +75501,7 @@ python3-jenkinsapi/jammy,jammy 0.3.11-5build2 all
 python3-jieba/jammy,jammy 0.42.1-3 all
 python3-jinja-vanish/jammy,jammy 0.2~git20160124.8980cb2-1.1 all
 python3-jinja2-time/jammy,jammy 0.2.0-4 all
-python3-jinja2/jammy-updates,jammy-updates,jammy-security,jammy-security,now 3.0.3-1ubuntu0.1 all [installed,automatic]
+python3-jinja2/jammy-updates,jammy-updates,jammy-security,jammy-security,now 3.0.3-1ubuntu0.2 all [installed,automatic]
 python3-jira/jammy,jammy 3.1.1-1 all
 python3-jmespath/jammy,jammy 0.10.0-1 all
 python3-joblib/jammy,jammy 0.17.0-4ubuntu1 all
@@ -76684,7 +76685,7 @@ python3-pymongo/jammy 3.11.0-1build4 amd64
 python3-pympler/jammy,jammy 0.9+dfsg1-2 all
 python3-pymssql/jammy 2.2.2-1build1 amd64
 python3-pymummer/jammy,jammy 0.11.0-2 all
-python3-pymysql/jammy,jammy 1.0.2-1ubuntu1 all
+python3-pymysql/jammy-updates,jammy-updates,jammy-security,jammy-security 1.0.2-1ubuntu1.22.04.1 all
 python3-pymzml/jammy,jammy 2.4.7-3 all
 python3-pynag/jammy,jammy 1.1.2+dfsg-2 all
 python3-pynauty/jammy 1.0.2+ds-2build1 amd64
@@ -77206,7 +77207,7 @@ python3-scrapy-djangoitem/jammy,jammy 1.1.1-5 all
 python3-scrapy/jammy,jammy 2.5.1-2 all
 python3-screed/jammy,jammy 1.0.5-4 all
 python3-screeninfo/jammy,jammy 0.6.7-1 all
-python3-scriptforge/jammy-backports,jammy-backports 4:7.6.6-0ubuntu0.23.10.1~bpo22.04.1 all
+python3-scriptforge/jammy-backports,jammy-backports 4:7.6.7-0ubuntu0.23.10.1~bpo22.04.1 all
 python3-scripttest/jammy,jammy 1.3-3 all
 python3-scruffy/jammy,jammy 0.3.3-2 all
 python3-scrypt/jammy 0.8.0-0.3ubuntu8 amd64
@@ -77751,8 +77752,8 @@ python3-uinput/jammy 0.11.2-3build1 amd64
 python3-ujson/jammy 5.1.0-1build1 amd64
 python3-ukui-menu/jammy 1.1.4-1build3 amd64
 python3-ulmo/jammy,jammy 0.8.5+dfsg1-1 all
-python3-unbound/jammy-updates,jammy-security 1.13.1-1ubuntu5.4 amd64
-python3-unbound/jammy-updates,jammy-security 1.13.1-1ubuntu5.4 i386
+python3-unbound/jammy-updates,jammy-security 1.13.1-1ubuntu5.5 amd64
+python3-unbound/jammy-updates,jammy-security 1.13.1-1ubuntu5.5 i386
 python3-uncertainties/jammy,jammy 3.1.5-1 all
 python3-unicodecsv/jammy,jammy 0.14.1-2build1 all
 python3-unicodedata2/jammy 14.0.0+ds-8 amd64
@@ -77761,7 +77762,7 @@ python3-unidecode/jammy,jammy 1.3.3-1 all
 python3-unidiff/jammy,jammy 0.5.5-2 all
 python3-unifrac/jammy 0.10.0-3build1 amd64
 python3-unittest2/jammy,jammy 1.1.0-9 all
-python3-uno/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.4 amd64 [installed,automatic]
+python3-uno/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.5 amd64 [installed,automatic]
 python3-unpaddedbase64/jammy,jammy 1.1.0-5 all
 python3-unrardll/jammy 0.1.5-2build1 amd64
 python3-untokenize/jammy,jammy 0.1.1-3 all
@@ -77871,7 +77872,7 @@ python3-websockify/jammy 0.10.0+dfsg1-2build1 amd64
 python3-webtest/jammy,jammy 2.0.35-1 all
 python3-webview/jammy,jammy 3.3.5+dfsg-1 all
 python3-webvtt/jammy,jammy 0.4.6-1 all
-python3-werkzeug/jammy-updates,jammy-updates,jammy-security,jammy-security 2.0.2+dfsg1-1ubuntu0.22.04.1 all
+python3-werkzeug/jammy-updates,jammy-updates,jammy-security,jammy-security 2.0.2+dfsg1-1ubuntu0.22.04.2 all
 python3-wget/jammy,jammy 3.2-3 all
 python3-whatthepatch/jammy,jammy 0.0.5-2.1 all
 python3-wheel-whl/jammy-updates,jammy-updates,jammy-security,jammy-security 0.37.1-2ubuntu0.22.04.1 all
@@ -82935,8 +82936,8 @@ sightviewer/jammy 21.0.0-4 amd64
 sigil-data/jammy,jammy 1.9.2+dfsg-1 all
 sigil/jammy 1.9.2+dfsg-1 amd64
 sigma-align/jammy 1.1.3-8 amd64
-signal-desktop-beta/xenial 7.11.0-beta.1 amd64
-signal-desktop/xenial,now 7.10.0 amd64 [installed]
+signal-desktop-beta/xenial 7.12.0-beta.3 amd64
+signal-desktop/xenial,now 7.11.1 amd64 [installed]
 signapk/jammy,jammy 1:10.0.0+r36-1 all
 signify-openbsd-keys/jammy,jammy 2021.1 all
 signify-openbsd/jammy 30-2 amd64
@@ -85175,7 +85176,7 @@ timekpr-next/jammy 0.5.2-1 amd64
 timelimit/jammy 1.9.2-1 amd64
 timemachine/jammy 0.3.3-2.1build2 amd64
 timemon.app/jammy 4.2-2build4 amd64
-timeshift/jammy 21.09.1-1 amd64
+timeshift/jammy-updates 21.09.1-1ubuntu1 amd64
 timewarrior/jammy 1.4.3+ds.1-1 amd64
 timg/jammy 1.4.3-1 amd64
 timgm6mb-soundfont/jammy,jammy 1.3-5 all
@@ -85784,8 +85785,8 @@ ublock-origin-doc/jammy,jammy 1.40.2+dfsg-1 all
 ubufox/jammy,jammy 3.4-0ubuntu1.17.10.1 all
 ubumirror/jammy,jammy 0.5 all
 ubuntu-advantage-desktop-daemon/jammy-updates,now 1.10~22.04.1 amd64 [installed,automatic]
-ubuntu-advantage-pro/jammy-updates,jammy-updates 31.2.3~22.04 all
-ubuntu-advantage-tools/jammy-updates,jammy-updates,now 31.2.3~22.04 all [installed]
+ubuntu-advantage-pro/jammy-updates,jammy-updates 32.3~22.04 all
+ubuntu-advantage-tools/jammy-updates,jammy-updates,now 32.3~22.04 all [installed]
 ubuntu-artwork/jammy,jammy 1:20.10-0ubuntu2 all
 ubuntu-budgie-desktop/jammy 0.94 amd64
 ubuntu-budgie-themes/jammy,jammy 0.14.4 all
@@ -85877,9 +85878,9 @@ ubuntu-packaging-guide-pdf-uk/jammy,jammy 1.0.4 all
 ubuntu-packaging-guide-pdf/jammy,jammy 1.0.4 all
 ubuntu-packaging-guide/jammy,jammy 1.0.4 all
 ubuntu-policy/jammy,jammy 3.8.2.0ubuntu3 all
-ubuntu-pro-auto-attach/jammy-updates,jammy-updates 31.2.3~22.04 all
-ubuntu-pro-client-l10n/jammy-updates,now 31.2.3~22.04 amd64 [installed,automatic]
-ubuntu-pro-client/jammy-updates,now 31.2.3~22.04 amd64 [installed,automatic]
+ubuntu-pro-auto-attach/jammy-updates,jammy-updates 32.3~22.04 all
+ubuntu-pro-client-l10n/jammy-updates,now 32.3~22.04 amd64 [installed,automatic]
+ubuntu-pro-client/jammy-updates,now 32.3~22.04 amd64 [installed,automatic]
 ubuntu-raspi-settings/jammy,jammy 22.04.6 all
 ubuntu-recovery-bootloader/now 0.4.9~20.04ouagadougou20sutton5 all [residual-config]
 ubuntu-recovery/now 0.4.9~20.04ouagadougou20sutton5 all [residual-config]
@@ -86176,12 +86177,12 @@ unagi/jammy 0.3.4-1ubuntu4 amd64
 unalz/jammy 0.65-8 amd64
 unar/jammy 1.10.1-2build11 amd64
 unattended-upgrades/jammy,jammy,now 2.8ubuntu1 all [installed,automatic]
-unbound-anchor/jammy-updates,jammy-security 1.13.1-1ubuntu5.4 amd64
-unbound-anchor/jammy-updates,jammy-security 1.13.1-1ubuntu5.4 i386
-unbound-host/jammy-updates,jammy-security 1.13.1-1ubuntu5.4 amd64
-unbound-host/jammy-updates,jammy-security 1.13.1-1ubuntu5.4 i386
-unbound/jammy-updates,jammy-security 1.13.1-1ubuntu5.4 amd64
-unbound/jammy-updates,jammy-security 1.13.1-1ubuntu5.4 i386
+unbound-anchor/jammy-updates,jammy-security 1.13.1-1ubuntu5.5 amd64
+unbound-anchor/jammy-updates,jammy-security 1.13.1-1ubuntu5.5 i386
+unbound-host/jammy-updates,jammy-security 1.13.1-1ubuntu5.5 amd64
+unbound-host/jammy-updates,jammy-security 1.13.1-1ubuntu5.5 i386
+unbound/jammy-updates,jammy-security 1.13.1-1ubuntu5.5 amd64
+unbound/jammy-updates,jammy-security 1.13.1-1ubuntu5.5 i386
 unburden-home-dir-doc/jammy,jammy 0.4.1.3 all
 unburden-home-dir/jammy,jammy 0.4.1.3 all
 uncalled/jammy 2.2+ds1-1build1 amd64
@@ -86271,7 +86272,7 @@ unixodbc/jammy-updates,jammy-security 2.3.9-5ubuntu0.1 i386
 unknown-horizons/jammy,jammy 2019.1-4 all
 unlambda/jammy 0.1.4.2-6build3.1 amd64
 unmass/jammy 0.9-4build1 amd64
-uno-libs-private/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.4 amd64 [installed,automatic]
+uno-libs-private/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.5 amd64 [installed,automatic]
 unoconv/jammy,jammy 0.7-2ubuntu1 all
 unp/jammy,jammy 2.0~pre9 all
 unpaper/jammy 6.1-2build1 amd64
@@ -86308,8 +86309,8 @@ uqm-voice/jammy,jammy 0.6.0+deb1-6 all
 uqm/jammy 0.6.2.dfsg-9.7 amd64
 uranium-plugins/jammy,jammy 4.13.0-1 all
 uranium-tools/jammy,jammy 4.13.0-1 all
-ure-java/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.4 amd64
-ure/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.4 amd64 [installed,automatic]
+ure-java/jammy-updates,jammy-security 1:7.3.7-0ubuntu0.22.04.5 amd64
+ure/jammy-updates,jammy-security,now 1:7.3.7-0ubuntu0.22.04.5 amd64 [installed,automatic]
 urfkill/jammy 0.6.0~20150318.103828.5539c0d.1-0ubuntu9 amd64
 urjtag/jammy 0.10+r2007-1.2build2 amd64
 urlextractor/jammy,jammy 0.2.0-2 all
@@ -86627,22 +86628,22 @@ vim-addon-mw-utils/jammy,jammy 0.2-4 all
 vim-airline-themes/jammy,jammy 0+git.20180730-6e798f9-1.1 all
 vim-airline/jammy,jammy 0.11-1 all
 vim-ale/jammy,jammy 3.1.0-1 all
-vim-athena/jammy-updates,jammy-security 2:8.2.3995-1ubuntu2.16 amd64
-vim-athena/jammy-updates,jammy-security 2:8.2.3995-1ubuntu2.16 i386
+vim-athena/jammy-updates 2:8.2.3995-1ubuntu2.17 amd64
+vim-athena/jammy-updates 2:8.2.3995-1ubuntu2.17 i386
 vim-autopep8/jammy,jammy 1.2.0-2 all
 vim-bitbake/jammy,jammy 0~git20220408-1 all
 vim-command-t/jammy 5.0.2-5-g7147ba9-1build2 amd64
-vim-common/jammy-updates,jammy-updates,jammy-security,jammy-security,now 2:8.2.3995-1ubuntu2.16 all [installed]
+vim-common/jammy-updates,jammy-updates,now 2:8.2.3995-1ubuntu2.17 all [installed]
 vim-ctrlp/jammy,jammy 1.81-1 all
-vim-doc/jammy-updates,jammy-updates,jammy-security,jammy-security 2:8.2.3995-1ubuntu2.16 all
+vim-doc/jammy-updates,jammy-updates 2:8.2.3995-1ubuntu2.17 all
 vim-editorconfig/jammy,jammy 0.3.3+dfsg-2.1 all
 vim-fugitive/jammy,jammy 3.4-1 all
 vim-git-hub/jammy,jammy 2.1.3-1 all
 vim-gitgutter/jammy,jammy 0~20200414-2 all
-vim-gtk3/jammy-updates,jammy-security 2:8.2.3995-1ubuntu2.16 amd64
-vim-gtk3/jammy-updates,jammy-security 2:8.2.3995-1ubuntu2.16 i386
-vim-gtk/jammy-updates,jammy-updates,jammy-security,jammy-security 2:8.2.3995-1ubuntu2.16 all
-vim-gui-common/jammy-updates,jammy-updates,jammy-security,jammy-security 2:8.2.3995-1ubuntu2.16 all
+vim-gtk3/jammy-updates 2:8.2.3995-1ubuntu2.17 amd64
+vim-gtk3/jammy-updates 2:8.2.3995-1ubuntu2.17 i386
+vim-gtk/jammy-updates,jammy-updates 2:8.2.3995-1ubuntu2.17 all
+vim-gui-common/jammy-updates,jammy-updates 2:8.2.3995-1ubuntu2.17 all
 vim-haproxy/jammy-updates,jammy-updates 2.4.24-0ubuntu0.22.04.1 all
 vim-icinga2/jammy,jammy 2.13.2-1build2 all
 vim-julia/jammy,jammy 0.0~git20211208.e497299-1 all
@@ -86651,15 +86652,15 @@ vim-lastplace/jammy,jammy 3.1.1-2 all
 vim-latexsuite/jammy,jammy 1:1.10.0-1 all
 vim-ledger/jammy,jammy 1.2.0-2 all
 vim-migemo/jammy,jammy 1:1.2+gh0.20150404-7.1 all
-vim-nox/jammy-updates,jammy-security 2:8.2.3995-1ubuntu2.16 amd64
-vim-nox/jammy-updates,jammy-security 2:8.2.3995-1ubuntu2.16 i386
+vim-nox/jammy-updates 2:8.2.3995-1ubuntu2.17 amd64
+vim-nox/jammy-updates 2:8.2.3995-1ubuntu2.17 i386
 vim-pathogen/jammy,jammy 2.4-5 all
 vim-poke/jammy,jammy 2.1+dfsg-2 all
 vim-puppet/jammy,jammy 4~20181115+git4793b074-2 all
 vim-python-jedi/jammy,jammy 0.18.0-1 all
 vim-rails/jammy,jammy 4.5~20110829-2 all
 vim-redact-pass/jammy,jammy 1.7.4-5 all
-vim-runtime/jammy-updates,jammy-updates,jammy-security,jammy-security,now 2:8.2.3995-1ubuntu2.16 all [installed,automatic]
+vim-runtime/jammy-updates,jammy-updates,now 2:8.2.3995-1ubuntu2.17 all [installed,automatic]
 vim-scripts/jammy,jammy 20210124.2 all
 vim-snipmate/jammy,jammy 0.87-6 all
 vim-snippets/jammy,jammy 1.0.0-7 all
@@ -86670,8 +86671,8 @@ vim-syntax-docker/jammy-updates,jammy-updates,jammy-security,jammy-security 20.1
 vim-syntax-gtk/jammy,jammy 20110314-1.1 all
 vim-tabular/jammy,jammy 1.0-6 all
 vim-textobj-user/jammy,jammy 0.7.6-2 all
-vim-tiny/jammy-updates,jammy-security,now 2:8.2.3995-1ubuntu2.16 amd64 [installed]
-vim-tiny/jammy-updates,jammy-security 2:8.2.3995-1ubuntu2.16 i386
+vim-tiny/jammy-updates,now 2:8.2.3995-1ubuntu2.17 amd64 [installed]
+vim-tiny/jammy-updates 2:8.2.3995-1ubuntu2.17 i386
 vim-tjp/jammy,jammy 3.7.1-1 all
 vim-tlib/jammy,jammy 1.27-5 all
 vim-ultisnips/jammy,jammy 3.1-3.1 all
@@ -86680,8 +86681,8 @@ vim-vimerl-syntax/jammy,jammy 1.4.1+git20120509.89111c7-2.1 all
 vim-vimerl/jammy,jammy 1.4.1+git20120509.89111c7-2.1 all
 vim-voom/jammy,jammy 5.3-8 all
 vim-youcompleteme/jammy,jammy 0+20200825+git2afee9d+ds-2 all
-vim/jammy-updates,jammy-security,now 2:8.2.3995-1ubuntu2.16 amd64 [installed]
-vim/jammy-updates,jammy-security 2:8.2.3995-1ubuntu2.16 i386
+vim/jammy-updates,now 2:8.2.3995-1ubuntu2.17 amd64 [installed]
+vim/jammy-updates 2:8.2.3995-1ubuntu2.17 i386
 vinagre/jammy 3.22.0-8ubuntu2 amd64
 vinetto/jammy,jammy 1:0.8.0-3 all
 vino/jammy 3.22.0-6ubuntu3 amd64
@@ -87047,8 +87048,8 @@ webhook/jammy 2.8.0-3 amd64
 webhttrack-common/jammy,jammy 3.49.2-1.1build1 all
 webhttrack/jammy 3.49.2-1.1build1 amd64
 webissues/jammy 1.1.5-8 amd64
-webkit2gtk-driver/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 amd64
-webkit2gtk-driver/jammy-updates,jammy-security 2.44.0-0ubuntu0.22.04.1 i386
+webkit2gtk-driver/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 amd64
+webkit2gtk-driver/jammy-updates,jammy-security 2.44.2-0ubuntu0.22.04.1 i386
 weblint-perl/jammy,jammy 2.32+dfsg-1.1 all
 webmagick/jammy,jammy 2.02-11.1 all
 weborf-daemon/jammy,jammy 0.17-4build1 all
@@ -87188,14 +87189,14 @@ window-size/jammy,jammy 1.1.1+~1.1.0-1 all
 windowlab/jammy 1.40-3 amd64
 windows-el/jammy,jammy 2.55-1 all
 wine-binfmt/jammy,jammy 6.0.3~repack-1 all
-wine-devel-amd64/jammy 9.9~jammy-1 amd64
-wine-devel-dbg/jammy 9.9~jammy-1 amd64
-wine-devel-dbg/jammy 9.9~jammy-1 i386
-wine-devel-dev/jammy 9.9~jammy-1 amd64
-wine-devel-dev/jammy 9.9~jammy-1 i386
-wine-devel-i386/jammy 9.9~jammy-1 i386
-wine-devel/jammy 9.9~jammy-1 amd64
-wine-devel/jammy 9.9~jammy-1 i386
+wine-devel-amd64/jammy 9.10~jammy-1 amd64
+wine-devel-dbg/jammy 9.10~jammy-1 amd64
+wine-devel-dbg/jammy 9.10~jammy-1 i386
+wine-devel-dev/jammy 9.10~jammy-1 amd64
+wine-devel-dev/jammy 9.10~jammy-1 i386
+wine-devel-i386/jammy 9.10~jammy-1 i386
+wine-devel/jammy 9.10~jammy-1 amd64
+wine-devel/jammy 9.10~jammy-1 i386
 wine-development/jammy,jammy 6.0+repack-1ubuntu1 all
 wine-stable-amd64/jammy,now 9.0.0.0~jammy-1 amd64 [installed,automatic]
 wine-stable-dbg/jammy 9.0.0.0~jammy-1 amd64
@@ -87205,14 +87206,14 @@ wine-stable-dev/jammy 9.0.0.0~jammy-1 i386
 wine-stable-i386/jammy,now 9.0.0.0~jammy-1 i386 [installed,automatic]
 wine-stable/jammy,now 9.0.0.0~jammy-1 amd64 [installed,automatic]
 wine-stable/jammy 9.0.0.0~jammy-1 i386
-wine-staging-amd64/jammy 9.9~jammy-1 amd64
-wine-staging-dbg/jammy 9.9~jammy-1 amd64
-wine-staging-dbg/jammy 9.9~jammy-1 i386
-wine-staging-dev/jammy 9.9~jammy-1 amd64
-wine-staging-dev/jammy 9.9~jammy-1 i386
-wine-staging-i386/jammy 9.9~jammy-1 i386
-wine-staging/jammy 9.9~jammy-1 amd64
-wine-staging/jammy 9.9~jammy-1 i386
+wine-staging-amd64/jammy 9.10~jammy-1 amd64
+wine-staging-dbg/jammy 9.10~jammy-1 amd64
+wine-staging-dbg/jammy 9.10~jammy-1 i386
+wine-staging-dev/jammy 9.10~jammy-1 amd64
+wine-staging-dev/jammy 9.10~jammy-1 i386
+wine-staging-i386/jammy 9.10~jammy-1 i386
+wine-staging/jammy 9.10~jammy-1 amd64
+wine-staging/jammy 9.10~jammy-1 i386
 wine32-development-preloader/jammy 6.0+repack-1ubuntu1 i386
 wine32-development-tools/jammy 6.0+repack-1ubuntu1 i386
 wine32-development/jammy 6.0+repack-1ubuntu1 i386
@@ -87226,12 +87227,12 @@ wine64-preloader/jammy 6.0.3~repack-1 amd64
 wine64-tools/jammy 6.0.3~repack-1 amd64
 wine64/jammy 6.0.3~repack-1 amd64
 wine/jammy,jammy 6.0.3~repack-1 all
-winehq-devel/jammy 9.9~jammy-1 amd64
-winehq-devel/jammy 9.9~jammy-1 i386
+winehq-devel/jammy 9.10~jammy-1 amd64
+winehq-devel/jammy 9.10~jammy-1 i386
 winehq-stable/jammy,now 9.0.0.0~jammy-1 amd64 [installed]
 winehq-stable/jammy 9.0.0.0~jammy-1 i386
-winehq-staging/jammy 9.9~jammy-1 amd64
-winehq-staging/jammy 9.9~jammy-1 i386
+winehq-staging/jammy 9.10~jammy-1 amd64
+winehq-staging/jammy 9.10~jammy-1 i386
 winetricks/jammy,jammy 0.0+20210206-2 all
 winff-data/jammy,jammy 1.5.5-8build1 all
 winff-doc/jammy,jammy 1.5.5-8build1 all
@@ -88295,8 +88296,8 @@ xwit/jammy 3.4-16 amd64
 xwpe/jammy 1.5.30a-3 amd64
 xwrited/jammy 3-1 amd64
 xwrits/jammy 2.21-6.1build1 amd64
-xxd/jammy-updates,jammy-security,now 2:8.2.3995-1ubuntu2.16 amd64 [installed]
-xxd/jammy-updates,jammy-security 2:8.2.3995-1ubuntu2.16 i386
+xxd/jammy-updates,now 2:8.2.3995-1ubuntu2.17 amd64 [installed]
+xxd/jammy-updates 2:8.2.3995-1ubuntu2.17 i386
 xxdiff-scripts/jammy,jammy 1:5.0~b1+git20211103+dfsg-1 all
 xxdiff/jammy 1:5.0~b1+git20211103+dfsg-1 amd64
 xxhash/jammy 0.8.1-1 amd64
