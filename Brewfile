@@ -27,6 +27,8 @@ brew "docker-machine"
 brew "docker-buildx"
 brew "colima"
 brew "pipx"
+brew "pandoc"
+brew "librsvg"
 
 # Casks
 cask "alfred"
@@ -34,3 +36,4 @@ cask "gpg-suite"
 cask "beekeeper-studio"
 cask "tomighty"
 cask "google-cloud-sdk"
+cask "basictex"
