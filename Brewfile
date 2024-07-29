@@ -22,12 +22,8 @@ brew "k9s"
 brew "llm"
 brew "zsh-syntax-highlighting"
 brew "mise"
-brew "docker"
-brew "docker-machine"
-brew "docker-buildx"
 brew "pipx"
 brew "pandoc"
-brew "librsvg"
 
 # Casks
 cask "alfred"
