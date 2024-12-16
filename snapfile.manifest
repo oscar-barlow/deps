@@ -24,5 +24,5 @@ snap-store                 41.3-72-g80e7130            1216   latest/stable/… 
 snapd                      2.66.1                      23258  latest/stable    canonical**       snapd
 snapd-desktop-integration  0.9                         253    latest/stable/…  canonical**       -
 spotify                    1.2.50.335.g5e2860a8        81     latest/stable    spotify**         -
-thunderbird                128.5.1esr-1                593    latest/stable    canonical**       -
+thunderbird                128.5.2esr-1                601    latest/stable    canonical**       -
 whatsdesk                  0.3.8                       28     latest/stable    zerkc             -
