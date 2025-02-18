@@ -5,3 +5,9 @@ org.videolan.VLC
 io.beekeeperstudio.Studio
 com.ktechpit.whatsie
 io.gitlab.stone_kingdoms.StoneKingdoms
+com.ktechpit.torrhunt
+org.gimp.GIMP
+com.getpostman.Postman
+com.calibre_ebook.calibre
+com.slack.Slack
+tv.plex.PlexDesktop
