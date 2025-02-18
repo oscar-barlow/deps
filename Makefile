@@ -14,17 +14,17 @@ upgrade:
 	sudo apt-get upgrade --yes
 	sudo apt list > aptfile.manifest
 
-.PHONY: snap-install
-snap-install: snap-refresh
-	cat snapfile.txt | xargs sudo snap install
-	sudo snap list > snapfile.manifest
+.PHONY: flatpak-install
+flatpak-install: 
+	cat flatpakfile.txt | xargs flatpak install -y 
+	flatpak list > flatpak.manifest
 
-.PHONY: snap-refresh
-snap-refresh:
-	sudo snap refresh
-	sudo snap list > snapfile.manifest
+.PHONY: flatpak-update
+flatpak-update:
+	cat flatpakfile.txt | xargs flatpak update -y 
+	flatpak list > flatpak.manifest
 
 .PHONY: manifest
 manifest:
 	sudo apt list > aptfile.manifest
-	sudo snap list > snapfile.manifest
+	flatpak list > flatpak.manifest

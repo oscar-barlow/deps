@@ -16,6 +16,7 @@ yarn
 fuse
 libfuse2
 xdg-desktop-portal-gtk
+flatpak
 
 # Terraform
 gnome-shell-pomodoro

@@ -1,0 +1,7 @@
+com.spotify.Client
+com.brave.Browser
+md.obsidian.Obsidian
+org.videolan.VLC
+io.beekeeperstudio.Studio
+com.visualstudio.code-oss
+com.ktechpit.whatsie
