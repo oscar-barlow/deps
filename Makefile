@@ -16,12 +16,12 @@ upgrade:
 
 .PHONY: flatpak-install
 flatpak-install: 
-	cat flatpakfile.txt | xargs flatpak install -y 
+	cat flatpakfile.txt | xargs flatpak install -y --noninteractive 
 	flatpak list > flatpak.manifest
 
 .PHONY: flatpak-update
 flatpak-update:
-	cat flatpakfile.txt | xargs flatpak update -y 
+	cat flatpakfile.txt | xargs flatpak update -y --noninteractive
 	flatpak list > flatpak.manifest
 
 .PHONY: manifest
