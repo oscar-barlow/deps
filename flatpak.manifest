@@ -1,13 +1,14 @@
-Brave	com.brave.Browser	1.75.178	stable	system
+Brave	com.brave.Browser	1.75.180	stable	system
 calibre	com.calibre_ebook.calibre	7.26.0	stable	system
-Postman	com.getpostman.Postman	11.33.0	stable	system
+Postman	com.getpostman.Postman	11.33.4	stable	system
+Foliate	com.github.johnfactotum.Foliate	3.2.1	stable	system
 Torrhunt	com.ktechpit.torrhunt	1.6	stable	system
 Whatsie	com.ktechpit.whatsie	4.16.3	stable	system
 Slack	com.slack.Slack	4.41.105	stable	system
 Spotify	com.spotify.Client	1.2.52.442.g01893f92	stable	system
 Beekeeper Studio	io.beekeeperstudio.Studio	5.0.9	stable	system
 Stone Kingdoms	io.gitlab.stone_kingdoms.StoneKingdoms	0.6.1	stable	system
-Obsidian	md.obsidian.Obsidian	1.8.4	stable	system
+Obsidian	md.obsidian.Obsidian	1.8.7	stable	system
 Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-23.08.28	23.08	system
 Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-24.08.11	24.08	system
 Mesa	org.freedesktop.Platform.GL.default	24.0.9	22.08	system
@@ -24,6 +25,7 @@ openh264	org.freedesktop.Platform.openh264	2.4.1	2.4.1	system
 Freedesktop SDK	org.freedesktop.Sdk	freedesktop-sdk-24.08.11	24.08	system
 GNU Image Manipulation Program	org.gimp.GIMP	2.10.38	stable	system
 GNOME Application Platform version 46	org.gnome.Platform		46	system
+GNOME Application Platform version 47	org.gnome.Platform		47	system
 Yaru Gtk Theme	org.gtk.Gtk3theme.Yaru		3.22	system
 KDE Application Platform	org.kde.Platform		5.15-22.08	system
 KDE Application Platform	org.kde.Platform		5.15-24.08	system
