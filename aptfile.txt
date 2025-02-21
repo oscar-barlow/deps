@@ -6,6 +6,9 @@ jq
 silversearcher-ag
 rename
 net-tools
+pass
+gnupg2
+backblaze-b2
 
 # Security
 libpam-u2f
@@ -18,3 +21,7 @@ docker-ce
 docker-ce-cli
 containerd.io
 docker-compose
+
+# Postgres
+postgresql
+postgresql-contrib
