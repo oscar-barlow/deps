@@ -35,4 +35,3 @@ QAdwaitaDecorations	org.kde.WaylandDecoration.QAdwaitaDecorations		5.15-22.08	sy
 QAdwaitaDecorations	org.kde.WaylandDecoration.QAdwaitaDecorations		5.15-24.08	system
 QGnomePlatform-decoration	org.kde.WaylandDecoration.QGnomePlatform-decoration		5.15-22.08	system
 VLC	org.videolan.VLC	3.0.21	stable	system
-Plex	tv.plex.PlexDesktop	1.108.1	stable	system

@@ -3302,6 +3302,7 @@ coco-java/noble,noble 20110419-4ubuntu1 all
 cod-tools/noble 3.8.1+dfsg-1build3 amd64
 coda/noble 2.25.1-1build2 amd64
 code2html/noble,noble 0.9.1-5 all
+code/now 1.97.2-1739406807 amd64 [installed,local]
 codeblocks-common/noble,noble 20.03+svn13046-0.3build2 all
 codeblocks-contrib/noble 20.03+svn13046-0.3build2 amd64
 codeblocks-dev/noble 20.03+svn13046-0.3build2 amd64
@@ -12191,10 +12192,10 @@ gir1.2-ido3-0.1/noble 13.10.0+22.10.20221007-0ubuntu3 amd64
 gir1.2-infinity-0.7/noble 0.7.2-2.1build2 amd64
 gir1.2-inputpad-1.1/noble 1.0.99.20210817-2build2 amd64
 gir1.2-itl-1.0/noble 0.3-2build2 amd64
-gir1.2-javascriptcoregtk-4.1/noble-updates,noble-security,now 2.46.5-0ubuntu0.24.04.1 amd64 [installed,automatic]
-gir1.2-javascriptcoregtk-4.1/noble-updates,noble-security 2.46.5-0ubuntu0.24.04.1 i386
-gir1.2-javascriptcoregtk-6.0/noble-updates,noble-security,now 2.46.5-0ubuntu0.24.04.1 amd64 [installed,automatic]
-gir1.2-javascriptcoregtk-6.0/noble-updates,noble-security 2.46.5-0ubuntu0.24.04.1 i386
+gir1.2-javascriptcoregtk-4.1/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 amd64 [upgradable from: 2.46.5-0ubuntu0.24.04.1]
+gir1.2-javascriptcoregtk-4.1/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 i386
+gir1.2-javascriptcoregtk-6.0/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 amd64 [upgradable from: 2.46.5-0ubuntu0.24.04.1]
+gir1.2-javascriptcoregtk-6.0/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 i386
 gir1.2-jcat-1.0/noble 0.2.0-2build3 amd64
 gir1.2-json-1.0/noble 1.8.0-2build2 amd64
 gir1.2-json-1.0/noble 1.8.0-2build2 i386
@@ -12316,10 +12317,10 @@ gir1.2-v-sim-1.0/noble 3.7.2-9build3 amd64
 gir1.2-vips-8.0/noble 8.15.1-1.1build4 amd64
 gir1.2-vte-2.91/noble-updates,noble-security,now 0.76.0-1ubuntu0.1 amd64 [installed,automatic]
 gir1.2-vte-3.91/noble-updates,noble-security 0.76.0-1ubuntu0.1 amd64
-gir1.2-webkit-6.0/noble-updates,noble-security,now 2.46.5-0ubuntu0.24.04.1 amd64 [installed,automatic]
-gir1.2-webkit-6.0/noble-updates,noble-security 2.46.5-0ubuntu0.24.04.1 i386
-gir1.2-webkit2-4.1/noble-updates,noble-security,now 2.46.5-0ubuntu0.24.04.1 amd64 [installed,automatic]
-gir1.2-webkit2-4.1/noble-updates,noble-security 2.46.5-0ubuntu0.24.04.1 i386
+gir1.2-webkit-6.0/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 amd64 [upgradable from: 2.46.5-0ubuntu0.24.04.1]
+gir1.2-webkit-6.0/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 i386
+gir1.2-webkit2-4.1/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 amd64 [upgradable from: 2.46.5-0ubuntu0.24.04.1]
+gir1.2-webkit2-4.1/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 i386
 gir1.2-wnck-3.0/noble,now 43.0-3build4 amd64 [installed,automatic]
 gir1.2-wnck-3.0/noble 43.0-3build4 i386
 gir1.2-wp-0.4/noble 0.4.17-1ubuntu4 amd64
@@ -13483,9 +13484,9 @@ gnustep-icons/noble,noble 1.0-10 all
 gnustep-make-doc/noble,noble 2.9.1-3build1 all
 gnustep-make/noble,noble 2.9.1-3build1 all
 gnustep/noble,noble 7.10 all
-gnutls-bin/noble-updates 3.8.3-1.1ubuntu3.2 amd64
-gnutls-bin/noble-updates 3.8.3-1.1ubuntu3.2 i386
-gnutls-doc/noble-updates,noble-updates 3.8.3-1.1ubuntu3.2 all
+gnutls-bin/noble-updates,noble-security 3.8.3-1.1ubuntu3.3 amd64
+gnutls-bin/noble-updates,noble-security 3.8.3-1.1ubuntu3.3 i386
+gnutls-doc/noble-updates,noble-updates,noble-security,noble-security 3.8.3-1.1ubuntu3.3 all
 go-bindata/noble-updates,noble-security 3.0.7+git20151023.72.a0ff256-4ubuntu0.24.04.2 amd64
 go-bluetooth/noble-updates,noble-security 5.60-3ubuntu0.24.04.2 amd64
 go-cowsql/noble-updates,noble-security 1.22.0-2ubuntu0.24.04.2 amd64
@@ -18154,7 +18155,7 @@ idesk/noble 0.7.5-8build2 amd64
 ideviceinstaller/noble 1.1.1-1build4 amd64
 idevicerestore/noble 1.0.0-3build5 amd64
 idl-font-lock-el/noble,noble 1.5-11 all
-idle-python3.12/noble-updates,noble-updates,noble-security,noble-security 3.12.3-1ubuntu0.4 all
+idle-python3.12/noble-updates,noble-updates,noble-security,noble-security 3.12.3-1ubuntu0.5 all
 idle3-tools/noble 0.9.1-7 amd64
 idle3/noble-updates,noble-updates 3.12.3-0ubuntu2 all
 idle/noble-updates,noble-updates 3.12.3-0ubuntu2 all
@@ -19805,8 +19806,8 @@ lammps-data/noble,noble 20240207+dfsg-1.1build3 all
 lammps-doc/noble,noble 20240207+dfsg-1.1build3 all
 lammps-examples/noble,noble 20240207+dfsg-1.1build3 all
 lammps/noble 20240207+dfsg-1.1build3 amd64
-landscape-client/noble-updates 24.02-0ubuntu5.1 amd64
-landscape-common/noble-updates 24.02-0ubuntu5.1 amd64
+landscape-client/noble-updates 24.02-0ubuntu5.2 amd64
+landscape-common/noble-updates 24.02-0ubuntu5.2 amd64
 langford-dkms/noble,noble 0.0.20130228-6.3 all
 langford-utils/noble 0.0.20130228-6.3 amd64
 language-pack-af-base/noble-updates,noble-updates 1:24.04+20250130 all
@@ -20322,8 +20323,8 @@ ldap-account-manager/noble,noble 8.5-1 all
 ldap-auth-client/noble,noble 0.5.4 all
 ldap-auth-config/noble,noble 0.5.4 all
 ldap-git-backup/noble,noble 1.0.8-1.1 all
-ldap-utils/noble-updates,now 2.6.7+dfsg-1~exp1ubuntu8.1 amd64 [installed,automatic]
-ldap-utils/noble-updates 2.6.7+dfsg-1~exp1ubuntu8.1 i386
+ldap-utils/noble-updates 2.6.7+dfsg-1~exp1ubuntu8.2 amd64 [upgradable from: 2.6.7+dfsg-1~exp1ubuntu8.1]
+ldap-utils/noble-updates 2.6.7+dfsg-1~exp1ubuntu8.2 i386
 ldap2dns/noble 0.3.1-5build1 amd64
 ldap2zone/noble 0.2-12build1 amd64
 ldapscripts/noble,noble 2.0.8-2 all
@@ -33187,14 +33188,14 @@ libgnustep-dl2-0d/noble 0.12.0-16build2 amd64
 libgnustep-dl2-dev/noble 0.12.0-16build2 amd64
 libgnustep-gui-dev/noble 0.30.0-3build8 amd64
 libgnustep-gui0.30/noble 0.30.0-3build8 amd64
-libgnutls-dane0t64/noble-updates,now 3.8.3-1.1ubuntu3.2 amd64 [installed,automatic]
-libgnutls-dane0t64/noble-updates 3.8.3-1.1ubuntu3.2 i386
-libgnutls-openssl27t64/noble-updates,now 3.8.3-1.1ubuntu3.2 amd64 [installed,automatic]
-libgnutls-openssl27t64/noble-updates 3.8.3-1.1ubuntu3.2 i386
-libgnutls28-dev/noble-updates,now 3.8.3-1.1ubuntu3.2 amd64 [installed,automatic]
-libgnutls28-dev/noble-updates 3.8.3-1.1ubuntu3.2 i386
-libgnutls30t64/noble-updates,now 3.8.3-1.1ubuntu3.2 amd64 [installed]
-libgnutls30t64/noble-updates,now 3.8.3-1.1ubuntu3.2 i386 [installed,automatic]
+libgnutls-dane0t64/noble-updates,noble-security 3.8.3-1.1ubuntu3.3 amd64 [upgradable from: 3.8.3-1.1ubuntu3.2]
+libgnutls-dane0t64/noble-updates,noble-security 3.8.3-1.1ubuntu3.3 i386
+libgnutls-openssl27t64/noble-updates,noble-security 3.8.3-1.1ubuntu3.3 amd64 [upgradable from: 3.8.3-1.1ubuntu3.2]
+libgnutls-openssl27t64/noble-updates,noble-security 3.8.3-1.1ubuntu3.3 i386
+libgnutls28-dev/noble-updates,noble-security 3.8.3-1.1ubuntu3.3 amd64 [upgradable from: 3.8.3-1.1ubuntu3.2]
+libgnutls28-dev/noble-updates,noble-security 3.8.3-1.1ubuntu3.3 i386
+libgnutls30t64/noble-updates,noble-security 3.8.3-1.1ubuntu3.3 amd64 [upgradable from: 3.8.3-1.1ubuntu3.2]
+libgnutls30t64/noble-updates,noble-security 3.8.3-1.1ubuntu3.3 i386 [upgradable from: 3.8.3-1.1ubuntu3.2]
 libgo-10-dev-alpha-cross/noble,noble 10.5.0-4ubuntu2cross1 all
 libgo-10-dev-amd64-cross/noble,noble 10.5.0-4ubuntu2cross1 all
 libgo-10-dev-arm64-cross/noble,noble 10.5.0-4ubuntu2cross1 all
@@ -35652,17 +35653,17 @@ libjavascript-minifier-perl/noble,noble 1.16-2 all
 libjavascript-minifier-xs-perl/noble 0.15-1build5 amd64
 libjavascript-packer-perl/noble,noble 2.11+dfsg-2 all
 libjavascript-rpc-perl/noble,noble 0.10-2 all
-libjavascriptcoregtk-4.0-bin/noble-updates,noble-updates,noble-security,noble-security 2.46.5-0ubuntu0.24.04.1 all
-libjavascriptcoregtk-4.1-0/noble-updates,noble-security,now 2.46.5-0ubuntu0.24.04.1 amd64 [installed,automatic]
-libjavascriptcoregtk-4.1-0/noble-updates,noble-security 2.46.5-0ubuntu0.24.04.1 i386
-libjavascriptcoregtk-4.1-dev/noble-updates,noble-security 2.46.5-0ubuntu0.24.04.1 amd64
-libjavascriptcoregtk-4.1-dev/noble-updates,noble-security 2.46.5-0ubuntu0.24.04.1 i386
-libjavascriptcoregtk-6.0-1/noble-updates,noble-security,now 2.46.5-0ubuntu0.24.04.1 amd64 [installed,automatic]
-libjavascriptcoregtk-6.0-1/noble-updates,noble-security 2.46.5-0ubuntu0.24.04.1 i386
-libjavascriptcoregtk-6.0-dev/noble-updates,noble-security 2.46.5-0ubuntu0.24.04.1 amd64
-libjavascriptcoregtk-6.0-dev/noble-updates,noble-security 2.46.5-0ubuntu0.24.04.1 i386
-libjavascriptcoregtk-bin/noble-updates,noble-security 2.46.5-0ubuntu0.24.04.1 amd64
-libjavascriptcoregtk-bin/noble-updates,noble-security 2.46.5-0ubuntu0.24.04.1 i386
+libjavascriptcoregtk-4.0-bin/noble-updates,noble-updates,noble-security,noble-security 2.46.6-0ubuntu0.24.04.1 all
+libjavascriptcoregtk-4.1-0/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 amd64 [upgradable from: 2.46.5-0ubuntu0.24.04.1]
+libjavascriptcoregtk-4.1-0/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 i386
+libjavascriptcoregtk-4.1-dev/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 amd64
+libjavascriptcoregtk-4.1-dev/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 i386
+libjavascriptcoregtk-6.0-1/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 amd64 [upgradable from: 2.46.5-0ubuntu0.24.04.1]
+libjavascriptcoregtk-6.0-1/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 i386
+libjavascriptcoregtk-6.0-dev/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 amd64
+libjavascriptcoregtk-6.0-dev/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 i386
+libjavascriptcoregtk-bin/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 amd64
+libjavascriptcoregtk-bin/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 i386
 libjavassist-java-doc/noble,noble 1:3.27.0-1 all
 libjavassist-java/noble,noble 1:3.27.0-1 all
 libjavatuples-java/noble,noble 1.2-2 all
@@ -37325,14 +37326,14 @@ libldacbt-enc-dev/noble 2.0.2.3+git20200429+ed310a0-4ubuntu2 amd64
 libldacbt-enc-dev/noble 2.0.2.3+git20200429+ed310a0-4ubuntu2 i386
 libldacbt-enc2/noble,now 2.0.2.3+git20200429+ed310a0-4ubuntu2 amd64 [installed,automatic]
 libldacbt-enc2/noble 2.0.2.3+git20200429+ed310a0-4ubuntu2 i386
-libldap-common/noble-updates,noble-updates,now 2.6.7+dfsg-1~exp1ubuntu8.1 all [installed]
-libldap-dev/noble-updates 2.6.7+dfsg-1~exp1ubuntu8.1 amd64
-libldap-dev/noble-updates 2.6.7+dfsg-1~exp1ubuntu8.1 i386
+libldap-common/noble-updates,noble-updates 2.6.7+dfsg-1~exp1ubuntu8.2 all [upgradable from: 2.6.7+dfsg-1~exp1ubuntu8.1]
+libldap-dev/noble-updates 2.6.7+dfsg-1~exp1ubuntu8.2 amd64
+libldap-dev/noble-updates 2.6.7+dfsg-1~exp1ubuntu8.2 i386
 libldap-java/noble,noble 5.5.0+dfsg1-1 all
 libldap-ocaml-dev/noble 2.4.2-5build1 amd64
-libldap2-dev/noble-updates,noble-updates 2.6.7+dfsg-1~exp1ubuntu8.1 all
-libldap2/noble-updates,now 2.6.7+dfsg-1~exp1ubuntu8.1 amd64 [installed,automatic]
-libldap2/noble-updates,now 2.6.7+dfsg-1~exp1ubuntu8.1 i386 [installed,automatic]
+libldap2-dev/noble-updates,noble-updates 2.6.7+dfsg-1~exp1ubuntu8.2 all
+libldap2/noble-updates 2.6.7+dfsg-1~exp1ubuntu8.2 amd64 [upgradable from: 2.6.7+dfsg-1~exp1ubuntu8.1]
+libldap2/noble-updates 2.6.7+dfsg-1~exp1ubuntu8.2 i386 [upgradable from: 2.6.7+dfsg-1~exp1ubuntu8.1]
 libldaptive-java-doc/noble,noble 2.1.1+ds-1 all
 libldaptive-java/noble,noble 2.1.1+ds-1 all
 libldb-dev/noble 2:2.8.0+samba4.19.5+dfsg-4ubuntu9 amd64
@@ -43385,17 +43386,17 @@ libpython3-dev/noble-updates 3.12.3-0ubuntu2 amd64
 libpython3-dev/noble-updates 3.12.3-0ubuntu2 i386
 libpython3-stdlib/noble-updates,now 3.12.3-0ubuntu2 amd64 [installed]
 libpython3-stdlib/noble-updates 3.12.3-0ubuntu2 i386
-libpython3.12-dev/noble-updates,noble-security 3.12.3-1ubuntu0.4 amd64
-libpython3.12-dev/noble-updates,noble-security 3.12.3-1ubuntu0.4 i386
-libpython3.12-minimal/noble-updates,noble-security,now 3.12.3-1ubuntu0.4 amd64 [installed,automatic]
-libpython3.12-minimal/noble-updates,noble-security 3.12.3-1ubuntu0.4 i386
-libpython3.12-stdlib/noble-updates,noble-security,now 3.12.3-1ubuntu0.4 amd64 [installed,automatic]
-libpython3.12-stdlib/noble-updates,noble-security 3.12.3-1ubuntu0.4 i386
-libpython3.12-testsuite/noble-updates,noble-updates,noble-security,noble-security 3.12.3-1ubuntu0.4 all
-libpython3.12t64-dbg/noble-updates,noble-security 3.12.3-1ubuntu0.4 amd64
-libpython3.12t64-dbg/noble-updates,noble-security 3.12.3-1ubuntu0.4 i386
-libpython3.12t64/noble-updates,noble-security,now 3.12.3-1ubuntu0.4 amd64 [installed,automatic]
-libpython3.12t64/noble-updates,noble-security 3.12.3-1ubuntu0.4 i386
+libpython3.12-dev/noble-updates,noble-security 3.12.3-1ubuntu0.5 amd64
+libpython3.12-dev/noble-updates,noble-security 3.12.3-1ubuntu0.5 i386
+libpython3.12-minimal/noble-updates,noble-security 3.12.3-1ubuntu0.5 amd64 [upgradable from: 3.12.3-1ubuntu0.4]
+libpython3.12-minimal/noble-updates,noble-security 3.12.3-1ubuntu0.5 i386
+libpython3.12-stdlib/noble-updates,noble-security 3.12.3-1ubuntu0.5 amd64 [upgradable from: 3.12.3-1ubuntu0.4]
+libpython3.12-stdlib/noble-updates,noble-security 3.12.3-1ubuntu0.5 i386
+libpython3.12-testsuite/noble-updates,noble-updates,noble-security,noble-security 3.12.3-1ubuntu0.5 all
+libpython3.12t64-dbg/noble-updates,noble-security 3.12.3-1ubuntu0.5 amd64
+libpython3.12t64-dbg/noble-updates,noble-security 3.12.3-1ubuntu0.5 i386
+libpython3.12t64/noble-updates,noble-security 3.12.3-1ubuntu0.5 amd64 [upgradable from: 3.12.3-1ubuntu0.4]
+libpython3.12t64/noble-updates,noble-security 3.12.3-1ubuntu0.5 i386
 libpython3.8-minimal/now 3.8.10-0ubuntu1~20.04.8 amd64 [residual-config]
 libpyzy-1.0-0v5/noble 1.0.1-8build2 amd64
 libpyzy-dev/noble 1.0.1-8build2 amd64
@@ -48738,17 +48739,17 @@ libssh2-1-dev/noble 1.11.0-4.1build2 amd64
 libssh2-1-dev/noble 1.11.0-4.1build2 i386
 libssh2-1t64/noble 1.11.0-4.1build2 amd64
 libssh2-1t64/noble 1.11.0-4.1build2 i386
-libssl-dev/noble-updates,noble-security,now 3.0.13-0ubuntu3.4 amd64 [installed]
-libssl-dev/noble-updates,noble-security 3.0.13-0ubuntu3.4 i386
-libssl-doc/noble-updates,noble-updates,noble-security,noble-security 3.0.13-0ubuntu3.4 all
+libssl-dev/noble-updates,noble-security 3.0.13-0ubuntu3.5 amd64 [upgradable from: 3.0.13-0ubuntu3.4]
+libssl-dev/noble-updates,noble-security 3.0.13-0ubuntu3.5 i386
+libssl-doc/noble-updates,noble-updates,noble-security,noble-security 3.0.13-0ubuntu3.5 all
 libssl-ocaml-dev/noble 0.7.0-1build3 amd64
 libssl-ocaml/noble 0.7.0-1build3 amd64
 libssl-utils-clojure/noble,noble 3.5.3-1 all
 libssl1.1/now 1.1.1f-1ubuntu2.19 amd64 [installed,local]
 libssl3/now 3.0.2-0ubuntu1.18 amd64 [residual-config]
 libssl3/now 3.0.2-0ubuntu1.18 i386 [residual-config]
-libssl3t64/noble-updates,noble-security,now 3.0.13-0ubuntu3.4 amd64 [installed,automatic]
-libssl3t64/noble-updates,noble-security,now 3.0.13-0ubuntu3.4 i386 [installed,automatic]
+libssl3t64/noble-updates,noble-security 3.0.13-0ubuntu3.5 amd64 [upgradable from: 3.0.13-0ubuntu3.4]
+libssl3t64/noble-updates,noble-security 3.0.13-0ubuntu3.5 i386 [upgradable from: 3.0.13-0ubuntu3.4]
 libssm-bin/noble 1.4.0-2build1 amd64
 libssm-dev/noble 1.4.0-2build1 amd64
 libssm2/noble 1.4.0-2build1 amd64
@@ -49821,13 +49822,13 @@ libtask-kensho-xml-perl/noble,noble 0.41-2 all
 libtask-weaken-perl/noble,noble 1.06-2 all
 libtaskflow-cpp-dev/noble 3.6.0+ds-6 amd64
 libtaskmanager6/noble-updates 4:5.27.12-0ubuntu0.1 amd64
-libtasn1-6-dev/noble,now 4.19.0-3build1 amd64 [installed,automatic]
-libtasn1-6-dev/noble 4.19.0-3build1 i386
-libtasn1-6/noble,now 4.19.0-3build1 amd64 [installed]
-libtasn1-6/noble,now 4.19.0-3build1 i386 [installed,automatic]
-libtasn1-bin/noble 4.19.0-3build1 amd64
-libtasn1-bin/noble 4.19.0-3build1 i386
-libtasn1-doc/noble,noble,now 4.19.0-3build1 all [installed,automatic]
+libtasn1-6-dev/noble-updates,noble-security 4.19.0-3ubuntu0.24.04.1 amd64 [upgradable from: 4.19.0-3build1]
+libtasn1-6-dev/noble-updates,noble-security 4.19.0-3ubuntu0.24.04.1 i386
+libtasn1-6/noble-updates,noble-security 4.19.0-3ubuntu0.24.04.1 amd64 [upgradable from: 4.19.0-3build1]
+libtasn1-6/noble-updates,noble-security 4.19.0-3ubuntu0.24.04.1 i386 [upgradable from: 4.19.0-3build1]
+libtasn1-bin/noble-updates,noble-security 4.19.0-3ubuntu0.24.04.1 amd64
+libtasn1-bin/noble-updates,noble-security 4.19.0-3ubuntu0.24.04.1 i386
+libtasn1-doc/noble-updates,noble-updates,noble-security,noble-security 4.19.0-3ubuntu0.24.04.1 all [upgradable from: 4.19.0-3build1]
 libtbb-dev/noble 2021.11.0-2ubuntu2 amd64
 libtbb-doc/noble,noble 2021.11.0-2ubuntu2 all
 libtbb12/noble 2021.11.0-2ubuntu2 amd64
@@ -51828,16 +51829,16 @@ libwebcam0/noble 0.2.5-4build1 amd64
 libwebinject-perl/noble,noble 1.94-2 all
 libwebjars-locator-core-java/noble,noble 0.30-1.1 all
 libwebjars-locator-java/noble,noble 0.32-1.1 all
-libwebkit2gtk-4.0-doc/noble-updates,noble-updates,noble-security,noble-security 2.46.5-0ubuntu0.24.04.1 all
-libwebkit2gtk-4.1-0/noble-updates,noble-security,now 2.46.5-0ubuntu0.24.04.1 amd64 [installed,automatic]
-libwebkit2gtk-4.1-0/noble-updates,noble-security 2.46.5-0ubuntu0.24.04.1 i386
-libwebkit2gtk-4.1-dev/noble-updates,noble-security 2.46.5-0ubuntu0.24.04.1 amd64
-libwebkit2gtk-4.1-dev/noble-updates,noble-security 2.46.5-0ubuntu0.24.04.1 i386
-libwebkitgtk-6.0-4/noble-updates,noble-security,now 2.46.5-0ubuntu0.24.04.1 amd64 [installed,automatic]
-libwebkitgtk-6.0-4/noble-updates,noble-security 2.46.5-0ubuntu0.24.04.1 i386
-libwebkitgtk-6.0-dev/noble-updates,noble-security 2.46.5-0ubuntu0.24.04.1 amd64
-libwebkitgtk-6.0-dev/noble-updates,noble-security 2.46.5-0ubuntu0.24.04.1 i386
-libwebkitgtk-doc/noble-updates,noble-updates,noble-security,noble-security 2.46.5-0ubuntu0.24.04.1 all
+libwebkit2gtk-4.0-doc/noble-updates,noble-updates,noble-security,noble-security 2.46.6-0ubuntu0.24.04.1 all
+libwebkit2gtk-4.1-0/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 amd64 [upgradable from: 2.46.5-0ubuntu0.24.04.1]
+libwebkit2gtk-4.1-0/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 i386
+libwebkit2gtk-4.1-dev/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 amd64
+libwebkit2gtk-4.1-dev/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 i386
+libwebkitgtk-6.0-4/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 amd64 [upgradable from: 2.46.5-0ubuntu0.24.04.1]
+libwebkitgtk-6.0-4/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 i386
+libwebkitgtk-6.0-dev/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 amd64
+libwebkitgtk-6.0-dev/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 i386
+libwebkitgtk-doc/noble-updates,noble-updates,noble-security,noble-security 2.46.6-0ubuntu0.24.04.1 all
 libwebm-dev/noble 1.0.0.31-1build1 amd64
 libwebm-dev/noble 1.0.0.31-1build1 i386
 libwebm-tools/noble 1.0.0.31-1build1 amd64
@@ -65224,8 +65225,8 @@ openssh-sftp-server/noble-updates,noble-security 1:9.6p1-3ubuntu13.8 amd64
 openssh-sftp-server/noble-updates,noble-security 1:9.6p1-3ubuntu13.8 i386
 openssh-tests/noble-updates,noble-security 1:9.6p1-3ubuntu13.8 amd64
 openssl-pkcs11-sign-provider/noble 1.0.1-0ubuntu3 amd64
-openssl/noble-updates,noble-security,now 3.0.13-0ubuntu3.4 amd64 [installed]
-openssl/noble-updates,noble-security 3.0.13-0ubuntu3.4 i386
+openssl/noble-updates,noble-security 3.0.13-0ubuntu3.5 amd64 [upgradable from: 3.0.13-0ubuntu3.4]
+openssl/noble-updates,noble-security 3.0.13-0ubuntu3.5 i386
 openssn-data/noble,noble 1.4-4 all
 openssn/noble 1.4-4 amd64
 openstack-dashboard-common/noble-updates,noble-updates 4:24.0.0-0ubuntu1.2 all
@@ -73505,22 +73506,22 @@ python3-zvmcloudconnector/noble,noble 2.0.0~b1~git2019062011.4fc9142.really.1.4.
 python3-zxcvbn/noble,noble 4.4.28-3 all
 python3-zxing-cpp/noble 2.2.1-3 amd64
 python3-zzzeeksphinx/noble,noble 1.5.0-1 all
-python3.12-dbg/noble-updates,noble-security 3.12.3-1ubuntu0.4 amd64
-python3.12-dbg/noble-updates,noble-security 3.12.3-1ubuntu0.4 i386
-python3.12-dev/noble-updates,noble-security 3.12.3-1ubuntu0.4 amd64
-python3.12-dev/noble-updates,noble-security 3.12.3-1ubuntu0.4 i386
-python3.12-doc/noble-updates,noble-updates,noble-security,noble-security 3.12.3-1ubuntu0.4 all
-python3.12-examples/noble-updates,noble-updates,noble-security,noble-security 3.12.3-1ubuntu0.4 all
-python3.12-full/noble-updates,noble-security 3.12.3-1ubuntu0.4 amd64
-python3.12-full/noble-updates,noble-security 3.12.3-1ubuntu0.4 i386
-python3.12-minimal/noble-updates,noble-security,now 3.12.3-1ubuntu0.4 amd64 [installed,automatic]
-python3.12-minimal/noble-updates,noble-security 3.12.3-1ubuntu0.4 i386
-python3.12-nopie/noble-updates,noble-security 3.12.3-1ubuntu0.4 amd64
-python3.12-nopie/noble-updates,noble-security 3.12.3-1ubuntu0.4 i386
-python3.12-venv/noble-updates,noble-security 3.12.3-1ubuntu0.4 amd64
-python3.12-venv/noble-updates,noble-security 3.12.3-1ubuntu0.4 i386
-python3.12/noble-updates,noble-security,now 3.12.3-1ubuntu0.4 amd64 [installed,automatic]
-python3.12/noble-updates,noble-security 3.12.3-1ubuntu0.4 i386
+python3.12-dbg/noble-updates,noble-security 3.12.3-1ubuntu0.5 amd64
+python3.12-dbg/noble-updates,noble-security 3.12.3-1ubuntu0.5 i386
+python3.12-dev/noble-updates,noble-security 3.12.3-1ubuntu0.5 amd64
+python3.12-dev/noble-updates,noble-security 3.12.3-1ubuntu0.5 i386
+python3.12-doc/noble-updates,noble-updates,noble-security,noble-security 3.12.3-1ubuntu0.5 all
+python3.12-examples/noble-updates,noble-updates,noble-security,noble-security 3.12.3-1ubuntu0.5 all
+python3.12-full/noble-updates,noble-security 3.12.3-1ubuntu0.5 amd64
+python3.12-full/noble-updates,noble-security 3.12.3-1ubuntu0.5 i386
+python3.12-minimal/noble-updates,noble-security 3.12.3-1ubuntu0.5 amd64 [upgradable from: 3.12.3-1ubuntu0.4]
+python3.12-minimal/noble-updates,noble-security 3.12.3-1ubuntu0.5 i386
+python3.12-nopie/noble-updates,noble-security 3.12.3-1ubuntu0.5 amd64
+python3.12-nopie/noble-updates,noble-security 3.12.3-1ubuntu0.5 i386
+python3.12-venv/noble-updates,noble-security 3.12.3-1ubuntu0.5 amd64
+python3.12-venv/noble-updates,noble-security 3.12.3-1ubuntu0.5 i386
+python3.12/noble-updates,noble-security 3.12.3-1ubuntu0.5 amd64 [upgradable from: 3.12.3-1ubuntu0.4]
+python3.12/noble-updates,noble-security 3.12.3-1ubuntu0.5 i386
 python3.8-minimal/now 3.8.10-0ubuntu1~20.04.8 amd64 [residual-config]
 python3/noble-updates,now 3.12.3-0ubuntu2 amd64 [installed]
 python3/noble-updates 3.12.3-0ubuntu2 i386
@@ -78768,13 +78769,13 @@ slang-sqlite/noble 0.6.4-2 amd64
 slang-tess/noble,noble 0.3.0-11 all
 slang-wildcard/noble 0.5.0-8 amd64
 slang-xfig/noble 0.2.0~.138-1 amd64
-slapd-contrib/noble-updates 2.6.7+dfsg-1~exp1ubuntu8.1 amd64
-slapd-contrib/noble-updates 2.6.7+dfsg-1~exp1ubuntu8.1 i386
-slapd-smbk5pwd/noble-updates,noble-updates 2.6.7+dfsg-1~exp1ubuntu8.1 all
-slapd/noble-updates 2.6.7+dfsg-1~exp1ubuntu8.1 amd64
-slapd/noble-updates 2.6.7+dfsg-1~exp1ubuntu8.1 i386
-slapi-dev/noble-updates 2.6.7+dfsg-1~exp1ubuntu8.1 amd64
-slapi-dev/noble-updates 2.6.7+dfsg-1~exp1ubuntu8.1 i386
+slapd-contrib/noble-updates 2.6.7+dfsg-1~exp1ubuntu8.2 amd64
+slapd-contrib/noble-updates 2.6.7+dfsg-1~exp1ubuntu8.2 i386
+slapd-smbk5pwd/noble-updates,noble-updates 2.6.7+dfsg-1~exp1ubuntu8.2 all
+slapd/noble-updates 2.6.7+dfsg-1~exp1ubuntu8.2 amd64
+slapd/noble-updates 2.6.7+dfsg-1~exp1ubuntu8.2 i386
+slapi-dev/noble-updates 2.6.7+dfsg-1~exp1ubuntu8.2 amd64
+slapi-dev/noble-updates 2.6.7+dfsg-1~exp1ubuntu8.2 i386
 slapi-nis/noble 0.60.0-1build3 amd64
 slashem-common/noble 0.0.7E7F3-11build3 amd64
 slashem-sdl/noble 0.0.7E7F3-11build3 amd64
@@ -82217,8 +82218,8 @@ uvccapture/noble 0.5-5 amd64
 uvcdynctrl-data/noble,noble 0.2.5-4build1 all
 uvcdynctrl/noble 0.2.5-4build1 amd64
 uvicorn/noble,noble 0.27.1-1 all
-uvtool-libvirt/noble,noble 0~git183-0ubuntu1 all
-uvtool/noble,noble 0~git183-0ubuntu1 all
+uvtool-libvirt/noble-updates,noble-updates 0~git183-0ubuntu1.24.04.1 all
+uvtool/noble-updates,noble-updates 0~git183-0ubuntu1.24.04.1 all
 uvu/noble,noble 0.5.6+~cs4.10.4-3 all
 uw-mailutils/noble 8:2007f~dfsg-7build3 amd64
 uwsc/noble 2.7.15-2.2build1 amd64
@@ -82871,8 +82872,8 @@ webhook/noble-updates,noble-security 2.8.0-4ubuntu0.24.04.2 amd64
 webhttrack-common/noble,noble 3.49.5-1build2 all
 webhttrack/noble 3.49.5-1build2 amd64
 webissues/noble 1.1.5-10build2 amd64
-webkit2gtk-driver/noble-updates,noble-security 2.46.5-0ubuntu0.24.04.1 amd64
-webkit2gtk-driver/noble-updates,noble-security 2.46.5-0ubuntu0.24.04.1 i386
+webkit2gtk-driver/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 amd64
+webkit2gtk-driver/noble-updates,noble-security 2.46.6-0ubuntu0.24.04.1 i386
 weblint-perl/noble,noble 2.32+dfsg-1.1 all
 weborf-daemon/noble-updates,noble-updates 1.0-1ubuntu0.1 all
 weborf/noble-updates 1.0-1ubuntu0.1 amd64
