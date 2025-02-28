@@ -12,3 +12,4 @@ com.calibre_ebook.calibre
 com.slack.Slack
 com.github.johnfactotum.Foliate
 com.usebottles.bottles
+com.unicornsonlsd.finamp
