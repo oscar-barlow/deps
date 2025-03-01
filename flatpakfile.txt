@@ -13,3 +13,4 @@ com.slack.Slack
 com.github.johnfactotum.Foliate
 com.usebottles.bottles
 com.unicornsonlsd.finamp
+com.makemkv.MakeMKV
