@@ -9,6 +9,7 @@ net-tools
 pass
 gnupg2
 backblaze-b2
+ntfs-3g
 
 # Security
 libpam-u2f
