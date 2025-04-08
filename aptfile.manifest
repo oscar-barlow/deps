@@ -350,7 +350,7 @@ amoebax-data/noble,noble 0.2.1+dfsg-6 all
 amoebax/noble 0.2.1+dfsg-6 amd64
 amphetamine-data/noble,noble 0.8.7-16 all
 amphetamine/noble 0.8.10-21build1 amd64
-amphora-agent/noble-updates,noble-updates 1:14.0.0-0ubuntu1.2 all
+amphora-agent/noble-updates,noble-updates 1:14.0.0-0ubuntu1.3 all
 ample/noble 0.5.7-13 amd64
 ampr-ripd/noble 2.4.1-1 amd64
 amqp-specs/noble,noble 1-0r0-3.1 all
@@ -503,22 +503,22 @@ aom-tools/noble-updates,noble-security 3.8.2-2ubuntu0.1 i386
 aosd-cat/noble 0.2.7-1.1ubuntu4 amd64
 ap-utils/noble 1.5-5 amd64
 ap51-flash/noble 2022.1-1 amd64
-apache2-bin/noble-updates 2.4.58-1ubuntu8.5 amd64
-apache2-bin/noble-updates 2.4.58-1ubuntu8.5 i386
-apache2-data/noble-updates,noble-updates 2.4.58-1ubuntu8.5 all
-apache2-dev/noble-updates 2.4.58-1ubuntu8.5 amd64
-apache2-dev/noble-updates 2.4.58-1ubuntu8.5 i386
-apache2-doc/noble-updates,noble-updates 2.4.58-1ubuntu8.5 all
-apache2-ssl-dev/noble-updates 2.4.58-1ubuntu8.5 amd64
-apache2-ssl-dev/noble-updates 2.4.58-1ubuntu8.5 i386
-apache2-suexec-custom/noble-updates 2.4.58-1ubuntu8.5 amd64
-apache2-suexec-custom/noble-updates 2.4.58-1ubuntu8.5 i386
-apache2-suexec-pristine/noble-updates 2.4.58-1ubuntu8.5 amd64
-apache2-suexec-pristine/noble-updates 2.4.58-1ubuntu8.5 i386
-apache2-utils/noble-updates 2.4.58-1ubuntu8.5 amd64
-apache2-utils/noble-updates 2.4.58-1ubuntu8.5 i386
-apache2/noble-updates 2.4.58-1ubuntu8.5 amd64
-apache2/noble-updates 2.4.58-1ubuntu8.5 i386
+apache2-bin/noble-updates,noble-security 2.4.58-1ubuntu8.6 amd64
+apache2-bin/noble-updates,noble-security 2.4.58-1ubuntu8.6 i386
+apache2-data/noble-updates,noble-updates,noble-security,noble-security 2.4.58-1ubuntu8.6 all
+apache2-dev/noble-updates,noble-security 2.4.58-1ubuntu8.6 amd64
+apache2-dev/noble-updates,noble-security 2.4.58-1ubuntu8.6 i386
+apache2-doc/noble-updates,noble-updates,noble-security,noble-security 2.4.58-1ubuntu8.6 all
+apache2-ssl-dev/noble-updates,noble-security 2.4.58-1ubuntu8.6 amd64
+apache2-ssl-dev/noble-updates,noble-security 2.4.58-1ubuntu8.6 i386
+apache2-suexec-custom/noble-updates,noble-security 2.4.58-1ubuntu8.6 amd64
+apache2-suexec-custom/noble-updates,noble-security 2.4.58-1ubuntu8.6 i386
+apache2-suexec-pristine/noble-updates,noble-security 2.4.58-1ubuntu8.6 amd64
+apache2-suexec-pristine/noble-updates,noble-security 2.4.58-1ubuntu8.6 i386
+apache2-utils/noble-updates,noble-security 2.4.58-1ubuntu8.6 amd64
+apache2-utils/noble-updates,noble-security 2.4.58-1ubuntu8.6 i386
+apache2/noble-updates,noble-security 2.4.58-1ubuntu8.6 amd64
+apache2/noble-updates,noble-security 2.4.58-1ubuntu8.6 i386
 apacheds/noble,noble 2.0.0~M26-4 all
 apachetop/noble 0.23.2-2build3 amd64
 apbs-data/noble,noble 3.4.1-5.1ubuntu2 all
@@ -1544,72 +1544,72 @@ binkd/noble 1.1a-115-1build4 amd64
 bino/noble 2.1-1build2 amd64
 binpac/noble 0.59.0-1 amd64
 binstats/noble,noble 1.08-9.2 all
-binutils-aarch64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-aarch64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-aarch64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-aarch64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-alpha-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-alpha-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-alpha-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-alpha-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-arc-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-arc-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-arc-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-arc-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-arm-linux-gnueabi-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-arm-linux-gnueabi-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-arm-linux-gnueabi/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-arm-linux-gnueabi/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-arm-linux-gnueabihf-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-arm-linux-gnueabihf-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-arm-linux-gnueabihf/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-arm-linux-gnueabihf/noble-updates,noble-security 2.42-4ubuntu2.4 i386
+binutils-aarch64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-aarch64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-aarch64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-aarch64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-alpha-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-alpha-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-alpha-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-alpha-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-arc-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-arc-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-arc-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-arc-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-arm-linux-gnueabi-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-arm-linux-gnueabi-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-arm-linux-gnueabi/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-arm-linux-gnueabi/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-arm-linux-gnueabihf-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-arm-linux-gnueabihf-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-arm-linux-gnueabihf/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-arm-linux-gnueabihf/noble-updates,noble-security 2.42-4ubuntu2.5 i386
 binutils-arm-none-eabi/noble 2.42-1ubuntu1+23 amd64
 binutils-avr/noble 2.26.20160125+Atmel3.7.0-2 amd64
 binutils-bpf/noble 2.42-4ubuntu2+2 amd64
-binutils-common/noble-updates,noble-security,now 2.42-4ubuntu2.4 amd64 [installed,automatic]
-binutils-common/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-dev/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-dev/noble-updates,noble-security 2.42-4ubuntu2.4 i386
+binutils-common/noble-updates,noble-security 2.42-4ubuntu2.5 amd64 [upgradable from: 2.42-4ubuntu2.4]
+binutils-common/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-dev/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-dev/noble-updates,noble-security 2.42-4ubuntu2.5 i386
 binutils-djgpp/noble 2.35.1+dfsg-2 amd64
-binutils-doc/noble-updates,noble-updates,noble-security,noble-security 2.42-4ubuntu2.4 all
-binutils-for-build/noble-updates,noble-updates,noble-security,noble-security 2.42-4ubuntu2.4 all
-binutils-for-host/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-for-host/noble-updates,noble-security 2.42-4ubuntu2.4 i386
+binutils-doc/noble-updates,noble-updates,noble-security,noble-security 2.42-4ubuntu2.5 all
+binutils-for-build/noble-updates,noble-updates,noble-security,noble-security 2.42-4ubuntu2.5 all
+binutils-for-host/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-for-host/noble-updates,noble-security 2.42-4ubuntu2.5 i386
 binutils-h8300-hms/noble 2.16.1-10build1 amd64
-binutils-hppa-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-hppa-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-hppa-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-hppa-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-hppa64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-hppa64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-hppa64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-hppa64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-i686-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-i686-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-i686-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-i686-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-i686-kfreebsd-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-i686-kfreebsd-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-i686-kfreebsd-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-i686-kfreebsd-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-i686-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-i686-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-i686-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-i686-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-ia64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-ia64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-ia64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-ia64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-loongarch64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-loongarch64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-loongarch64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-loongarch64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 i386
+binutils-hppa-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-hppa-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-hppa-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-hppa-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-hppa64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-hppa64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-hppa64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-hppa64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-i686-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-i686-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-i686-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-i686-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-i686-kfreebsd-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-i686-kfreebsd-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-i686-kfreebsd-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-i686-kfreebsd-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-i686-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-i686-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-i686-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-i686-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-ia64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-ia64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-ia64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-ia64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-loongarch64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-loongarch64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-loongarch64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-loongarch64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 i386
 binutils-m68hc1x/noble 1:2.40+3.5.0 amd64
-binutils-m68k-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-m68k-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-m68k-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-m68k-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 i386
+binutils-m68k-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-m68k-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-m68k-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-m68k-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 i386
 binutils-mingw-w64-i686/noble 2.41.90.20240122-1ubuntu1+11.4 amd64
 binutils-mingw-w64-i686/noble 2.41.90.20240122-1ubuntu1+11.4 i386
 binutils-mingw-w64-x86-64/noble 2.41.90.20240122-1ubuntu1+11.4 amd64
@@ -1640,64 +1640,64 @@ binutils-mipsisa64r6el-linux-gnuabi64/noble 2.42-2ubuntu1cross5 amd64
 binutils-mipsisa64r6el-linux-gnuabin32-dbg/noble 2.42-2ubuntu1cross5 amd64
 binutils-mipsisa64r6el-linux-gnuabin32/noble 2.42-2ubuntu1cross5 amd64
 binutils-msp430/noble 2.40.50~ti1ubuntu1 amd64
-binutils-multiarch-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-multiarch-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-multiarch-dev/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-multiarch-dev/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-multiarch/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-multiarch/noble-updates,noble-security 2.42-4ubuntu2.4 i386
+binutils-multiarch-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-multiarch-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-multiarch-dev/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-multiarch-dev/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-multiarch/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-multiarch/noble-updates,noble-security 2.42-4ubuntu2.5 i386
 binutils-or1k-elf/noble 2.42-2ubuntu1+1.0.10 amd64
-binutils-powerpc-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-powerpc-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-powerpc-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-powerpc-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-powerpc64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-powerpc64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-powerpc64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-powerpc64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-powerpc64le-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-powerpc64le-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-powerpc64le-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-powerpc64le-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-riscv64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-riscv64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-riscv64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-riscv64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 i386
+binutils-powerpc-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-powerpc-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-powerpc-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-powerpc-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-powerpc64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-powerpc64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-powerpc64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-powerpc64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-powerpc64le-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-powerpc64le-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-powerpc64le-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-powerpc64le-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-riscv64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-riscv64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-riscv64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-riscv64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 i386
 binutils-riscv64-unknown-elf/noble 2.42-1ubuntu1+6 amd64
-binutils-s390x-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-s390x-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-s390x-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-s390x-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 i386
+binutils-s390x-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-s390x-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-s390x-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-s390x-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 i386
 binutils-sh-elf/noble 2.40+2 amd64
-binutils-sh4-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-sh4-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-sh4-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-sh4-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-source/noble-updates,noble-updates,noble-security,noble-security 2.42-4ubuntu2.4 all
-binutils-sparc64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-sparc64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-sparc64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-sparc64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-x86-64-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-x86-64-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-x86-64-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-x86-64-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-x86-64-kfreebsd-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-x86-64-kfreebsd-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-x86-64-kfreebsd-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-x86-64-kfreebsd-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-x86-64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-x86-64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-x86-64-linux-gnu/noble-updates,noble-security,now 2.42-4ubuntu2.4 amd64 [installed,automatic]
-binutils-x86-64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-x86-64-linux-gnux32-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-x86-64-linux-gnux32-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-binutils-x86-64-linux-gnux32/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-binutils-x86-64-linux-gnux32/noble-updates,noble-security 2.42-4ubuntu2.4 i386
+binutils-sh4-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-sh4-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-sh4-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-sh4-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-source/noble-updates,noble-updates,noble-security,noble-security 2.42-4ubuntu2.5 all
+binutils-sparc64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-sparc64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-sparc64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-sparc64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-x86-64-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-x86-64-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-x86-64-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-x86-64-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-x86-64-kfreebsd-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-x86-64-kfreebsd-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-x86-64-kfreebsd-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-x86-64-kfreebsd-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-x86-64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-x86-64-linux-gnu-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-x86-64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 amd64 [upgradable from: 2.42-4ubuntu2.4]
+binutils-x86-64-linux-gnu/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-x86-64-linux-gnux32-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-x86-64-linux-gnux32-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+binutils-x86-64-linux-gnux32/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+binutils-x86-64-linux-gnux32/noble-updates,noble-security 2.42-4ubuntu2.5 i386
 binutils-xtensa-lx106/noble 2.41-6ubuntu1+6 amd64
 binutils-z80/noble 2.38-3ubuntu1+4build3 amd64
-binutils/noble-updates,noble-security,now 2.42-4ubuntu2.4 amd64 [installed,automatic]
-binutils/noble-updates,noble-security 2.42-4ubuntu2.4 i386
+binutils/noble-updates,noble-security 2.42-4ubuntu2.5 amd64 [upgradable from: 2.42-4ubuntu2.4]
+binutils/noble-updates,noble-security 2.42-4ubuntu2.5 i386
 binwalk/noble,noble 2.3.4+dfsg1-5 all
 bio-eagle-examples/noble,noble 2.4.1-3build2 all
 bio-eagle/noble 2.4.1-3build2 amd64
@@ -6349,62 +6349,62 @@ ergo/noble 3.8-1build1 amd64
 eric-api-files/noble,noble 23.2+ds1-2ubuntu1 all
 eric/noble,noble 23.2+ds1-2ubuntu1 all
 erlang-asciideck/noble 0.0+git20170714.48cbfe8b-4 amd64
-erlang-asn1/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
+erlang-asn1/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
 erlang-base64url/noble 1.0.1-8 amd64
-erlang-base/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
+erlang-base/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
 erlang-bbmustache/noble 1.6.1+dfsg-1 amd64
 erlang-bear/noble,noble 0.8.2+dfsg-4 all
 erlang-bitcask-dev/noble,noble 2.1.0-2 all
 erlang-bitcask/noble 2.1.0-2 amd64
 erlang-cf/noble 0.3.1-1 amd64
 erlang-cl/noble 1.2.4-1build1 amd64
-erlang-common-test/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
+erlang-common-test/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
 erlang-cowboy-doc/noble,noble 2.0.0~pre.1+dfsg1-4 all
 erlang-cowboy-examples/noble,noble 2.0.0~pre.1+dfsg1-4 all
 erlang-cowboy/noble 2.0.0~pre.1+dfsg1-4 amd64
 erlang-cowlib/noble 1.3.0-3 amd64
-erlang-crypto/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
+erlang-crypto/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
 erlang-cuttlefish/noble,noble 3.2.0-2 all
-erlang-debugger/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
-erlang-dev/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
-erlang-dialyzer/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
-erlang-diameter/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
-erlang-doc/noble-updates,noble-updates,noble-security,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 all
-erlang-edoc/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
-erlang-eldap/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
-erlang-erl-docgen/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
+erlang-debugger/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
+erlang-dev/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
+erlang-dialyzer/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
+erlang-diameter/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
+erlang-doc/noble-updates,noble-updates,noble-security,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 all
+erlang-edoc/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
+erlang-eldap/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
+erlang-erl-docgen/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
 erlang-erlware-commons-dev/noble 1.6.0+dfsg-1 amd64
 erlang-erlware-commons/noble 1.6.0+dfsg-1 amd64
-erlang-et/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
-erlang-eunit/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
-erlang-examples/noble-updates,noble-updates,noble-security,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 all
+erlang-et/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
+erlang-eunit/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
+erlang-examples/noble-updates,noble-updates,noble-security,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 all
 erlang-folsom-dev/noble,noble 0.8.2+dfsg-4 all
 erlang-folsom/noble,noble 0.8.2+dfsg-4 all
-erlang-ftp/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
+erlang-ftp/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
 erlang-getopt/noble 1.0.2-1 amd64
 erlang-goldrush/noble 0.2.0-9 amd64
 erlang-hex/noble 2.0.5-1 amd64
 erlang-horse/noble 0+git20161117.0.4dc81d4-1 amd64
 erlang-idna/noble 6.1.1-5 amd64
-erlang-inets/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
+erlang-inets/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
 erlang-jiffy/noble 1.1.1-2 amd64
-erlang-jinterface/noble-updates,noble-updates,noble-security,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 all
+erlang-jinterface/noble-updates,noble-updates,noble-security,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 all
 erlang-jose/noble 1.11.6-1 amd64
 erlang-lager/noble 3.9.2-3 amd64
 erlang-luerl/noble 1:1.1-1 amd64
-erlang-manpages/noble-updates,noble-updates,noble-security,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 all
+erlang-manpages/noble-updates,noble-updates,noble-security,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 all
 erlang-meck/noble,noble 0.9.2-2 all
-erlang-megaco/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
+erlang-megaco/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
 erlang-metrics/noble 2.5.0-2 amd64
 erlang-mimerl/noble 1.2.0-2 amd64
-erlang-mnesia/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
+erlang-mnesia/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
 erlang-mochiweb/noble,noble 3.2.1-1 all
-erlang-mode/noble-updates,noble-updates,noble-security,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 all
+erlang-mode/noble-updates,noble-updates,noble-security,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 all
 erlang-neotoma/noble,noble 1.7.4+dfsg-4 all
-erlang-nox/noble-updates,noble-updates,noble-security,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 all
-erlang-observer/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
-erlang-odbc/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
-erlang-os-mon/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
+erlang-nox/noble-updates,noble-updates,noble-security,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 all
+erlang-observer/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
+erlang-odbc/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
+erlang-os-mon/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
 erlang-p1-acme/noble 1.0.22-2 amd64
 erlang-p1-cache-tab/noble 1.0.30-3 amd64
 erlang-p1-eimp/noble 1.0.22-3 amd64
@@ -6426,32 +6426,32 @@ erlang-p1-xmpp/noble 1.7.0-1 amd64
 erlang-p1-yaml/noble 1.0.36-2 amd64
 erlang-p1-yconf/noble 1.0.15-2 amd64
 erlang-p1-zlib/noble 1.0.12-3 amd64
-erlang-parsetools/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
+erlang-parsetools/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
 erlang-poolboy/noble,noble 1.5.2+dfsg-2 all
 erlang-proper-dev/noble 1.2+git988ea0ed9f+dfsg-2.1 amd64
 erlang-proper-doc/noble,noble 1.2+git988ea0ed9f+dfsg-2.1 all
 erlang-proper/noble 1.2+git988ea0ed9f+dfsg-2.1 amd64
-erlang-public-key/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
+erlang-public-key/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
 erlang-ranch-doc/noble,noble 1.3.0-2 all
 erlang-ranch/noble 1.3.0-2 amd64
 erlang-redis-client/noble 1.2.0-7 amd64
-erlang-reltool/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
-erlang-runtime-tools/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
-erlang-snmp/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
-erlang-src/noble-updates,noble-updates,noble-security,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 all
-erlang-ssh/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
-erlang-ssl/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
-erlang-syntax-tools/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
-erlang-tftp/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
-erlang-tools/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
+erlang-reltool/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
+erlang-runtime-tools/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
+erlang-snmp/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
+erlang-src/noble-updates,noble-updates,noble-security,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 all
+erlang-ssh/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
+erlang-ssl/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
+erlang-syntax-tools/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
+erlang-tftp/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
+erlang-tools/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
 erlang-unicode-util-compat/noble 0.7.0-5 amd64
 erlang-uuid/noble 0.4.6-2 amd64
-erlang-wx/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
-erlang-x11/noble-updates,noble-updates,noble-security,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 all
-erlang-xmerl/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 amd64
+erlang-wx/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
+erlang-x11/noble-updates,noble-updates,noble-security,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 all
+erlang-xmerl/noble-updates,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 amd64
 erlang-yapp/noble 2.1.1+dfsg-2 amd64
 erlang-yaws/noble 2.1.1+dfsg-2 amd64
-erlang/noble-updates,noble-updates,noble-security,noble-security 1:25.3.2.8+dfsg-1ubuntu4.1 all
+erlang/noble-updates,noble-updates,noble-security,noble-security 1:25.3.2.8+dfsg-1ubuntu4.2 all
 erofs-utils/noble 1.7.1-1build2 amd64
 erofsfuse/noble 1.7.1-1build2 amd64
 errands/noble,noble 45.1.9-2 all
@@ -6584,8 +6584,8 @@ exmh/noble,noble 1:2.9.0-6 all
 exo-utils/noble 4.18.0-1build4 amd64
 exonerate/noble 2.4.0-5build2 amd64
 expand-region-el/noble,noble 1.0.0-1 all
-expat/noble-updates,noble-security 2.6.1-2ubuntu0.2 amd64
-expat/noble-updates,noble-security 2.6.1-2ubuntu0.2 i386
+expat/noble-updates,noble-security 2.6.1-2ubuntu0.3 amd64
+expat/noble-updates,noble-security 2.6.1-2ubuntu0.3 i386
 expect-lite/noble,noble 4.9.0-0ubuntu2 all
 expect/noble 5.45.4-3 amd64
 expect/noble 5.45.4-3 i386
@@ -8207,7 +8207,7 @@ fpgatools/noble 0.0+201212-1.1build1 amd64
 fping/noble 5.1-1 amd64
 fplll-tools/noble 5.4.5-1.1build1 amd64
 fprintd-doc/noble,noble 1.94.3-1 all
-fprintd/noble,now 1.94.3-1 amd64 [installed,automatic]
+fprintd/noble,now 1.94.3-1 amd64 [installed]
 fprobe/noble 1.1-8build2 amd64
 fpzip-utils/noble 1.3.0-4 amd64
 fq/noble-updates,noble-security 0.9.0-2ubuntu0.24.04.2 amd64
@@ -11255,8 +11255,8 @@ gedit-plugins/noble,noble 46.0-2build3 all
 gedit-source-code-browser-plugin/noble,noble 3.0.3-6 all
 gedit/noble,now 46.2-2 amd64 [installed]
 geekcode/noble 1.7.3-8 amd64
-geeqie-common/noble,noble 1:2.2-2build4 all
-geeqie/noble 1:2.2-2build4 amd64
+geeqie-common/noble-updates,noble-updates 1:2.2-2ubuntu0.1 all
+geeqie/noble-updates 1:2.2-2ubuntu0.1 amd64
 geg/noble 2.0.9-4build2 amd64
 gegl/noble 1:0.4.48-2.4build2 amd64
 geis-tools/noble 2.2.17+16.04.20160126-0ubuntu10 amd64
@@ -11927,7 +11927,7 @@ gimagereader-qt5/noble 3.4.2-2build6 amd64
 gimagereader/noble 3.4.2-2build6 amd64
 gimp-cbmplugs/noble 1.2.2-1.2build2 amd64
 gimp-data-extras/noble,noble 1:2.0.2-1.1 all
-gimp-data/noble-updates,noble-updates 2.10.36-3ubuntu0.24.04.1 all
+gimp-data/noble-updates,noble-updates,now 2.10.36-3ubuntu0.24.04.1 all [installed,automatic]
 gimp-gap/noble 2.6.0+dfsg-7ubuntu3 amd64
 gimp-gmic/noble 2.9.4-4build11 amd64
 gimp-gutenprint/noble 5.3.4.20220624T01008808d602-1build4 amd64
@@ -11962,7 +11962,7 @@ gimp-help-zh-cn/noble,noble 2.10.34-2 all
 gimp-lensfun/noble 0.2.4-1.1build2 amd64
 gimp-plugin-registry/noble 9.20240404 amd64
 gimp-texturize/noble 2.2-4build2 amd64
-gimp/noble-updates 2.10.36-3ubuntu0.24.04.1 amd64
+gimp/noble-updates,now 2.10.36-3ubuntu0.24.04.1 amd64 [installed]
 ginac-tools/noble 1.8.7-1build2 amd64
 ginga/noble,noble 5.0.0-1 all
 ginkgo/noble-updates,noble-security 2.15.0-1ubuntu0.24.04.2 amd64
@@ -12239,7 +12239,7 @@ gir1.2-modemmanager-1.0/noble 1.23.4-0ubuntu2 amd64
 gir1.2-modemmanager-1.0/noble 1.23.4-0ubuntu2 i386
 gir1.2-modulemd-2.0/noble 2.14.0-3build2 amd64
 gir1.2-msg-0/noble 0.2.1-0ubuntu3 amd64
-gir1.2-mutter-14/noble-updates,now 46.2-1ubuntu0.24.04.6 amd64 [installed,automatic]
+gir1.2-mutter-14/noble-updates 46.2-1ubuntu0.24.04.7 amd64 [upgradable from: 46.2-1ubuntu0.24.04.6]
 gir1.2-mypaint-1.5/noble 1.6.0-2build2 amd64
 gir1.2-nautilus-4.0/noble-updates 1:46.2-0ubuntu0.3 amd64
 gir1.2-nemo-3.0/noble 6.0.2-1ubuntu2 amd64
@@ -21820,7 +21820,7 @@ libambix-utils/noble 0.1.2-1build1 amd64
 libambix0/noble 0.1.2-1build1 amd64
 libamd-comgr-dev/noble 6.0+git20231212.4510c28+dfsg-3build2 amd64
 libamd-comgr2/noble 6.0+git20231212.4510c28+dfsg-3build2 amd64
-libamd3/noble 1:7.6.1+dfsg-1build1 amd64
+libamd3/noble,now 1:7.6.1+dfsg-1build1 amd64 [installed,automatic]
 libamdhip64-5/noble 5.7.1-3 amd64
 libamdhip64-dev/noble 5.7.1-3 amd64
 libamdhip64-doc/noble,noble 5.7.1-3 all
@@ -22017,8 +22017,8 @@ libapache2-mod-log-sql-ssl/noble 1.100-16.3build4 amd64
 libapache2-mod-log-sql/noble 1.100-16.3build4 amd64
 libapache2-mod-lookup-identity/noble 1.0.0-1 amd64
 libapache2-mod-mapcache/noble 1.14.0-4build2 amd64
-libapache2-mod-md/noble-updates 2.4.58-1ubuntu8.5 amd64
-libapache2-mod-md/noble-updates 2.4.58-1ubuntu8.5 i386
+libapache2-mod-md/noble-updates,noble-security 2.4.58-1ubuntu8.6 amd64
+libapache2-mod-md/noble-updates,noble-security 2.4.58-1ubuntu8.6 i386
 libapache2-mod-mime-xattr/noble 0.4-7build2 amd64
 libapache2-mod-mono/noble 3.8-3build1 amd64
 libapache2-mod-musicindex/noble 1.4.1-3.1build3 amd64
@@ -22032,8 +22032,8 @@ libapache2-mod-perl2-doc/noble,noble 2.0.13-1build5 all
 libapache2-mod-perl2/noble 2.0.13-1build5 amd64
 libapache2-mod-php8.3/noble-updates,noble-security 8.3.6-0ubuntu0.24.04.4 amd64
 libapache2-mod-php/noble,noble 2:8.3+93ubuntu2 all
-libapache2-mod-proxy-uwsgi/noble-updates 2.4.58-1ubuntu8.5 amd64
-libapache2-mod-proxy-uwsgi/noble-updates 2.4.58-1ubuntu8.5 i386
+libapache2-mod-proxy-uwsgi/noble-updates,noble-security 2.4.58-1ubuntu8.6 amd64
+libapache2-mod-proxy-uwsgi/noble-updates,noble-security 2.4.58-1ubuntu8.6 i386
 libapache2-mod-python-doc/noble,noble 3.5.0.1-3build1 all
 libapache2-mod-python/noble 3.5.0.1-3build1 amd64
 libapache2-mod-qos/noble 11.74-1build3 amd64
@@ -22722,7 +22722,7 @@ libbabeltrace1/noble 1.5.11-3build3 i386
 libbabeltrace2-0/noble 2.0.5-3build2 amd64
 libbabeltrace2-dev/noble 2.0.5-3build2 amd64
 libbabeltrace2-python-plugin-provider/noble 2.0.5-3build2 amd64
-libbabl-0.1-0/noble 1:0.1.108-1 amd64
+libbabl-0.1-0/noble,now 1:0.1.108-1 amd64 [installed,automatic]
 libbabl-dev/noble 1:0.1.108-1 amd64
 libbabl-doc/noble,noble 1:0.1.108-1 all
 libbackport9-java-doc/noble,noble 1.10-2 all
@@ -22874,10 +22874,10 @@ libbinio-dev/noble 1.5+dfsg-0.1 amd64
 libbinio1v5/noble 1.5+dfsg-0.1 amd64
 libbiniou-ocaml-dev/noble 1.2.2-3build2 amd64
 libbiniou-ocaml/noble 1.2.2-3build2 amd64
-libbinutils-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-libbinutils-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-libbinutils/noble-updates,noble-security,now 2.42-4ubuntu2.4 amd64 [installed,automatic]
-libbinutils/noble-updates,noble-security 2.42-4ubuntu2.4 i386
+libbinutils-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+libbinutils-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+libbinutils/noble-updates,noble-security 2.42-4ubuntu2.5 amd64 [upgradable from: 2.42-4ubuntu2.4]
+libbinutils/noble-updates,noble-security 2.42-4ubuntu2.5 i386
 libbio-alignio-stockholm-perl/noble,noble 1.7.3-2 all
 libbio-asn1-entrezgene-perl/noble,noble 1.730-3 all
 libbio-biblio-perl/noble,noble 1.70-2 all
@@ -23776,7 +23776,7 @@ libcallaudio-tools/noble 0.1.9-1build3 amd64
 libcallback1/noble 2.4-2.1build1 amd64
 libcallstats-java/noble,noble 5.2.0-3 all
 libcam-pdf-perl/noble,noble 1.60-5 all
-libcamd3/noble 1:7.6.1+dfsg-1build1 amd64
+libcamd3/noble,now 1:7.6.1+dfsg-1build1 amd64 [installed,automatic]
 libcamel-1.2-64t64/noble-updates,now 3.52.3-0ubuntu1 amd64 [installed,automatic]
 libcamel1.2-dev/noble-updates 3.52.3-0ubuntu1 amd64
 libcamera-dev/noble 0.2.0-3fakesync1build6 amd64
@@ -24056,7 +24056,7 @@ libccfits-dev/noble 2.6+dfsg-1ubuntu3 amd64
 libccfits-doc/noble,noble 2.6+dfsg-1ubuntu3 all
 libccfits0t64/noble 2.6+dfsg-1ubuntu3 amd64
 libccid/noble 1.5.5-1 amd64
-libccolamd3/noble 1:7.6.1+dfsg-1build1 amd64
+libccolamd3/noble,now 1:7.6.1+dfsg-1build1 amd64 [installed,automatic]
 libcconv-dev/noble 0.6.2-1.3build1 amd64
 libcconv0/noble 0.6.2-1.3build1 amd64
 libccp4-data/noble,noble 8.0.0-2ubuntu1 all
@@ -24085,7 +24085,7 @@ libcddb-get-perl/noble,noble 2.28-4 all
 libcddb-perl/noble,noble 1.222-3 all
 libcddb2-dev/noble 1.3.2-7fakesync1build1 amd64
 libcddb2-dev/noble 1.3.2-7fakesync1build1 i386
-libcddb2/noble 1.3.2-7fakesync1build1 amd64
+libcddb2/noble,now 1.3.2-7fakesync1build1 amd64 [installed,automatic]
 libcddb2/noble 1.3.2-7fakesync1build1 i386
 libcdi-api-java-doc/noble,noble 1.2-3 all
 libcdi-api-java/noble,noble 1.2-3 all
@@ -24338,7 +24338,7 @@ libchise1t64/noble 0.3.0-2.4build1 amd64
 libchm-bin/noble 2:0.40a-8 amd64
 libchm-dev/noble 2:0.40a-8 amd64
 libchm1/noble 2:0.40a-8 amd64
-libcholmod5/noble 1:7.6.1+dfsg-1build1 amd64
+libcholmod5/noble,now 1:7.6.1+dfsg-1build1 amd64 [installed,automatic]
 libchromaprint-dev/noble 1.5.1-5 amd64
 libchromaprint-dev/noble 1.5.1-5 i386
 libchromaprint-tools/noble 1.5.1-5 amd64
@@ -25372,14 +25372,14 @@ libctapimkt1-dev/noble 1.0.5~rc1-9 amd64
 libctapimkt1/noble 1.0.5~rc1-9 amd64
 libctemplate-dev/noble 2.4-3.1build1 amd64
 libctemplate3t64/noble 2.4-3.1build1 amd64
-libctf-nobfd0-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-libctf-nobfd0-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-libctf-nobfd0/noble-updates,noble-security,now 2.42-4ubuntu2.4 amd64 [installed,automatic]
-libctf-nobfd0/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-libctf0-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-libctf0-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-libctf0/noble-updates,noble-security,now 2.42-4ubuntu2.4 amd64 [installed,automatic]
-libctf0/noble-updates,noble-security 2.42-4ubuntu2.4 i386
+libctf-nobfd0-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+libctf-nobfd0-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+libctf-nobfd0/noble-updates,noble-security 2.42-4ubuntu2.5 amd64 [upgradable from: 2.42-4ubuntu2.4]
+libctf-nobfd0/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+libctf0-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+libctf0-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+libctf0/noble-updates,noble-security 2.42-4ubuntu2.5 amd64 [upgradable from: 2.42-4ubuntu2.4]
+libctf0/noble-updates,noble-security 2.42-4ubuntu2.5 i386
 libctl-dev/noble 4.5.1-2.1build1 amd64
 libctl-doc/noble,noble 4.5.1-2.1build1 all
 libctl7t64/noble 4.5.1-2.1build1 amd64
@@ -25934,7 +25934,7 @@ libdbustest1-dev/noble 19.04.0-1build2 amd64
 libdbustest1-dev/noble 19.04.0-1build2 i386
 libdbustest1/noble 19.04.0-1build2 amd64
 libdbustest1/noble 19.04.0-1build2 i386
-libdc1394-25/noble 2.2.6-4build1 amd64
+libdc1394-25/noble,now 2.2.6-4build1 amd64 [installed,automatic]
 libdc1394-25/noble 2.2.6-4build1 i386
 libdc1394-dev/noble 2.2.6-4build1 amd64
 libdc1394-dev/noble 2.2.6-4build1 i386
@@ -26500,7 +26500,7 @@ libdvbcsa-dev/noble 1.1.0-4 amd64
 libdvbcsa1/noble 1.1.0-4 amd64
 libdvbpsi-dev/noble 1.3.3-1build1 amd64
 libdvbpsi-dev/noble 1.3.3-1build1 i386
-libdvbpsi10/noble 1.3.3-1build1 amd64
+libdvbpsi10/noble,now 1.3.3-1build1 amd64 [installed,automatic]
 libdvbpsi10/noble 1.3.3-1build1 i386
 libdvbv5-0t64/noble 1.26.1-4build3 amd64
 libdvbv5-0t64/noble 1.26.1-4build3 i386
@@ -26569,7 +26569,7 @@ libebgenv-dev/noble 0.16-2 amd64
 libebgenv0/noble 0.16-2 amd64
 libebml-dev/noble 1.4.5-1 amd64
 libebml-dev/noble 1.4.5-1 i386
-libebml5/noble 1.4.5-1 amd64
+libebml5/noble,now 1.4.5-1 amd64 [installed,automatic]
 libebml5/noble 1.4.5-1 i386
 libebook-1.2-21t64/noble-updates,now 3.52.3-0ubuntu1 amd64 [installed,automatic]
 libebook-contacts-1.2-4t64/noble-updates,now 3.52.3-0ubuntu1 amd64 [installed,automatic]
@@ -27233,10 +27233,10 @@ libexodusii-dev/noble 6.02.dfsg.1-10build2 amd64
 libexodusii5/noble 6.02.dfsg.1-10build2 amd64
 libexpat-ocaml-dev/noble 1.3.0-1 amd64
 libexpat-ocaml/noble 1.3.0-1 amd64
-libexpat1-dev/noble-updates,noble-security,now 2.6.1-2ubuntu0.2 amd64 [installed,automatic]
-libexpat1-dev/noble-updates,noble-security 2.6.1-2ubuntu0.2 i386
-libexpat1/noble-updates,noble-security,now 2.6.1-2ubuntu0.2 amd64 [installed]
-libexpat1/noble-updates,noble-security,now 2.6.1-2ubuntu0.2 i386 [installed,automatic]
+libexpat1-dev/noble-updates,noble-security 2.6.1-2ubuntu0.3 amd64 [upgradable from: 2.6.1-2ubuntu0.2]
+libexpat1-dev/noble-updates,noble-security 2.6.1-2ubuntu0.3 i386
+libexpat1/noble-updates,noble-security 2.6.1-2ubuntu0.3 amd64 [upgradable from: 2.6.1-2ubuntu0.2]
+libexpat1/noble-updates,noble-security 2.6.1-2ubuntu0.3 i386 [upgradable from: 2.6.1-2ubuntu0.2]
 libexpect-ocaml-dev/noble 0.0.6-3build2 amd64
 libexpect-ocaml/noble 0.0.6-3build2 amd64
 libexpect-perl/noble,noble 1.36-1 all
@@ -28558,8 +28558,8 @@ libgedit-gtksourceview-300-doc/noble,noble 299.0.4-3build1 all
 libgedit-gtksourceview-dev/noble 299.0.4-3build1 amd64
 libgee-0.8-2/noble,now 0.20.6-1build2 amd64 [installed,automatic]
 libgee-0.8-dev/noble 0.20.6-1build2 amd64
-libgegl-0.4-0t64/noble 1:0.4.48-2.4build2 amd64
-libgegl-common/noble,noble 1:0.4.48-2.4build2 all
+libgegl-0.4-0t64/noble,now 1:0.4.48-2.4build2 amd64 [installed,automatic]
+libgegl-common/noble,noble,now 1:0.4.48-2.4build2 all [installed,automatic]
 libgegl-dev/noble 1:0.4.48-2.4build2 amd64
 libgegl-doc/noble,noble 1:0.4.48-2.4build2 all
 libgeis-dev/noble 2.2.17+16.04.20160126-0ubuntu10 amd64
@@ -32263,7 +32263,7 @@ libgig-doc/noble,noble 4.3.0~ds1-2.1build1 all
 libgig10t64/noble 4.3.0~ds1-2.1build1 amd64
 libgimp2.0-dev/noble-updates 2.10.36-3ubuntu0.24.04.1 amd64
 libgimp2.0-doc/noble-updates,noble-updates 2.10.36-3ubuntu0.24.04.1 all
-libgimp2.0t64/noble-updates 2.10.36-3ubuntu0.24.04.1 amd64
+libgimp2.0t64/noble-updates,now 2.10.36-3ubuntu0.24.04.1 amd64 [installed,automatic]
 libginac-dev/noble 1.8.7-1build2 amd64
 libginac11/noble 1.8.7-1build2 amd64
 libgio-qt-dev/noble 0.0.12-1build5 amd64
@@ -33843,10 +33843,10 @@ libgpod4t64/noble,now 0.8.3-19.1ubuntu4 amd64 [installed,automatic]
 libgportugol-dev/noble 1.1-8 amd64
 libgportugol0/noble 1.1-8 amd64
 libgppcscconnectionplugin1/noble 2.4.0+dfsg-1ubuntu1 amd64
-libgprofng0-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-libgprofng0-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-libgprofng0/noble-updates,noble-security,now 2.42-4ubuntu2.4 amd64 [installed,automatic]
-libgprofng0/noble-updates,noble-security 2.42-4ubuntu2.4 i386
+libgprofng0-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+libgprofng0-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+libgprofng0/noble-updates,noble-security 2.42-4ubuntu2.5 amd64 [upgradable from: 2.42-4ubuntu2.4]
+libgprofng0/noble-updates,noble-security 2.42-4ubuntu2.5 i386
 libgps-dev/noble-updates 3.25-3ubuntu3.1 amd64
 libgps-point-perl/noble,noble 0.20-5 all
 libgps30t64/noble-updates 3.25-3ubuntu3.1 amd64
@@ -35049,7 +35049,7 @@ libimagequant0/noble,now 2.18.0-1build1 amd64 [installed,automatic]
 libimager-perl/noble 1.023+dfsg-1build2 amd64
 libimager-qrcode-perl/noble 0.033-1.2build13 amd64
 libimap-admin-perl/noble,noble 1.6.8-2 all
-libimath-3-1-29t64/noble 3.1.9-3.1ubuntu2 amd64
+libimath-3-1-29t64/noble,now 3.1.9-3.1ubuntu2 amd64 [installed,automatic]
 libimath-3-1-29t64/noble 3.1.9-3.1ubuntu2 i386
 libimath-dev/noble 3.1.9-3.1ubuntu2 amd64
 libimath-dev/noble 3.1.9-3.1ubuntu2 i386
@@ -35422,7 +35422,7 @@ libiw30t64/noble,now 30~pre9-16.1ubuntu2 amd64 [installed,automatic]
 libixion-0.18-0/noble 0.19.0-4build2 amd64
 libixion-dev/noble 0.19.0-4build2 amd64
 libixion-doc/noble,noble 0.19.0-4build2 all
-libixml11t64/noble 1:1.14.18-1.1ubuntu2 amd64
+libixml11t64/noble,now 1:1.14.18-1.1ubuntu2 amd64 [installed,automatic]
 libixml11t64/noble 1:1.14.18-1.1ubuntu2 i386
 libj2ssh-java-doc/noble,noble 0.2.9-5 all
 libj2ssh-java/noble,noble 0.2.9-5 all
@@ -36344,7 +36344,7 @@ libkasten4okteta2core0/noble 5:0.26.15-1build3 amd64
 libkasten4okteta2gui0/noble 5:0.26.15-1build3 amd64
 libkate-dev/noble 0.4.1-11build2 amd64
 libkate-dev/noble 0.4.1-11build2 i386
-libkate1/noble 0.4.1-11build2 amd64
+libkate1/noble,now 0.4.1-11build2 amd64 [installed,automatic]
 libkate1/noble 0.4.1-11build2 i386
 libkaz-dev/noble 1.21-2build1 amd64
 libkaz1/noble 1.21-2build1 amd64
@@ -37728,7 +37728,7 @@ liblua5.1-0-dev/noble 5.1.5-9build2 i386
 liblua5.1-0/noble 5.1.5-9build2 amd64
 liblua5.1-0/noble 5.1.5-9build2 i386
 liblua5.1-luacsnd/noble 1:6.18.1+dfsg-1ubuntu4 amd64
-liblua5.2-0/noble 5.2.4-3build2 amd64
+liblua5.2-0/noble,now 5.2.4-3build2 amd64 [installed,automatic]
 liblua5.2-0/noble 5.2.4-3build2 i386
 liblua5.2-dev/noble 5.2.4-3build2 amd64
 liblua5.2-dev/noble 5.2.4-3build2 i386
@@ -38164,7 +38164,7 @@ libmatio-doc/noble,noble 1.5.26-1build3 all
 libmatio11/noble 1.5.26-1build3 amd64
 libmatroska-dev/noble 1.7.1-1build1 amd64
 libmatroska-dev/noble 1.7.1-1build1 i386
-libmatroska7/noble 1.7.1-1build1 amd64
+libmatroska7/noble,now 1.7.1-1build1 amd64 [installed,automatic]
 libmatroska7/noble 1.7.1-1build1 i386
 libmatthew-debug-java/noble,noble 0.8.1-2ubuntu1 all
 libmatthew-io-java/noble,noble 0.8.1-2ubuntu1 all
@@ -39122,7 +39122,7 @@ libmpc3/noble-updates,now 1.3.1-1build1.1 amd64 [installed,automatic]
 libmpc3/noble-updates 1.3.1-1build1.1 i386
 libmpcdec-dev/noble 2:0.1~r495-2build1 amd64
 libmpcdec-dev/noble 2:0.1~r495-2build1 i386
-libmpcdec6/noble 2:0.1~r495-2build1 amd64
+libmpcdec6/noble,now 2:0.1~r495-2build1 amd64 [installed,automatic]
 libmpcdec6/noble 2:0.1~r495-2build1 i386
 libmpd-dev/noble 11.8.17-1build2 amd64
 libmpd1/noble 11.8.17-1build2 amd64
@@ -39309,9 +39309,9 @@ libmusicbrainz5cc2v5/noble 5.1.0+git20150707-10build2 amd64
 libmustache-d-dev/noble 0.1.4-1build8 amd64
 libmustache-d0/noble 0.1.4-1build8 amd64
 libmustache-java/noble,noble 0.9.1-1 all
-libmutter-14-0/noble-updates,now 46.2-1ubuntu0.24.04.6 amd64 [installed,automatic]
-libmutter-14-dev/noble-updates 46.2-1ubuntu0.24.04.6 amd64
-libmutter-test-14/noble-updates 46.2-1ubuntu0.24.04.6 amd64
+libmutter-14-0/noble-updates 46.2-1ubuntu0.24.04.7 amd64 [upgradable from: 46.2-1ubuntu0.24.04.6]
+libmutter-14-dev/noble-updates 46.2-1ubuntu0.24.04.7 amd64
+libmutter-test-14/noble-updates 46.2-1ubuntu0.24.04.7 amd64
 libmvel-java/noble,noble 2.4.4-2 all
 libmwaw-0.3-3/noble,now 0.3.22-1build1 amd64 [installed,automatic]
 libmwaw-dev/noble 0.3.22-1build1 amd64
@@ -39328,8 +39328,8 @@ libmygui.ogreplatform0debian1t64/noble 3.4.2+dfsg-1.1build1 amd64
 libmygui.opengl3platform0debian1t64/noble 3.4.2+dfsg-1.1build1 amd64
 libmygui.openglplatform0debian1t64/noble 3.4.2+dfsg-1.1build1 amd64
 libmyguiengine3debian1t64/noble 3.4.2+dfsg-1.1build1 amd64
-libmypaint-1.5-1/noble 1.6.0-2build2 amd64
-libmypaint-common/noble,noble 1.6.0-2build2 all
+libmypaint-1.5-1/noble,now 1.6.0-2build2 amd64 [installed,automatic]
+libmypaint-common/noble,noble,now 1.6.0-2build2 all [installed,automatic]
 libmypaint-dev/noble 1.6.0-2build2 amd64
 libmypaint-doc/noble,noble 1.6.0-2build2 all
 libmyproxy-dev/noble 6.2.16-2build2 amd64
@@ -39901,7 +39901,7 @@ libncrystal-bin/noble 3.4.1+ds1-1.1build1 amd64
 libncrystal-data/noble,noble 3.4.1+ds1-1.1build1 all
 libncrystal-dev/noble 3.4.1+ds1-1.1build1 amd64
 libncrystal1t64/noble 3.4.1+ds1-1.1build1 amd64
-libncurses-dev/noble,now 6.4+20240113-1ubuntu2 amd64 [installed,automatic]
+libncurses-dev/noble,now 6.4+20240113-1ubuntu2 amd64 [installed]
 libncurses-dev/noble 6.4+20240113-1ubuntu2 i386
 libncurses6/noble,now 6.4+20240113-1ubuntu2 amd64 [installed]
 libncurses6/noble,now 6.4+20240113-1ubuntu2 i386 [installed,automatic]
@@ -40185,8 +40185,8 @@ libnetplan1/noble-updates,now 1.1.1-1~ubuntu24.04.1 amd64 [installed,automatic]
 libnetsds-kannel-perl/noble,noble 1.300-7 all
 libnetsds-perl/noble,noble 1.301-4 all
 libnetsds-util-perl/noble,noble 1.045-2 all
-libnetsnmptrapd40t64/noble 5.9.4+dfsg-1.1ubuntu3 amd64
-libnetsnmptrapd40t64/noble 5.9.4+dfsg-1.1ubuntu3 i386
+libnetsnmptrapd40t64/noble-updates 5.9.4+dfsg-1.1ubuntu3.1 amd64
+libnetsnmptrapd40t64/noble-updates 5.9.4+dfsg-1.1ubuntu3.1 i386
 libnetsvcs-7.1.2t64/noble-updates,noble-security 7.1.2+dfsg-2.1ubuntu0.1 amd64
 libnetsvcs-dev/noble-updates,noble-security 7.1.2+dfsg-2.1ubuntu0.1 amd64
 libnettle8t64/noble-updates,now 3.9.1-2.2build1.1 amd64 [installed,automatic]
@@ -41479,7 +41479,7 @@ libopendrim0-dev/noble 1.1.3-0ubuntu4 amd64
 libopendrim0/noble 1.1.3-0ubuntu4 amd64
 libopendsp-dev/noble 3.0.2-2.1build2 amd64
 libopendsp3t64/noble 3.0.2-2.1build2 amd64
-libopenexr-3-1-30/noble 3.1.5-5.1build3 amd64
+libopenexr-3-1-30/noble,now 3.1.5-5.1build3 amd64 [installed,automatic]
 libopenexr-3-1-30/noble 3.1.5-5.1build3 i386
 libopenexr-dev/noble 3.1.5-5.1build3 amd64
 libopenexr-dev/noble 3.1.5-5.1build3 i386
@@ -41563,7 +41563,7 @@ libopenmpt-dev/noble 0.7.3-1.1build3 i386
 libopenmpt-doc/noble,noble 0.7.3-1.1build3 all
 libopenmpt-modplug-dev/noble 0.8.9.0-openmpt1-2build2 amd64
 libopenmpt-modplug-dev/noble 0.8.9.0-openmpt1-2build2 i386
-libopenmpt-modplug1/noble 0.8.9.0-openmpt1-2build2 amd64
+libopenmpt-modplug1/noble,now 0.8.9.0-openmpt1-2build2 amd64 [installed,automatic]
 libopenmpt-modplug1/noble 0.8.9.0-openmpt1-2build2 i386
 libopenmpt0t64/noble,now 0.7.3-1.1build3 amd64 [installed,automatic]
 libopenmpt0t64/noble 0.7.3-1.1build3 i386
@@ -43118,7 +43118,7 @@ libprotobuf-dev/noble 3.21.12-8.2build1 amd64
 libprotobuf-dev/noble 3.21.12-8.2build1 i386
 libprotobuf-java-format-java/noble,noble 1.3-1.1 all
 libprotobuf-java/noble,noble 3.21.12-8.2build1 all
-libprotobuf-lite32t64/noble 3.21.12-8.2build1 amd64
+libprotobuf-lite32t64/noble,now 3.21.12-8.2build1 amd64 [installed,automatic]
 libprotobuf-lite32t64/noble 3.21.12-8.2build1 i386
 libprotobuf2-java/noble,noble 2.6.1-4 all
 libprotobuf32t64/noble,now 3.21.12-8.2build1 amd64 [installed,automatic]
@@ -43137,7 +43137,7 @@ libprotozero-doc/noble,noble 1.7.1-1 all
 libproxool-java/noble,noble 0.9.1-11 all
 libproxy-dev/noble 0.5.4-4build1 amd64
 libproxy-dev/noble 0.5.4-4build1 i386
-libproxy-tools/noble 0.5.4-4build1 amd64
+libproxy-tools/noble,now 0.5.4-4build1 amd64 [installed,automatic]
 libproxy-tools/noble 0.5.4-4build1 i386
 libproxy-vole-java/noble,noble 1.0.3-3 all
 libproxy1-plugin-gsettings/noble,now 0.5.4-4build1 amd64 [installed]
@@ -43657,7 +43657,7 @@ libqt5widgets5t64/noble,now 5.15.13+dfsg-1ubuntu1 amd64 [installed,automatic]
 libqt5widgets5t64/noble 5.15.13+dfsg-1ubuntu1 i386
 libqt5x11extras5-dev/noble 5.15.13-1 amd64
 libqt5x11extras5-dev/noble 5.15.13-1 i386
-libqt5x11extras5/noble 5.15.13-1 amd64
+libqt5x11extras5/noble,now 5.15.13-1 amd64 [installed,automatic]
 libqt5x11extras5/noble 5.15.13-1 i386
 libqt5xdg-dev/noble 3.12.0-0ubuntu6 amd64
 libqt5xdg3/noble 3.12.0-0ubuntu6 amd64
@@ -44365,7 +44365,7 @@ libresample1-dev/noble 0.1.3-6 amd64
 libresample1/noble 0.1.3-6 amd64
 libresid-builder-dev/noble 2.1.1-15ubuntu3 amd64
 libresid-builder-dev/noble 2.1.1-15ubuntu3 i386
-libresid-builder0c2a/noble 2.1.1-15ubuntu3 amd64
+libresid-builder0c2a/noble,now 2.1.1-15ubuntu3 amd64 [installed,automatic]
 libresid-builder0c2a/noble 2.1.1-15ubuntu3 i386
 libresolv-wrapper/noble 1.1.8-2 amd64
 librest-1.0-0/noble,now 0.9.1-6build3 amd64 [installed,automatic]
@@ -44845,8 +44845,8 @@ librubberband-dev/noble 3.3.0+dfsg-2build1 i386
 librubberband2/noble,now 3.3.0+dfsg-2build1 amd64 [installed,automatic]
 librubberband2/noble 3.3.0+dfsg-2build1 i386
 libruby2.7/now 2.7.0-5ubuntu1.12 amd64 [installed,local]
-libruby3.2/noble-updates,noble-security,now 3.2.3-1ubuntu0.24.04.3 amd64 [installed,automatic]
-libruby3.2/noble-updates,noble-security 3.2.3-1ubuntu0.24.04.3 i386
+libruby3.2/noble-updates,noble-security 3.2.3-1ubuntu0.24.04.5 amd64 [upgradable from: 3.2.3-1ubuntu0.24.04.3]
+libruby3.2/noble-updates,noble-security 3.2.3-1ubuntu0.24.04.5 i386
 libruby/noble,now 1:3.2~ubuntu1 amd64 [installed,automatic]
 libruby/noble 1:3.2~ubuntu1 i386
 librudecgi-dev/noble 5.0.0-1.1ubuntu2 amd64
@@ -47893,10 +47893,10 @@ libsfml-graphics2.6/noble 2.6.1+dfsg-2build2 amd64
 libsfml-network2.6/noble 2.6.1+dfsg-2build2 amd64
 libsfml-system2.6/noble 2.6.1+dfsg-2build2 amd64
 libsfml-window2.6/noble 2.6.1+dfsg-2build2 amd64
-libsframe1-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 amd64
-libsframe1-dbg/noble-updates,noble-security 2.42-4ubuntu2.4 i386
-libsframe1/noble-updates,noble-security,now 2.42-4ubuntu2.4 amd64 [installed,automatic]
-libsframe1/noble-updates,noble-security 2.42-4ubuntu2.4 i386
+libsframe1-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 amd64
+libsframe1-dbg/noble-updates,noble-security 2.42-4ubuntu2.5 i386
+libsframe1/noble-updates,noble-security 2.42-4ubuntu2.5 amd64 [upgradable from: 2.42-4ubuntu2.4]
+libsframe1/noble-updates,noble-security 2.42-4ubuntu2.5 i386
 libsfst1-1.4-dev/noble 1.4.7b-1build2 amd64
 libsfst1-1.4/noble 1.4.7b-1build2 amd64
 libsgml-dtdparse-perl/noble,noble 2.00-3 all
@@ -47981,7 +47981,7 @@ libsidplay1v5/noble,now 1.36.60-1build1 amd64 [installed,automatic]
 libsidplay1v5/noble 1.36.60-1build1 i386
 libsidplay2-dev/noble 2.1.1-15ubuntu3 amd64
 libsidplay2-dev/noble 2.1.1-15ubuntu3 i386
-libsidplay2/noble 2.1.1-15ubuntu3 amd64
+libsidplay2/noble,now 2.1.1-15ubuntu3 amd64 [installed,automatic]
 libsidplay2/noble 2.1.1-15ubuntu3 i386
 libsidplayfp-dev/noble 2.6.0-1 amd64
 libsidplayfp-doc/noble,noble 2.6.0-1 all
@@ -48219,17 +48219,17 @@ libsndobj-dev/noble 2.6.7+ds1-4build2 amd64
 libsndobj2t64/noble 2.6.7+ds1-4build2 amd64
 libsnl-dev/noble 0.2.1.svn.18-1.2build1 amd64
 libsnl0t64/noble 0.2.1.svn.18-1.2build1 amd64
-libsnmp-base/noble,noble,now 5.9.4+dfsg-1.1ubuntu3 all [installed,automatic]
-libsnmp-dev/noble 5.9.4+dfsg-1.1ubuntu3 amd64
-libsnmp-dev/noble 5.9.4+dfsg-1.1ubuntu3 i386
+libsnmp-base/noble-updates,noble-updates 5.9.4+dfsg-1.1ubuntu3.1 all [upgradable from: 5.9.4+dfsg-1.1ubuntu3]
+libsnmp-dev/noble-updates 5.9.4+dfsg-1.1ubuntu3.1 amd64
+libsnmp-dev/noble-updates 5.9.4+dfsg-1.1ubuntu3.1 i386
 libsnmp-extension-passpersist-perl/noble,noble 0.07-3 all
 libsnmp-info-perl/noble,noble 3.95-1 all
 libsnmp-mib-compiler-perl/noble,noble 0.06-4 all
-libsnmp-perl/noble 5.9.4+dfsg-1.1ubuntu3 amd64
-libsnmp-perl/noble 5.9.4+dfsg-1.1ubuntu3 i386
+libsnmp-perl/noble-updates 5.9.4+dfsg-1.1ubuntu3.1 amd64
+libsnmp-perl/noble-updates 5.9.4+dfsg-1.1ubuntu3.1 i386
 libsnmp-session-perl/noble,noble 1.16-1 all
-libsnmp40t64/noble,now 5.9.4+dfsg-1.1ubuntu3 amd64 [installed,automatic]
-libsnmp40t64/noble 5.9.4+dfsg-1.1ubuntu3 i386
+libsnmp40t64/noble-updates 5.9.4+dfsg-1.1ubuntu3.1 amd64 [upgradable from: 5.9.4+dfsg-1.1ubuntu3]
+libsnmp40t64/noble-updates 5.9.4+dfsg-1.1ubuntu3.1 i386
 libsnowball-norwegian-perl/noble,noble 1.2-4 all
 libsnowball-swedish-perl/noble,noble 1.2-6 all
 libsnp-sites1-dev/noble 2.5.1-2 amd64
@@ -48409,7 +48409,7 @@ libspatial4j-0.4-java/noble,noble 0.4.1-7 all
 libspatial4j-java/noble,noble 0.8-1 all
 libspatialaudio-dev/noble 0.3.0+git20180730+dfsg1-2.1build1 amd64
 libspatialaudio-dev/noble 0.3.0+git20180730+dfsg1-2.1build1 i386
-libspatialaudio0t64/noble 0.3.0+git20180730+dfsg1-2.1build1 amd64
+libspatialaudio0t64/noble,now 0.3.0+git20180730+dfsg1-2.1build1 amd64 [installed,automatic]
 libspatialaudio0t64/noble 0.3.0+git20180730+dfsg1-2.1build1 i386
 libspatialindex-c6/noble 1.9.3-3build1 amd64
 libspatialindex-dev/noble 1.9.3-3build1 amd64
@@ -48622,7 +48622,7 @@ libssh-gcrypt-dev/noble 0.10.6-2build2 amd64
 libssh-gcrypt-dev/noble 0.10.6-2build2 i386
 libssh2-1-dev/noble 1.11.0-4.1build2 amd64
 libssh2-1-dev/noble 1.11.0-4.1build2 i386
-libssh2-1t64/noble 1.11.0-4.1build2 amd64
+libssh2-1t64/noble,now 1.11.0-4.1build2 amd64 [installed,automatic]
 libssh2-1t64/noble 1.11.0-4.1build2 i386
 libssl-dev/noble-updates,noble-security,now 3.0.13-0ubuntu3.5 amd64 [installed]
 libssl-dev/noble-updates,noble-security 3.0.13-0ubuntu3.5 i386
@@ -50916,7 +50916,7 @@ libukwm-1-dev/noble 1.2.2-1 amd64
 libulfius-dev/noble 2.7.15-2.2build1 amd64
 libulfius2.7t64/noble 2.7.15-2.2build1 amd64
 libumad2sim0/noble 0.10-2build1 amd64
-libumfpack6/noble 1:7.6.1+dfsg-1build1 amd64
+libumfpack6/noble,now 1:7.6.1+dfsg-1build1 amd64 [installed,automatic]
 libumlib-dev/noble 0.8.2-3.1build2 amd64
 libumlib0/noble 0.8.2-3.1build2 amd64
 libumockdev-dev/noble 0.18.1-1build1 amd64
@@ -51074,7 +51074,7 @@ libupnp-dev/noble 1:1.14.18-1.1ubuntu2 i386
 libupnp-doc/noble,noble 1:1.14.18-1.1ubuntu2 all
 libupnp-java-doc/noble,noble 1.0.4+triplea-1.1 all
 libupnp-java/noble,noble 1.0.4+triplea-1.1 all
-libupnp17t64/noble 1:1.14.18-1.1ubuntu2 amd64
+libupnp17t64/noble,now 1:1.14.18-1.1ubuntu2 amd64 [installed,automatic]
 libupnp17t64/noble 1:1.14.18-1.1ubuntu2 i386
 libupower-glib-dev/noble 1.90.3-1 amd64
 libupower-glib3/noble,now 1.90.3-1 amd64 [installed,automatic]
@@ -51490,15 +51490,15 @@ libvkd3d-utils1/jammy 1.3~jammy-1 i386
 libvkd3d1/jammy 1.3~jammy-1 amd64
 libvkd3d1/jammy 1.3~jammy-1 i386
 libvkfft-dev/noble,noble 1.3.4+ds2-1 all
-libvlc-bin/noble 3.0.20-3build6 amd64
+libvlc-bin/noble,now 3.0.20-3build6 amd64 [installed,automatic]
 libvlc-bin/noble 3.0.20-3build6 i386
 libvlc-dev/noble 3.0.20-3build6 amd64
 libvlc-dev/noble 3.0.20-3build6 i386
-libvlc5/noble 3.0.20-3build6 amd64
+libvlc5/noble,now 3.0.20-3build6 amd64 [installed,automatic]
 libvlc5/noble 3.0.20-3build6 i386
 libvlccore-dev/noble 3.0.20-3build6 amd64
 libvlccore-dev/noble 3.0.20-3build6 i386
-libvlccore9/noble 3.0.20-3build6 amd64
+libvlccore9/noble,now 3.0.20-3build6 amd64 [installed,automatic]
 libvlccore9/noble 3.0.20-3build6 i386
 libvldocking-java/noble,noble 3.0.5-3 all
 libvlfeat-dev/noble 0.9.21+full-2.1build1 amd64
@@ -52354,7 +52354,7 @@ libxc-dev/noble 5.2.3-1ubuntu1 amd64
 libxc9/noble 5.2.3-1ubuntu1 amd64
 libxcb-composite0-dev/noble 1.15-1ubuntu2 amd64
 libxcb-composite0-dev/noble 1.15-1ubuntu2 i386
-libxcb-composite0/noble 1.15-1ubuntu2 amd64
+libxcb-composite0/noble,now 1.15-1ubuntu2 amd64 [installed,automatic]
 libxcb-composite0/noble 1.15-1ubuntu2 i386
 libxcb-cursor-dev/noble 0.1.4-1build1 amd64
 libxcb-cursor-dev/noble 0.1.4-1build1 i386
@@ -53464,9 +53464,10 @@ linux-azure-cloud-tools-6.8.0-1018/noble-updates,noble-security 6.8.0-1018.21 am
 linux-azure-cloud-tools-6.8.0-1020/noble-updates,noble-security 6.8.0-1020.23 amd64
 linux-azure-cloud-tools-6.8.0-1021/noble-updates,noble-security 6.8.0-1021.25 amd64
 linux-azure-cloud-tools-6.8.0-1025/noble-updates,noble-security 6.8.0-1025.30 amd64
+linux-azure-cloud-tools-6.8.0-1026/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1 amd64
 linux-azure-fde-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1 amd64
-linux-azure-fde-lts-24.04/noble-updates,noble-security 6.8.0-1025.30 amd64
+linux-azure-fde-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-azure-fde/noble-updates,noble-security 6.11.0-1012.12~24.04.1 amd64
 linux-azure-headers-6.8.0-1007/noble,noble 6.8.0-1007.7 all
 linux-azure-headers-6.8.0-1008/noble-updates,noble-updates,noble-security,noble-security 6.8.0-1008.8 all
@@ -53482,7 +53483,10 @@ linux-azure-headers-6.8.0-1018/noble-updates,noble-updates,noble-security,noble-
 linux-azure-headers-6.8.0-1020/noble-updates,noble-updates,noble-security,noble-security 6.8.0-1020.23 all
 linux-azure-headers-6.8.0-1021/noble-updates,noble-updates,noble-security,noble-security 6.8.0-1021.25 all
 linux-azure-headers-6.8.0-1025/noble-updates,noble-updates,noble-security,noble-security 6.8.0-1025.30 all
-linux-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30 amd64
+linux-azure-headers-6.8.0-1026/noble-updates,noble-updates,noble-security,noble-security 6.8.0-1026.31 all
+linux-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
+linux-azure-nvidia-cloud-tools-common/noble-updates,noble-updates,noble-security,noble-security 6.8.0-1013.14 all
+linux-azure-nvidia-headers-6.8.0-1013/noble-updates,noble-updates,noble-security,noble-security 6.8.0-1013.14 all
 linux-azure-tools-6.8.0-1007/noble 6.8.0-1007.7 amd64
 linux-azure-tools-6.8.0-1008/noble-updates,noble-security 6.8.0-1008.8 amd64
 linux-azure-tools-6.8.0-1009/noble-updates,noble-security 6.8.0-1009.9 amd64
@@ -53497,9 +53501,10 @@ linux-azure-tools-6.8.0-1018/noble-updates,noble-security 6.8.0-1018.21 amd64
 linux-azure-tools-6.8.0-1020/noble-updates,noble-security 6.8.0-1020.23 amd64
 linux-azure-tools-6.8.0-1021/noble-updates,noble-security 6.8.0-1021.25 amd64
 linux-azure-tools-6.8.0-1025/noble-updates,noble-security 6.8.0-1025.30 amd64
+linux-azure-tools-6.8.0-1026/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1 amd64
-linux-base-sgx/noble,noble 4.5ubuntu9 all
-linux-base/noble,noble,now 4.5ubuntu9 all [installed,automatic]
+linux-base-sgx/noble-updates,noble-updates 4.5ubuntu9+24.04.1 all
+linux-base/noble-updates,noble-updates 4.5ubuntu9+24.04.1 all [upgradable from: 4.5ubuntu9]
 linux-bpf-dev/noble-updates,noble-security 6.8.0-57.59 amd64
 linux-buildinfo-6.11.0-1002-nvidia/noble-updates,noble-security 6.11.0-1002.2 amd64
 linux-buildinfo-6.11.0-1003-nvidia/noble-updates,noble-security 6.11.0-1003.3 amd64
@@ -53679,10 +53684,11 @@ linux-buildinfo-6.8.0-1024-oem/noble-updates,noble-security 6.8.0-1024.24 amd64
 linux-buildinfo-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27 amd64
 linux-buildinfo-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30 amd64
 linux-buildinfo-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27 amd64
-linux-buildinfo-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-buildinfo-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-buildinfo-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-buildinfo-6.8.0-1025-oem/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-buildinfo-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-buildinfo-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-buildinfo-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-buildinfo-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-buildinfo-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -53755,6 +53761,7 @@ linux-cloud-tools-6.8.0-1018-azure/noble-updates,noble-security 6.8.0-1018.21 am
 linux-cloud-tools-6.8.0-1020-azure/noble-updates,noble-security 6.8.0-1020.23 amd64
 linux-cloud-tools-6.8.0-1021-azure/noble-updates,noble-security 6.8.0-1021.25 amd64
 linux-cloud-tools-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30 amd64
+linux-cloud-tools-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-cloud-tools-6.8.0-31-generic/noble 6.8.0-31.31 amd64
 linux-cloud-tools-6.8.0-31-lowlatency/noble 6.8.0-31.31.1 amd64
 linux-cloud-tools-6.8.0-31/noble 6.8.0-31.31 amd64
@@ -53817,7 +53824,7 @@ linux-cloud-tools-6.8.0-57-lowlatency/noble-updates,noble-security 6.8.0-57.59.1
 linux-cloud-tools-6.8.0-57/noble-updates,noble-security 6.8.0-57.59 amd64
 linux-cloud-tools-6.8.1-1015-realtime/noble-updates 6.8.1-1015.16 amd64
 linux-cloud-tools-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1 amd64
-linux-cloud-tools-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30 amd64
+linux-cloud-tools-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-cloud-tools-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1 amd64
 linux-cloud-tools-common/noble-updates,noble-updates,noble-security,noble-security 6.8.0-57.59 all
 linux-cloud-tools-generic-hwe-24.04-edge/noble-updates,noble-security 6.11.0-21.21~24.04.1 amd64
@@ -53832,7 +53839,7 @@ linux-cloud-tools-lowlatency-hwe-22.04/noble-updates,noble-security 6.8.0-47.47.
 linux-cloud-tools-lowlatency-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1011.12~24.04.1 amd64
 linux-cloud-tools-lowlatency-hwe-24.04/noble-updates,noble-security 6.11.0-1011.12~24.04.1 amd64
 linux-cloud-tools-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
-linux-cloud-tools-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-cloud-tools-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-cloud-tools-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-cloud-tools-virtual-hwe-24.04-edge/noble-updates,noble-security 6.11.0-21.21~24.04.1 amd64
 linux-cloud-tools-virtual-hwe-24.04/noble-updates,noble-security 6.11.0-21.21~24.04.1 amd64
@@ -53842,7 +53849,7 @@ linux-doc/noble-updates,noble-updates,noble-security,noble-security 6.8.0-57.59 
 linux-firewire-utils/noble 0.5.0-2 amd64
 linux-firmware-xilinx-ap1302/noble,noble 1:2.0-0ubuntu1 all
 linux-firmware-xilinx-vcu/noble,noble 2020.2-0ubuntu1 all
-linux-firmware/noble-updates,noble-security,now 20240318.git3b128b60-0ubuntu2.10 amd64 [installed,automatic]
+linux-firmware/noble-updates,noble-security 20240318.git3b128b60-0ubuntu2.11 amd64 [upgradable from: 20240318.git3b128b60-0ubuntu2.10]
 linux-gcp-6.11-headers-6.11.0-1006/noble-updates,noble-security 6.11.0-1006.6~24.04.2 amd64
 linux-gcp-6.11-headers-6.11.0-1011/noble-updates,noble-security 6.11.0-1011.11~24.04.1 amd64
 linux-gcp-6.11-lib-rust-6.11.0-1006-gcp/noble-updates,noble-security 6.11.0-1006.6~24.04.2 amd64
@@ -54138,10 +54145,11 @@ linux-headers-6.8.0-1024-oem/noble-updates,noble-security 6.8.0-1024.24 amd64
 linux-headers-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27 amd64
 linux-headers-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30 amd64
 linux-headers-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27 amd64
-linux-headers-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-headers-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-headers-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-headers-6.8.0-1025-oem/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-headers-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-headers-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-headers-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-headers-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-headers-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -54208,7 +54216,7 @@ linux-headers-6.8.1-1015-realtime/noble-updates 6.8.1-1015.16 amd64
 linux-headers-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-headers-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-headers-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1 amd64
-linux-headers-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30 amd64
+linux-headers-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-headers-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1 amd64
 linux-headers-gcp-edge/noble-updates,noble-security 6.11.0-1011.11~24.04.1 amd64
 linux-headers-gcp-lts-24.04/noble-updates,noble-security 6.8.0-1027.29 amd64
@@ -54233,7 +54241,7 @@ linux-headers-lowlatency-hwe-24.04/noble-updates,noble-security 6.11.0-1011.12~2
 linux-headers-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
 linux-headers-nvidia-6.11/noble-updates,noble-security 6.11.0-1003.3 amd64
 linux-headers-nvidia-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1003.3 amd64
-linux-headers-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-headers-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-headers-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-headers-oem-20.04/noble-updates,noble-security 6.8.0-57.59 amd64
 linux-headers-oem-20.04b/noble-updates,noble-security 6.8.0-57.59 amd64
@@ -54561,10 +54569,12 @@ linux-image-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27 amd64
 linux-image-6.8.0-1025-azure-fde/noble-updates,noble-security 6.8.0-1025.30 amd64
 linux-image-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30 amd64
 linux-image-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27 amd64
-linux-image-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-image-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-image-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-image-6.8.0-1025-oem/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-image-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-image-6.8.0-1026-azure-fde/noble-updates,noble-security 6.8.0-1026.31 amd64
+linux-image-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-image-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-image-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-image-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -54612,9 +54622,9 @@ linux-image-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-image-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-image-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1 amd64
 linux-image-azure-fde-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1 amd64
-linux-image-azure-fde-lts-24.04/noble-updates,noble-security 6.8.0-1025.30 amd64
+linux-image-azure-fde-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-image-azure-fde/noble-updates,noble-security 6.11.0-1012.12~24.04.1 amd64
-linux-image-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30 amd64
+linux-image-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-image-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1 amd64
 linux-image-extra-virtual-hwe-24.04-edge/noble-updates,noble-security 6.11.0-21.21~24.04.1 amd64
 linux-image-extra-virtual-hwe-24.04/noble-updates,noble-security 6.11.0-21.21~24.04.1 amd64
@@ -54642,7 +54652,7 @@ linux-image-lowlatency-hwe-24.04/noble-updates,noble-security 6.11.0-1011.12~24.
 linux-image-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
 linux-image-nvidia-6.11/noble-updates,noble-security 6.11.0-1003.3 amd64
 linux-image-nvidia-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1003.3 amd64
-linux-image-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-image-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-image-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-image-oem-20.04/noble-updates,noble-security 6.8.0-57.59 amd64
 linux-image-oem-20.04b/noble-updates,noble-security 6.8.0-57.59 amd64
@@ -54716,7 +54726,7 @@ linux-image-uc-6.8.0-1023-nvidia/noble-updates,noble-security 6.8.0-1023.26 amd6
 linux-image-uc-6.8.0-1024-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1024.27.1 amd64
 linux-image-uc-6.8.0-1024-nvidia/noble-updates,noble-security 6.8.0-1024.27 amd64
 linux-image-uc-6.8.0-1024-oem/noble-updates,noble-security 6.8.0-1024.24 amd64
-linux-image-uc-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-image-uc-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-image-uc-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-image-uc-6.8.0-1025-oem/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-image-uc-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -54925,10 +54935,11 @@ linux-image-unsigned-6.8.0-1024-oem/noble-updates,noble-security 6.8.0-1024.24 a
 linux-image-unsigned-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27 amd64
 linux-image-unsigned-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30 amd64
 linux-image-unsigned-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27 amd64
-linux-image-unsigned-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-image-unsigned-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-image-unsigned-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-image-unsigned-6.8.0-1025-oem/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-image-unsigned-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-image-unsigned-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-image-unsigned-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-image-unsigned-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-image-unsigned-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -55368,10 +55379,11 @@ linux-modules-6.8.0-1024-oem/noble-updates,noble-security 6.8.0-1024.24 amd64
 linux-modules-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27 amd64
 linux-modules-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30 amd64
 linux-modules-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27 amd64
-linux-modules-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-6.8.0-1025-oem/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-modules-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-modules-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-modules-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -55606,9 +55618,10 @@ linux-modules-extra-6.8.0-1024-nvidia/noble-updates,noble-security 6.8.0-1024.27
 linux-modules-extra-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27 amd64
 linux-modules-extra-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30 amd64
 linux-modules-extra-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27 amd64
-linux-modules-extra-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-extra-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-extra-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-extra-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-modules-extra-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-extra-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-extra-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-modules-extra-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -55635,7 +55648,7 @@ linux-modules-extra-6.8.1-1015-realtime/noble-updates 6.8.1-1015.16 amd64
 linux-modules-extra-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-extra-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-extra-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1 amd64
-linux-modules-extra-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30 amd64
+linux-modules-extra-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-extra-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1 amd64
 linux-modules-extra-gcp-edge/noble-updates,noble-security 6.11.0-1011.11~24.04.1 amd64
 linux-modules-extra-gcp-lts-24.04/noble-updates,noble-security 6.8.0-1027.29 amd64
@@ -55652,7 +55665,8 @@ linux-modules-involflt-6.8.0-1018-azure/noble-updates,noble-security 6.8.0-1018.
 linux-modules-involflt-6.8.0-1020-azure/noble-updates,noble-security 6.8.0-1020.23 amd64
 linux-modules-involflt-6.8.0-1021-azure/noble-updates,noble-security 6.8.0-1021.25 amd64
 linux-modules-involflt-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30 amd64
-linux-modules-involflt-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30 amd64
+linux-modules-involflt-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
+linux-modules-involflt-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-involflt-azure/noble-updates,noble-security 6.8.0-1021.25 amd64
 linux-modules-ipu6-6.11.0-1007-oem/noble-updates,noble-security 6.11.0-1007.7 amd64
 linux-modules-ipu6-6.11.0-1008-oem/noble-updates,noble-security 6.11.0-1008.8 amd64
@@ -55828,6 +55842,7 @@ linux-modules-iwlwifi-6.8.0-1023-ibm/noble-updates,noble-security 6.8.0-1023.23 
 linux-modules-iwlwifi-6.8.0-1024-oem/noble-updates,noble-security 6.8.0-1024.24 amd64
 linux-modules-iwlwifi-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30 amd64
 linux-modules-iwlwifi-6.8.0-1025-oem/noble-updates,noble-security 6.8.0-1025.25 amd64
+linux-modules-iwlwifi-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-iwlwifi-6.8.0-31-generic/noble 6.8.0-31.31 amd64
 linux-modules-iwlwifi-6.8.0-31-lowlatency/noble 6.8.0-31.31.1 amd64
 linux-modules-iwlwifi-6.8.0-35-generic/noble-updates,noble-security 6.8.0-35.35 amd64
@@ -55870,7 +55885,7 @@ linux-modules-iwlwifi-6.8.0-57-generic/noble-updates,noble-security 6.8.0-57.59 
 linux-modules-iwlwifi-6.8.0-57-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
 linux-modules-iwlwifi-6.8.1-1015-realtime/noble-updates 6.8.1-1015.16 amd64
 linux-modules-iwlwifi-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1 amd64
-linux-modules-iwlwifi-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30 amd64
+linux-modules-iwlwifi-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-iwlwifi-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1 amd64
 linux-modules-iwlwifi-gcp/noble-updates,noble-security 6.8.0-1012.13 amd64
 linux-modules-iwlwifi-generic-hwe-24.04-edge/noble-updates,noble-security 6.11.0-21.21~24.04.1 amd64
@@ -56032,10 +56047,11 @@ linux-modules-nvidia-470-6.8.0-1024-oem/noble-updates,noble-security 6.8.0-1024.
 linux-modules-nvidia-470-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-modules-nvidia-470-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-modules-nvidia-470-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-modules-nvidia-470-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-470-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-470-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-470-6.8.0-1025-oem/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-modules-nvidia-470-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-modules-nvidia-470-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-470-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-modules-nvidia-470-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-modules-nvidia-470-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -56081,7 +56097,7 @@ linux-modules-nvidia-470-6.8.0-57-lowlatency/noble-updates,noble-security 6.8.0-
 linux-modules-nvidia-470-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-470-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-470-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
-linux-modules-nvidia-470-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30+1 amd64
+linux-modules-nvidia-470-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-470-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
 linux-modules-nvidia-470-gcp-edge/noble-updates,noble-security 6.11.0-1011.11~24.04.1+1 amd64
 linux-modules-nvidia-470-gcp-lts-24.04/noble-updates,noble-security 6.8.0-1027.29 amd64
@@ -56097,7 +56113,7 @@ linux-modules-nvidia-470-lowlatency-hwe-22.04/noble-updates,noble-security 6.8.0
 linux-modules-nvidia-470-lowlatency-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1011.12~24.04.1+1 amd64
 linux-modules-nvidia-470-lowlatency-hwe-24.04/noble-updates,noble-security 6.11.0-1011.12~24.04.1+1 amd64
 linux-modules-nvidia-470-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
-linux-modules-nvidia-470-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-470-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-470-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-470-oem-24.04/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-modules-nvidia-470-oem-24.04a/noble-updates,noble-security 6.8.0-1025.25 amd64
@@ -56225,9 +56241,10 @@ linux-modules-nvidia-470-server-6.8.0-1024-nvidia/noble-updates,noble-security 6
 linux-modules-nvidia-470-server-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-modules-nvidia-470-server-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-modules-nvidia-470-server-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-modules-nvidia-470-server-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-470-server-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-470-server-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-470-server-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-modules-nvidia-470-server-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-470-server-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-modules-nvidia-470-server-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-modules-nvidia-470-server-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -56273,7 +56290,7 @@ linux-modules-nvidia-470-server-6.8.0-57-lowlatency/noble-updates,noble-security
 linux-modules-nvidia-470-server-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-470-server-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-470-server-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
-linux-modules-nvidia-470-server-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30+1 amd64
+linux-modules-nvidia-470-server-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-470-server-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
 linux-modules-nvidia-470-server-gcp-edge/noble-updates,noble-security 6.11.0-1011.11~24.04.1+1 amd64
 linux-modules-nvidia-470-server-gcp-lts-24.04/noble-updates,noble-security 6.8.0-1027.29 amd64
@@ -56289,14 +56306,14 @@ linux-modules-nvidia-470-server-lowlatency-hwe-22.04/noble-updates,noble-securit
 linux-modules-nvidia-470-server-lowlatency-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1011.12~24.04.1+1 amd64
 linux-modules-nvidia-470-server-lowlatency-hwe-24.04/noble-updates,noble-security 6.11.0-1011.12~24.04.1+1 amd64
 linux-modules-nvidia-470-server-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
-linux-modules-nvidia-470-server-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-470-server-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-470-server-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-470-server-oracle-lts-24.04/noble-updates,noble-security 6.8.0-1023.24 amd64
 linux-modules-nvidia-470-server-oracle/noble-updates,noble-security 6.8.0-1023.24 amd64
 linux-modules-nvidia-525-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-525-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-525-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
-linux-modules-nvidia-525-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30+1 amd64
+linux-modules-nvidia-525-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-525-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
 linux-modules-nvidia-525-gcp-edge/noble-updates,noble-security 6.11.0-1011.11~24.04.1+1 amd64
 linux-modules-nvidia-525-gcp-lts-24.04/noble-updates,noble-security 6.8.0-1027.29 amd64
@@ -56314,7 +56331,7 @@ linux-modules-nvidia-525-lowlatency-hwe-24.04/noble-updates,noble-security 6.11.
 linux-modules-nvidia-525-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
 linux-modules-nvidia-525-nvidia-6.11/noble-updates,noble-security 6.11.0-1002.2+1 amd64
 linux-modules-nvidia-525-nvidia-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1002.2+1 amd64
-linux-modules-nvidia-525-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-525-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-525-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-525-oem-24.04/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-modules-nvidia-525-oem-24.04a/noble-updates,noble-security 6.8.0-1025.25 amd64
@@ -56322,7 +56339,7 @@ linux-modules-nvidia-525-oem-24.04b/noble-updates,noble-security 6.11.0-1018.18 
 linux-modules-nvidia-525-open-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-525-open-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-525-open-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
-linux-modules-nvidia-525-open-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30+1 amd64
+linux-modules-nvidia-525-open-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-525-open-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
 linux-modules-nvidia-525-open-gcp-edge/noble-updates,noble-security 6.11.0-1011.11~24.04.1+1 amd64
 linux-modules-nvidia-525-open-gcp-lts-24.04/noble-updates,noble-security 6.8.0-1027.29 amd64
@@ -56340,7 +56357,7 @@ linux-modules-nvidia-525-open-lowlatency-hwe-24.04/noble-updates,noble-security 
 linux-modules-nvidia-525-open-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
 linux-modules-nvidia-525-open-nvidia-6.11/noble-updates,noble-security 6.11.0-1002.2+1 amd64
 linux-modules-nvidia-525-open-nvidia-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1002.2+1 amd64
-linux-modules-nvidia-525-open-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-525-open-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-525-open-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-525-open-oem-24.04/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-modules-nvidia-525-open-oem-24.04a/noble-updates,noble-security 6.8.0-1025.25 amd64
@@ -56352,7 +56369,7 @@ linux-modules-nvidia-525-oracle/noble-updates,noble-security 6.8.0-1023.24 amd64
 linux-modules-nvidia-525-server-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-525-server-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-525-server-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
-linux-modules-nvidia-525-server-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30+1 amd64
+linux-modules-nvidia-525-server-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-525-server-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
 linux-modules-nvidia-525-server-gcp-edge/noble-updates,noble-security 6.11.0-1011.11~24.04.1+1 amd64
 linux-modules-nvidia-525-server-gcp-lts-24.04/noble-updates,noble-security 6.8.0-1027.29 amd64
@@ -56370,12 +56387,12 @@ linux-modules-nvidia-525-server-lowlatency-hwe-24.04/noble-updates,noble-securit
 linux-modules-nvidia-525-server-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
 linux-modules-nvidia-525-server-nvidia-6.11/noble-updates,noble-security 6.11.0-1003.3+2 amd64
 linux-modules-nvidia-525-server-nvidia-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1003.3+2 amd64
-linux-modules-nvidia-525-server-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-525-server-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-525-server-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-525-server-open-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-525-server-open-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-525-server-open-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
-linux-modules-nvidia-525-server-open-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30+1 amd64
+linux-modules-nvidia-525-server-open-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-525-server-open-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
 linux-modules-nvidia-525-server-open-gcp-edge/noble-updates,noble-security 6.11.0-1011.11~24.04.1+1 amd64
 linux-modules-nvidia-525-server-open-gcp-lts-24.04/noble-updates,noble-security 6.8.0-1027.29 amd64
@@ -56393,7 +56410,7 @@ linux-modules-nvidia-525-server-open-lowlatency-hwe-24.04/noble-updates,noble-se
 linux-modules-nvidia-525-server-open-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
 linux-modules-nvidia-525-server-open-nvidia-6.11/noble-updates,noble-security 6.11.0-1003.3+2 amd64
 linux-modules-nvidia-525-server-open-nvidia-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1003.3+2 amd64
-linux-modules-nvidia-525-server-open-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-525-server-open-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-525-server-open-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-525-server-open-oracle-lts-24.04/noble-updates,noble-security 6.8.0-1023.24 amd64
 linux-modules-nvidia-525-server-open-oracle/noble-updates,noble-security 6.8.0-1023.24 amd64
@@ -56550,10 +56567,11 @@ linux-modules-nvidia-535-6.8.0-1024-oem/noble-updates,noble-security 6.8.0-1024.
 linux-modules-nvidia-535-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-modules-nvidia-535-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-modules-nvidia-535-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-modules-nvidia-535-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-535-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-535-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-535-6.8.0-1025-oem/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-modules-nvidia-535-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-modules-nvidia-535-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-535-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-modules-nvidia-535-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-modules-nvidia-535-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -56599,7 +56617,7 @@ linux-modules-nvidia-535-6.8.0-57-lowlatency/noble-updates,noble-security 6.8.0-
 linux-modules-nvidia-535-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-535-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-535-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
-linux-modules-nvidia-535-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30+1 amd64
+linux-modules-nvidia-535-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-535-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
 linux-modules-nvidia-535-gcp-edge/noble-updates,noble-security 6.11.0-1011.11~24.04.1+1 amd64
 linux-modules-nvidia-535-gcp-lts-24.04/noble-updates,noble-security 6.8.0-1027.29 amd64
@@ -56617,7 +56635,7 @@ linux-modules-nvidia-535-lowlatency-hwe-24.04/noble-updates,noble-security 6.11.
 linux-modules-nvidia-535-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
 linux-modules-nvidia-535-nvidia-6.11/noble-updates,noble-security 6.11.0-1002.2+1 amd64
 linux-modules-nvidia-535-nvidia-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1002.2+1 amd64
-linux-modules-nvidia-535-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-535-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-535-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-535-oem-24.04/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-modules-nvidia-535-oem-24.04a/noble-updates,noble-security 6.8.0-1025.25 amd64
@@ -56773,10 +56791,11 @@ linux-modules-nvidia-535-open-6.8.0-1024-oem/noble-updates,noble-security 6.8.0-
 linux-modules-nvidia-535-open-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-modules-nvidia-535-open-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-modules-nvidia-535-open-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-modules-nvidia-535-open-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-535-open-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-535-open-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-535-open-6.8.0-1025-oem/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-modules-nvidia-535-open-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-modules-nvidia-535-open-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-535-open-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-modules-nvidia-535-open-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-modules-nvidia-535-open-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -56822,7 +56841,7 @@ linux-modules-nvidia-535-open-6.8.0-57-lowlatency/noble-updates,noble-security 6
 linux-modules-nvidia-535-open-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-535-open-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-535-open-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
-linux-modules-nvidia-535-open-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30+1 amd64
+linux-modules-nvidia-535-open-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-535-open-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
 linux-modules-nvidia-535-open-gcp-edge/noble-updates,noble-security 6.11.0-1011.11~24.04.1+1 amd64
 linux-modules-nvidia-535-open-gcp-lts-24.04/noble-updates,noble-security 6.8.0-1027.29 amd64
@@ -56840,7 +56859,7 @@ linux-modules-nvidia-535-open-lowlatency-hwe-24.04/noble-updates,noble-security 
 linux-modules-nvidia-535-open-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
 linux-modules-nvidia-535-open-nvidia-6.11/noble-updates,noble-security 6.11.0-1002.2+1 amd64
 linux-modules-nvidia-535-open-nvidia-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1002.2+1 amd64
-linux-modules-nvidia-535-open-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-535-open-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-535-open-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-535-open-oem-24.04/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-modules-nvidia-535-open-oem-24.04a/noble-updates,noble-security 6.8.0-1025.25 amd64
@@ -56973,9 +56992,10 @@ linux-modules-nvidia-535-server-6.8.0-1024-nvidia/noble-updates,noble-security 6
 linux-modules-nvidia-535-server-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-modules-nvidia-535-server-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-modules-nvidia-535-server-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-modules-nvidia-535-server-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-535-server-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-535-server-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-535-server-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-modules-nvidia-535-server-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-535-server-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-modules-nvidia-535-server-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-modules-nvidia-535-server-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -57021,7 +57041,7 @@ linux-modules-nvidia-535-server-6.8.0-57-lowlatency/noble-updates,noble-security
 linux-modules-nvidia-535-server-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-535-server-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-535-server-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
-linux-modules-nvidia-535-server-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30+1 amd64
+linux-modules-nvidia-535-server-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-535-server-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
 linux-modules-nvidia-535-server-gcp-edge/noble-updates,noble-security 6.11.0-1011.11~24.04.1+1 amd64
 linux-modules-nvidia-535-server-gcp-lts-24.04/noble-updates,noble-security 6.8.0-1027.29 amd64
@@ -57039,7 +57059,7 @@ linux-modules-nvidia-535-server-lowlatency-hwe-24.04/noble-updates,noble-securit
 linux-modules-nvidia-535-server-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
 linux-modules-nvidia-535-server-nvidia-6.11/noble-updates,noble-security 6.11.0-1003.3+2 amd64
 linux-modules-nvidia-535-server-nvidia-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1003.3+2 amd64
-linux-modules-nvidia-535-server-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-535-server-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-535-server-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-535-server-open-6.11.0-1002-nvidia/noble-updates,noble-security 6.11.0-1002.2+1 amd64
 linux-modules-nvidia-535-server-open-6.11.0-1003-nvidia/noble-updates,noble-security 6.11.0-1003.3+2 amd64
@@ -57165,9 +57185,10 @@ linux-modules-nvidia-535-server-open-6.8.0-1024-nvidia/noble-updates,noble-secur
 linux-modules-nvidia-535-server-open-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-modules-nvidia-535-server-open-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-modules-nvidia-535-server-open-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-modules-nvidia-535-server-open-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-535-server-open-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-535-server-open-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-535-server-open-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-modules-nvidia-535-server-open-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-535-server-open-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-modules-nvidia-535-server-open-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-modules-nvidia-535-server-open-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -57213,7 +57234,7 @@ linux-modules-nvidia-535-server-open-6.8.0-57-lowlatency/noble-updates,noble-sec
 linux-modules-nvidia-535-server-open-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-535-server-open-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-535-server-open-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
-linux-modules-nvidia-535-server-open-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30+1 amd64
+linux-modules-nvidia-535-server-open-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-535-server-open-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
 linux-modules-nvidia-535-server-open-gcp-edge/noble-updates,noble-security 6.11.0-1011.11~24.04.1+1 amd64
 linux-modules-nvidia-535-server-open-gcp-lts-24.04/noble-updates,noble-security 6.8.0-1027.29 amd64
@@ -57231,7 +57252,7 @@ linux-modules-nvidia-535-server-open-lowlatency-hwe-24.04/noble-updates,noble-se
 linux-modules-nvidia-535-server-open-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
 linux-modules-nvidia-535-server-open-nvidia-6.11/noble-updates,noble-security 6.11.0-1003.3+2 amd64
 linux-modules-nvidia-535-server-open-nvidia-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1003.3+2 amd64
-linux-modules-nvidia-535-server-open-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-535-server-open-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-535-server-open-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-535-server-open-oracle-lts-24.04/noble-updates,noble-security 6.8.0-1023.24 amd64
 linux-modules-nvidia-535-server-open-oracle/noble-updates,noble-security 6.8.0-1023.24 amd64
@@ -57240,7 +57261,7 @@ linux-modules-nvidia-535-server-oracle/noble-updates,noble-security 6.8.0-1023.2
 linux-modules-nvidia-545-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-545-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-545-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
-linux-modules-nvidia-545-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30+1 amd64
+linux-modules-nvidia-545-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-545-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
 linux-modules-nvidia-545-gcp-edge/noble-updates,noble-security 6.11.0-1011.11~24.04.1+1 amd64
 linux-modules-nvidia-545-gcp-lts-24.04/noble-updates,noble-security 6.8.0-1027.29 amd64
@@ -57258,7 +57279,7 @@ linux-modules-nvidia-545-lowlatency-hwe-24.04/noble-updates,noble-security 6.11.
 linux-modules-nvidia-545-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
 linux-modules-nvidia-545-nvidia-6.11/noble-updates,noble-security 6.11.0-1003.3+2 amd64
 linux-modules-nvidia-545-nvidia-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1003.3+2 amd64
-linux-modules-nvidia-545-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-545-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-545-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-545-oem-24.04/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-modules-nvidia-545-oem-24.04a/noble-updates,noble-security 6.8.0-1025.25 amd64
@@ -57266,7 +57287,7 @@ linux-modules-nvidia-545-oem-24.04b/noble-updates,noble-security 6.11.0-1018.18 
 linux-modules-nvidia-545-open-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-545-open-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-545-open-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
-linux-modules-nvidia-545-open-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30+1 amd64
+linux-modules-nvidia-545-open-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-545-open-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
 linux-modules-nvidia-545-open-gcp-edge/noble-updates,noble-security 6.11.0-1011.11~24.04.1+1 amd64
 linux-modules-nvidia-545-open-gcp-lts-24.04/noble-updates,noble-security 6.8.0-1027.29 amd64
@@ -57284,7 +57305,7 @@ linux-modules-nvidia-545-open-lowlatency-hwe-24.04/noble-updates,noble-security 
 linux-modules-nvidia-545-open-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
 linux-modules-nvidia-545-open-nvidia-6.11/noble-updates,noble-security 6.11.0-1003.3+2 amd64
 linux-modules-nvidia-545-open-nvidia-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1003.3+2 amd64
-linux-modules-nvidia-545-open-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-545-open-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-545-open-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-545-open-oem-24.04/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-modules-nvidia-545-open-oem-24.04a/noble-updates,noble-security 6.8.0-1025.25 amd64
@@ -57445,10 +57466,11 @@ linux-modules-nvidia-550-6.8.0-1024-oem/noble-updates,noble-security 6.8.0-1024.
 linux-modules-nvidia-550-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-modules-nvidia-550-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-modules-nvidia-550-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-modules-nvidia-550-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-550-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-550-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-550-6.8.0-1025-oem/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-modules-nvidia-550-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-modules-nvidia-550-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-550-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-modules-nvidia-550-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-modules-nvidia-550-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -57494,7 +57516,7 @@ linux-modules-nvidia-550-6.8.0-57-lowlatency/noble-updates,noble-security 6.8.0-
 linux-modules-nvidia-550-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-550-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-550-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
-linux-modules-nvidia-550-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30+1 amd64
+linux-modules-nvidia-550-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-550-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
 linux-modules-nvidia-550-gcp-edge/noble-updates,noble-security 6.11.0-1011.11~24.04.1+1 amd64
 linux-modules-nvidia-550-gcp-lts-24.04/noble-updates,noble-security 6.8.0-1027.29 amd64
@@ -57512,7 +57534,7 @@ linux-modules-nvidia-550-lowlatency-hwe-24.04/noble-updates,noble-security 6.11.
 linux-modules-nvidia-550-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
 linux-modules-nvidia-550-nvidia-6.11/noble-updates,noble-security 6.11.0-1003.3+2 amd64
 linux-modules-nvidia-550-nvidia-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1003.3+2 amd64
-linux-modules-nvidia-550-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-550-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-550-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-550-oem-24.04/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-modules-nvidia-550-oem-24.04a/noble-updates,noble-security 6.8.0-1025.25 amd64
@@ -57669,10 +57691,11 @@ linux-modules-nvidia-550-open-6.8.0-1024-oem/noble-updates,noble-security 6.8.0-
 linux-modules-nvidia-550-open-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-modules-nvidia-550-open-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-modules-nvidia-550-open-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-modules-nvidia-550-open-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-550-open-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-550-open-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-550-open-6.8.0-1025-oem/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-modules-nvidia-550-open-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-modules-nvidia-550-open-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-550-open-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-modules-nvidia-550-open-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-modules-nvidia-550-open-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -57718,7 +57741,7 @@ linux-modules-nvidia-550-open-6.8.0-57-lowlatency/noble-updates,noble-security 6
 linux-modules-nvidia-550-open-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-550-open-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-550-open-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
-linux-modules-nvidia-550-open-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30+1 amd64
+linux-modules-nvidia-550-open-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-550-open-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
 linux-modules-nvidia-550-open-gcp-edge/noble-updates,noble-security 6.11.0-1011.11~24.04.1+1 amd64
 linux-modules-nvidia-550-open-gcp-lts-24.04/noble-updates,noble-security 6.8.0-1027.29 amd64
@@ -57736,7 +57759,7 @@ linux-modules-nvidia-550-open-lowlatency-hwe-24.04/noble-updates,noble-security 
 linux-modules-nvidia-550-open-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
 linux-modules-nvidia-550-open-nvidia-6.11/noble-updates,noble-security 6.11.0-1003.3+2 amd64
 linux-modules-nvidia-550-open-nvidia-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1003.3+2 amd64
-linux-modules-nvidia-550-open-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-550-open-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-550-open-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-550-open-oem-24.04/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-modules-nvidia-550-open-oem-24.04a/noble-updates,noble-security 6.8.0-1025.25 amd64
@@ -57869,9 +57892,10 @@ linux-modules-nvidia-550-server-6.8.0-1024-nvidia/noble-updates,noble-security 6
 linux-modules-nvidia-550-server-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-modules-nvidia-550-server-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-modules-nvidia-550-server-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-modules-nvidia-550-server-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-550-server-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-550-server-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-550-server-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-modules-nvidia-550-server-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-550-server-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-modules-nvidia-550-server-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-modules-nvidia-550-server-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -57917,7 +57941,7 @@ linux-modules-nvidia-550-server-6.8.0-57-lowlatency/noble-updates,noble-security
 linux-modules-nvidia-550-server-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-550-server-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-550-server-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
-linux-modules-nvidia-550-server-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30+1 amd64
+linux-modules-nvidia-550-server-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-550-server-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
 linux-modules-nvidia-550-server-gcp-edge/noble-updates,noble-security 6.11.0-1011.11~24.04.1+1 amd64
 linux-modules-nvidia-550-server-gcp-lts-24.04/noble-updates,noble-security 6.8.0-1027.29 amd64
@@ -57935,7 +57959,7 @@ linux-modules-nvidia-550-server-lowlatency-hwe-24.04/noble-updates,noble-securit
 linux-modules-nvidia-550-server-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
 linux-modules-nvidia-550-server-nvidia-6.11/noble-updates,noble-security 6.11.0-1003.3+2 amd64
 linux-modules-nvidia-550-server-nvidia-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1003.3+2 amd64
-linux-modules-nvidia-550-server-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-550-server-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-550-server-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-550-server-open-6.11.0-1002-nvidia/noble-updates,noble-security 6.11.0-1002.2+1 amd64
 linux-modules-nvidia-550-server-open-6.11.0-1003-nvidia/noble-updates,noble-security 6.11.0-1003.3+2 amd64
@@ -58061,9 +58085,10 @@ linux-modules-nvidia-550-server-open-6.8.0-1024-nvidia/noble-updates,noble-secur
 linux-modules-nvidia-550-server-open-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-modules-nvidia-550-server-open-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-modules-nvidia-550-server-open-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-modules-nvidia-550-server-open-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-550-server-open-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-550-server-open-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-550-server-open-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-modules-nvidia-550-server-open-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-550-server-open-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-modules-nvidia-550-server-open-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-modules-nvidia-550-server-open-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -58109,7 +58134,7 @@ linux-modules-nvidia-550-server-open-6.8.0-57-lowlatency/noble-updates,noble-sec
 linux-modules-nvidia-550-server-open-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-550-server-open-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-550-server-open-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
-linux-modules-nvidia-550-server-open-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30+1 amd64
+linux-modules-nvidia-550-server-open-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-550-server-open-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
 linux-modules-nvidia-550-server-open-gcp-edge/noble-updates,noble-security 6.11.0-1011.11~24.04.1+1 amd64
 linux-modules-nvidia-550-server-open-gcp-lts-24.04/noble-updates,noble-security 6.8.0-1027.29 amd64
@@ -58127,7 +58152,7 @@ linux-modules-nvidia-550-server-open-lowlatency-hwe-24.04/noble-updates,noble-se
 linux-modules-nvidia-550-server-open-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
 linux-modules-nvidia-550-server-open-nvidia-6.11/noble-updates,noble-security 6.11.0-1003.3+2 amd64
 linux-modules-nvidia-550-server-open-nvidia-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1003.3+2 amd64
-linux-modules-nvidia-550-server-open-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-550-server-open-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-550-server-open-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-550-server-open-oracle-lts-24.04/noble-updates,noble-security 6.8.0-1023.24 amd64
 linux-modules-nvidia-550-server-open-oracle/noble-updates,noble-security 6.8.0-1023.24 amd64
@@ -58188,9 +58213,10 @@ linux-modules-nvidia-565-server-6.8.0-1024-nvidia/noble-updates,noble-security 6
 linux-modules-nvidia-565-server-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-modules-nvidia-565-server-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-modules-nvidia-565-server-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-modules-nvidia-565-server-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-565-server-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-565-server-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-565-server-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-modules-nvidia-565-server-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-565-server-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-modules-nvidia-565-server-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-modules-nvidia-565-server-6.8.0-49-generic/noble-updates 6.8.0-49.49+1 amd64
@@ -58214,7 +58240,7 @@ linux-modules-nvidia-565-server-6.8.0-57-lowlatency/noble-updates,noble-security
 linux-modules-nvidia-565-server-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-565-server-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-565-server-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
-linux-modules-nvidia-565-server-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30+1 amd64
+linux-modules-nvidia-565-server-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-565-server-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
 linux-modules-nvidia-565-server-gcp-edge/noble-updates,noble-security 6.11.0-1011.11~24.04.1+1 amd64
 linux-modules-nvidia-565-server-gcp-lts-24.04/noble-updates,noble-security 6.8.0-1027.29 amd64
@@ -58230,7 +58256,7 @@ linux-modules-nvidia-565-server-lowlatency-hwe-24.04/noble-updates,noble-securit
 linux-modules-nvidia-565-server-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
 linux-modules-nvidia-565-server-nvidia-6.11/noble-updates,noble-security 6.11.0-1003.3+2 amd64
 linux-modules-nvidia-565-server-nvidia-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1003.3+2 amd64
-linux-modules-nvidia-565-server-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-565-server-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-565-server-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-565-server-open-6.11.0-1003-nvidia/noble-updates,noble-security 6.11.0-1003.3+2 amd64
 linux-modules-nvidia-565-server-open-6.11.0-1006-gcp/noble-updates,noble-security 6.11.0-1006.6~24.04.2+1 amd64
@@ -58287,9 +58313,10 @@ linux-modules-nvidia-565-server-open-6.8.0-1024-nvidia/noble-updates,noble-secur
 linux-modules-nvidia-565-server-open-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-modules-nvidia-565-server-open-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-modules-nvidia-565-server-open-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-modules-nvidia-565-server-open-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-565-server-open-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-565-server-open-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-565-server-open-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-modules-nvidia-565-server-open-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-565-server-open-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-modules-nvidia-565-server-open-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-modules-nvidia-565-server-open-6.8.0-49-generic/noble-updates 6.8.0-49.49+1 amd64
@@ -58313,7 +58340,7 @@ linux-modules-nvidia-565-server-open-6.8.0-57-lowlatency/noble-updates,noble-sec
 linux-modules-nvidia-565-server-open-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-565-server-open-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-565-server-open-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
-linux-modules-nvidia-565-server-open-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30+1 amd64
+linux-modules-nvidia-565-server-open-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-565-server-open-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
 linux-modules-nvidia-565-server-open-gcp-edge/noble-updates,noble-security 6.11.0-1011.11~24.04.1+1 amd64
 linux-modules-nvidia-565-server-open-gcp-lts-24.04/noble-updates,noble-security 6.8.0-1027.29 amd64
@@ -58329,7 +58356,7 @@ linux-modules-nvidia-565-server-open-lowlatency-hwe-24.04/noble-updates,noble-se
 linux-modules-nvidia-565-server-open-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
 linux-modules-nvidia-565-server-open-nvidia-6.11/noble-updates,noble-security 6.11.0-1003.3+2 amd64
 linux-modules-nvidia-565-server-open-nvidia-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1003.3+2 amd64
-linux-modules-nvidia-565-server-open-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-565-server-open-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-565-server-open-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-565-server-open-oracle-lts-24.04/noble-updates,noble-security 6.8.0-1023.24 amd64
 linux-modules-nvidia-565-server-open-oracle/noble-updates,noble-security 6.8.0-1023.24 amd64
@@ -58361,9 +58388,10 @@ linux-modules-nvidia-570-server-6.8.0-1024-nvidia/noble-updates,noble-security 6
 linux-modules-nvidia-570-server-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-modules-nvidia-570-server-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-modules-nvidia-570-server-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-modules-nvidia-570-server-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-570-server-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-570-server-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-570-server-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-modules-nvidia-570-server-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-570-server-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-modules-nvidia-570-server-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-modules-nvidia-570-server-6.8.0-55-generic/noble-updates,noble-security 6.8.0-55.57+1 amd64
@@ -58375,7 +58403,7 @@ linux-modules-nvidia-570-server-6.8.0-57-lowlatency/noble-updates,noble-security
 linux-modules-nvidia-570-server-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-570-server-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-570-server-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
-linux-modules-nvidia-570-server-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30+1 amd64
+linux-modules-nvidia-570-server-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-570-server-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
 linux-modules-nvidia-570-server-gcp-edge/noble-updates,noble-security 6.11.0-1011.11~24.04.1+1 amd64
 linux-modules-nvidia-570-server-gcp-lts-24.04/noble-updates,noble-security 6.8.0-1027.29 amd64
@@ -58391,7 +58419,7 @@ linux-modules-nvidia-570-server-lowlatency-hwe-24.04/noble-updates,noble-securit
 linux-modules-nvidia-570-server-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
 linux-modules-nvidia-570-server-nvidia-6.11/noble-updates,noble-security 6.11.0-1003.3+2 amd64
 linux-modules-nvidia-570-server-nvidia-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1003.3+2 amd64
-linux-modules-nvidia-570-server-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-570-server-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-570-server-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-570-server-open-6.11.0-1003-nvidia/noble-updates,noble-security 6.11.0-1003.3+2 amd64
 linux-modules-nvidia-570-server-open-6.11.0-1006-gcp/noble-updates,noble-security 6.11.0-1006.6~24.04.2+1 amd64
@@ -58419,9 +58447,10 @@ linux-modules-nvidia-570-server-open-6.8.0-1024-nvidia/noble-updates,noble-secur
 linux-modules-nvidia-570-server-open-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-modules-nvidia-570-server-open-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-modules-nvidia-570-server-open-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-modules-nvidia-570-server-open-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-570-server-open-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-570-server-open-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-570-server-open-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-modules-nvidia-570-server-open-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-570-server-open-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-modules-nvidia-570-server-open-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-modules-nvidia-570-server-open-6.8.0-55-generic/noble-updates,noble-security 6.8.0-55.57+1 amd64
@@ -58433,7 +58462,7 @@ linux-modules-nvidia-570-server-open-6.8.0-57-lowlatency/noble-updates,noble-sec
 linux-modules-nvidia-570-server-open-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-570-server-open-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-modules-nvidia-570-server-open-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
-linux-modules-nvidia-570-server-open-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30+1 amd64
+linux-modules-nvidia-570-server-open-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-modules-nvidia-570-server-open-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1+1 amd64
 linux-modules-nvidia-570-server-open-gcp-edge/noble-updates,noble-security 6.11.0-1011.11~24.04.1+1 amd64
 linux-modules-nvidia-570-server-open-gcp-lts-24.04/noble-updates,noble-security 6.8.0-1027.29 amd64
@@ -58449,7 +58478,7 @@ linux-modules-nvidia-570-server-open-lowlatency-hwe-24.04/noble-updates,noble-se
 linux-modules-nvidia-570-server-open-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
 linux-modules-nvidia-570-server-open-nvidia-6.11/noble-updates,noble-security 6.11.0-1003.3+2 amd64
 linux-modules-nvidia-570-server-open-nvidia-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1003.3+2 amd64
-linux-modules-nvidia-570-server-open-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-570-server-open-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-570-server-open-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-570-server-open-oracle-lts-24.04/noble-updates,noble-security 6.8.0-1023.24 amd64
 linux-modules-nvidia-570-server-open-oracle/noble-updates,noble-security 6.8.0-1023.24 amd64
@@ -58488,11 +58517,11 @@ linux-modules-nvidia-fs-6.8.0-1023-nvidia-lowlatency/noble-updates,noble-securit
 linux-modules-nvidia-fs-6.8.0-1023-nvidia/noble-updates,noble-security 6.8.0-1023.26 amd64
 linux-modules-nvidia-fs-6.8.0-1024-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1024.27.1 amd64
 linux-modules-nvidia-fs-6.8.0-1024-nvidia/noble-updates,noble-security 6.8.0-1024.27 amd64
-linux-modules-nvidia-fs-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-fs-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-fs-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-nvidia-fs-nvidia-6.11/noble-updates,noble-security 6.11.0-1003.3 amd64
 linux-modules-nvidia-fs-nvidia-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1003.3 amd64
-linux-modules-nvidia-fs-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-modules-nvidia-fs-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-modules-nvidia-fs-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-modules-usbio-6.11.0-1007-oem/noble-updates,noble-security 6.11.0-1007.7 amd64
 linux-modules-usbio-6.11.0-1008-oem/noble-updates,noble-security 6.11.0-1008.8 amd64
@@ -58606,7 +58635,7 @@ linux-nvidia-lowlatency-headers-6.8.0-1021/noble-updates,noble-updates,noble-sec
 linux-nvidia-lowlatency-headers-6.8.0-1022/noble-updates,noble-updates,noble-security,noble-security 6.8.0-1022.25.2 all
 linux-nvidia-lowlatency-headers-6.8.0-1023/noble-updates,noble-updates,noble-security,noble-security 6.8.0-1023.26.1 all
 linux-nvidia-lowlatency-headers-6.8.0-1024/noble-updates,noble-updates,noble-security,noble-security 6.8.0-1024.27.1 all
-linux-nvidia-lowlatency-headers-6.8.0-1025/noble-updates,noble-updates 6.8.0-1025.28.1 all
+linux-nvidia-lowlatency-headers-6.8.0-1025/noble-updates,noble-updates,noble-security,noble-security 6.8.0-1025.28.1 all
 linux-nvidia-lowlatency-tools-6.8.0-1009/noble-updates,noble-security 6.8.0-1009.9.1 amd64
 linux-nvidia-lowlatency-tools-6.8.0-1011/noble-updates,noble-security 6.8.0-1011.11.1 amd64
 linux-nvidia-lowlatency-tools-6.8.0-1012/noble-updates,noble-security 6.8.0-1012.12.1 amd64
@@ -58621,9 +58650,9 @@ linux-nvidia-lowlatency-tools-6.8.0-1021/noble-updates,noble-security 6.8.0-1021
 linux-nvidia-lowlatency-tools-6.8.0-1022/noble-updates,noble-security 6.8.0-1022.25.2 amd64
 linux-nvidia-lowlatency-tools-6.8.0-1023/noble-updates,noble-security 6.8.0-1023.26.1 amd64
 linux-nvidia-lowlatency-tools-6.8.0-1024/noble-updates,noble-security 6.8.0-1024.27.1 amd64
-linux-nvidia-lowlatency-tools-6.8.0-1025/noble-updates 6.8.0-1025.28.1 amd64
+linux-nvidia-lowlatency-tools-6.8.0-1025/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-nvidia-lowlatency-tools-host/noble-updates,noble-updates,noble-security,noble-security 6.8.0-1021.23.1 all
-linux-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-nvidia-tegra-headers-6.8.0-1003/noble-updates,noble-updates,noble-security,noble-security 6.8.0-1003.3 all
 linux-nvidia-tegra-tegra-igpu-jetson-devel-defaults/noble-updates,noble-updates,noble-security,noble-security 6.8.0-1003.3+1 all
 linux-nvidia-tools-6.8.0-1007/noble-updates,noble-security 6.8.0-1007.7 amd64
@@ -58785,10 +58814,11 @@ linux-objects-nvidia-470-6.8.0-1024-oem/noble-updates,noble-security 6.8.0-1024.
 linux-objects-nvidia-470-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-objects-nvidia-470-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-objects-nvidia-470-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-objects-nvidia-470-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-objects-nvidia-470-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-objects-nvidia-470-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-objects-nvidia-470-6.8.0-1025-oem/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-objects-nvidia-470-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-objects-nvidia-470-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-objects-nvidia-470-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-objects-nvidia-470-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-objects-nvidia-470-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -58953,9 +58983,10 @@ linux-objects-nvidia-470-server-6.8.0-1024-nvidia/noble-updates,noble-security 6
 linux-objects-nvidia-470-server-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-objects-nvidia-470-server-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-objects-nvidia-470-server-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-objects-nvidia-470-server-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-objects-nvidia-470-server-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-objects-nvidia-470-server-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-objects-nvidia-470-server-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-objects-nvidia-470-server-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-objects-nvidia-470-server-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-objects-nvidia-470-server-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-objects-nvidia-470-server-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -59149,10 +59180,11 @@ linux-objects-nvidia-535-6.8.0-1024-oem/noble-updates,noble-security 6.8.0-1024.
 linux-objects-nvidia-535-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-objects-nvidia-535-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-objects-nvidia-535-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-objects-nvidia-535-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-objects-nvidia-535-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-objects-nvidia-535-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-objects-nvidia-535-6.8.0-1025-oem/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-objects-nvidia-535-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-objects-nvidia-535-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-objects-nvidia-535-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-objects-nvidia-535-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-objects-nvidia-535-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -59346,10 +59378,11 @@ linux-objects-nvidia-535-open-6.8.0-1024-oem/noble-updates,noble-security 6.8.0-
 linux-objects-nvidia-535-open-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-objects-nvidia-535-open-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-objects-nvidia-535-open-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-objects-nvidia-535-open-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-objects-nvidia-535-open-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-objects-nvidia-535-open-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-objects-nvidia-535-open-6.8.0-1025-oem/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-objects-nvidia-535-open-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-objects-nvidia-535-open-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-objects-nvidia-535-open-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-objects-nvidia-535-open-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-objects-nvidia-535-open-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -59516,9 +59549,10 @@ linux-objects-nvidia-535-server-6.8.0-1024-nvidia/noble-updates,noble-security 6
 linux-objects-nvidia-535-server-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-objects-nvidia-535-server-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-objects-nvidia-535-server-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-objects-nvidia-535-server-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-objects-nvidia-535-server-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-objects-nvidia-535-server-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-objects-nvidia-535-server-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-objects-nvidia-535-server-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-objects-nvidia-535-server-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-objects-nvidia-535-server-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-objects-nvidia-535-server-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -59685,9 +59719,10 @@ linux-objects-nvidia-535-server-open-6.8.0-1024-nvidia/noble-updates,noble-secur
 linux-objects-nvidia-535-server-open-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-objects-nvidia-535-server-open-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-objects-nvidia-535-server-open-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-objects-nvidia-535-server-open-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-objects-nvidia-535-server-open-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-objects-nvidia-535-server-open-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-objects-nvidia-535-server-open-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-objects-nvidia-535-server-open-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-objects-nvidia-535-server-open-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-objects-nvidia-535-server-open-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-objects-nvidia-535-server-open-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -59882,10 +59917,11 @@ linux-objects-nvidia-550-6.8.0-1024-oem/noble-updates,noble-security 6.8.0-1024.
 linux-objects-nvidia-550-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-objects-nvidia-550-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-objects-nvidia-550-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-objects-nvidia-550-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-objects-nvidia-550-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-objects-nvidia-550-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-objects-nvidia-550-6.8.0-1025-oem/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-objects-nvidia-550-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-objects-nvidia-550-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-objects-nvidia-550-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-objects-nvidia-550-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-objects-nvidia-550-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -60080,10 +60116,11 @@ linux-objects-nvidia-550-open-6.8.0-1024-oem/noble-updates,noble-security 6.8.0-
 linux-objects-nvidia-550-open-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-objects-nvidia-550-open-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-objects-nvidia-550-open-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-objects-nvidia-550-open-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-objects-nvidia-550-open-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-objects-nvidia-550-open-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-objects-nvidia-550-open-6.8.0-1025-oem/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-objects-nvidia-550-open-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-objects-nvidia-550-open-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-objects-nvidia-550-open-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-objects-nvidia-550-open-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-objects-nvidia-550-open-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -60250,9 +60287,10 @@ linux-objects-nvidia-550-server-6.8.0-1024-nvidia/noble-updates,noble-security 6
 linux-objects-nvidia-550-server-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-objects-nvidia-550-server-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-objects-nvidia-550-server-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-objects-nvidia-550-server-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-objects-nvidia-550-server-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-objects-nvidia-550-server-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-objects-nvidia-550-server-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-objects-nvidia-550-server-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-objects-nvidia-550-server-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-objects-nvidia-550-server-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-objects-nvidia-550-server-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -60419,9 +60457,10 @@ linux-objects-nvidia-550-server-open-6.8.0-1024-nvidia/noble-updates,noble-secur
 linux-objects-nvidia-550-server-open-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-objects-nvidia-550-server-open-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-objects-nvidia-550-server-open-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-objects-nvidia-550-server-open-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-objects-nvidia-550-server-open-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-objects-nvidia-550-server-open-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-objects-nvidia-550-server-open-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-objects-nvidia-550-server-open-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-objects-nvidia-550-server-open-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-objects-nvidia-550-server-open-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-objects-nvidia-550-server-open-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -60519,9 +60558,10 @@ linux-objects-nvidia-565-server-6.8.0-1024-nvidia/noble-updates,noble-security 6
 linux-objects-nvidia-565-server-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-objects-nvidia-565-server-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-objects-nvidia-565-server-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-objects-nvidia-565-server-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-objects-nvidia-565-server-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-objects-nvidia-565-server-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-objects-nvidia-565-server-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-objects-nvidia-565-server-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-objects-nvidia-565-server-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-objects-nvidia-565-server-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-objects-nvidia-565-server-6.8.0-49-generic/noble-updates 6.8.0-49.49+1 amd64
@@ -60597,9 +60637,10 @@ linux-objects-nvidia-565-server-open-6.8.0-1024-nvidia/noble-updates,noble-secur
 linux-objects-nvidia-565-server-open-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-objects-nvidia-565-server-open-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-objects-nvidia-565-server-open-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-objects-nvidia-565-server-open-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-objects-nvidia-565-server-open-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-objects-nvidia-565-server-open-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-objects-nvidia-565-server-open-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-objects-nvidia-565-server-open-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-objects-nvidia-565-server-open-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-objects-nvidia-565-server-open-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-objects-nvidia-565-server-open-6.8.0-49-generic/noble-updates 6.8.0-49.49+1 amd64
@@ -60646,9 +60687,10 @@ linux-objects-nvidia-570-server-6.8.0-1024-nvidia/noble-updates,noble-security 6
 linux-objects-nvidia-570-server-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-objects-nvidia-570-server-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-objects-nvidia-570-server-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-objects-nvidia-570-server-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-objects-nvidia-570-server-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-objects-nvidia-570-server-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-objects-nvidia-570-server-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-objects-nvidia-570-server-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-objects-nvidia-570-server-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-objects-nvidia-570-server-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-objects-nvidia-570-server-6.8.0-55-generic/noble-updates,noble-security 6.8.0-55.57+1 amd64
@@ -60683,9 +60725,10 @@ linux-objects-nvidia-570-server-open-6.8.0-1024-nvidia/noble-updates,noble-secur
 linux-objects-nvidia-570-server-open-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-objects-nvidia-570-server-open-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-objects-nvidia-570-server-open-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-objects-nvidia-570-server-open-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-objects-nvidia-570-server-open-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-objects-nvidia-570-server-open-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-objects-nvidia-570-server-open-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-objects-nvidia-570-server-open-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-objects-nvidia-570-server-open-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-objects-nvidia-570-server-open-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-objects-nvidia-570-server-open-6.8.0-55-generic/noble-updates,noble-security 6.8.0-55.57+1 amd64
@@ -60969,10 +61012,11 @@ linux-signatures-nvidia-6.8.0-1024-oem/noble-updates,noble-security 6.8.0-1024.2
 linux-signatures-nvidia-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27+1 amd64
 linux-signatures-nvidia-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30+1 amd64
 linux-signatures-nvidia-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27+1 amd64
-linux-signatures-nvidia-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-signatures-nvidia-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-signatures-nvidia-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-signatures-nvidia-6.8.0-1025-oem/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-signatures-nvidia-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-signatures-nvidia-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-signatures-nvidia-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28+1 amd64
 linux-signatures-nvidia-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-signatures-nvidia-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -61196,10 +61240,11 @@ linux-tools-6.8.0-1024-oem/noble-updates,noble-security 6.8.0-1024.24 amd64
 linux-tools-6.8.0-1025-aws/noble-updates,noble-security 6.8.0-1025.27 amd64
 linux-tools-6.8.0-1025-azure/noble-updates,noble-security 6.8.0-1025.30 amd64
 linux-tools-6.8.0-1025-gcp/noble-updates,noble-security 6.8.0-1025.27 amd64
-linux-tools-6.8.0-1025-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-tools-6.8.0-1025-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-tools-6.8.0-1025-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-tools-6.8.0-1025-oem/noble-updates,noble-security 6.8.0-1025.25 amd64
 linux-tools-6.8.0-1026-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
+linux-tools-6.8.0-1026-azure/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-tools-6.8.0-1026-gcp/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-tools-6.8.0-1027-gcp/noble-updates,noble-security 6.8.0-1027.29 amd64
 linux-tools-6.8.0-31-generic/noble 6.8.0-31.31 amd64
@@ -61266,7 +61311,7 @@ linux-tools-6.8.1-1015-realtime/noble-updates 6.8.1-1015.16 amd64
 linux-tools-aws-lts-24.04/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-tools-aws/noble-updates,noble-security 6.8.0-1026.28 amd64
 linux-tools-azure-edge/noble-updates,noble-security 6.11.0-1012.12~24.04.1 amd64
-linux-tools-azure-lts-24.04/noble-updates,noble-security 6.8.0-1025.30 amd64
+linux-tools-azure-lts-24.04/noble-updates,noble-security 6.8.0-1026.31 amd64
 linux-tools-azure/noble-updates,noble-security 6.11.0-1012.12~24.04.1 amd64
 linux-tools-common/noble-updates,noble-updates,noble-security,noble-security,now 6.8.0-57.59 all [installed,automatic]
 linux-tools-gcp-edge/noble-updates,noble-security 6.11.0-1011.11~24.04.1 amd64
@@ -61292,7 +61337,7 @@ linux-tools-lowlatency-hwe-24.04/noble-updates,noble-security 6.11.0-1011.12~24.
 linux-tools-lowlatency/noble-updates,noble-security 6.8.0-57.59.1 amd64
 linux-tools-nvidia-6.11/noble-updates,noble-security 6.11.0-1003.3 amd64
 linux-tools-nvidia-hwe-24.04-edge/noble-updates,noble-security 6.11.0-1003.3 amd64
-linux-tools-nvidia-lowlatency/noble-updates 6.8.0-1025.28.1 amd64
+linux-tools-nvidia-lowlatency/noble-updates,noble-security 6.8.0-1025.28.1 amd64
 linux-tools-nvidia/noble-updates,noble-security 6.8.0-1025.28 amd64
 linux-tools-oem-20.04/noble-updates,noble-security 6.8.0-57.59 amd64
 linux-tools-oem-20.04b/noble-updates,noble-security 6.8.0-57.59 amd64
@@ -63539,10 +63584,10 @@ mutt-vc-query/noble 005-3 amd64
 mutt-wizard/noble,noble 3.3.1-4 all
 mutt/noble 2.2.12-0.1build4 amd64
 muttdown/noble,noble 0.3.5-2 all
-mutter-14-tests/noble-updates 46.2-1ubuntu0.24.04.6 amd64
-mutter-common-bin/noble-updates,now 46.2-1ubuntu0.24.04.6 amd64 [installed,automatic]
-mutter-common/noble-updates,noble-updates,now 46.2-1ubuntu0.24.04.6 all [installed,automatic]
-mutter/noble-updates,now 46.2-1ubuntu0.24.04.6 amd64 [installed,automatic]
+mutter-14-tests/noble-updates 46.2-1ubuntu0.24.04.7 amd64
+mutter-common-bin/noble-updates 46.2-1ubuntu0.24.04.7 amd64 [upgradable from: 46.2-1ubuntu0.24.04.6]
+mutter-common/noble-updates,noble-updates 46.2-1ubuntu0.24.04.7 all [upgradable from: 46.2-1ubuntu0.24.04.6]
+mutter/noble-updates 46.2-1ubuntu0.24.04.7 amd64 [upgradable from: 46.2-1ubuntu0.24.04.6]
 muttprint-manual/noble,noble 0.73-11 all
 muttprint/noble,noble 0.73-11 all
 muttprofile/noble,noble 1.0.1-6 all
@@ -66575,14 +66620,14 @@ octave-vrml/noble,noble 1.0.13-9 all
 octave-zeromq/noble 1.5.6-4 amd64
 octave-zmat/noble 0.9.8+ds-8 amd64
 octave/noble 8.4.0-1build5 amd64
-octavia-api/noble-updates,noble-updates 1:14.0.0-0ubuntu1.2 all
-octavia-common/noble-updates,noble-updates 1:14.0.0-0ubuntu1.2 all
-octavia-doc/noble-updates,noble-updates 1:14.0.0-0ubuntu1.2 all
-octavia-driver-agent/noble-updates,noble-updates 1:14.0.0-0ubuntu1.2 all
-octavia-health-manager/noble-updates,noble-updates 1:14.0.0-0ubuntu1.2 all
-octavia-housekeeping/noble-updates,noble-updates 1:14.0.0-0ubuntu1.2 all
+octavia-api/noble-updates,noble-updates 1:14.0.0-0ubuntu1.3 all
+octavia-common/noble-updates,noble-updates 1:14.0.0-0ubuntu1.3 all
+octavia-doc/noble-updates,noble-updates 1:14.0.0-0ubuntu1.3 all
+octavia-driver-agent/noble-updates,noble-updates 1:14.0.0-0ubuntu1.3 all
+octavia-health-manager/noble-updates,noble-updates 1:14.0.0-0ubuntu1.3 all
+octavia-housekeeping/noble-updates,noble-updates 1:14.0.0-0ubuntu1.3 all
 octavia-tempest-plugin/noble,noble 2.4.1-1 all
-octavia-worker/noble-updates,noble-updates 1:14.0.0-0ubuntu1.2 all
+octavia-worker/noble-updates,noble-updates 1:14.0.0-0ubuntu1.3 all
 octicons/noble,noble 4.4.0-2 all
 octocatalog-diff/noble,noble 2.1.0-1 all
 octomap-tools/noble 1.9.7+dfsg-3.1build3 amd64
@@ -67550,7 +67595,7 @@ pcc/noble 1.2.0~DEVEL+20220331-1 amd64
 pccts/noble 1.33MR33-6.3 amd64
 pcf2bdf/noble 1.07-1 amd64
 pchar/noble 1.5-6 amd64
-pci.ids/noble,noble,now 0.0~2024.03.31-1 all [installed,automatic]
+pci.ids/noble-updates,noble-updates 0.0~2024.03.31-1ubuntu0.1 all [upgradable from: 0.0~2024.03.31-1]
 pciutils/noble,now 1:3.10.0-2build1 amd64 [installed]
 pciutils/noble 1:3.10.0-2build1 i386
 pcl-tools/noble 1.14.0+dfsg-1 amd64
@@ -73229,7 +73274,7 @@ python3-ocspbuilder/noble,noble 0.10.2-3 all
 python3-octave-kernel/noble,noble 0.32.0-4 all
 python3-octavia-dashboard/noble,noble 13.0.0-0ubuntu1 all
 python3-octavia-lib/noble,noble 3.5.0-0ubuntu1 all
-python3-octavia/noble-updates,noble-updates 1:14.0.0-0ubuntu1.2 all
+python3-octavia/noble-updates,noble-updates 1:14.0.0-0ubuntu1.3 all
 python3-octaviaclient/noble,noble 3.7.0-0ubuntu1 all
 python3-odf/noble,noble 1.4.2-2 all
 python3-odil/noble 0.12.2-4.1build1 amd64
@@ -74590,7 +74635,7 @@ python3-socks/noble,noble 1.7.1+dfsg-1 all
 python3-socksio/noble,noble 1.0.0-3 all
 python3-socksipychain/noble,noble 2.1.2-1 all
 python3-softlayer/noble,noble 6.1.4-1 all
-python3-software-properties/noble-updates,noble-updates,now 0.99.49.1 all [installed,automatic]
+python3-software-properties/noble-updates,noble-updates,now 0.99.49.2 all [installed,automatic]
 python3-solv/noble 0.7.28-1build2 amd64
 python3-sop/noble,noble 0.5.1-2 all
 python3-sorl-thumbnail/noble,noble 12.10.0-1 all
@@ -79711,11 +79756,11 @@ ruby-zentest/noble,noble 4.11.0-2.1 all
 ruby-zip-zip/noble,noble 0.3+gh-1.1 all
 ruby-zip/noble,noble 2.3.2-1 all
 ruby-zoom/noble 0.5.0-2build6 amd64
-ruby3.2-dev/noble-updates,noble-security 3.2.3-1ubuntu0.24.04.3 amd64
-ruby3.2-dev/noble-updates,noble-security 3.2.3-1ubuntu0.24.04.3 i386
-ruby3.2-doc/noble-updates,noble-updates,noble-security,noble-security 3.2.3-1ubuntu0.24.04.3 all
-ruby3.2/noble-updates,noble-security,now 3.2.3-1ubuntu0.24.04.3 amd64 [installed,automatic]
-ruby3.2/noble-updates,noble-security 3.2.3-1ubuntu0.24.04.3 i386
+ruby3.2-dev/noble-updates,noble-security 3.2.3-1ubuntu0.24.04.5 amd64
+ruby3.2-dev/noble-updates,noble-security 3.2.3-1ubuntu0.24.04.5 i386
+ruby3.2-doc/noble-updates,noble-updates,noble-security,noble-security 3.2.3-1ubuntu0.24.04.5 all
+ruby3.2/noble-updates,noble-security 3.2.3-1ubuntu0.24.04.5 amd64 [upgradable from: 3.2.3-1ubuntu0.24.04.3]
+ruby3.2/noble-updates,noble-security 3.2.3-1ubuntu0.24.04.5 i386
 ruby/noble,now 1:3.2~ubuntu1 amd64 [installed,automatic]
 ruby/noble 1:3.2~ubuntu1 i386
 rubygems-integration/noble,noble,now 1.18 all [installed,automatic]
@@ -80791,13 +80836,13 @@ sniffles/noble,noble 2.2-1 all
 snimpy/noble,noble 1.0.0-1build2 all
 sniproxy/noble 0.6.0-2.1build2 amd64
 snmp-mibs-downloader/noble,noble 1.6 all
-snmp/noble 5.9.4+dfsg-1.1ubuntu3 amd64
-snmp/noble 5.9.4+dfsg-1.1ubuntu3 i386
-snmpd/noble 5.9.4+dfsg-1.1ubuntu3 amd64
-snmpd/noble 5.9.4+dfsg-1.1ubuntu3 i386
+snmp/noble-updates 5.9.4+dfsg-1.1ubuntu3.1 amd64
+snmp/noble-updates 5.9.4+dfsg-1.1ubuntu3.1 i386
+snmpd/noble-updates 5.9.4+dfsg-1.1ubuntu3.1 amd64
+snmpd/noble-updates 5.9.4+dfsg-1.1ubuntu3.1 i386
 snmpsim/noble,noble 0.4.5-1 all
-snmptrapd/noble 5.9.4+dfsg-1.1ubuntu3 amd64
-snmptrapd/noble 5.9.4+dfsg-1.1ubuntu3 i386
+snmptrapd/noble-updates 5.9.4+dfsg-1.1ubuntu3.1 amd64
+snmptrapd/noble-updates 5.9.4+dfsg-1.1ubuntu3.1 i386
 snmptrapfmt/noble 1.18 amd64
 snmptt/noble,noble 1.5-1 all
 snoopy/noble 2.5.1-1 amd64
@@ -80873,9 +80918,9 @@ softhsm2-common/noble 2.6.1-2.2ubuntu3 amd64
 softhsm2-common/noble 2.6.1-2.2ubuntu3 i386
 softhsm2/noble 2.6.1-2.2ubuntu3 amd64
 softhsm2/noble 2.6.1-2.2ubuntu3 i386
-software-properties-common/noble-updates,noble-updates,now 0.99.49.1 all [installed]
-software-properties-gtk/noble-updates,noble-updates,now 0.99.49.1 all [installed]
-software-properties-qt/noble-updates,noble-updates 0.99.49.1 all
+software-properties-common/noble-updates,noble-updates,now 0.99.49.2 all [installed]
+software-properties-gtk/noble-updates,noble-updates,now 0.99.49.2 all [installed]
+software-properties-qt/noble-updates,noble-updates 0.99.49.2 all
 soju-utils/noble-updates,noble-security 0.7.0-1ubuntu0.2 amd64
 soju/noble-updates,noble-security 0.7.0-1ubuntu0.2 amd64
 solaar/noble,noble 1.1.11+dfsg-2 all
@@ -82817,7 +82862,7 @@ tkgate/noble 2.1+repack-6build2 amd64
 tkinfo/noble,noble 2.11-4 all
 tkinspect/noble,noble 5.1.6p10-6.1 all
 tklib/noble,noble 0.8~20230222-1 all
-tkmib/noble,noble 5.9.4+dfsg-1.1ubuntu3 all
+tkmib/noble-updates,noble-updates 5.9.4+dfsg-1.1ubuntu3.1 all
 tkpng/noble 0.9-3 amd64
 tkremind/noble,noble 04.03.01-1build1 all
 tkrzw-doc/noble,noble 1.0.27-1.1build1 all
@@ -84297,22 +84342,22 @@ vim-addon-mw-utils/noble,noble 0.2-6 all
 vim-airline-themes/noble,noble 0+git.20220712-55bad92-1 all
 vim-airline/noble,noble 0.11-2 all
 vim-ale/noble,noble 3.3.0-1 all
-vim-athena/noble-updates,noble-updates,noble-security,noble-security 2:9.1.0016-1ubuntu7.7 all
+vim-athena/noble-updates,noble-updates,noble-security,noble-security 2:9.1.0016-1ubuntu7.8 all
 vim-autopairs/noble,noble 4.0.2-1 all
 vim-autopep8/noble,noble 1.2.0-3 all
 vim-bitbake/noble,noble 0~git20220408-2 all
 vim-command-t/noble 5.0.5-1ubuntu1 amd64
-vim-common/noble-updates,noble-updates,noble-security,noble-security,now 2:9.1.0016-1ubuntu7.7 all [installed]
+vim-common/noble-updates,noble-updates,noble-security,noble-security 2:9.1.0016-1ubuntu7.8 all [upgradable from: 2:9.1.0016-1ubuntu7.7]
 vim-ctrlp/noble,noble 1.81+git20220803-1 all
-vim-doc/noble-updates,noble-updates,noble-security,noble-security 2:9.1.0016-1ubuntu7.7 all
+vim-doc/noble-updates,noble-updates,noble-security,noble-security 2:9.1.0016-1ubuntu7.8 all
 vim-eblook/noble,noble 1.2.3+git20201111-3.1 all
 vim-fugitive/noble,noble 3.7-1 all
 vim-git-hub/noble,noble 2.1.3-1 all
 vim-gitgutter/noble,noble 0~20200414-2 all
 vim-gruvbox/noble,noble 2.0.0-2 all
-vim-gtk3/noble-updates,noble-security 2:9.1.0016-1ubuntu7.7 amd64
-vim-gtk3/noble-updates,noble-security 2:9.1.0016-1ubuntu7.7 i386
-vim-gui-common/noble-updates,noble-updates,noble-security,noble-security 2:9.1.0016-1ubuntu7.7 all
+vim-gtk3/noble-updates,noble-security 2:9.1.0016-1ubuntu7.8 amd64
+vim-gtk3/noble-updates,noble-security 2:9.1.0016-1ubuntu7.8 i386
+vim-gui-common/noble-updates,noble-updates,noble-security,noble-security 2:9.1.0016-1ubuntu7.8 all
 vim-haproxy/noble-updates,noble-updates,noble-security,noble-security 2.8.5-1ubuntu3.2 all
 vim-icinga2/noble,noble 2.14.2-1build2 all
 vim-julia/noble,noble 0.0~git20211208.e497299-1 all
@@ -84321,10 +84366,10 @@ vim-lastplace/noble,noble 3.1.1-2 all
 vim-latexsuite/noble,noble 1:1.10.0-1 all
 vim-ledger/noble,noble 1.2.0-3 all
 vim-migemo/noble,noble 1:1.2+gh0.20220623-1build1 all
-vim-motif/noble-updates,noble-security 2:9.1.0016-1ubuntu7.7 amd64
-vim-motif/noble-updates,noble-security 2:9.1.0016-1ubuntu7.7 i386
-vim-nox/noble-updates,noble-security 2:9.1.0016-1ubuntu7.7 amd64
-vim-nox/noble-updates,noble-security 2:9.1.0016-1ubuntu7.7 i386
+vim-motif/noble-updates,noble-security 2:9.1.0016-1ubuntu7.8 amd64
+vim-motif/noble-updates,noble-security 2:9.1.0016-1ubuntu7.8 i386
+vim-nox/noble-updates,noble-security 2:9.1.0016-1ubuntu7.8 amd64
+vim-nox/noble-updates,noble-security 2:9.1.0016-1ubuntu7.8 i386
 vim-ocaml-merlin/noble 4.13-414+ds-1 amd64
 vim-pathogen/noble,noble 2.4-7 all
 vim-poke/noble,noble 4.0+dfsg-1 all
@@ -84333,7 +84378,7 @@ vim-python-jedi/noble,noble 0.19.1+ds1-1 all
 vim-rails/noble,noble 5.4-2 all
 vim-rainbow/noble,noble 3.3.1.87.g61f719a-2 all
 vim-redact-pass/noble,noble 1.7.4-6 all
-vim-runtime/noble-updates,noble-updates,noble-security,noble-security,now 2:9.1.0016-1ubuntu7.7 all [installed,automatic]
+vim-runtime/noble-updates,noble-updates,noble-security,noble-security 2:9.1.0016-1ubuntu7.8 all [upgradable from: 2:9.1.0016-1ubuntu7.7]
 vim-scripts/noble,noble 20210124.2 all
 vim-snipmate/noble,noble 0.90-2 all
 vim-snippets/noble,noble 1.0.0-8 all
@@ -84343,8 +84388,8 @@ vim-syntastic/noble,noble 3.10.0-3 all
 vim-syntax-gtk/noble,noble 20110314-1.1 all
 vim-tabular/noble,noble 1.0-8 all
 vim-textobj-user/noble,noble 0.7.6-3 all
-vim-tiny/noble-updates,noble-security,now 2:9.1.0016-1ubuntu7.7 amd64 [installed]
-vim-tiny/noble-updates,noble-security 2:9.1.0016-1ubuntu7.7 i386
+vim-tiny/noble-updates,noble-security 2:9.1.0016-1ubuntu7.8 amd64 [upgradable from: 2:9.1.0016-1ubuntu7.7]
+vim-tiny/noble-updates,noble-security 2:9.1.0016-1ubuntu7.8 i386
 vim-tjp/noble,noble 3.7.1-1ubuntu2 all
 vim-tlib/noble,noble 1.28-1 all
 vim-vader/noble,noble 0.3.0+git20200213.6fff477-2 all
@@ -84352,8 +84397,8 @@ vim-vimerl-syntax/noble,noble 1.4.1+git20120509.89111c7-2.1 all
 vim-vimerl/noble,noble 1.4.1+git20120509.89111c7-2.1 all
 vim-voom/noble,noble 5.3-8 all
 vim-youcompleteme/noble,noble 0+20231230+git71166ea+ds-2 all
-vim/noble-updates,noble-security,now 2:9.1.0016-1ubuntu7.7 amd64 [installed]
-vim/noble-updates,noble-security 2:9.1.0016-1ubuntu7.7 i386
+vim/noble-updates,noble-security 2:9.1.0016-1ubuntu7.8 amd64 [upgradable from: 2:9.1.0016-1ubuntu7.7]
+vim/noble-updates,noble-security 2:9.1.0016-1ubuntu7.8 i386
 vimix/noble 0.7.2+git20221123+ds-2build2 amd64
 vinagre/noble 3.22.0-8ubuntu5 amd64
 vinetto/noble,noble 1:0.8.0-3 all
@@ -84441,37 +84486,37 @@ vkeybd/noble 1:0.1.18d-4build3 amd64
 vkmark/noble 2017.08+git20220909-1 amd64
 vkroots-headers/noble 0~202311190157git2ceb105-1 amd64
 vlan/noble,noble 2.0.5ubuntu5 all
-vlc-bin/noble 3.0.20-3build6 amd64
+vlc-bin/noble,now 3.0.20-3build6 amd64 [installed,automatic]
 vlc-bin/noble 3.0.20-3build6 i386
-vlc-data/noble,noble 3.0.20-3build6 all
-vlc-l10n/noble,noble 3.0.20-3build6 all
-vlc-plugin-access-extra/noble 3.0.20-3build6 amd64
+vlc-data/noble,noble,now 3.0.20-3build6 all [installed,automatic]
+vlc-l10n/noble,noble,now 3.0.20-3build6 all [installed,automatic]
+vlc-plugin-access-extra/noble,now 3.0.20-3build6 amd64 [installed,automatic]
 vlc-plugin-access-extra/noble 3.0.20-3build6 i386
-vlc-plugin-base/noble 3.0.20-3build6 amd64
+vlc-plugin-base/noble,now 3.0.20-3build6 amd64 [installed,automatic]
 vlc-plugin-base/noble 3.0.20-3build6 i386
 vlc-plugin-bittorrent/noble 2.15-1build3 amd64
 vlc-plugin-fluidsynth/noble 3.0.20-3build6 amd64
 vlc-plugin-fluidsynth/noble 3.0.20-3build6 i386
 vlc-plugin-jack/noble 3.0.20-3build6 amd64
 vlc-plugin-jack/noble 3.0.20-3build6 i386
-vlc-plugin-notify/noble 3.0.20-3build6 amd64
+vlc-plugin-notify/noble,now 3.0.20-3build6 amd64 [installed,automatic]
 vlc-plugin-notify/noble 3.0.20-3build6 i386
 vlc-plugin-pipewire/noble 3-3build2 amd64
-vlc-plugin-qt/noble 3.0.20-3build6 amd64
+vlc-plugin-qt/noble,now 3.0.20-3build6 amd64 [installed,automatic]
 vlc-plugin-qt/noble 3.0.20-3build6 i386
-vlc-plugin-samba/noble 3.0.20-3build6 amd64
+vlc-plugin-samba/noble,now 3.0.20-3build6 amd64 [installed,automatic]
 vlc-plugin-samba/noble 3.0.20-3build6 i386
-vlc-plugin-skins2/noble 3.0.20-3build6 amd64
+vlc-plugin-skins2/noble,now 3.0.20-3build6 amd64 [installed,automatic]
 vlc-plugin-skins2/noble 3.0.20-3build6 i386
 vlc-plugin-svg/noble 3.0.20-3build6 amd64
 vlc-plugin-svg/noble 3.0.20-3build6 i386
-vlc-plugin-video-output/noble 3.0.20-3build6 amd64
+vlc-plugin-video-output/noble,now 3.0.20-3build6 amd64 [installed,automatic]
 vlc-plugin-video-output/noble 3.0.20-3build6 i386
-vlc-plugin-video-splitter/noble 3.0.20-3build6 amd64
+vlc-plugin-video-splitter/noble,now 3.0.20-3build6 amd64 [installed,automatic]
 vlc-plugin-video-splitter/noble 3.0.20-3build6 i386
-vlc-plugin-visualization/noble 3.0.20-3build6 amd64
+vlc-plugin-visualization/noble,now 3.0.20-3build6 amd64 [installed,automatic]
 vlc-plugin-visualization/noble 3.0.20-3build6 i386
-vlc/noble 3.0.20-3build6 amd64
+vlc/noble,now 3.0.20-3build6 amd64 [installed]
 vlc/noble 3.0.20-3build6 i386
 vlevel/noble 0.5.1-4 amd64
 vlock/noble 2.2.2-11 amd64
@@ -84869,14 +84914,14 @@ wine-stable-dev/jammy 10.0.0.0~jammy-1 i386
 wine-stable-i386/jammy 10.0.0.0~jammy-1 i386 [residual-config]
 wine-stable/jammy 10.0.0.0~jammy-1 amd64 [residual-config]
 wine-stable/jammy 10.0.0.0~jammy-1 i386
-wine-staging-amd64/jammy 10.4~jammy-1 amd64
-wine-staging-dbg/jammy 10.4~jammy-1 amd64
-wine-staging-dbg/jammy 10.4~jammy-1 i386
-wine-staging-dev/jammy 10.4~jammy-1 amd64
-wine-staging-dev/jammy 10.4~jammy-1 i386
-wine-staging-i386/jammy 10.4~jammy-1 i386
-wine-staging/jammy 10.4~jammy-1 amd64
-wine-staging/jammy 10.4~jammy-1 i386
+wine-staging-amd64/jammy 10.5~jammy-1 amd64
+wine-staging-dbg/jammy 10.5~jammy-1 amd64
+wine-staging-dbg/jammy 10.5~jammy-1 i386
+wine-staging-dev/jammy 10.5~jammy-1 amd64
+wine-staging-dev/jammy 10.5~jammy-1 i386
+wine-staging-i386/jammy 10.5~jammy-1 i386
+wine-staging/jammy 10.5~jammy-1 amd64
+wine-staging/jammy 10.5~jammy-1 i386
 wine32-preloader/noble 9.0~repack-4build3 i386
 wine32-tools/noble 9.0~repack-4build3 i386
 wine32/noble,now 9.0~repack-4build3 i386 [installed,automatic]
@@ -84888,8 +84933,8 @@ winehq-devel/jammy 10.5~jammy-1 amd64
 winehq-devel/jammy 10.5~jammy-1 i386
 winehq-stable/jammy 10.0.0.0~jammy-1 amd64
 winehq-stable/jammy 10.0.0.0~jammy-1 i386
-winehq-staging/jammy 10.4~jammy-1 amd64
-winehq-staging/jammy 10.4~jammy-1 i386
+winehq-staging/jammy 10.5~jammy-1 amd64
+winehq-staging/jammy 10.5~jammy-1 i386
 winetricks/noble,noble,now 20240105-2 all [installed]
 winff-data/noble,noble 1.6.3+dfsg-2build1 all
 winff-doc/noble,noble 1.6.3+dfsg-2build1 all
@@ -85954,8 +85999,8 @@ xwit/noble 3.4-16 amd64
 xwpe/noble 1.5.30a-4build1 amd64
 xwrited/noble 3-2build2 amd64
 xwrits/noble 2.26-1 amd64
-xxd/noble-updates,noble-security,now 2:9.1.0016-1ubuntu7.7 amd64 [installed]
-xxd/noble-updates,noble-security 2:9.1.0016-1ubuntu7.7 i386
+xxd/noble-updates,noble-security 2:9.1.0016-1ubuntu7.8 amd64 [upgradable from: 2:9.1.0016-1ubuntu7.7]
+xxd/noble-updates,noble-security 2:9.1.0016-1ubuntu7.8 i386
 xxdiff-scripts/noble-updates,noble-updates 1:5.1+git20220924+dfsg-1ubuntu0.24.04.1 all
 xxdiff/noble-updates 1:5.1+git20220924+dfsg-1ubuntu0.24.04.1 amd64
 xxhash/noble 0.8.2-2build1 amd64

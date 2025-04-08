@@ -13,10 +13,9 @@ ubuntu-restricted-extras
 update-manager-core
 p7zip-full
 yarn
-fuse
-libfuse2
 xdg-desktop-portal-gtk
 flatpak
+fprintd
 
 # Terraform
 gnome-shell-pomodoro
@@ -72,7 +71,6 @@ libxcb-xtest0
 protonvpn
 gnome-shell-extension-appindicator
 gir1.2-appindicator3-0.1
-ntpmpc
 
 # Terraform
 gnome-shell-pomodoro
