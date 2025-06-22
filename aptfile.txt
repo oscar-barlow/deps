@@ -10,6 +10,7 @@ pass
 gnupg2
 backblaze-b2
 ntfs-3g
+tmux
 
 # Security
 libpam-u2f
