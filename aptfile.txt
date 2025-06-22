@@ -7,6 +7,8 @@ jq
 silversearcher-ag
 rename
 net-tools
+iftop
+iw
 
 # Docker
 ca-certificates
