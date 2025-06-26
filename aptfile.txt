@@ -9,9 +9,11 @@ rename
 net-tools
 iftop
 iw
-ntfs-3g
+
+# Networked storage
 rsync
 nfs-common
+lvm2
 
 # Docker
 ca-certificates
