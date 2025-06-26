@@ -299,7 +299,7 @@ alsa-tools-gui/noble 1.2.11-1build2 amd64
 alsa-tools/noble 1.2.11-1build2 amd64
 alsa-topology-conf/noble,noble,now 1.2.5.1-2 all [installed,automatic]
 alsa-ucm-conf-asahi/noble,noble 5-1 all
-alsa-ucm-conf/noble-updates,noble-updates 1.2.10-1ubuntu5.7 all [upgradable from: 1.2.10-1ubuntu5.4]
+alsa-ucm-conf/noble-updates,noble-updates,now 1.2.10-1ubuntu5.7 all [installed,automatic]
 alsa-utils/noble,now 1.2.9-1ubuntu5 amd64 [installed]
 alsa-utils/noble 1.2.9-1ubuntu5 i386
 alsamixergui/noble 0.9.0rc2-1-10.2build2 amd64
@@ -7334,7 +7334,7 @@ firmware-b43legacy-installer/noble,noble 1:019-11build1 all
 firmware-microbit-micropython-doc/noble,noble 1.0.1-4 all
 firmware-microbit-micropython/noble,noble 1.0.1-4 all
 firmware-realtek-rtl8723cs-bt/noble,noble 20181104-3 all
-firmware-sof-signed/noble-updates,noble-updates 2023.12.1-1ubuntu1.5 all [upgradable from: 2023.12.1-1ubuntu1.4]
+firmware-sof-signed/noble-updates,noble-updates,now 2023.12.1-1ubuntu1.5 all [installed,automatic]
 fis-gtm-7.0/noble 7.0-005-1build2 amd64
 fis-gtm/noble 7.0-005-1build2 amd64
 fische/noble 3.2.2-7build2 amd64
