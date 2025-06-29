@@ -8,12 +8,13 @@ repos:
 	@while IFS= read -r line; do \
 		case "$$line" in \
 			deb*) \
-				echo "Checking repository: $$line"; \
-				if ! grep -Fxq "$$line" /etc/apt/sources.list /etc/apt/sources.list.d/*.list 2>/dev/null; then \
-					echo "Adding repository: $$line"; \
-					echo "$$line" | sudo tee -a /etc/apt/sources.list.d/custom-repos.list; \
+				expanded_line=$$(echo "$$line" | sed "s/\$$(lsb_release -cs)/$$(lsb_release -cs)/g"); \
+				echo "Checking repository: $$expanded_line"; \
+				if ! grep -Fxq "$$expanded_line" /etc/apt/sources.list /etc/apt/sources.list.d/*.list 2>/dev/null; then \
+					echo "Adding repository: $$expanded_line"; \
+					echo "$$expanded_line" | sudo tee -a /etc/apt/sources.list.d/custom-repos.list; \
 				else \
-					echo "Repository already exists: $$line"; \
+					echo "Repository already exists: $$expanded_line"; \
 				fi; \
 				;; \
 		esac; \
