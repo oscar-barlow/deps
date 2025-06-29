@@ -8,7 +8,7 @@ repos:
 	@while IFS= read -r line; do \
 		case "$$line" in \
 			deb*) \
-				expanded_line=$$(echo "$$line" | sed "s/\$$(lsb_release -cs)/$$(lsb_release -cs)/g"); \
+				expanded_line=$$(echo "$$line" | sed "s/\$$(lsb_release -cs)/$$(grep VERSION_CODENAME /etc/os-release | cut -d= -f2)/g"); \
 				echo "Checking repository: $$expanded_line"; \
 				if ! grep -Fxq "$$expanded_line" /etc/apt/sources.list /etc/apt/sources.list.d/*.list 2>/dev/null; then \
 					echo "Adding repository: $$expanded_line"; \
