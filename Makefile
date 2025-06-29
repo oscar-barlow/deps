@@ -8,8 +8,9 @@ install: repos update
 .PHONY: repos
 repos:
 	@echo "Installing GPG keys..."
-	@curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg 2>/dev/null || true
-	@curl -fsSL https://pkgs.tailscale.com/stable/debian/bookworm.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null 2>&1 || true
+	@sudo mkdir -p /usr/share/keyrings
+	@curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg || echo "Failed to install Docker GPG key"
+	@curl -fsSL https://pkgs.tailscale.com/stable/debian/bookworm.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null || echo "Failed to install Tailscale GPG key"
 	@echo "Adding repositories..."
 	@while IFS= read -r line; do \
 		case "$$line" in \
