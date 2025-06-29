@@ -9,6 +9,8 @@ net-tools
 pass
 gnupg2
 tmux
+htop
+dnsutils
 
 # Security
 libpam-u2f
@@ -21,4 +23,5 @@ docker-ce
 docker-ce-cli
 containerd.io
 docker-compose
-
+apparmor
+apparmor-utils
