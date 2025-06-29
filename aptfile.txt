@@ -8,8 +8,6 @@ rename
 net-tools
 pass
 gnupg2
-backblaze-b2
-ntfs-3g
 tmux
 
 # Security
@@ -24,6 +22,3 @@ docker-ce-cli
 containerd.io
 docker-compose
 
-# Postgres
-postgresql
-postgresql-contrib
