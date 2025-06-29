@@ -1,3 +1,5 @@
+SHELL = /bin/bash
+
 .PHONY: install
 install: repos update
 	cat aptfile.txt | grep -v '#' | xargs sudo apt install --yes
