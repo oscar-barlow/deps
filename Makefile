@@ -5,7 +5,7 @@ install: repos update
 
 .PHONY: repos
 repos:
-	@while IFS= read -r line; do \
+	@cat repositories.txt | while IFS= read -r line; do \
 		case "$$line" in \
 			deb*) \
 				expanded_line=$$(echo "$$line" | sed "s/\$$(lsb_release -cs)/$$(grep VERSION_CODENAME /etc/os-release | cut -d= -f2)/g"); \
@@ -18,7 +18,7 @@ repos:
 				fi; \
 				;; \
 		esac; \
-	done < repositories.txt
+	done
 
 .PHONY: update
 update:
