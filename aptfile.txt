@@ -12,6 +12,12 @@ tmux
 htop
 dnsutils
 
+# Tailscale
+tailscale
+
+# Storage
+nfs-kernel-server
+
 # Security
 libpam-u2f
 
