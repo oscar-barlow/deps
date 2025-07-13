@@ -15,6 +15,9 @@ rsync
 nfs-common
 lvm2
 
+# backups
+borgbackup
+
 # Docker
 ca-certificates
 gnupg
