@@ -24,6 +24,9 @@ gnupg
 software-properties-common
 terraform
 
+# Remote Storage
+nfs-common
+
 # Security
 libpam-u2f
 
