@@ -17,6 +17,7 @@ xdg-desktop-portal-gtk
 flatpak
 fprintd
 htop
+smartmontools
 
 # Terraform
 gnome-shell-pomodoro
