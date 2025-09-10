@@ -9,9 +9,13 @@ rename
 net-tools
 iftop
 iw
+tmux
+
+# data
+sqlite3
 
 # Networked storage
-rsync
+rclone
 nfs-common
 lvm2
 
