@@ -57,6 +57,9 @@ docker-ce-cli
 containerd.io
 docker-compose
 
+# Desktop
+kdeconnect
+
 # Desktop Software
 steam
 zsh
