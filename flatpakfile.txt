@@ -16,3 +16,4 @@ com.makemkv.MakeMKV
 org.signal.Signal
 org.qbittorrent.qBittorrent
 com.valvesoftware.SteamLink
+dev.zed.Zed
