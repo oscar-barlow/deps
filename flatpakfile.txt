@@ -1,4 +1,3 @@
-com.spotify.Client
 com.brave.Browser
 md.obsidian.Obsidian
 org.videolan.VLC
@@ -17,3 +16,4 @@ org.signal.Signal
 org.qbittorrent.qBittorrent
 com.valvesoftware.SteamLink
 dev.zed.Zed
+com.discordapp.Discord
