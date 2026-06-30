@@ -2,9 +2,6 @@ com.brave.Browser
 md.obsidian.Obsidian
 org.videolan.VLC
 io.beekeeperstudio.Studio
-com.ktechpit.whatsie
-io.gitlab.stone_kingdoms.StoneKingdoms
-com.ktechpit.torrhunt
 org.gimp.GIMP
 com.getpostman.Postman
 com.calibre_ebook.calibre
@@ -17,3 +14,4 @@ org.qbittorrent.qBittorrent
 com.valvesoftware.SteamLink
 dev.zed.Zed
 com.discordapp.Discord
+com.rtosta.zapzap
