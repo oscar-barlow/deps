@@ -18,6 +18,7 @@ flatpak
 fprintd
 htop
 smartmontools
+imagemagick
 
 # Terraform
 gnome-shell-pomodoro
