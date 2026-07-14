@@ -11,6 +11,9 @@ gnupg2
 tmux
 htop
 dnsutils
+lsof
+psmisc
+exfatprogs
 
 # Tailscale
 tailscale
