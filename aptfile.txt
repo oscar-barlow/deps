@@ -19,6 +19,7 @@ fprintd
 htop
 smartmontools
 imagemagick
+gh
 
 # Terraform
 gnome-shell-pomodoro
