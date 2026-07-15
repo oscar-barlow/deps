@@ -3340,9 +3340,9 @@ coco-java/noble,noble 20110419-4ubuntu1 all
 cod-tools/noble 3.8.1+dfsg-1build3 amd64
 coda/noble 2.25.1-1build2 amd64
 code-exploration/stable 1.128.0-1783085228 amd64
-code-insiders/stable 1.129.0-1783964023 amd64
+code-insiders/stable 1.130.0-1784098496 amd64
 code2html/noble,noble 0.9.1-5 all
-code/stable,now 1.128.0-1783465401 amd64 [installed]
+code/stable,now 1.128.1-1784039518 amd64 [installed]
 codeblocks-common/noble,noble 20.03+svn13046-0.3build2 all
 codeblocks-contrib/noble 20.03+svn13046-0.3build2 amd64
 codeblocks-dev/noble 20.03+svn13046-0.3build2 amd64
@@ -5232,10 +5232,10 @@ dnsdist/noble 1.8.3-2build2 amd64
 dnsenum/noble,noble 1.3.1-1.1 all
 dnsjit/noble 1.3.0-1build2 amd64
 dnsmap/noble 0.36-3 amd64
-dnsmasq-base-lua/noble-updates,noble-security 2.90-2ubuntu0.3 amd64
-dnsmasq-base/noble-updates,noble-security,now 2.90-2ubuntu0.3 amd64 [installed,automatic]
-dnsmasq-utils/noble-updates,noble-security 2.90-2ubuntu0.3 amd64
-dnsmasq/noble-updates,noble-updates,noble-security,noble-security 2.90-2ubuntu0.3 all
+dnsmasq-base-lua/noble-updates,noble-security 2.90-2ubuntu0.4 amd64
+dnsmasq-base/noble-updates,noble-security,now 2.90-2ubuntu0.4 amd64 [installed,automatic]
+dnsmasq-utils/noble-updates,noble-security 2.90-2ubuntu0.4 amd64
+dnsmasq/noble-updates,noble-updates,noble-security,noble-security 2.90-2ubuntu0.4 all
 dnsperf/noble 2.14.0-1build2 amd64
 dnsproxy/noble 1.17+git20211129.22329c4-6build2 amd64
 dnsrecon/noble,noble 1.1.5-1 all
@@ -17594,10 +17594,10 @@ heatshrink/noble 0.4.1-3 amd64
 hebcal/noble 4.31-1 amd64
 hedgewars-data/noble,noble 1.0.2-9build5 all
 hedgewars/noble 1.0.2-9build5 amd64
-heif-gdk-pixbuf/noble-updates,now 1.17.6-1ubuntu4.5 amd64 [installed,automatic]
-heif-gdk-pixbuf/noble-updates 1.17.6-1ubuntu4.5 i386
-heif-thumbnailer/noble-updates,now 1.17.6-1ubuntu4.5 amd64 [installed,automatic]
-heif-thumbnailer/noble-updates 1.17.6-1ubuntu4.5 i386
+heif-gdk-pixbuf/noble-updates,noble-security,now 1.17.6-1ubuntu4.6 amd64 [installed,automatic]
+heif-gdk-pixbuf/noble-updates,noble-security 1.17.6-1ubuntu4.6 i386
+heif-thumbnailer/noble-updates,noble-security,now 1.17.6-1ubuntu4.6 amd64 [installed,automatic]
+heif-thumbnailer/noble-updates,noble-security 1.17.6-1ubuntu4.6 i386
 heimdal-clients/noble 7.8.git20221117.28daf24+dfsg-5ubuntu3 amd64
 heimdal-clients/noble 7.8.git20221117.28daf24+dfsg-5ubuntu3 i386
 heimdal-dev/noble 7.8.git20221117.28daf24+dfsg-5ubuntu3 amd64
@@ -22359,18 +22359,18 @@ libasn1-8t64-heimdal/noble 7.8.git20221117.28daf24+dfsg-5ubuntu3 amd64
 libasn1-8t64-heimdal/noble 7.8.git20221117.28daf24+dfsg-5ubuntu3 i386
 libasn1-combinators-ocaml-dev/noble 0.2.6-4build3 amd64
 libasn1-combinators-ocaml/noble 0.2.6-4build3 amd64
-libasound2-data/noble-updates,noble-updates,noble-security,noble-security,now 1.2.11-1ubuntu0.2 all [installed,automatic]
-libasound2-dev/noble-updates,noble-security,now 1.2.11-1ubuntu0.2 amd64 [installed]
-libasound2-dev/noble-updates,noble-security 1.2.11-1ubuntu0.2 i386
-libasound2-doc/noble-updates,noble-updates,noble-security,noble-security 1.2.11-1ubuntu0.2 all
+libasound2-data/noble-updates,noble-updates,noble-security,noble-security,now 1.2.11-1ubuntu0.3 all [installed,automatic]
+libasound2-dev/noble-updates,noble-security,now 1.2.11-1ubuntu0.3 amd64 [installed]
+libasound2-dev/noble-updates,noble-security 1.2.11-1ubuntu0.3 i386
+libasound2-doc/noble-updates,noble-updates,noble-security,noble-security 1.2.11-1ubuntu0.3 all
 libasound2-plugin-bluez/noble 4.1.1-1build3 amd64
 libasound2-plugin-equal/noble 0.6-8build3 amd64
-libasound2-plugin-smixer/noble-updates,noble-security 1.2.11-1ubuntu0.2 amd64
-libasound2-plugin-smixer/noble-updates,noble-security 1.2.11-1ubuntu0.2 i386
+libasound2-plugin-smixer/noble-updates,noble-security 1.2.11-1ubuntu0.3 amd64
+libasound2-plugin-smixer/noble-updates,noble-security 1.2.11-1ubuntu0.3 i386
 libasound2-plugins/noble,now 1.2.7.1-1ubuntu5 amd64 [installed,automatic]
 libasound2-plugins/noble,now 1.2.7.1-1ubuntu5 i386 [residual-config]
-libasound2t64/noble-updates,noble-security,now 1.2.11-1ubuntu0.2 amd64 [installed,automatic]
-libasound2t64/noble-updates,noble-security,now 1.2.11-1ubuntu0.2 i386 [installed,automatic]
+libasound2t64/noble-updates,noble-security,now 1.2.11-1ubuntu0.3 amd64 [installed,automatic]
+libasound2t64/noble-updates,noble-security,now 1.2.11-1ubuntu0.3 i386 [installed,automatic]
 libaspect-perl/noble,noble 1.04-3 all
 libaspectj-java/noble,noble 1.9.5-2 all
 libaspectj-maven-plugin-java/noble,noble 1.11-2 all
@@ -22516,10 +22516,10 @@ libatomic1/noble-updates,noble-security,now 14.2.0-4ubuntu2~24.04.1 amd64 [insta
 libatomic1/noble-updates,noble-security,now 14.2.0-4ubuntu2~24.04.1 i386 [installed,automatic]
 libatomicbitvector-dev/noble,noble 0.0+git20200519.e295358-3 all
 libatompub-perl/noble,noble 0.3.7-6 all
-libatopology-dev/noble-updates,noble-security 1.2.11-1ubuntu0.2 amd64
-libatopology-dev/noble-updates,noble-security 1.2.11-1ubuntu0.2 i386
-libatopology2t64/noble-updates,noble-security,now 1.2.11-1ubuntu0.2 amd64 [installed,automatic]
-libatopology2t64/noble-updates,noble-security 1.2.11-1ubuntu0.2 i386
+libatopology-dev/noble-updates,noble-security 1.2.11-1ubuntu0.3 amd64
+libatopology-dev/noble-updates,noble-security 1.2.11-1ubuntu0.3 i386
+libatopology2t64/noble-updates,noble-security,now 1.2.11-1ubuntu0.3 amd64 [installed,automatic]
+libatopology2t64/noble-updates,noble-security 1.2.11-1ubuntu0.3 i386
 libatrildocument-dev/noble 1.26.2-3build2 amd64
 libatrildocument3t64/noble 1.26.2-3build2 amd64
 libatrilview-dev/noble 1.26.2-3build2 amd64
@@ -34553,35 +34553,35 @@ libheaptrack/noble 1.5.0+dfsg1-2ubuntu3 amd64
 libheartbeat2-dev/noble 1:3.0.6-14.1ubuntu2 amd64
 libheartbeat2t64/noble 1:3.0.6-14.1ubuntu2 amd64
 libheatshrink-dev/noble 0.4.1-3 amd64
-libheif-dev/noble-updates 1.17.6-1ubuntu4.5 amd64
-libheif-dev/noble-updates 1.17.6-1ubuntu4.5 i386
-libheif-examples/noble-updates 1.17.6-1ubuntu4.5 amd64
-libheif-examples/noble-updates 1.17.6-1ubuntu4.5 i386
-libheif-plugin-aomdec/noble-updates,now 1.17.6-1ubuntu4.5 amd64 [installed,automatic]
-libheif-plugin-aomdec/noble-updates,now 1.17.6-1ubuntu4.5 i386 [installed,automatic]
-libheif-plugin-aomenc/noble-updates,now 1.17.6-1ubuntu4.5 amd64 [installed,automatic]
-libheif-plugin-aomenc/noble-updates,now 1.17.6-1ubuntu4.5 i386 [installed,automatic]
-libheif-plugin-dav1d/noble-updates 1.17.6-1ubuntu4.5 amd64
-libheif-plugin-dav1d/noble-updates 1.17.6-1ubuntu4.5 i386
-libheif-plugin-ffmpegdec/noble-updates 1.17.6-1ubuntu4.5 amd64
-libheif-plugin-ffmpegdec/noble-updates 1.17.6-1ubuntu4.5 i386
-libheif-plugin-j2kdec/noble-updates 1.17.6-1ubuntu4.5 amd64
-libheif-plugin-j2kdec/noble-updates 1.17.6-1ubuntu4.5 i386
-libheif-plugin-j2kenc/noble-updates 1.17.6-1ubuntu4.5 amd64
-libheif-plugin-j2kenc/noble-updates 1.17.6-1ubuntu4.5 i386
-libheif-plugin-jpegdec/noble-updates 1.17.6-1ubuntu4.5 amd64
-libheif-plugin-jpegdec/noble-updates 1.17.6-1ubuntu4.5 i386
-libheif-plugin-jpegenc/noble-updates 1.17.6-1ubuntu4.5 amd64
-libheif-plugin-jpegenc/noble-updates 1.17.6-1ubuntu4.5 i386
-libheif-plugin-libde265/noble-updates,now 1.17.6-1ubuntu4.5 amd64 [installed,automatic]
-libheif-plugin-libde265/noble-updates,now 1.17.6-1ubuntu4.5 i386 [installed,automatic]
-libheif-plugin-rav1e/noble-updates 1.17.6-1ubuntu4.5 amd64
-libheif-plugin-svtenc/noble-updates 1.17.6-1ubuntu4.5 amd64
-libheif-plugin-svtenc/noble-updates 1.17.6-1ubuntu4.5 i386
-libheif-plugin-x265/noble-updates 1.17.6-1ubuntu4.5 amd64
-libheif-plugin-x265/noble-updates 1.17.6-1ubuntu4.5 i386
-libheif1/noble-updates,now 1.17.6-1ubuntu4.5 amd64 [installed,automatic]
-libheif1/noble-updates,now 1.17.6-1ubuntu4.5 i386 [installed,automatic]
+libheif-dev/noble-updates,noble-security 1.17.6-1ubuntu4.6 amd64
+libheif-dev/noble-updates,noble-security 1.17.6-1ubuntu4.6 i386
+libheif-examples/noble-updates,noble-security 1.17.6-1ubuntu4.6 amd64
+libheif-examples/noble-updates,noble-security 1.17.6-1ubuntu4.6 i386
+libheif-plugin-aomdec/noble-updates,noble-security,now 1.17.6-1ubuntu4.6 amd64 [installed,automatic]
+libheif-plugin-aomdec/noble-updates,noble-security,now 1.17.6-1ubuntu4.6 i386 [installed,automatic]
+libheif-plugin-aomenc/noble-updates,noble-security,now 1.17.6-1ubuntu4.6 amd64 [installed,automatic]
+libheif-plugin-aomenc/noble-updates,noble-security,now 1.17.6-1ubuntu4.6 i386 [installed,automatic]
+libheif-plugin-dav1d/noble-updates,noble-security 1.17.6-1ubuntu4.6 amd64
+libheif-plugin-dav1d/noble-updates,noble-security 1.17.6-1ubuntu4.6 i386
+libheif-plugin-ffmpegdec/noble-updates,noble-security 1.17.6-1ubuntu4.6 amd64
+libheif-plugin-ffmpegdec/noble-updates,noble-security 1.17.6-1ubuntu4.6 i386
+libheif-plugin-j2kdec/noble-updates,noble-security 1.17.6-1ubuntu4.6 amd64
+libheif-plugin-j2kdec/noble-updates,noble-security 1.17.6-1ubuntu4.6 i386
+libheif-plugin-j2kenc/noble-updates,noble-security 1.17.6-1ubuntu4.6 amd64
+libheif-plugin-j2kenc/noble-updates,noble-security 1.17.6-1ubuntu4.6 i386
+libheif-plugin-jpegdec/noble-updates,noble-security 1.17.6-1ubuntu4.6 amd64
+libheif-plugin-jpegdec/noble-updates,noble-security 1.17.6-1ubuntu4.6 i386
+libheif-plugin-jpegenc/noble-updates,noble-security 1.17.6-1ubuntu4.6 amd64
+libheif-plugin-jpegenc/noble-updates,noble-security 1.17.6-1ubuntu4.6 i386
+libheif-plugin-libde265/noble-updates,noble-security,now 1.17.6-1ubuntu4.6 amd64 [installed,automatic]
+libheif-plugin-libde265/noble-updates,noble-security,now 1.17.6-1ubuntu4.6 i386 [installed,automatic]
+libheif-plugin-rav1e/noble-updates,noble-security 1.17.6-1ubuntu4.6 amd64
+libheif-plugin-svtenc/noble-updates,noble-security 1.17.6-1ubuntu4.6 amd64
+libheif-plugin-svtenc/noble-updates,noble-security 1.17.6-1ubuntu4.6 i386
+libheif-plugin-x265/noble-updates,noble-security 1.17.6-1ubuntu4.6 amd64
+libheif-plugin-x265/noble-updates,noble-security 1.17.6-1ubuntu4.6 i386
+libheif1/noble-updates,noble-security,now 1.17.6-1ubuntu4.6 amd64 [installed,automatic]
+libheif1/noble-updates,noble-security,now 1.17.6-1ubuntu4.6 i386 [installed,automatic]
 libheimbase1t64-heimdal/noble,now 7.8.git20221117.28daf24+dfsg-5ubuntu3 amd64 [installed]
 libheimbase1t64-heimdal/noble 7.8.git20221117.28daf24+dfsg-5ubuntu3 i386
 libheimdal-kadm5-perl/noble 0.08-6build4 amd64
@@ -37868,9 +37868,9 @@ libluabind-dev/noble 0.9.1+git20150823+dfsg-3.1 amd64
 libluabind-doc/noble,noble 0.9.1+git20150823+dfsg-3.1 all
 libluabind-examples/noble,noble 0.9.1+git20150823+dfsg-3.1 all
 libluabind0.9.1d1/noble 0.9.1+git20150823+dfsg-3.1 amd64
-libluajit-5.1-2/noble,now 2.1.0+git20231223.c525bcb+dfsg-1 amd64 [installed,automatic]
-libluajit-5.1-common/noble,noble,now 2.1.0+git20231223.c525bcb+dfsg-1 all [installed,automatic]
-libluajit-5.1-dev/noble 2.1.0+git20231223.c525bcb+dfsg-1 amd64
+libluajit-5.1-2/noble-updates,noble-security,now 2.1.0+git20231223.c525bcb+dfsg-1ubuntu0.1 amd64 [installed,automatic]
+libluajit-5.1-common/noble-updates,noble-updates,noble-security,noble-security,now 2.1.0+git20231223.c525bcb+dfsg-1ubuntu0.1 all [installed,automatic]
+libluajit-5.1-dev/noble-updates,noble-security 2.1.0+git20231223.c525bcb+dfsg-1ubuntu0.1 amd64
 libluajit2-5.1-2/noble 2.1-20230410-1build1 amd64
 libluajit2-5.1-common/noble,noble 2.1-20230410-1build1 all
 libluajit2-5.1-dev/noble 2.1-20230410-1build1 amd64
@@ -63316,6 +63316,7 @@ linux-riscv-6.17-headers-6.17.0-22/noble-updates,noble-updates,noble-security,no
 linux-riscv-6.17-headers-6.17.0-23/noble-updates,noble-updates,noble-security,noble-security 6.17.0-23.23.1~24.04.1 all
 linux-riscv-6.17-headers-6.17.0-29/noble-updates,noble-updates,noble-security,noble-security 6.17.0-29.29.1~24.04.1 all
 linux-riscv-6.17-headers-6.17.0-35/noble-updates,noble-updates,noble-security,noble-security 6.17.0-35.35.1~24.04.1 all
+linux-riscv-6.17-headers-6.17.0-38/noble-updates,noble-updates,noble-security,noble-security 6.17.0-38.38.1~24.04.1 all
 linux-riscv-7.0-headers-7.0.0-27/noble-updates,noble-updates,noble-security,noble-security 7.0.0-27.27.1~24.04.2 all
 linux-riscv-headers-6.8.0-31/noble,noble 6.8.0-31.31.1 all
 linux-riscv-headers-6.8.0-41/noble-updates,noble-updates,noble-security,noble-security 6.8.0-41.41.1 all
@@ -64381,7 +64382,7 @@ lua5.4/noble 5.4.6-3build2 amd64
 lua5.4/noble 5.4.6-3build2 i386
 luadoc/noble,noble 3.0.1+gitdb9e868-2 all
 luajit2/noble 2.1-20230410-1build1 amd64
-luajit/noble 2.1.0+git20231223.c525bcb+dfsg-1 amd64
+luajit/noble-updates,noble-security 2.1.0+git20231223.c525bcb+dfsg-1ubuntu0.1 amd64
 luakit/noble 1:2.3.6-1build2 amd64
 luametatex/noble 2.11.01+really2.10.08+ds-1build1 amd64
 luarocks/noble,noble 3.8.0+dfsg1-1 all
@@ -69897,7 +69898,7 @@ openvpn-auth-ldap/noble 2.0.4-3build1 amd64
 openvpn-auth-radius/noble 2.1-8 amd64
 openvpn-dco-dkms/noble-updates,noble-updates 0.0+git20231103-1ubuntu1.2 all
 openvpn-systemd-resolved/noble 1.3.0-4 amd64
-openvpn/noble-updates,noble-security,now 2.6.19-0ubuntu0.24.04.2 amd64 [installed,automatic]
+openvpn/noble-updates,noble-security,now 2.6.19-0ubuntu0.24.04.3 amd64 [installed,automatic]
 openvswitch-common/noble-updates 3.3.4-0ubuntu0.24.04.2 amd64
 openvswitch-doc/noble-updates,noble-updates 3.3.4-0ubuntu0.24.04.2 all
 openvswitch-ipsec/noble-updates 3.3.4-0ubuntu0.24.04.2 amd64
@@ -75203,7 +75204,7 @@ python3-http-parser/noble 0.9.0+ds-1build1 amd64
 python3-http-relay/noble,noble 2.1.3-1 all
 python3-httpbin/noble,noble 0.10.2+dfsg-1 all
 python3-httpcore/noble,noble 1.0.2-2 all
-python3-httplib2/noble,noble,now 0.20.4-3 all [installed,automatic]
+python3-httplib2/noble-updates,noble-updates,noble-security,noble-security,now 0.20.4-3ubuntu0.1 all [installed,automatic]
 python3-httpretty/noble,noble 1.1.4-4 all
 python3-httpsig/noble,noble 1.3.0-2 all
 python3-httptools/noble 0.1.1-3build3 amd64
@@ -84683,8 +84684,8 @@ tagua-data/noble,noble 1.0~alpha2-16-g618c6a0-3build3 all
 tagua/noble 1.0~alpha2-16-g618c6a0-3build3 amd64
 tailscale-archive-keyring/unknown,now 1.35.181 all [installed]
 tailscale-nginx-auth/unknown 0.1.3 amd64
-tailscale/unknown,now 1.98.8 amd64 [installed]
-tailscale/unknown 1.98.8 i386
+tailscale/unknown,now 1.98.9 amd64 [installed]
+tailscale/unknown 1.98.9 i386
 tailspin/noble 2.0.0+dfsg-1 amd64
 taktuk/noble,noble 3.7.7-3.1build1 all
 tali/noble 1:40.9-1build2 amd64
@@ -87150,22 +87151,22 @@ vim-addon-mw-utils/noble,noble 0.2-6 all
 vim-airline-themes/noble,noble 0+git.20220712-55bad92-1 all
 vim-airline/noble,noble 0.11-2 all
 vim-ale/noble,noble 3.3.0-1 all
-vim-athena/noble-updates,noble-updates,noble-security,noble-security 2:9.1.0016-1ubuntu7.17 all
+vim-athena/noble-updates,noble-updates,noble-security,noble-security 2:9.1.0016-1ubuntu7.18 all
 vim-autopairs/noble,noble 4.0.2-1 all
 vim-autopep8/noble,noble 1.2.0-3 all
 vim-bitbake/noble,noble 0~git20220408-2 all
 vim-command-t/noble 5.0.5-1ubuntu1 amd64
-vim-common/noble-updates,noble-updates,noble-security,noble-security,now 2:9.1.0016-1ubuntu7.17 all [installed]
+vim-common/noble-updates,noble-updates,noble-security,noble-security,now 2:9.1.0016-1ubuntu7.18 all [installed]
 vim-ctrlp/noble,noble 1.81+git20220803-1 all
-vim-doc/noble-updates,noble-updates,noble-security,noble-security 2:9.1.0016-1ubuntu7.17 all
+vim-doc/noble-updates,noble-updates,noble-security,noble-security 2:9.1.0016-1ubuntu7.18 all
 vim-eblook/noble,noble 1.2.3+git20201111-3.1 all
 vim-fugitive/noble,noble 3.7-1 all
 vim-git-hub/noble,noble 2.1.3-1 all
 vim-gitgutter/noble,noble 0~20200414-2 all
 vim-gruvbox/noble,noble 2.0.0-2 all
-vim-gtk3/noble-updates,noble-security 2:9.1.0016-1ubuntu7.17 amd64
-vim-gtk3/noble-updates,noble-security 2:9.1.0016-1ubuntu7.17 i386
-vim-gui-common/noble-updates,noble-updates,noble-security,noble-security 2:9.1.0016-1ubuntu7.17 all
+vim-gtk3/noble-updates,noble-security 2:9.1.0016-1ubuntu7.18 amd64
+vim-gtk3/noble-updates,noble-security 2:9.1.0016-1ubuntu7.18 i386
+vim-gui-common/noble-updates,noble-updates,noble-security,noble-security 2:9.1.0016-1ubuntu7.18 all
 vim-haproxy/noble-updates,noble-updates,noble-security,noble-security 2.8.16-0ubuntu0.24.04.3 all
 vim-icinga2/noble,noble 2.14.2-1build2 all
 vim-julia/noble,noble 0.0~git20211208.e497299-1 all
@@ -87174,10 +87175,10 @@ vim-lastplace/noble,noble 3.1.1-2 all
 vim-latexsuite/noble,noble 1:1.10.0-1 all
 vim-ledger/noble,noble 1.2.0-3 all
 vim-migemo/noble,noble 1:1.2+gh0.20220623-1build1 all
-vim-motif/noble-updates,noble-security 2:9.1.0016-1ubuntu7.17 amd64
-vim-motif/noble-updates,noble-security 2:9.1.0016-1ubuntu7.17 i386
-vim-nox/noble-updates,noble-security 2:9.1.0016-1ubuntu7.17 amd64
-vim-nox/noble-updates,noble-security 2:9.1.0016-1ubuntu7.17 i386
+vim-motif/noble-updates,noble-security 2:9.1.0016-1ubuntu7.18 amd64
+vim-motif/noble-updates,noble-security 2:9.1.0016-1ubuntu7.18 i386
+vim-nox/noble-updates,noble-security 2:9.1.0016-1ubuntu7.18 amd64
+vim-nox/noble-updates,noble-security 2:9.1.0016-1ubuntu7.18 i386
 vim-ocaml-merlin/noble 4.13-414+ds-1 amd64
 vim-pathogen/noble,noble 2.4-7 all
 vim-poke/noble,noble 4.0+dfsg-1 all
@@ -87186,7 +87187,7 @@ vim-python-jedi/noble,noble 0.19.1+ds1-1 all
 vim-rails/noble,noble 5.4-2 all
 vim-rainbow/noble,noble 3.3.1.87.g61f719a-2 all
 vim-redact-pass/noble,noble 1.7.4-6 all
-vim-runtime/noble-updates,noble-updates,noble-security,noble-security,now 2:9.1.0016-1ubuntu7.17 all [installed,automatic]
+vim-runtime/noble-updates,noble-updates,noble-security,noble-security,now 2:9.1.0016-1ubuntu7.18 all [installed,automatic]
 vim-scripts/noble,noble 20210124.2 all
 vim-snipmate/noble,noble 0.90-2 all
 vim-snippets/noble,noble 1.0.0-8 all
@@ -87196,8 +87197,8 @@ vim-syntastic/noble,noble 3.10.0-3 all
 vim-syntax-gtk/noble,noble 20110314-1.1 all
 vim-tabular/noble,noble 1.0-8 all
 vim-textobj-user/noble,noble 0.7.6-3 all
-vim-tiny/noble-updates,noble-security,now 2:9.1.0016-1ubuntu7.17 amd64 [installed]
-vim-tiny/noble-updates,noble-security 2:9.1.0016-1ubuntu7.17 i386
+vim-tiny/noble-updates,noble-security,now 2:9.1.0016-1ubuntu7.18 amd64 [installed]
+vim-tiny/noble-updates,noble-security 2:9.1.0016-1ubuntu7.18 i386
 vim-tjp/noble,noble 3.7.1-1ubuntu2 all
 vim-tlib/noble,noble 1.28-1 all
 vim-vader/noble,noble 0.3.0+git20200213.6fff477-2 all
@@ -87205,8 +87206,8 @@ vim-vimerl-syntax/noble,noble 1.4.1+git20120509.89111c7-2.1 all
 vim-vimerl/noble,noble 1.4.1+git20120509.89111c7-2.1 all
 vim-voom/noble,noble 5.3-8 all
 vim-youcompleteme/noble,noble 0+20231230+git71166ea+ds-2 all
-vim/noble-updates,noble-security,now 2:9.1.0016-1ubuntu7.17 amd64 [installed]
-vim/noble-updates,noble-security 2:9.1.0016-1ubuntu7.17 i386
+vim/noble-updates,noble-security,now 2:9.1.0016-1ubuntu7.18 amd64 [installed]
+vim/noble-updates,noble-security 2:9.1.0016-1ubuntu7.18 i386
 vimix/noble 0.7.2+git20221123+ds-2build2 amd64
 vinagre/noble 3.22.0-8ubuntu5 amd64
 vinetto/noble,noble 1:0.8.0-3 all
@@ -87647,8 +87648,8 @@ wgalician-minimos/noble,noble 0.5-48 all
 wgerman-medical/noble,noble 20230905-1 all
 wget2-dev/noble 2.1.0-2.1build2 amd64
 wget2/noble 2.1.0-2.1build2 amd64
-wget/noble-updates,noble-security,now 1.21.4-1ubuntu4.1 amd64 [installed]
-wget/noble-updates,noble-security 1.21.4-1ubuntu4.1 i386
+wget/noble-updates,noble-security,now 1.21.4-1ubuntu4.3 amd64 [installed]
+wget/noble-updates,noble-security 1.21.4-1ubuntu4.3 i386
 whalebuilder/noble,noble 0.11 all
 wham-align/noble 0.1.5-8 amd64
 what-utils/noble,noble 1.5-0ubuntu2 all
@@ -88816,8 +88817,8 @@ xwit/noble 3.4-16 amd64
 xwpe/noble 1.5.30a-4build1 amd64
 xwrited/noble 3-2build2 amd64
 xwrits/noble 2.26-1 amd64
-xxd/noble-updates,noble-security,now 2:9.1.0016-1ubuntu7.17 amd64 [installed]
-xxd/noble-updates,noble-security 2:9.1.0016-1ubuntu7.17 i386
+xxd/noble-updates,noble-security,now 2:9.1.0016-1ubuntu7.18 amd64 [installed]
+xxd/noble-updates,noble-security 2:9.1.0016-1ubuntu7.18 i386
 xxdiff-scripts/noble-updates,noble-updates 1:5.1+git20220924+dfsg-1ubuntu0.24.04.1 all
 xxdiff/noble-updates 1:5.1+git20220924+dfsg-1ubuntu0.24.04.1 amd64
 xxhash/noble 0.8.2-2build1 amd64
