@@ -10,6 +10,7 @@ net-tools
 iftop
 iw
 tmux
+intel-gpu-tools
 
 # data
 sqlite3
