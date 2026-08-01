@@ -11,6 +11,7 @@ iftop
 iw
 tmux
 intel-gpu-tools
+smartmontools
 
 # data
 sqlite3
