@@ -3132,7 +3132,8 @@ clasp/noble 3.3.5-4.2build1 amd64
 classicmenu-indicator/noble,noble 0.11-0ubuntu1 all
 classified-ads/noble 0.15-1build3 amd64
 classmate-artwork/noble,noble 0.2-1 all
-claude-desktop/now 1.18286.0 amd64 [installed,local]
+claude-desktop/stable,now 1.24012.9 amd64 [installed]
+claude-desktop/stable 1.24012.9 arm64
 claws-mail-acpi-notifier/noble 4.2.0-2build7 amd64
 claws-mail-address-keeper/noble 4.2.0-2build7 amd64
 claws-mail-archiver-plugin/noble 4.2.0-2build7 amd64
@@ -3340,7 +3341,7 @@ coco-java/noble,noble 20110419-4ubuntu1 all
 cod-tools/noble 3.8.1+dfsg-1build3 amd64
 coda/noble 2.25.1-1build2 amd64
 code-exploration/stable 1.128.0-1783085228 amd64
-code-insiders/stable 1.132.0-1785345404 amd64
+code-insiders/stable 1.132.0-1785750314 amd64
 code2html/noble,noble 0.9.1-5 all
 code/stable,now 1.131.0-1785237861 amd64 [installed]
 codeblocks-common/noble,noble 20.03+svn13046-0.3build2 all
@@ -5143,7 +5144,7 @@ distcc-pump/noble 3.4+really3.4-4build3 amd64
 distcc/noble 3.4+really3.4-4build3 amd64
 distccmon-gnome/noble 3.4+really3.4-4build3 amd64
 distributed-net/noble 2.9112.521+arm64-3 amd64
-distro-info-data/noble-updates,noble-updates,now 0.72-0ubuntu0.24.04.1 all [installed]
+distro-info-data/noble-updates,noble-updates,noble-security,noble-security,now 0.72-0ubuntu0.24.04.1 all [installed]
 distro-info/noble,now 1.7build1 amd64 [installed]
 distro-info/noble 1.7build1 i386
 distrobox/noble,noble 1.7.0-1 all
@@ -16077,7 +16078,7 @@ golang-github-rakyll-globalconf-dev/noble,noble 0.0~git20140819-2 all
 golang-github-rakyll-statik-dev/noble-updates,noble-updates,noble-security,noble-security 0.1.1-5ubuntu0.24.04.3 all
 golang-github-rancher-go-rancher-metadata-dev/noble,noble 0.0~git20200311.7f4c936-3 all
 golang-github-rclone-ftp-dev/noble,noble 1.0.0-220913-160-1 all
-golang-github-rclone-rclone-dev/noble-updates,noble-updates,noble-security,noble-security 1.60.1+dfsg-3ubuntu0.24.04.5 all
+golang-github-rclone-rclone-dev/noble-updates,noble-updates 1.60.1+dfsg-3ubuntu0.24.04.6 all
 golang-github-rcrowley-go-metrics-dev/noble,noble 0.0~git20180125.8732c61-3 all
 golang-github-relvacode-iso8601-dev/noble,noble 1.3.0-2 all
 golang-github-remeh-sizedwaitgroup-dev/noble,noble 0.0~git20180822.5e7302b-1.1 all
@@ -48908,17 +48909,17 @@ libssh2-1-dev/noble-updates,noble-security 1.11.0-4.1ubuntu0.24.04.3 amd64
 libssh2-1-dev/noble-updates,noble-security 1.11.0-4.1ubuntu0.24.04.3 i386
 libssh2-1t64/noble-updates,noble-security,now 1.11.0-4.1ubuntu0.24.04.3 amd64 [installed,automatic]
 libssh2-1t64/noble-updates,noble-security 1.11.0-4.1ubuntu0.24.04.3 i386
-libssl-dev/noble-updates,noble-security,now 3.0.13-0ubuntu3.11 amd64 [installed]
-libssl-dev/noble-updates,noble-security 3.0.13-0ubuntu3.11 i386
-libssl-doc/noble-updates,noble-updates,noble-security,noble-security 3.0.13-0ubuntu3.11 all
+libssl-dev/noble-updates,noble-security,now 3.0.13-0ubuntu3.12 amd64 [installed]
+libssl-dev/noble-updates,noble-security 3.0.13-0ubuntu3.12 i386
+libssl-doc/noble-updates,noble-updates,noble-security,noble-security 3.0.13-0ubuntu3.12 all
 libssl-ocaml-dev/noble 0.7.0-1build3 amd64
 libssl-ocaml/noble 0.7.0-1build3 amd64
 libssl-utils-clojure/noble,noble 3.5.3-1 all
 libssl1.1/now 1.1.1f-1ubuntu2.19 amd64 [installed,local]
 libssl3/now 3.0.2-0ubuntu1.18 amd64 [residual-config]
 libssl3/now 3.0.2-0ubuntu1.18 i386 [residual-config]
-libssl3t64/noble-updates,noble-security,now 3.0.13-0ubuntu3.11 amd64 [installed,automatic]
-libssl3t64/noble-updates,noble-security,now 3.0.13-0ubuntu3.11 i386 [installed,automatic]
+libssl3t64/noble-updates,noble-security,now 3.0.13-0ubuntu3.12 amd64 [installed,automatic]
+libssl3t64/noble-updates,noble-security,now 3.0.13-0ubuntu3.12 i386 [installed,automatic]
 libssm-bin/noble 1.4.0-2build1 amd64
 libssm-dev/noble 1.4.0-2build1 amd64
 libssm2/noble 1.4.0-2build1 amd64
@@ -66781,6 +66782,7 @@ monajat-mod/noble,noble 4.1-2 all
 monajat-screenlet/noble,noble 4.1-2 all
 monero-tests/noble 0.18.3.1+~0+20200826-1build3 amd64
 monero/noble 0.18.3.1+~0+20200826-1build3 amd64
+mongodb-compass/now 1.49.12 amd64 [installed,local]
 mongoose/noble,noble 1:7.6.1+dfsg-1build1 all
 mongrel2-core/noble 1.12.2-3build3 amd64
 mongrel2-run/noble,noble 1.12.2-3build3 all
@@ -70991,8 +70993,8 @@ openssh-sftp-server/noble-updates,noble-security 1:9.6p1-3ubuntu13.18 amd64
 openssh-sftp-server/noble-updates,noble-security 1:9.6p1-3ubuntu13.18 i386
 openssh-tests/noble-updates,noble-security 1:9.6p1-3ubuntu13.18 amd64
 openssl-pkcs11-sign-provider/noble 1.0.1-0ubuntu3 amd64
-openssl/noble-updates,noble-security,now 3.0.13-0ubuntu3.11 amd64 [installed]
-openssl/noble-updates,noble-security 3.0.13-0ubuntu3.11 i386
+openssl/noble-updates,noble-security,now 3.0.13-0ubuntu3.12 amd64 [installed]
+openssl/noble-updates,noble-security 3.0.13-0ubuntu3.12 i386
 openssn-data/noble,noble 1.4-4 all
 openssn/noble 1.4-4 amd64
 openstack-dashboard-common/noble-updates,noble-updates 4:24.0.1-0ubuntu0.24.04.2 all
@@ -72683,7 +72685,7 @@ pipewire/noble-updates,noble-security,now 1.0.5-1ubuntu3.3 amd64 [installed,auto
 pipewire/noble-updates,noble-security 1.0.5-1ubuntu3.3 i386
 pipexec/noble 2.6.1-3 amd64
 pipsi/noble,noble 0.9-1.1 all
-pipx/noble,noble 1.4.3-1 all
+pipx/noble,noble,now 1.4.3-1 all [installed]
 pique-doc/noble,noble 1.0-7 all
 pique/noble,noble 1.0-7 all
 pirs-examples/noble,noble 2.0.2+dfsg-12 all
@@ -74875,7 +74877,7 @@ python3-ara/noble,noble 1.5.8-1.1ubuntu1 all
 python3-arabic-reshaper/noble,noble 3.0.0-1 all
 python3-arcp/noble,noble 0.2.1-6 all
 python3-arcus/noble 5.0.0-5build2 amd64
-python3-argcomplete/noble-updates,noble-updates 3.1.4-1ubuntu0.1 all
+python3-argcomplete/noble-updates,noble-updates,now 3.1.4-1ubuntu0.1 all [installed,automatic]
 python3-argh/noble,noble 0.31.2-1 all
 python3-argon2/noble 21.1.0-2build1 amd64
 python3-argparse-addons/noble,noble 0.12.0-2 all
@@ -77450,7 +77452,7 @@ python3-pilkit/noble,noble 3.0-1 all
 python3-ping3/noble,noble 4.0.4-2 all
 python3-pint-xarray/noble,noble 0.3-3 all
 python3-pint/noble,noble 0.19.2-1 all
-python3-pip-whl/noble-updates,noble-updates,noble-security,noble-security 24.0+dfsg-1ubuntu1.3 all
+python3-pip-whl/noble-updates,noble-updates,noble-security,noble-security,now 24.0+dfsg-1ubuntu1.3 all [installed,automatic]
 python3-pip/noble-updates,noble-updates,noble-security,noble-security 24.0+dfsg-1ubuntu1.3 all
 python3-pipdeptree/noble 2.2.0-3 amd64
 python3-piston-mini-client/noble,noble 0.7.5-0ubuntu8 all
@@ -77466,7 +77468,7 @@ python3-plaso/noble,noble 20201007-3 all
 python3-plaster-pastedeploy/noble,noble 0.5-5 all
 python3-plaster/noble,noble 1.0-4 all
 python3-plastex/noble,noble 3.0-3 all
-python3-platformdirs/noble,noble 4.2.0-1 all
+python3-platformdirs/noble,noble,now 4.2.0-1 all [installed,automatic]
 python3-plfit/noble 0.9.4+ds-1ubuntu4 amd64
 python3-plist/noble 2.3.0-1~exp2build2 amd64
 python3-plist/noble 2.3.0-1~exp2build2 i386
@@ -77576,7 +77578,7 @@ python3-psd-tools-doc/noble,noble 1.9.30+dfsg.1-1build1 all
 python3-psd-tools/noble 1.9.30+dfsg.1-1build1 amd64
 python3-pskc/noble,noble 1.2-1 all
 python3-psshlib/noble,noble 2.3.5-2 all
-python3-psutil/noble 5.9.8-2build2 amd64
+python3-psutil/noble,now 5.9.8-2build2 amd64 [installed,automatic]
 python3-psutil/noble 5.9.8-2build2 i386
 python3-psycogreen/noble,noble 1.0.1-1.1 all
 python3-psycopg-pool/noble,noble 3.1.17-2 all
@@ -78432,7 +78434,7 @@ python3-setuptools-git/noble,noble 1.2-3 all
 python3-setuptools-protobuf/noble,noble 0.1.12-1 all
 python3-setuptools-rust/noble,noble 1.5.2-2 all
 python3-setuptools-scm/noble,noble 8.0.4-2 all
-python3-setuptools-whl/noble-updates,noble-updates,noble-security,noble-security 68.1.2-2ubuntu1.2 all
+python3-setuptools-whl/noble-updates,noble-updates,noble-security,noble-security,now 68.1.2-2ubuntu1.2 all [installed,automatic]
 python3-setuptools/noble-updates,noble-updates,noble-security,noble-security 68.1.2-2ubuntu1.2 all
 python3-sexpdata/noble,noble 1.0.2-1 all
 python3-sfml/noble 2.2~git20150611.196c88+dfsg-8build1 amd64
@@ -78978,7 +78980,7 @@ python3-usb1/noble,noble 2.0.1+ds-1 all
 python3-usb/noble,noble 1.2.1-2 all
 python3-usbrelay/noble 1.0-2.1build3 amd64
 python3-user-agents/noble,noble 2.2.0-3 all
-python3-userpath/noble,noble 1.9.1-1 all
+python3-userpath/noble,noble,now 1.9.1-1 all [installed,automatic]
 python3-usgs/noble,noble 0.3.5-3 all
 python3-utf8-locale/noble,noble 1.0.3-1build1 all
 python3-utidylib/noble,noble 0.9-1 all
@@ -78999,7 +79001,7 @@ python3-vedo-examples/noble,noble 2023.4.6-1 all
 python3-vedo/noble,noble 2023.4.6-1 all
 python3-vega-datasets/noble,noble 0.9+dfsg-1 all
 python3-venusian/noble,noble 3.1.0-1 all
-python3-venv/noble-updates,noble-security 3.12.3-0ubuntu2.1 amd64
+python3-venv/noble-updates,noble-security,now 3.12.3-0ubuntu2.1 amd64 [installed,automatic]
 python3-venv/noble-updates,noble-security 3.12.3-0ubuntu2.1 i386
 python3-versioneer/noble,noble 0.29-1 all
 python3-vertica/noble,noble 1.3.7-1 all
@@ -79291,7 +79293,7 @@ python3.12-minimal/noble-updates,noble-security,now 3.12.3-1ubuntu0.15 amd64 [in
 python3.12-minimal/noble-updates,noble-security 3.12.3-1ubuntu0.15 i386
 python3.12-nopie/noble-updates,noble-security 3.12.3-1ubuntu0.15 amd64
 python3.12-nopie/noble-updates,noble-security 3.12.3-1ubuntu0.15 i386
-python3.12-venv/noble-updates,noble-security 3.12.3-1ubuntu0.15 amd64
+python3.12-venv/noble-updates,noble-security,now 3.12.3-1ubuntu0.15 amd64 [installed,automatic]
 python3.12-venv/noble-updates,noble-security 3.12.3-1ubuntu0.15 i386
 python3.12/noble-updates,noble-security,now 3.12.3-1ubuntu0.15 amd64 [installed,automatic]
 python3.12/noble-updates,noble-security 3.12.3-1ubuntu0.15 i386
@@ -81681,7 +81683,7 @@ rbldnsd/noble 1.0~20210120-2 amd64
 rbootd/noble 3.2build2 amd64
 rc/noble 1.7.4+97.gceb59bb-5build2 amd64
 rclone-browser/noble 1.8.0-4build2 amd64
-rclone/noble-updates,noble-security,now 1.60.1+dfsg-3ubuntu0.24.04.5 amd64 [installed]
+rclone/noble-updates,now 1.60.1+dfsg-3ubuntu0.24.04.6 amd64 [installed]
 rcm/noble,noble 1.3.4-1 all
 rcon/noble,noble 2.4.4-1 all
 rcs-blame/noble 1.3.1-4.2 amd64
@@ -84443,8 +84445,8 @@ sightviewer/noble 23.1.0-2build5 amd64
 sigil-data/noble,noble 2.0.1+dfsg1-1build4 all
 sigil/noble 2.0.1+dfsg1-1build4 amd64
 sigma-align/noble 1.1.3-9build1 amd64
-signal-desktop-beta/xenial 8.21.0~beta.1 amd64
-signal-desktop/xenial 8.20.0 amd64 [residual-config]
+signal-desktop-beta/xenial 8.22.0~beta.1 amd64
+signal-desktop/xenial 8.21.0 amd64 [residual-config]
 signapk/noble,noble 1:10.0.0+r36-1ubuntu2 all
 signify-openbsd-keys/noble,noble 2024.1 all
 signify-openbsd/noble 31-3 amd64
@@ -87362,8 +87364,8 @@ typespeed/noble 0.6.5-4 amd64
 tz-converter/noble,noble 1.0.1-1 all
 tzc/noble 2.6.15-5.4build1 amd64
 tzdata-icu/noble-updates,noble-updates 2026c-0ubuntu0.24.04.1 all
-tzdata-legacy/noble-updates,noble-updates 2026c-0ubuntu0.24.04.1 all
-tzdata/noble-updates,noble-updates,now 2026c-0ubuntu0.24.04.1 all [installed]
+tzdata-legacy/noble-updates,noble-updates,noble-security,noble-security 2026c-0ubuntu0.24.04.1 all
+tzdata/noble-updates,noble-updates,noble-security,noble-security,now 2026c-0ubuntu0.24.04.1 all [installed]
 tzdiff/noble,noble 1.2-1 all
 tzwatch/noble,noble 1.4.4-11build2 all
 u-boot-menu/noble,noble 4.2.3ubuntu1 all
