@@ -798,7 +798,7 @@ armagetronad/noble 0.2.9.1.1-1build2 amd64
 armnn-latest-all/noble 23.08-4.1build1 amd64
 armnn-latest-ref/noble 23.08-4.1build1 amd64
 arno-iptables-firewall/noble,noble 2.1.1a-3 all
-arp-scan/noble 1.10.0-2build2 amd64
+arp-scan/noble,now 1.10.0-2build2 amd64 [installed]
 arpalert/noble 2.0.12-6build2 amd64
 arping/noble 2.24-1build2 amd64
 arpon/noble 3.0-ng+dfsg1-5build2 amd64
@@ -27054,7 +27054,7 @@ libencode-hanextra-perl/noble 0.23-6build4 amd64
 libencode-imaputf7-perl/noble,noble 1.05-2.1 all
 libencode-jis2k-perl/noble 0.05-1build3 amd64
 libencode-locale-perl/noble,noble,now 1.05-3 all [installed,automatic]
-libencode-perl/noble 3.21-1build2 amd64
+libencode-perl/noble,now 3.21-1build2 amd64 [installed,automatic]
 libencode-zapcp1252-perl/noble,noble 0.40-2 all
 libencoding-fixlatin-perl/noble,noble 1.04-4 all
 libencoding-fixlatin-xs-perl/noble 1.02-1build5 amd64
@@ -50429,9 +50429,9 @@ libtext-chasen-perl/noble 1.04-5build11 amd64
 libtext-context-eitherside-perl/noble,noble 1.4-3 all
 libtext-context-perl/noble,noble 3.7-3 all
 libtext-csv-encoded-perl/noble,noble 0.25-4 all
-libtext-csv-perl/noble,noble 2.04-1 all
+libtext-csv-perl/noble,noble,now 2.04-1 all [installed,automatic]
 libtext-csv-unicode-perl/noble,noble 0.400-2 all
-libtext-csv-xs-perl/noble 1.53-1build3 amd64
+libtext-csv-xs-perl/noble,now 1.53-1build3 amd64 [installed,automatic]
 libtext-dhcpleases-perl/noble,noble 1.0-3 all
 libtext-diff-formattedhtml-perl/noble,noble 0.08-2 all
 libtext-diff-perl/noble,noble 1.45-2 all
