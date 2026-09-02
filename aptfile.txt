@@ -15,6 +15,7 @@ lsof
 psmisc
 exfatprogs
 gettext-base
+usbutils
 
 # Tailscale
 tailscale
