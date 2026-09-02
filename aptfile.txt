@@ -16,6 +16,7 @@ psmisc
 exfatprogs
 gettext-base
 usbutils
+netcat-traditional
 
 # Tailscale
 tailscale
