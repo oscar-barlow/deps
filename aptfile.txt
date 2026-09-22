@@ -21,6 +21,7 @@ smartmontools
 imagemagick
 gh
 arp-scan
+1password
 
 # Terraform
 gnome-shell-pomodoro
