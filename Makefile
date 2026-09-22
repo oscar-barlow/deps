@@ -14,6 +14,11 @@ upgrade:
 	sudo apt-get upgrade --yes
 	sudo apt list > aptfile.manifest
 
+.PHONY: lts-upgrade
+lts-upgrade: update
+	sudo apt full-upgrade --yes
+	sudo do-release-upgrade
+
 .PHONY: flatpak-install
 flatpak-install: 
 	cat flatpakfile.txt | xargs flatpak install -y --noninteractive 
