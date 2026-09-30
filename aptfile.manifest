@@ -6,7 +6,7 @@ Listing...
 0install/noble 2.18-2ubuntu2 amd64
 0xffff/noble 0.9-1 amd64
 1oom/noble 1.8.0-1build2 amd64
-1password-cli/stable 2.39.0-1 amd64
+1password-cli/stable,now 2.39.0-1 amd64 [installed]
 1password/stable,now 8.12.36 amd64 [installed]
 2048-qt/noble 0.1.6-2build4 amd64
 2048/noble 0.20221023.1237-1 amd64
