@@ -31,7 +31,7 @@ Listing...
 7kaa/resolute 2.15.7+ds-1 amd64
 7zip-rar/resolute 26.00+ds-1 amd64
 7zip-standalone/resolute 26.00+dfsg-1 amd64
-7zip/resolute,now 26.00+dfsg-1 amd64 [installed,automatic]
+7zip/resolute,now 26.00+dfsg-1 amd64 [installed]
 81voltd/resolute 1.1.0-1 amd64
 9base/resolute 1:6-15build1 amd64
 9menu/resolute 1.11-1build1 amd64
@@ -314,7 +314,7 @@ alsa-tools-gui/resolute 1.2.15-1 amd64
 alsa-tools/resolute 1.2.15-1 amd64
 alsa-topology-conf/resolute,resolute,now 1.2.5.1-3build1 all [installed,automatic]
 alsa-ucm-conf-asahi/resolute,resolute 8-3 all
-alsa-ucm-conf/resolute-updates,resolute-updates,now 1.2.15.3-1ubuntu1.5 all [installed,automatic]
+alsa-ucm-conf/resolute-updates,resolute-updates 1.2.15.3-1ubuntu1.7 all [upgradable from: 1.2.15.3-1ubuntu1.5]
 alsa-utils/resolute,now 1.2.15.2-1ubuntu1 amd64 [installed]
 alsa-utils/resolute 1.2.15.2-1ubuntu1 i386
 alsamixergui/resolute 0.9.0rc2-1-13 amd64
@@ -2743,13 +2743,13 @@ cedar-backup3-doc/resolute,resolute 3.12.0-1 all
 cedar-backup3/resolute,resolute 3.12.0-1 all
 ceferino-data/resolute,resolute 0.97.8+svn37-4build1 all
 ceferino/resolute 0.97.8+svn37-4build1 amd64
-ceilometer-agent-central/resolute,resolute 2:26.0.0-0ubuntu1 all
-ceilometer-agent-compute/resolute,resolute 2:26.0.0-0ubuntu1 all
-ceilometer-agent-ipmi/resolute,resolute 2:26.0.0-0ubuntu1 all
-ceilometer-agent-notification/resolute,resolute 2:26.0.0-0ubuntu1 all
-ceilometer-common/resolute,resolute 2:26.0.0-0ubuntu1 all
+ceilometer-agent-central/resolute-updates,resolute-updates 2:26.0.0-0ubuntu1.1 all
+ceilometer-agent-compute/resolute-updates,resolute-updates 2:26.0.0-0ubuntu1.1 all
+ceilometer-agent-ipmi/resolute-updates,resolute-updates 2:26.0.0-0ubuntu1.1 all
+ceilometer-agent-notification/resolute-updates,resolute-updates 2:26.0.0-0ubuntu1.1 all
+ceilometer-common/resolute-updates,resolute-updates 2:26.0.0-0ubuntu1.1 all
 ceilometer-instance-poller/resolute,resolute 1.1.1 all
-ceilometer-polling/resolute,resolute 2:26.0.0-0ubuntu1 all
+ceilometer-polling/resolute-updates,resolute-updates 2:26.0.0-0ubuntu1.1 all
 celery/resolute,resolute 5.6.2-3 all
 cellbroadcastd-common/resolute,resolute 0.0.3-1 all
 cellbroadcastd/resolute 0.0.3-1 amd64
@@ -3521,7 +3521,7 @@ colortest-python/resolute,resolute 3.0.2-1build1 all
 colortest/resolute,resolute 20110624-10build1 all
 colossal-cave-adventure/resolute,resolute 1.6-1build1 all
 colplot/resolute,resolute 5.2.0-5 all
-comerr-dev/resolute 2.1-1.47.2-3ubuntu4 amd64
+comerr-dev/resolute,now 2.1-1.47.2-3ubuntu4 amd64 [installed,automatic]
 comerr-dev/resolute 2.1-1.47.2-3ubuntu4 i386
 comet-ms/resolute 2019015+cleaned1-4.1build1 amd64
 comgt/resolute 0.32-6 amd64
@@ -6878,7 +6878,7 @@ exult-studio/resolute 1.12.1-1 amd64
 exult/resolute 1.12.1-1 amd64
 exwm/resolute,resolute 0.3build1 all
 eye/resolute,resolute 1:11.23.4-1 all
-eyed3/resolute,resolute 0.9.7-2build1 all
+eyed3/resolute-updates,resolute-updates 0.9.7-2ubuntu1 all
 eyes17-manuals-en/resolute,resolute 5.3.1+repack-1build1 all
 eyes17-manuals-es/resolute,resolute 5.3.1+repack-1build1 all
 eyes17-manuals-fr/resolute,resolute 5.3.1+repack-1build1 all
@@ -11878,10 +11878,10 @@ gir1.2-atspi-2.0/resolute-updates,now 2.60.4-0ubuntu0.1 amd64 [installed,automat
 gir1.2-atspi-2.0/resolute-updates 2.60.4-0ubuntu0.1 i386
 gir1.2-avahi-0.6/resolute-updates,resolute-security 0.8-18ubuntu1.1 amd64
 gir1.2-avahi-0.6/resolute-updates,resolute-security 0.8-18ubuntu1.1 i386
-gir1.2-ayatanaappindicator3-0.1/resolute 0.5.94-1build1 amd64
+gir1.2-ayatanaappindicator3-0.1/resolute,now 0.5.94-1build1 amd64 [installed,automatic]
 gir1.2-ayatanaappindicatorglib-2.0/resolute 2.0.1-1build1 amd64
 gir1.2-ayatanacommon-0.1/resolute 0.9.11-2build1 amd64
-gir1.2-ayatanaido3-0.4/resolute 0.10.4-1build1 amd64
+gir1.2-ayatanaido3-0.4/resolute,now 0.10.4-1build1 amd64 [installed,automatic]
 gir1.2-babl-0.1/resolute,now 1:0.1.124-1 amd64 [installed,automatic]
 gir1.2-bamf-3/resolute 0.5.6+22.04.20220217-0ubuntu6 amd64
 gir1.2-blockdev-3.0/resolute 3.4.0-1 amd64
@@ -11945,7 +11945,7 @@ gir1.2-folks-0.7/resolute 0.15.12-1 amd64
 gir1.2-foundry-1/resolute 1.1.1-1 amd64
 gir1.2-foundrygtk-1/resolute 1.1.1-1 amd64
 gir1.2-fprint-2.0/resolute-updates 1:1.95.1+tod1-0ubuntu2 amd64
-gir1.2-freedesktop-dev/resolute 1.86.0-6build1 amd64
+gir1.2-freedesktop-dev/resolute,now 1.86.0-6build1 amd64 [installed,automatic]
 gir1.2-freedesktop-dev/resolute 1.86.0-6build1 i386
 gir1.2-freedesktop/resolute,now 1.86.0-6build1 amd64 [installed,automatic]
 gir1.2-freedesktop/resolute 1.86.0-6build1 i386
@@ -11987,11 +11987,11 @@ gir1.2-girepository-3.0-dev/resolute-updates,resolute-security 2.88.0-1ubuntu0.1
 gir1.2-girepository-3.0/resolute-updates,resolute-security,now 2.88.0-1ubuntu0.1 amd64 [installed,automatic]
 gir1.2-girepository-3.0/resolute-updates,resolute-security 2.88.0-1ubuntu0.1 i386
 gir1.2-gkbd-3.0/resolute 3.28.1-3build1 amd64
-gir1.2-glib-2.0-dev/resolute-updates,resolute-security 2.88.0-1ubuntu0.1 amd64
+gir1.2-glib-2.0-dev/resolute-updates,resolute-security,now 2.88.0-1ubuntu0.1 amd64 [installed,automatic]
 gir1.2-glib-2.0-dev/resolute-updates,resolute-security 2.88.0-1ubuntu0.1 i386
 gir1.2-glib-2.0/resolute-updates,resolute-security,now 2.88.0-1ubuntu0.1 amd64 [installed]
 gir1.2-glib-2.0/resolute-updates,resolute-security 2.88.0-1ubuntu0.1 i386
-gir1.2-gly-2/resolute-updates 2.1.5+ds-0ubuntu0.2 amd64
+gir1.2-gly-2/resolute-updates,now 2.1.5+ds-0ubuntu0.2 amd64 [installed,automatic]
 gir1.2-gly-2/resolute-updates 2.1.5+ds-0ubuntu0.2 i386
 gir1.2-glygtk4-2/resolute-updates 2.1.5+ds-0ubuntu0.2 amd64
 gir1.2-glygtk4-2/resolute-updates 2.1.5+ds-0ubuntu0.2 i386
@@ -12232,7 +12232,7 @@ gir1.2-zbar-1.0/resolute 0.23.93-9ubuntu1 amd64
 gir1.2-zbar-1.0/resolute 0.23.93-9ubuntu1 i386
 gir1.2-zeitgeist-2.0/resolute 1.0.4-5ubuntu6 amd64
 gir2pas/resolute 0.1.0-3 amd64
-girepository-tools/resolute-updates,resolute-security 2.88.0-1ubuntu0.1 amd64
+girepository-tools/resolute-updates,resolute-security,now 2.88.0-1ubuntu0.1 amd64 [installed,automatic]
 girepository-tools/resolute-updates,resolute-security 2.88.0-1ubuntu0.1 i386
 gis-all/resolute,resolute 0.0.22ubuntu1 all
 gis-data/resolute,resolute 0.0.22ubuntu1 all
@@ -13121,7 +13121,7 @@ gnome-shell-extension-windows-navigator/resolute,resolute 50.0-1 all
 gnome-shell-extension-workspace-indicator/resolute,resolute 50.0-1 all
 gnome-shell-extensions-common/resolute,resolute 50.0-1 all
 gnome-shell-extensions/resolute,resolute 50.0-1 all
-gnome-shell-ubuntu-extensions/resolute-updates,resolute-updates,now 50.26.04.8ubuntu all [installed,automatic]
+gnome-shell-ubuntu-extensions/resolute-updates,resolute-updates,now 50.26.04.8ubuntu all [installed]
 gnome-shell/resolute-updates,now 50.1-0ubuntu1.3 amd64 [installed]
 gnome-snapshot/resolute 50.0-0ubuntu1 amd64
 gnome-software-common/resolute,resolute,now 50.0-1 all [installed,automatic]
@@ -18310,7 +18310,7 @@ icontool/resolute,resolute 0.1.0-0ubuntu4 all
 iconx/resolute 9.5.25a-2 amd64
 icoutils/resolute 0.32.3-6build1 amd64
 icoutils/resolute 0.32.3-6build1 i386
-icu-devtools/resolute 78.2-2ubuntu1 amd64
+icu-devtools/resolute,now 78.2-2ubuntu1 amd64 [installed,automatic]
 icu-devtools/resolute 78.2-2ubuntu1 i386
 icu-doc/resolute,resolute 78.2-2ubuntu1 all
 iczech/resolute 20040229-9build1 amd64
@@ -19838,7 +19838,7 @@ krb5-keytab-backend/resolute,resolute 1.7 all
 krb5-kpropd/resolute-updates,resolute-security 1.22.1-2ubuntu4.1 amd64
 krb5-kpropd/resolute-updates,resolute-security 1.22.1-2ubuntu4.1 i386
 krb5-locales/resolute-updates,resolute-updates,resolute-security,resolute-security,now 1.22.1-2ubuntu4.1 all [installed,automatic]
-krb5-multidev/resolute-updates,resolute-security 1.22.1-2ubuntu4.1 amd64
+krb5-multidev/resolute-updates,resolute-security,now 1.22.1-2ubuntu4.1 amd64 [installed,automatic]
 krb5-multidev/resolute-updates,resolute-security 1.22.1-2ubuntu4.1 i386
 krb5-otp/resolute-updates,resolute-security 1.22.1-2ubuntu4.1 amd64
 krb5-otp/resolute-updates,resolute-security 1.22.1-2ubuntu4.1 i386
@@ -22097,14 +22097,14 @@ libatk-adaptor/resolute-updates,now 2.60.4-0ubuntu0.1 amd64 [installed]
 libatk-adaptor/resolute-updates 2.60.4-0ubuntu0.1 i386
 libatk-bridge2.0-0t64/resolute-updates,now 2.60.4-0ubuntu0.1 amd64 [installed,automatic]
 libatk-bridge2.0-0t64/resolute-updates 2.60.4-0ubuntu0.1 i386
-libatk-bridge2.0-dev/resolute-updates 2.60.4-0ubuntu0.1 amd64
+libatk-bridge2.0-dev/resolute-updates,now 2.60.4-0ubuntu0.1 amd64 [installed,automatic]
 libatk-bridge2.0-dev/resolute-updates 2.60.4-0ubuntu0.1 i386
 libatk-wrapper-java-jni/resolute,now 0.44.0-1 amd64 [installed,automatic]
 libatk-wrapper-java-jni/resolute 0.44.0-1 i386
 libatk-wrapper-java/resolute,resolute,now 0.44.0-1 all [installed,automatic]
 libatk1.0-0t64/resolute-updates,now 2.60.4-0ubuntu0.1 amd64 [installed,automatic]
 libatk1.0-0t64/resolute-updates 2.60.4-0ubuntu0.1 i386
-libatk1.0-dev/resolute-updates 2.60.4-0ubuntu0.1 amd64
+libatk1.0-dev/resolute-updates,now 2.60.4-0ubuntu0.1 amd64 [installed,automatic]
 libatk1.0-dev/resolute-updates 2.60.4-0ubuntu0.1 i386
 libatk1.0-doc/resolute-updates,resolute-updates 2.60.4-0ubuntu0.1 all
 libatkmm-1.6-1v5/resolute 2.28.4-2 amd64
@@ -22155,7 +22155,7 @@ libatrilview-dev/resolute 1.28.2-1 amd64
 libatrilview3t64/resolute 1.28.2-1 amd64
 libatspi2.0-0t64/resolute-updates,now 2.60.4-0ubuntu0.1 amd64 [installed,automatic]
 libatspi2.0-0t64/resolute-updates 2.60.4-0ubuntu0.1 i386
-libatspi2.0-dev/resolute-updates 2.60.4-0ubuntu0.1 amd64
+libatspi2.0-dev/resolute-updates,now 2.60.4-0ubuntu0.1 amd64 [installed,automatic]
 libatspi2.0-dev/resolute-updates 2.60.4-0ubuntu0.1 i386
 libattean-perl/resolute,resolute 0.035-1 all
 libatteanx-compatibility-trine-perl/resolute,resolute 0.002-5 all
@@ -22393,13 +22393,13 @@ libayatana-appindicator-glib-dev/resolute 2.0.1-1build1 amd64
 libayatana-appindicator-glib-doc/resolute,resolute 2.0.1-1build1 all
 libayatana-appindicator-glib2/resolute 2.0.1-1build1 amd64
 libayatana-appindicator3-1/resolute,now 0.5.94-1build1 amd64 [installed,automatic]
-libayatana-appindicator3-dev/resolute 0.5.94-1build1 amd64
+libayatana-appindicator3-dev/resolute,now 0.5.94-1build1 amd64 [installed]
 libayatana-common-dev/resolute 0.9.11-2build1 amd64
 libayatana-common0/resolute 0.9.11-2build1 amd64
 libayatana-ido3-0.4-0/resolute,now 0.10.4-1build1 amd64 [installed,automatic]
-libayatana-ido3-dev/resolute 0.10.4-1build1 amd64
+libayatana-ido3-dev/resolute,now 0.10.4-1build1 amd64 [installed,automatic]
 libayatana-indicator3-7/resolute,now 0.9.4-2 amd64 [installed,automatic]
-libayatana-indicator3-dev/resolute 0.9.4-2 amd64
+libayatana-indicator3-dev/resolute,now 0.9.4-2 amd64 [installed,automatic]
 libayatana-indicator3-tools/resolute 0.9.4-2 amd64
 libb-compiling-perl/resolute 0.06-2build5 amd64
 libb-cow-perl/resolute 0.007-1build4 amd64
@@ -22680,7 +22680,7 @@ libbliss2/resolute 0.77-5 amd64
 libblitz-doc/resolute,resolute 1:1.0.2+ds-4.1build2 all
 libblitz0-dev/resolute 1:1.0.2+ds-4.1build2 amd64
 libblitz0t64/resolute 1:1.0.2+ds-4.1build2 amd64
-libblkid-dev/resolute-updates,resolute-security 2.41.3-3ubuntu2.2 amd64
+libblkid-dev/resolute-updates,resolute-security,now 2.41.3-3ubuntu2.2 amd64 [installed,automatic]
 libblkid-dev/resolute-updates,resolute-security 2.41.3-3ubuntu2.2 i386
 libblkid1-dbgsym/resolute-updates,resolute-security 2.41.3-3ubuntu2.2 amd64
 libblkid1-dbgsym/resolute-updates,resolute-security 2.41.3-3ubuntu2.2 i386
@@ -23474,7 +23474,7 @@ libcairo-ocaml/resolute 1:1.2.0-10build7 amd64
 libcairo-perl/resolute,now 1.109-5build1 amd64 [installed,automatic]
 libcairo-script-interpreter2/resolute,now 1.18.4-3 amd64 [installed,automatic]
 libcairo-script-interpreter2/resolute 1.18.4-3 i386
-libcairo2-dev/resolute 1.18.4-3 amd64
+libcairo2-dev/resolute,now 1.18.4-3 amd64 [installed,automatic]
 libcairo2-dev/resolute 1.18.4-3 i386
 libcairo2-doc/resolute,resolute 1.18.4-3 all
 libcairo2-ocaml-dev/resolute 0.6.5-2build4 amd64
@@ -25532,7 +25532,7 @@ libdatetime-timezone-tzfile-perl/resolute,resolute 0.011-2 all
 libdatetime-tiny-perl/resolute,resolute 1.08-1 all
 libdatetimex-auto-perl/resolute,resolute 0.009-3 all
 libdatetimex-easy-perl/resolute,resolute 0.092-1 all
-libdatrie-dev/resolute 0.2.14-1 amd64
+libdatrie-dev/resolute,now 0.2.14-1 amd64 [installed,automatic]
 libdatrie-dev/resolute 0.2.14-1 i386
 libdatrie-doc/resolute,resolute 0.2.14-1 all
 libdatrie1-bin/resolute 0.2.14-1 amd64
@@ -25643,7 +25643,7 @@ libdbix-xmlmessage-perl/resolute,resolute 0.05-11 all
 libdbm-deep-perl/resolute,resolute 2.0019-1 all
 libdbus-1-3/resolute,now 1.16.2-2ubuntu4 amd64 [installed]
 libdbus-1-3/resolute,now 1.16.2-2ubuntu4 i386 [installed,automatic]
-libdbus-1-dev/resolute 1.16.2-2ubuntu4 amd64
+libdbus-1-dev/resolute,now 1.16.2-2ubuntu4 amd64 [installed,automatic]
 libdbus-1-dev/resolute 1.16.2-2ubuntu4 i386
 libdbus-c++-1-0v5/resolute 0.9.0-16 amd64
 libdbus-c++-1-0v5/resolute 0.9.0-16 i386
@@ -25672,7 +25672,7 @@ libdbusextended-qt5-1/resolute 0.0.3-7build1 amd64
 libdbusextended-qt5-dev/resolute 0.0.3-7build1 amd64
 libdbuskit-dev/resolute 0.1.1-14 amd64
 libdbuskit0/resolute 0.1.1-14 amd64
-libdbusmenu-glib-dev/resolute 18.10.20180917~bzr492+repack1-4build1 amd64
+libdbusmenu-glib-dev/resolute,now 18.10.20180917~bzr492+repack1-4build1 amd64 [installed,automatic]
 libdbusmenu-glib-dev/resolute 18.10.20180917~bzr492+repack1-4build1 i386
 libdbusmenu-glib-doc/resolute,resolute 18.10.20180917~bzr492+repack1-4build1 all
 libdbusmenu-glib4/resolute,now 18.10.20180917~bzr492+repack1-4build1 amd64 [installed,automatic]
@@ -26577,11 +26577,11 @@ libefreet-bin/resolute 1.28.1-1.1build2 amd64
 libefreet1a/resolute 1.28.1-1.1build2 amd64
 libegl-amber0/resolute 21.3.9-0ubuntu3 amd64
 libegl-amber0/resolute 21.3.9-0ubuntu3 i386
-libegl-dev/resolute 1.7.0-3 amd64
+libegl-dev/resolute,now 1.7.0-3 amd64 [installed,automatic]
 libegl-dev/resolute 1.7.0-3 i386
 libegl-mesa0/resolute-updates,now 26.0.8-1ubuntu0.3 amd64 [installed,automatic]
 libegl-mesa0/resolute-updates,now 26.0.8-1ubuntu0.3 i386 [installed,automatic]
-libegl1-mesa-dev/resolute-updates 26.0.8-1ubuntu0.3 amd64
+libegl1-mesa-dev/resolute-updates,now 26.0.8-1ubuntu0.3 amd64 [installed,automatic]
 libegl1-mesa-dev/resolute-updates 26.0.8-1ubuntu0.3 i386
 libegl1-mesa/now 23.0.4-0ubuntu1~22.04.1 amd64 [installed,local]
 libegl1/resolute,now 1.7.0-3 amd64 [installed,automatic]
@@ -26726,7 +26726,7 @@ libeolian1/resolute 1.28.1-1.1build2 amd64
 libeot-dev/resolute 0.01-5build4 amd64
 libeot0/resolute,now 0.01-5build4 amd64 [installed,automatic]
 libepics-perl/resolute 7.0.7+dfsg1-5 amd64
-libepoxy-dev/resolute 1.5.10-2build1 amd64
+libepoxy-dev/resolute,now 1.5.10-2build1 amd64 [installed,automatic]
 libepoxy-dev/resolute 1.5.10-2build1 i386
 libepoxy0/resolute,now 1.5.10-2build1 amd64 [installed,automatic]
 libepoxy0/resolute 1.5.10-2build1 i386
@@ -27756,7 +27756,7 @@ libfressian-java-doc/resolute,resolute 0.6.6-3build2 all
 libfressian-java/resolute,resolute 0.6.6-3build2 all
 libfribidi-bin/resolute 1.0.16-5 amd64
 libfribidi-bin/resolute 1.0.16-5 i386
-libfribidi-dev/resolute 1.0.16-5 amd64
+libfribidi-dev/resolute,now 1.0.16-5 amd64 [installed,automatic]
 libfribidi-dev/resolute 1.0.16-5 i386
 libfribidi0/resolute,now 1.0.16-5 amd64 [installed]
 libfribidi0/resolute,now 1.0.16-5 i386 [installed,automatic]
@@ -28341,7 +28341,7 @@ libgdiagnostics0/resolute 16-20260322-1ubuntu1 i386
 libgdiplus/resolute 6.1+dfsg-1.1build1 amd64
 libgdk-pixbuf-2.0-0/resolute,now 2.44.5+dfsg-4ubuntu1 amd64 [installed,automatic]
 libgdk-pixbuf-2.0-0/resolute 2.44.5+dfsg-4ubuntu1 i386
-libgdk-pixbuf-2.0-dev/resolute 2.44.5+dfsg-4ubuntu1 amd64
+libgdk-pixbuf-2.0-dev/resolute,now 2.44.5+dfsg-4ubuntu1 amd64 [installed,automatic]
 libgdk-pixbuf-2.0-dev/resolute 2.44.5+dfsg-4ubuntu1 i386
 libgdk-pixbuf-xlib-2.0-0/resolute 2.40.2-5build1 amd64
 libgdk-pixbuf-xlib-2.0-dev/resolute 2.40.2-5build1 amd64
@@ -32035,9 +32035,9 @@ libgimp-3.0-dev/resolute-updates 3.2.2-1ubuntu0.26.04.1 amd64
 libgimp-3.0-doc/resolute-updates,resolute-updates 3.2.2-1ubuntu0.26.04.1 all
 libginac-dev/resolute 1.8.10-1 amd64
 libginac13/resolute 1.8.10-1 amd64
-libgio-2.0-dev-bin/resolute-updates,resolute-security 2.88.0-1ubuntu0.1 amd64
+libgio-2.0-dev-bin/resolute-updates,resolute-security,now 2.88.0-1ubuntu0.1 amd64 [installed,automatic]
 libgio-2.0-dev-bin/resolute-updates,resolute-security 2.88.0-1ubuntu0.1 i386
-libgio-2.0-dev/resolute-updates,resolute-security 2.88.0-1ubuntu0.1 amd64
+libgio-2.0-dev/resolute-updates,resolute-security,now 2.88.0-1ubuntu0.1 amd64 [installed,automatic]
 libgio-2.0-dev/resolute-updates,resolute-security 2.88.0-1ubuntu0.1 i386
 libgio-qt-dev/resolute 0.0.16-1 amd64
 libgio-qt0/resolute 0.0.16-1 amd64
@@ -32085,7 +32085,7 @@ libgkarrays-dev/resolute 2.1.0+dfsg-4.2build2 amd64
 libgkarrays1t64/resolute 2.1.0+dfsg-4.2build2 amd64
 libgkl-java/resolute,resolute 0.9.1+dfsg-3 all
 libgkl-jni/resolute 0.9.1+dfsg-3 amd64
-libgl-dev/resolute 1.7.0-3 amd64
+libgl-dev/resolute,now 1.7.0-3 amd64 [installed,automatic]
 libgl-dev/resolute 1.7.0-3 i386
 libgl-image-display-dev/resolute 0.24-2build1 amd64
 libgl-image-display0/resolute 0.24-2build1 amd64
@@ -32116,9 +32116,9 @@ libglc-dev/resolute 0.7.2-8 amd64
 libglc0/resolute 0.7.2-8 amd64
 libgle3-dev/resolute 3.1.2-1build2 amd64
 libgle3/resolute 3.1.2-1build2 amd64
-libgles-dev/resolute 1.7.0-3 amd64
+libgles-dev/resolute,now 1.7.0-3 amd64 [installed,automatic]
 libgles-dev/resolute 1.7.0-3 i386
-libgles1/resolute 1.7.0-3 amd64
+libgles1/resolute,now 1.7.0-3 amd64 [installed,automatic]
 libgles1/resolute 1.7.0-3 i386
 libgles2-mesa-dev/resolute-updates 26.0.8-1ubuntu0.3 amd64
 libgles2-mesa-dev/resolute-updates 26.0.8-1ubuntu0.3 i386
@@ -32151,9 +32151,9 @@ libglib2.0-0t64/resolute-updates,resolute-security,now 2.88.0-1ubuntu0.1 i386 [i
 libglib2.0-bin/resolute-updates,resolute-security,now 2.88.0-1ubuntu0.1 amd64 [installed]
 libglib2.0-bin/resolute-updates,resolute-security 2.88.0-1ubuntu0.1 i386
 libglib2.0-data/resolute-updates,resolute-updates,resolute-security,resolute-security,now 2.88.0-1ubuntu0.1 all [installed]
-libglib2.0-dev-bin/resolute-updates,resolute-security 2.88.0-1ubuntu0.1 amd64
+libglib2.0-dev-bin/resolute-updates,resolute-security,now 2.88.0-1ubuntu0.1 amd64 [installed,automatic]
 libglib2.0-dev-bin/resolute-updates,resolute-security 2.88.0-1ubuntu0.1 i386
-libglib2.0-dev/resolute-updates,resolute-security 2.88.0-1ubuntu0.1 amd64
+libglib2.0-dev/resolute-updates,resolute-security,now 2.88.0-1ubuntu0.1 amd64 [installed]
 libglib2.0-dev/resolute-updates,resolute-security 2.88.0-1ubuntu0.1 i386
 libglib2.0-doc/resolute-updates,resolute-updates,resolute-security,resolute-security 2.88.0-1ubuntu0.1 all
 libglib2.0-tests/resolute-updates,resolute-security 2.88.0-1ubuntu0.1 amd64
@@ -32319,9 +32319,9 @@ libglut-dev/resolute 3.4.0-6 amd64
 libglut-dev/resolute 3.4.0-6 i386
 libglut3.12/resolute 3.4.0-6 amd64
 libglut3.12/resolute 3.4.0-6 i386
-libglvnd-core-dev/resolute 1.7.0-3 amd64
+libglvnd-core-dev/resolute,now 1.7.0-3 amd64 [installed,automatic]
 libglvnd-core-dev/resolute 1.7.0-3 i386
-libglvnd-dev/resolute 1.7.0-3 amd64
+libglvnd-dev/resolute,now 1.7.0-3 amd64 [installed,automatic]
 libglvnd-dev/resolute 1.7.0-3 i386
 libglvnd0/resolute,now 1.7.0-3 amd64 [installed,automatic]
 libglvnd0/resolute,now 1.7.0-3 i386 [installed,automatic]
@@ -32329,7 +32329,7 @@ libglw1-mesa-dev/resolute 8.0.0-3build1 amd64
 libglw1t64-mesa/resolute 8.0.0-3build1 amd64
 libglx-amber0/resolute 21.3.9-0ubuntu3 amd64
 libglx-amber0/resolute 21.3.9-0ubuntu3 i386
-libglx-dev/resolute 1.7.0-3 amd64
+libglx-dev/resolute,now 1.7.0-3 amd64 [installed,automatic]
 libglx-dev/resolute 1.7.0-3 i386
 libglx-mesa0/resolute-updates,now 26.0.8-1ubuntu0.3 amd64 [installed,automatic]
 libglx-mesa0/resolute-updates,now 26.0.8-1ubuntu0.3 i386 [installed,automatic]
@@ -32337,7 +32337,7 @@ libglx0/resolute,now 1.7.0-3 amd64 [installed,automatic]
 libglx0/resolute,now 1.7.0-3 i386 [installed,automatic]
 libglycin-2-0/resolute-updates,now 2.1.5+ds-0ubuntu0.2 amd64 [installed,automatic]
 libglycin-2-0/resolute-updates 2.1.5+ds-0ubuntu0.2 i386
-libglycin-2-dev/resolute-updates 2.1.5+ds-0ubuntu0.2 amd64
+libglycin-2-dev/resolute-updates,now 2.1.5+ds-0ubuntu0.2 amd64 [installed,automatic]
 libglycin-2-dev/resolute-updates 2.1.5+ds-0ubuntu0.2 i386
 libglycin-gtk4-2-0/resolute-updates,now 2.1.5+ds-0ubuntu0.2 amd64 [installed,automatic]
 libglycin-gtk4-2-0/resolute-updates 2.1.5+ds-0ubuntu0.2 i386
@@ -33366,7 +33366,7 @@ libgraphicsmagick-q16-3t64/resolute 1.4+really1.3.46-2 amd64
 libgraphicsmagick1-dev/resolute 1.4+really1.3.46-2 amd64
 libgraphite2-3/resolute-updates,resolute-security,now 1.3.14-11ubuntu1.1 amd64 [installed,automatic]
 libgraphite2-3/resolute-updates,resolute-security,now 1.3.14-11ubuntu1.1 i386 [installed,automatic]
-libgraphite2-dev/resolute-updates,resolute-security 1.3.14-11ubuntu1.1 amd64
+libgraphite2-dev/resolute-updates,resolute-security,now 1.3.14-11ubuntu1.1 amd64 [installed,automatic]
 libgraphite2-dev/resolute-updates,resolute-security 1.3.14-11ubuntu1.1 i386
 libgraphite2-doc/resolute-updates,resolute-updates,resolute-security,resolute-security 1.3.14-11ubuntu1.1 all
 libgraphite2-utils/resolute-updates,resolute-security 1.3.14-11ubuntu1.1 amd64
@@ -33465,7 +33465,7 @@ libgssdp-1.6-dev/resolute 1.6.4-5 i386
 libgssdp-doc/resolute,resolute 1.6.4-5 all
 libgssglue-dev/resolute 0.9-2 amd64
 libgssglue1/resolute 0.9-2 amd64
-libgssrpc4t64/resolute-updates,resolute-security 1.22.1-2ubuntu4.1 amd64
+libgssrpc4t64/resolute-updates,resolute-security,now 1.22.1-2ubuntu4.1 amd64 [installed,automatic]
 libgssrpc4t64/resolute-updates,resolute-security 1.22.1-2ubuntu4.1 i386
 libgstreamer-gl1.0-0/resolute-updates,resolute-security,now 1.28.2-1ubuntu0.1 amd64 [installed,automatic]
 libgstreamer-gl1.0-0/resolute-updates,resolute-security 1.28.2-1ubuntu0.1 i386
@@ -33510,7 +33510,7 @@ libgtk-3-0t64/resolute 3.24.52-0ubuntu1 i386
 libgtk-3-bin/resolute,now 3.24.52-0ubuntu1 amd64 [installed,automatic]
 libgtk-3-bin/resolute 3.24.52-0ubuntu1 i386
 libgtk-3-common/resolute,resolute,now 3.24.52-0ubuntu1 all [installed,automatic]
-libgtk-3-dev/resolute 3.24.52-0ubuntu1 amd64
+libgtk-3-dev/resolute,now 3.24.52-0ubuntu1 amd64 [installed]
 libgtk-3-dev/resolute 3.24.52-0ubuntu1 i386
 libgtk-3-doc/resolute,resolute 3.24.52-0ubuntu1 all
 libgtk-4-1/resolute-updates,now 4.22.4+ds-0ubuntu0.1 amd64 [installed,automatic]
@@ -33823,9 +33823,9 @@ libhangul-dev/resolute 0.2.0-1build1 amd64
 libhangul1/resolute 0.2.0-1build1 amd64
 libharfbuzz-bin/resolute 12.3.2-2 amd64
 libharfbuzz-bin/resolute 12.3.2-2 i386
-libharfbuzz-cairo0/resolute 12.3.2-2 amd64
+libharfbuzz-cairo0/resolute,now 12.3.2-2 amd64 [installed,automatic]
 libharfbuzz-cairo0/resolute 12.3.2-2 i386
-libharfbuzz-dev/resolute 12.3.2-2 amd64
+libharfbuzz-dev/resolute,now 12.3.2-2 amd64 [installed,automatic]
 libharfbuzz-dev/resolute 12.3.2-2 i386
 libharfbuzz-doc/resolute,resolute 12.3.2-2 all
 libharfbuzz-gobject0/resolute,now 12.3.2-2 amd64 [installed,automatic]
@@ -34412,7 +34412,7 @@ libical3t64/resolute 3.0.20-2build1 i386
 libicapapi-dev/resolute 1:0.5.10-7build1 amd64
 libicapapi5t64/resolute 1:0.5.10-7build1 amd64
 libicb-utils-java/resolute,resolute 2.0.1+git20161002.afee1d9-5build1 all
-libice-dev/resolute 2:1.1.1-1build1 amd64
+libice-dev/resolute,now 2:1.1.1-1build1 amd64 [installed,automatic]
 libice-dev/resolute 2:1.1.1-1build1 i386
 libice-doc/resolute,resolute 2:1.1.1-1build1 all
 libice6/resolute,now 2:1.1.1-1build1 amd64 [installed,automatic]
@@ -34439,7 +34439,7 @@ libiconv-hook1/resolute 0.0.20021209-12build2 amd64
 libics-dev/resolute 1.7.0-1 amd64
 libics-doc/resolute,resolute 1.7.0-1 all
 libics0/resolute 1.7.0-1 amd64
-libicu-dev/resolute 78.2-2ubuntu1 amd64
+libicu-dev/resolute,now 78.2-2ubuntu1 amd64 [installed,automatic]
 libicu-dev/resolute 78.2-2ubuntu1 i386
 libicu4j-4.4-java/resolute,resolute 4.4.2.2-4build1 all
 libicu4j-java/resolute,resolute 73.2-1build1 all
@@ -35059,7 +35059,7 @@ libjavascript-quickjs-perl/resolute 0.21-3 amd64
 libjavascript-rpc-perl/resolute,resolute 0.10-2 all
 libjavascriptcoregtk-4.1-0/resolute-updates,resolute-security,now 2.52.6-0ubuntu0.26.04.1 amd64 [installed,automatic]
 libjavascriptcoregtk-4.1-0/resolute-updates,resolute-security 2.52.6-0ubuntu0.26.04.1 i386
-libjavascriptcoregtk-4.1-dev/resolute-updates,resolute-security 2.52.6-0ubuntu0.26.04.1 amd64
+libjavascriptcoregtk-4.1-dev/resolute-updates,resolute-security,now 2.52.6-0ubuntu0.26.04.1 amd64 [installed,automatic]
 libjavascriptcoregtk-4.1-dev/resolute-updates,resolute-security 2.52.6-0ubuntu0.26.04.1 i386
 libjavascriptcoregtk-6.0-1/resolute-updates,resolute-security,now 2.52.6-0ubuntu0.26.04.1 amd64 [installed,automatic]
 libjavascriptcoregtk-6.0-1/resolute-updates,resolute-security 2.52.6-0ubuntu0.26.04.1 i386
@@ -35849,11 +35849,11 @@ libk5crypto3/resolute-updates,resolute-security 1.22.1-2ubuntu4.1 i386
 libkaccounts6-2/resolute 4:25.12.3-0ubuntu1 amd64
 libkaccounts6-dev/resolute 4:25.12.3-0ubuntu1 amd64
 libkaddressbook-dev/resolute 4:25.12.3-0ubuntu1 amd64
-libkadm5clnt-mit12/resolute-updates,resolute-security 1.22.1-2ubuntu4.1 amd64
+libkadm5clnt-mit12/resolute-updates,resolute-security,now 1.22.1-2ubuntu4.1 amd64 [installed,automatic]
 libkadm5clnt-mit12/resolute-updates,resolute-security 1.22.1-2ubuntu4.1 i386
 libkadm5clnt7t64-heimdal/resolute 7.8.git20221117.28daf24+dfsg-11ubuntu1 amd64
 libkadm5clnt7t64-heimdal/resolute 7.8.git20221117.28daf24+dfsg-11ubuntu1 i386
-libkadm5srv-mit12/resolute-updates,resolute-security 1.22.1-2ubuntu4.1 amd64
+libkadm5srv-mit12/resolute-updates,resolute-security,now 1.22.1-2ubuntu4.1 amd64 [installed,automatic]
 libkadm5srv-mit12/resolute-updates,resolute-security 1.22.1-2ubuntu4.1 i386
 libkadm5srv8t64-heimdal/resolute 7.8.git20221117.28daf24+dfsg-11ubuntu1 amd64
 libkadm5srv8t64-heimdal/resolute 7.8.git20221117.28daf24+dfsg-11ubuntu1 i386
@@ -35902,7 +35902,7 @@ libkdb3-dev/resolute 3.2.0-9build1 amd64
 libkdb3-driver-mysql/resolute 3.2.0-9build1 amd64
 libkdb3-driver-postgresql/resolute 3.2.0-9build1 amd64
 libkdb3-driver-sqlite/resolute 3.2.0-9build1 amd64
-libkdb5-10t64/resolute-updates,resolute-security 1.22.1-2ubuntu4.1 amd64
+libkdb5-10t64/resolute-updates,resolute-security,now 1.22.1-2ubuntu4.1 amd64 [installed,automatic]
 libkdb5-10t64/resolute-updates,resolute-security 1.22.1-2ubuntu4.1 i386
 libkdc2t64-heimdal/resolute 7.8.git20221117.28daf24+dfsg-11ubuntu1 amd64
 libkdc2t64-heimdal/resolute 7.8.git20221117.28daf24+dfsg-11ubuntu1 i386
@@ -36795,7 +36795,7 @@ libkrb5-3/resolute-updates,resolute-security,now 1.22.1-2ubuntu4.1 amd64 [instal
 libkrb5-3/resolute-updates,resolute-security 1.22.1-2ubuntu4.1 i386
 libkrb5-dbg/resolute-updates,resolute-security 1.22.1-2ubuntu4.1 amd64
 libkrb5-dbg/resolute-updates,resolute-security 1.22.1-2ubuntu4.1 i386
-libkrb5-dev/resolute-updates,resolute-security 1.22.1-2ubuntu4.1 amd64
+libkrb5-dev/resolute-updates,resolute-security,now 1.22.1-2ubuntu4.1 amd64 [installed,automatic]
 libkrb5-dev/resolute-updates,resolute-security 1.22.1-2ubuntu4.1 i386
 libkrb5support0/resolute-updates,resolute-security,now 1.22.1-2ubuntu4.1 amd64 [installed,automatic]
 libkrb5support0/resolute-updates,resolute-security 1.22.1-2ubuntu4.1 i386
@@ -37006,7 +37006,7 @@ liblcmaps-without-gsi0t64/resolute 1.6.6-4 amd64
 liblcmaps0t64/resolute 1.6.6-4 amd64
 liblcms2-2/resolute-updates,resolute-security,now 2.17-1ubuntu0.2 amd64 [installed,automatic]
 liblcms2-2/resolute-updates,resolute-security 2.17-1ubuntu0.2 i386
-liblcms2-dev/resolute-updates,resolute-security 2.17-1ubuntu0.2 amd64
+liblcms2-dev/resolute-updates,resolute-security,now 2.17-1ubuntu0.2 amd64 [installed,automatic]
 liblcms2-dev/resolute-updates,resolute-security 2.17-1ubuntu0.2 i386
 liblcms2-utils/resolute-updates,resolute-security,now 2.17-1ubuntu0.2 amd64 [installed,automatic]
 liblcms2-utils/resolute-updates,resolute-security 2.17-1ubuntu0.2 i386
@@ -38842,7 +38842,7 @@ libmosquittopp1/resolute 2.0.22-5build1 amd64
 libmotif-common/resolute,resolute 2.3.8-5build1 all
 libmotif-dev/resolute 2.3.8-5build1 amd64
 libmotif-dev/resolute 2.3.8-5build1 i386
-libmount-dev/resolute-updates,resolute-security 2.41.3-3ubuntu2.2 amd64
+libmount-dev/resolute-updates,resolute-security,now 2.41.3-3ubuntu2.2 amd64 [installed,automatic]
 libmount-dev/resolute-updates,resolute-security 2.41.3-3ubuntu2.2 i386
 libmount1-dbgsym/resolute-updates,resolute-security 2.41.3-3ubuntu2.2 amd64
 libmount1-dbgsym/resolute-updates,resolute-security 2.41.3-3ubuntu2.2 i386
@@ -39596,7 +39596,7 @@ libnftnl11/resolute,now 1.3.1-1 amd64 [installed,automatic]
 libnftnl11/resolute 1.3.1-1 i386
 libnghttp2-14/resolute-updates,resolute-security,now 1.68.0-2ubuntu0.2 amd64 [installed,automatic]
 libnghttp2-14/resolute-updates,resolute-security 1.68.0-2ubuntu0.2 i386
-libnghttp2-dev/resolute-updates,resolute-security 1.68.0-2ubuntu0.2 amd64
+libnghttp2-dev/resolute-updates,resolute-security,now 1.68.0-2ubuntu0.2 amd64 [installed,automatic]
 libnghttp2-dev/resolute-updates,resolute-security 1.68.0-2ubuntu0.2 i386
 libnghttp2-doc/resolute-updates,resolute-updates,resolute-security,resolute-security 1.68.0-2ubuntu0.2 all
 libnghttp3-9/resolute 1.12.0-1 amd64
@@ -40747,7 +40747,7 @@ libopenfec-dev/resolute 1.4.2.12+dfsg-1 amd64
 libopenfec-dev/resolute 1.4.2.12+dfsg-1 i386
 libopenfec1/resolute 1.4.2.12+dfsg-1 amd64
 libopenfec1/resolute 1.4.2.12+dfsg-1 i386
-libopengl-dev/resolute 1.7.0-3 amd64
+libopengl-dev/resolute,now 1.7.0-3 amd64 [installed,automatic]
 libopengl-dev/resolute 1.7.0-3 i386
 libopengl-glfw-perl/resolute 0.0403-1 amd64
 libopengl-image-perl/resolute,resolute 1.03-2 all
@@ -41296,7 +41296,7 @@ libpanel-doc/resolute,resolute 1.10.3-1 all
 libpango-1.0-0/resolute,now 1.57.0-1 amd64 [installed,automatic]
 libpango-1.0-0/resolute,now 1.57.0-1 i386 [installed,automatic]
 libpango-perl/resolute 1.227-4build5 amd64
-libpango1.0-dev/resolute 1.57.0-1 amd64
+libpango1.0-dev/resolute,now 1.57.0-1 amd64 [installed,automatic]
 libpango1.0-dev/resolute 1.57.0-1 i386
 libpango1.0-doc/resolute,resolute 1.57.0-1 all
 libpangocairo-1.0-0/resolute,now 1.57.0-1 amd64 [installed,automatic]
@@ -41532,7 +41532,7 @@ libpcre2-32-0/resolute,now 10.46-1build1 amd64 [installed,automatic]
 libpcre2-32-0/resolute 10.46-1build1 i386
 libpcre2-8-0/resolute,now 10.46-1build1 amd64 [installed]
 libpcre2-8-0/resolute,now 10.46-1build1 i386 [installed,automatic]
-libpcre2-dev/resolute 10.46-1build1 amd64
+libpcre2-dev/resolute,now 10.46-1build1 amd64 [installed,automatic]
 libpcre2-dev/resolute 10.46-1build1 i386
 libpcre2-ocaml-dev/resolute 8.0.4-1build2 amd64
 libpcre2-ocaml/resolute 8.0.4-1build2 amd64
@@ -41834,7 +41834,7 @@ libpixels-java/resolute,resolute 2.1.3+svn.42-3 all
 libpixie-java/resolute,resolute 1:1.1.6-5 all
 libpixman-1-0/resolute,now 0.46.4-1 amd64 [installed,automatic]
 libpixman-1-0/resolute,now 0.46.4-1 i386 [installed,automatic]
-libpixman-1-dev/resolute 0.46.4-1 amd64
+libpixman-1-dev/resolute,now 0.46.4-1 amd64 [installed,automatic]
 libpixman-1-dev/resolute 0.46.4-1 i386
 libpj-java/resolute,resolute 0.0~20150107+dfsg-5 all
 libpkcs11-helper1-dev/resolute 1.31.0-1 amd64
@@ -42470,7 +42470,7 @@ libpseudo/resolute 1.9.0+git20230301+ec6151a2b057-1 amd64
 libpsimd-dev/resolute 0.0~git20200517.072586a-3 amd64
 libpskc-dev/resolute 2.6.14-1 amd64
 libpskc0t64/resolute 2.6.14-1 amd64
-libpsl-dev/resolute 0.21.2-1.1build2 amd64
+libpsl-dev/resolute,now 0.21.2-1.1build2 amd64 [installed,automatic]
 libpsl-dev/resolute 0.21.2-1.1build2 i386
 libpsl5t64/resolute,now 0.21.2-1.1build2 amd64 [installed,automatic]
 libpsl5t64/resolute 0.21.2-1.1build2 i386
@@ -43926,7 +43926,7 @@ librsvg2-bin/resolute 2.61.3+dfsg-3 amd64
 librsvg2-bin/resolute 2.61.3+dfsg-3 i386
 librsvg2-common/resolute,now 2.61.3+dfsg-3 amd64 [installed,automatic]
 librsvg2-common/resolute 2.61.3+dfsg-3 i386
-librsvg2-dev/resolute 2.61.3+dfsg-3 amd64
+librsvg2-dev/resolute,now 2.61.3+dfsg-3 amd64 [installed]
 librsvg2-dev/resolute 2.61.3+dfsg-3 i386
 librsvg2-doc/resolute,resolute 2.61.3+dfsg-3 all
 librsvg2-tests/resolute 2.61.3+dfsg-3 amd64
@@ -48120,7 +48120,7 @@ libseat-dev/resolute 0.9.2-2 amd64
 libseat-dev/resolute 0.9.2-2 i386
 libseat1/resolute 0.9.2-2 amd64
 libseat1/resolute 0.9.2-2 i386
-libseccomp-dev/resolute 2.6.0-2ubuntu5 amd64
+libseccomp-dev/resolute,now 2.6.0-2ubuntu5 amd64 [installed,automatic]
 libseccomp-dev/resolute 2.6.0-2ubuntu5 i386
 libseccomp2/resolute,now 2.6.0-2ubuntu5 amd64 [installed]
 libseccomp2/resolute 2.6.0-2ubuntu5 i386
@@ -48145,7 +48145,7 @@ libsejda-eventstudio-java/resolute,resolute 3.0.4-1 all
 libsejda-injector-java/resolute,resolute 2.0.0-1 all
 libsejda-io-java/resolute,resolute 2.1.4-1 all
 libsejda-java/resolute,resolute 4.3.14-1 all
-libselinux-dev/resolute 3.9-4build1 amd64
+libselinux-dev/resolute,now 3.9-4build1 amd64 [installed,automatic]
 libselinux-dev/resolute 3.9-4build1 i386
 libselinux1/resolute,now 3.9-4build1 amd64 [installed]
 libselinux1/resolute,now 3.9-4build1 i386 [installed,automatic]
@@ -48169,7 +48169,7 @@ libsentencepiece-dev/resolute 0.2.1-1build1 amd64
 libsentencepiece0/resolute 0.2.1-1build1 amd64
 libsep-dev/resolute 1.4.1-2ubuntu1 amd64
 libsep0/resolute 1.4.1-2ubuntu1 amd64
-libsepol-dev/resolute 3.9-2 amd64
+libsepol-dev/resolute,now 3.9-2 amd64 [installed,automatic]
 libsepol-dev/resolute 3.9-2 i386
 libsepol2/resolute,now 3.9-2 amd64 [installed,automatic]
 libsepol2/resolute 3.9-2 i386
@@ -48500,7 +48500,7 @@ libslurmdb-perl/resolute 25.11.2-1ubuntu2 amd64
 libslurmdb-perl/resolute 25.11.2-1ubuntu2 i386
 libslvs1-dev/resolute 3.1+ds1-4 amd64
 libslvs1t64/resolute 3.1+ds1-4 amd64
-libsm-dev/resolute 2:1.2.6-1build1 amd64
+libsm-dev/resolute,now 2:1.2.6-1build1 amd64 [installed,automatic]
 libsm-dev/resolute 2:1.2.6-1build1 i386
 libsm-doc/resolute,resolute 2:1.2.6-1build1 all
 libsm6/resolute,now 2:1.2.6-1build1 amd64 [installed,automatic]
@@ -48713,7 +48713,7 @@ libsoup-2.4-1/resolute 2.74.3-10.1ubuntu5 amd64
 libsoup-3.0-0/resolute,now 3.6.6-1 amd64 [installed,automatic]
 libsoup-3.0-0/resolute 3.6.6-1 i386
 libsoup-3.0-common/resolute,resolute,now 3.6.6-1 all [installed,automatic]
-libsoup-3.0-dev/resolute 3.6.6-1 amd64
+libsoup-3.0-dev/resolute,now 3.6.6-1 amd64 [installed,automatic]
 libsoup-3.0-dev/resolute 3.6.6-1 i386
 libsoup-3.0-doc/resolute,resolute 3.6.6-1 all
 libsoup-3.0-tests/resolute 3.6.6-1 amd64
@@ -49844,7 +49844,7 @@ libsysprof-6-dev/resolute 50.0-1 amd64
 libsysprof-6-dev/resolute 50.0-1 i386
 libsysprof-6-modules/resolute 50.0-1 amd64
 libsysprof-6-modules/resolute 50.0-1 i386
-libsysprof-capture-4-dev/resolute 50.0-1 amd64
+libsysprof-capture-4-dev/resolute,now 50.0-1 amd64 [installed,automatic]
 libsysprof-capture-4-dev/resolute 50.0-1 i386
 libsysrepo-dev/resolute 3.7.11-1 amd64
 libsysrepo7/resolute 3.7.11-1 amd64
@@ -49856,7 +49856,7 @@ libsystem-sub-perl/resolute,resolute 0.162800-4 all
 libsystemc-dev/resolute 3.0.2-1 amd64
 libsystemc-doc/resolute,resolute 3.0.2-1 all
 libsystemc/resolute 3.0.2-1 amd64
-libsystemd-dev/resolute-updates,resolute-security 259.5-0ubuntu3.4 amd64
+libsystemd-dev/resolute-updates,resolute-security,now 259.5-0ubuntu3.4 amd64 [installed,automatic]
 libsystemd-dev/resolute-updates,resolute-security 259.5-0ubuntu3.4 i386
 libsystemd-shared/resolute-updates,resolute-security,now 259.5-0ubuntu3.4 amd64 [installed,automatic]
 libsystemd-shared/resolute-updates,resolute-security 259.5-0ubuntu3.4 i386
@@ -50483,7 +50483,7 @@ libtfm1/resolute 0.13.1-2build1 amd64
 libtgl-0.0.0.20160623-0t64/resolute 2.0.1+git20160323.ffb04cac-5 amd64
 libtgl-0.0.0.20160623-dev/resolute 2.0.1+git20160323.ffb04cac-5 amd64
 libthai-data/resolute,resolute,now 0.1.30-1 all [installed,automatic]
-libthai-dev/resolute 0.1.30-1 amd64
+libthai-dev/resolute,now 0.1.30-1 amd64 [installed,automatic]
 libthai-dev/resolute 0.1.30-1 i386
 libthai-doc/resolute,resolute 0.1.30-1 all
 libthai0/resolute,now 0.1.30-1 amd64 [installed,automatic]
@@ -51995,7 +51995,7 @@ libwavpack-dev/resolute 5.9.0-1 amd64
 libwavpack-dev/resolute 5.9.0-1 i386
 libwavpack1/resolute,now 5.9.0-1 amd64 [installed,automatic]
 libwavpack1/resolute 5.9.0-1 i386
-libwayland-bin/resolute 1.24.0-2 amd64
+libwayland-bin/resolute,now 1.24.0-2 amd64 [installed,automatic]
 libwayland-bin/resolute 1.24.0-2 i386
 libwayland-client++1/resolute 1.0.1-1 amd64
 libwayland-client-extra++1/resolute 1.0.1-1 amd64
@@ -52004,7 +52004,7 @@ libwayland-client0/resolute,now 1.24.0-2 i386 [installed,automatic]
 libwayland-cursor++1/resolute 1.0.1-1 amd64
 libwayland-cursor0/resolute,now 1.24.0-2 amd64 [installed,automatic]
 libwayland-cursor0/resolute,now 1.24.0-2 i386 [installed,automatic]
-libwayland-dev/resolute 1.24.0-2 amd64
+libwayland-dev/resolute,now 1.24.0-2 amd64 [installed,automatic]
 libwayland-dev/resolute 1.24.0-2 i386
 libwayland-doc/resolute,resolute 1.24.0-2 all
 libwayland-egl++1/resolute 1.0.1-1 amd64
@@ -52047,7 +52047,7 @@ libwebjars-locator-core-java/resolute,resolute 0.30-2 all
 libwebjars-locator-java/resolute,resolute 0.32-2 all
 libwebkit2gtk-4.1-0/resolute-updates,resolute-security,now 2.52.6-0ubuntu0.26.04.1 amd64 [installed,automatic]
 libwebkit2gtk-4.1-0/resolute-updates,resolute-security 2.52.6-0ubuntu0.26.04.1 i386
-libwebkit2gtk-4.1-dev/resolute-updates,resolute-security 2.52.6-0ubuntu0.26.04.1 amd64
+libwebkit2gtk-4.1-dev/resolute-updates,resolute-security,now 2.52.6-0ubuntu0.26.04.1 amd64 [installed]
 libwebkit2gtk-4.1-dev/resolute-updates,resolute-security 2.52.6-0ubuntu0.26.04.1 i386
 libwebkitgtk-6.0-4/resolute-updates,resolute-security,now 2.52.6-0ubuntu0.26.04.1 amd64 [installed,automatic]
 libwebkitgtk-6.0-4/resolute-updates,resolute-security 2.52.6-0ubuntu0.26.04.1 i386
@@ -52743,7 +52743,7 @@ libxcb-render-util0-dev/resolute 0.3.10-1build1 amd64
 libxcb-render-util0-dev/resolute 0.3.10-1build1 i386
 libxcb-render-util0/resolute,now 0.3.10-1build1 amd64 [installed,automatic]
 libxcb-render-util0/resolute 0.3.10-1build1 i386
-libxcb-render0-dev/resolute 1.17.0-2ubuntu1 amd64
+libxcb-render0-dev/resolute,now 1.17.0-2ubuntu1 amd64 [installed,automatic]
 libxcb-render0-dev/resolute 1.17.0-2ubuntu1 i386
 libxcb-render0/resolute,now 1.17.0-2ubuntu1 amd64 [installed,automatic]
 libxcb-render0/resolute,now 1.17.0-2ubuntu1 i386 [installed,automatic]
@@ -52759,7 +52759,7 @@ libxcb-shape0-dev/resolute 1.17.0-2ubuntu1 amd64
 libxcb-shape0-dev/resolute 1.17.0-2ubuntu1 i386
 libxcb-shape0/resolute,now 1.17.0-2ubuntu1 amd64 [installed,automatic]
 libxcb-shape0/resolute 1.17.0-2ubuntu1 i386
-libxcb-shm0-dev/resolute 1.17.0-2ubuntu1 amd64
+libxcb-shm0-dev/resolute,now 1.17.0-2ubuntu1 amd64 [installed,automatic]
 libxcb-shm0-dev/resolute 1.17.0-2ubuntu1 i386
 libxcb-shm0/resolute,now 1.17.0-2ubuntu1 amd64 [installed,automatic]
 libxcb-shm0/resolute,now 1.17.0-2ubuntu1 i386 [installed,automatic]
@@ -52813,14 +52813,14 @@ libxcb1/resolute,now 1.17.0-2ubuntu1 amd64 [installed,automatic]
 libxcb1/resolute,now 1.17.0-2ubuntu1 i386 [installed,automatic]
 libxcomp-dev/resolute 2:3.5.99.27-2build2 amd64
 libxcomp3t64/resolute 2:3.5.99.27-2build2 amd64
-libxcomposite-dev/resolute 1:0.4.6-1build1 amd64
+libxcomposite-dev/resolute,now 1:0.4.6-1build1 amd64 [installed,automatic]
 libxcomposite-dev/resolute 1:0.4.6-1build1 i386
 libxcomposite1/resolute,now 1:0.4.6-1build1 amd64 [installed,automatic]
 libxcomposite1/resolute 1:0.4.6-1build1 i386
 libxcompshad-dev/resolute 2:3.5.99.27-2build2 amd64
 libxcompshad3t64/resolute 2:3.5.99.27-2build2 amd64
 libxcrypt-source/resolute,resolute 1:4.5.1-1 all
-libxcursor-dev/resolute 1:1.2.3-1build1 amd64
+libxcursor-dev/resolute,now 1:1.2.3-1build1 amd64 [installed,automatic]
 libxcursor-dev/resolute 1:1.2.3-1build1 i386
 libxcursor1/resolute,now 1:1.2.3-1build1 amd64 [installed,automatic]
 libxcursor1/resolute,now 1:1.2.3-1build1 i386 [installed,automatic]
@@ -52828,7 +52828,7 @@ libxcvt-dev/resolute 0.1.3-1build1 amd64
 libxcvt-dev/resolute 0.1.3-1build1 i386
 libxcvt0/resolute,now 0.1.3-1build1 amd64 [installed,automatic]
 libxcvt0/resolute 0.1.3-1build1 i386
-libxdamage-dev/resolute 1:1.1.7-1 amd64
+libxdamage-dev/resolute,now 1:1.1.7-1 amd64 [installed,automatic]
 libxdamage-dev/resolute 1:1.1.7-1 i386
 libxdamage1/resolute,now 1:1.1.7-1 amd64 [installed,automatic]
 libxdamage1/resolute,now 1:1.1.7-1 i386 [installed,automatic]
@@ -52848,8 +52848,8 @@ libxdmcp6/resolute,now 1:1.1.5-2 amd64 [installed,automatic]
 libxdmcp6/resolute,now 1:1.1.5-2 i386 [installed,automatic]
 libxdmf-dev/resolute 3.0+git20190531-14build1 amd64
 libxdmf3t64/resolute 3.0+git20190531-14build1 amd64
-libxdo-dev/resolute 1:3.20160805.1-5.1build1 amd64
-libxdo3/resolute 1:3.20160805.1-5.1build1 amd64
+libxdo-dev/resolute,now 1:3.20160805.1-5.1build1 amd64 [installed]
+libxdo3/resolute,now 1:3.20160805.1-5.1build1 amd64 [installed,automatic]
 libxdot-dev/resolute 14.1.2-1ubuntu1 amd64
 libxdot-dev/resolute 14.1.2-1ubuntu1 i386
 libxdot4/resolute,now 14.1.2-1ubuntu1 amd64 [installed,automatic]
@@ -52911,7 +52911,7 @@ libxfconf-0-dev/resolute 4.20.0-1build1 amd64
 libxfconf-0-dev/resolute 4.20.0-1build1 i386
 libxfdashboard-dev/resolute 1.0.0-0ubuntu6 amd64
 libxfdashboard0/resolute 1.0.0-0ubuntu6 amd64
-libxfixes-dev/resolute 1:6.0.0-2build2 amd64
+libxfixes-dev/resolute,now 1:6.0.0-2build2 amd64 [installed,automatic]
 libxfixes-dev/resolute 1:6.0.0-2build2 i386
 libxfixes3/resolute,now 1:6.0.0-2build2 amd64 [installed,automatic]
 libxfixes3/resolute,now 1:6.0.0-2build2 i386 [installed,automatic]
@@ -52929,7 +52929,7 @@ libxgboost0/resolute 3.0.4-1build1 amd64
 libxgks-dev/resolute 2.6.1+dfsg.2-19ubuntu2 amd64
 libxgks2-data/resolute,resolute 2.6.1+dfsg.2-19ubuntu2 all
 libxgks2t64/resolute 2.6.1+dfsg.2-19ubuntu2 amd64
-libxi-dev/resolute 2:1.8.2-2 amd64
+libxi-dev/resolute,now 2:1.8.2-2 amd64 [installed,automatic]
 libxi-dev/resolute 2:1.8.2-2 i386
 libxi6/resolute,now 2:1.8.2-2 amd64 [installed,automatic]
 libxi6/resolute,now 2:1.8.2-2 i386 [installed,automatic]
@@ -52948,7 +52948,7 @@ libxine2/resolute 1.2.13+hg20251029-2 amd64
 libxineliboutput-fbfe/resolute 2.3.0-2build2 amd64
 libxineliboutput-sxfe/resolute 2.3.0-2build2 amd64
 libxineliboutput-wlfe/resolute 2.3.0-2build2 amd64
-libxinerama-dev/resolute 2:1.1.4-3build2 amd64
+libxinerama-dev/resolute,now 2:1.1.4-3build2 amd64 [installed,automatic]
 libxinerama-dev/resolute 2:1.1.4-3build2 i386
 libxinerama1/resolute,now 2:1.1.4-3build2 amd64 [installed,automatic]
 libxinerama1/resolute,now 2:1.1.4-3build2 i386 [installed,automatic]
@@ -52957,7 +52957,7 @@ libxir-utils/resolute 2.5-2build1 amd64
 libxir2/resolute 2.5-2build1 amd64
 libxisf-dev/resolute 0.2.13-1build1 amd64
 libxisf0/resolute 0.2.13-1build1 amd64
-libxkbcommon-dev/resolute 1.13.1-1 amd64
+libxkbcommon-dev/resolute,now 1.13.1-1 amd64 [installed,automatic]
 libxkbcommon-dev/resolute 1.13.1-1 i386
 libxkbcommon-doc/resolute,resolute 1.13.1-1 all
 libxkbcommon-tools/resolute 1.13.1-1 amd64
@@ -53232,7 +53232,7 @@ libxpresent1/resolute 1.0.1-1build1 amd64
 libxpresent1/resolute 1.0.1-1build1 i386
 libxqdbm-dev/resolute 1.8.78-15 amd64
 libxqdbm3t64/resolute 1.8.78-15 amd64
-libxrandr-dev/resolute 2:1.5.4-1build1 amd64
+libxrandr-dev/resolute,now 2:1.5.4-1build1 amd64 [installed,automatic]
 libxrandr-dev/resolute 2:1.5.4-1build1 i386
 libxrandr2/resolute,now 2:1.5.4-1build1 amd64 [installed,automatic]
 libxrandr2/resolute,now 2:1.5.4-1build1 i386 [installed,automatic]
@@ -53258,7 +53258,7 @@ libxrender-dev/resolute,now 1:0.9.12-1build1 amd64 [installed,automatic]
 libxrender-dev/resolute 1:0.9.12-1build1 i386
 libxrender1/resolute,now 1:0.9.12-1build1 amd64 [installed,automatic]
 libxrender1/resolute,now 1:0.9.12-1build1 i386 [installed,automatic]
-libxres-dev/resolute 2:1.2.1-1build2 amd64
+libxres-dev/resolute,now 2:1.2.1-1build2 amd64 [installed,automatic]
 libxres-dev/resolute 2:1.2.1-1build2 i386
 libxres1/resolute,now 2:1.2.1-1build2 amd64 [installed,automatic]
 libxres1/resolute 2:1.2.1-1build2 i386
@@ -53327,7 +53327,7 @@ libxtrxdsp-dev/resolute 0.0.1+git20190830.eec2864-3.1 amd64
 libxtrxdsp0/resolute 0.0.1+git20190830.eec2864-3.1 amd64
 libxtrxll-dev/resolute 0.0.1+git20201202.1b6eddf-1.3 amd64
 libxtrxll0t64/resolute 0.0.1+git20201202.1b6eddf-1.3 amd64
-libxtst-dev/resolute 2:1.2.5-1build1 amd64
+libxtst-dev/resolute,now 2:1.2.5-1build1 amd64 [installed,automatic]
 libxtst-dev/resolute 2:1.2.5-1build1 i386
 libxtst-doc/resolute,resolute 2:1.2.5-1build1 all
 libxtst6/resolute,now 2:1.2.5-1build1 amd64 [installed,automatic]
@@ -53866,6 +53866,7 @@ linux-buildinfo-7.0.0-1007-oracle/resolute-updates,resolute-security 7.0.0-1007.
 linux-buildinfo-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-buildinfo-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8 amd64
 linux-buildinfo-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8 amd64
+linux-buildinfo-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-buildinfo-7.0.0-1008-oem/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-buildinfo-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-buildinfo-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9 amd64
@@ -54039,19 +54040,21 @@ linux-generic-hwe-24.04/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-generic/resolute-updates,resolute-security,now 7.0.0-34.34 amd64 [installed]
-linux-gke-7.0/resolute-updates,resolute-security 7.0.0-1007.8 amd64
+linux-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
 linux-gke-headers-7.0.0-1002/resolute-updates,resolute-security 7.0.0-1002.3 amd64
 linux-gke-headers-7.0.0-1003/resolute-updates,resolute-security 7.0.0-1003.4 amd64
 linux-gke-headers-7.0.0-1005/resolute-updates,resolute-security 7.0.0-1005.6 amd64
 linux-gke-headers-7.0.0-1006/resolute-updates,resolute-security 7.0.0-1006.7 amd64
 linux-gke-headers-7.0.0-1007/resolute-updates,resolute-security 7.0.0-1007.8 amd64
-linux-gke-hwe-26.04/resolute-updates,resolute-security 7.0.0-1007.8 amd64
+linux-gke-headers-7.0.0-1008/resolute-updates 7.0.0-1008.9 amd64
+linux-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
 linux-gke-tools-7.0.0-1002/resolute-updates,resolute-security 7.0.0-1002.3 amd64
 linux-gke-tools-7.0.0-1003/resolute-updates,resolute-security 7.0.0-1003.4 amd64
 linux-gke-tools-7.0.0-1005/resolute-updates,resolute-security 7.0.0-1005.6 amd64
 linux-gke-tools-7.0.0-1006/resolute-updates,resolute-security 7.0.0-1006.7 amd64
 linux-gke-tools-7.0.0-1007/resolute-updates,resolute-security 7.0.0-1007.8 amd64
-linux-gke/resolute-updates,resolute-security 7.0.0-1007.8 amd64
+linux-gke-tools-7.0.0-1008/resolute-updates 7.0.0-1008.9 amd64
+linux-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-headers-6.8.0-142-generic/now 6.8.0-142.142 amd64 [installed,local]
 linux-headers-6.8.0-142/now 6.8.0-142.142 all [installed,local]
 linux-headers-6.8.0-49-generic/now 6.8.0-49.49 amd64 [installed,local]
@@ -54080,6 +54083,7 @@ linux-headers-7.0.0-1007-oracle/resolute-updates,resolute-security 7.0.0-1007.7 
 linux-headers-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-headers-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8 amd64
 linux-headers-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8 amd64
+linux-headers-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-headers-7.0.0-1008-oem/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-headers-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-headers-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9 amd64
@@ -54166,9 +54170,9 @@ linux-headers-generic-hwe-24.04/resolute-updates,resolute-security 7.0.0-34.34 a
 linux-headers-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-headers-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-headers-generic/resolute-updates,resolute-security,now 7.0.0-34.34 amd64 [installed,automatic]
-linux-headers-gke-7.0/resolute-updates,resolute-security 7.0.0-1007.8 amd64
-linux-headers-gke-hwe-26.04/resolute-updates,resolute-security 7.0.0-1007.8 amd64
-linux-headers-gke/resolute-updates,resolute-security 7.0.0-1007.8 amd64
+linux-headers-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-headers-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-headers-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-headers-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-headers-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-headers-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18 amd64
@@ -54340,6 +54344,7 @@ linux-image-7.0.0-1007-oracle/resolute-updates,resolute-security 7.0.0-1007.7 am
 linux-image-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-image-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8 amd64
 linux-image-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8 amd64
+linux-image-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-image-7.0.0-1008-oem/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-image-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-image-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9 amd64
@@ -54423,9 +54428,9 @@ linux-image-generic-hwe-24.04/resolute-updates,resolute-security 7.0.0-34.34 amd
 linux-image-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-image-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-image-generic/resolute-updates,resolute-security,now 7.0.0-34.34 amd64 [installed,automatic]
-linux-image-gke-7.0/resolute-updates,resolute-security 7.0.0-1007.8 amd64
-linux-image-gke-hwe-26.04/resolute-updates,resolute-security 7.0.0-1007.8 amd64
-linux-image-gke/resolute-updates,resolute-security 7.0.0-1007.8 amd64
+linux-image-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-image-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-image-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-image-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-image-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-image-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18 amd64
@@ -54470,6 +54475,7 @@ linux-image-uc-7.0.0-1007-ibm/resolute-updates,resolute-security 7.0.0-1007.7 am
 linux-image-uc-7.0.0-1007-oracle/resolute-updates,resolute-security 7.0.0-1007.7 amd64
 linux-image-uc-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-image-uc-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8 amd64
+linux-image-uc-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-image-uc-7.0.0-1008-oem/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-image-uc-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-image-uc-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9 amd64
@@ -54561,6 +54567,7 @@ linux-image-unsigned-7.0.0-1007-oracle/resolute-updates,resolute-security 7.0.0-
 linux-image-unsigned-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-image-unsigned-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8 amd64
 linux-image-unsigned-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8 amd64
+linux-image-unsigned-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-image-unsigned-7.0.0-1008-oem/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-image-unsigned-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-image-unsigned-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9 amd64
@@ -54685,6 +54692,7 @@ linux-main-modules-doca-ofed-26.01-7.0.0-1007-oracle/resolute-updates,resolute-s
 linux-main-modules-doca-ofed-26.01-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-main-modules-doca-ofed-26.01-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8 amd64
 linux-main-modules-doca-ofed-26.01-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8 amd64
+linux-main-modules-doca-ofed-26.01-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-main-modules-doca-ofed-26.01-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-main-modules-doca-ofed-26.01-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9 amd64
 linux-main-modules-doca-ofed-26.01-7.0.0-1009-azure-fde/resolute-updates,resolute-security 7.0.0-1009.9 amd64
@@ -54720,6 +54728,7 @@ linux-main-modules-doca-ofed-26.01-unsigned-7.0.0-1003-gke/resolute-updates,reso
 linux-main-modules-doca-ofed-26.01-unsigned-7.0.0-1005-gke/resolute-updates,resolute-security 7.0.0-1005.6 amd64
 linux-main-modules-doca-ofed-26.01-unsigned-7.0.0-1006-gke/resolute-updates,resolute-security 7.0.0-1006.7 amd64
 linux-main-modules-doca-ofed-26.01-unsigned-7.0.0-1007-gke/resolute-updates,resolute-security 7.0.0-1007.8 amd64
+linux-main-modules-doca-ofed-26.01-unsigned-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-main-modules-doca-ofed-26.01-unsigned-7.0.0-1009-oracle/resolute-updates,resolute-security 7.0.0-1009.9 amd64
 linux-main-modules-doca-ofed-26.01-unsigned-7.0.0-1010-aws/resolute-updates,resolute-security 7.0.0-1010.10 amd64
 linux-main-modules-doca-ofed-26.01-unsigned-7.0.0-1010-azure-fde/resolute-updates,resolute-security 7.0.0-1010.10 amd64
@@ -54743,6 +54752,7 @@ linux-main-modules-doca-ofed-26.01-unsigned-7.0.0-31-generic/resolute-updates,re
 linux-main-modules-doca-ofed-26.01-unsigned-7.0.0-34-generic/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-main-modules-doca-ofed-3.4-7.0.0-1006-gke/resolute-updates,resolute-security 7.0.0-1006.7 amd64
 linux-main-modules-doca-ofed-3.4-7.0.0-1007-gke/resolute-updates,resolute-security 7.0.0-1007.8 amd64
+linux-main-modules-doca-ofed-3.4-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-main-modules-doca-ofed-3.4-7.0.0-1011-gcp/resolute-updates,resolute-security 7.0.0-1011.11 amd64
 linux-main-modules-doca-ofed-3.4-7.0.0-1011-oracle/resolute-updates,resolute-security 7.0.0-1011.11 amd64
 linux-main-modules-doca-ofed-3.4-7.0.0-1012-aws/resolute-updates,resolute-security 7.0.0-1012.12 amd64
@@ -54755,6 +54765,7 @@ linux-main-modules-doca-ofed-3.4-7.0.0-31-generic/resolute-updates,resolute-secu
 linux-main-modules-doca-ofed-3.4-7.0.0-34-generic/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-main-modules-doca-ofed-3.4-unsigned-7.0.0-1006-gke/resolute-updates,resolute-security 7.0.0-1006.7 amd64
 linux-main-modules-doca-ofed-3.4-unsigned-7.0.0-1007-gke/resolute-updates,resolute-security 7.0.0-1007.8 amd64
+linux-main-modules-doca-ofed-3.4-unsigned-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-main-modules-doca-ofed-3.4-unsigned-7.0.0-1011-gcp/resolute-updates,resolute-security 7.0.0-1011.11 amd64
 linux-main-modules-doca-ofed-3.4-unsigned-7.0.0-1011-oracle/resolute-updates,resolute-security 7.0.0-1011.11 amd64
 linux-main-modules-doca-ofed-3.4-unsigned-7.0.0-1012-aws/resolute-updates,resolute-security 7.0.0-1012.12 amd64
@@ -54790,7 +54801,7 @@ linux-main-modules-evdi-unsigned-7.0.0-30-generic/resolute-updates,resolute-secu
 linux-main-modules-evdi-unsigned-7.0.0-31-generic/resolute-updates,resolute-security 7.0.0-31.31+2 amd64
 linux-main-modules-evdi-unsigned-7.0.0-34-generic/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-main-modules-gcp/resolute-updates,resolute-security 7.0.0-1013.13 amd64
-linux-main-modules-gke/resolute-updates,resolute-security 7.0.0-1007.8 amd64
+linux-main-modules-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-main-modules-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-main-modules-ipu6-7.0.0-1005-oem/resolute-updates,resolute-security 7.0.0-1005.5 amd64
 linux-main-modules-ipu6-7.0.0-1008-oem/resolute-updates,resolute-security 7.0.0-1008.8 amd64
@@ -55000,6 +55011,7 @@ linux-main-modules-zfs-7.0.0-1007-oracle/resolute-updates,resolute-security 7.0.
 linux-main-modules-zfs-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-main-modules-zfs-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8 amd64
 linux-main-modules-zfs-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8 amd64
+linux-main-modules-zfs-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-main-modules-zfs-7.0.0-1008-oem/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-main-modules-zfs-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-main-modules-zfs-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9 amd64
@@ -55047,6 +55059,7 @@ linux-main-modules-zfs-unsigned-7.0.0-1003-gke/resolute-updates,resolute-securit
 linux-main-modules-zfs-unsigned-7.0.0-1005-gke/resolute-updates,resolute-security 7.0.0-1005.6 amd64
 linux-main-modules-zfs-unsigned-7.0.0-1006-gke/resolute-updates,resolute-security 7.0.0-1006.7 amd64
 linux-main-modules-zfs-unsigned-7.0.0-1007-gke/resolute-updates,resolute-security 7.0.0-1007.8 amd64
+linux-main-modules-zfs-unsigned-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-main-modules-zfs-unsigned-7.0.0-1009-oracle/resolute-updates,resolute-security 7.0.0-1009.9 amd64
 linux-main-modules-zfs-unsigned-7.0.0-1010-aws/resolute-updates,resolute-security 7.0.0-1010.10 amd64
 linux-main-modules-zfs-unsigned-7.0.0-1010-azure-fde/resolute-updates,resolute-security 7.0.0-1010.10 amd64
@@ -55081,7 +55094,7 @@ linux-main-signed-aws/resolute-updates,resolute-security 7.0.0-1013.13 amd64
 linux-main-signed-azure-fde/resolute-updates,resolute-security 7.0.0-1013.13 amd64
 linux-main-signed-azure/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-main-signed-gcp/resolute-updates,resolute-security 7.0.0-1013.13 amd64
-linux-main-signed-gke/resolute-updates,resolute-security 7.0.0-1007.8 amd64
+linux-main-signed-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-main-signed-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-main-signed-oem-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-main-signed-oracle/resolute-updates,resolute-security 7.0.0-1012.12 amd64
@@ -55210,6 +55223,7 @@ linux-modules-7.0.0-1007-oracle/resolute-updates,resolute-security 7.0.0-1007.7 
 linux-modules-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-modules-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8 amd64
 linux-modules-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8 amd64
+linux-modules-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-7.0.0-1008-oem/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-modules-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-modules-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9 amd64
@@ -55279,8 +55293,8 @@ linux-modules-doca-ofed-26.01-gcp/resolute-updates,resolute-security 7.0.0-1013.
 linux-modules-doca-ofed-26.01-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-modules-doca-ofed-26.01-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-modules-doca-ofed-26.01-generic/resolute-updates,resolute-security 7.0.0-34.34 amd64
-linux-modules-doca-ofed-26.01-gke-hwe-26.04/resolute-updates,resolute-security 7.0.0-1007.8 amd64
-linux-modules-doca-ofed-26.01-gke/resolute-updates,resolute-security 7.0.0-1007.8 amd64
+linux-modules-doca-ofed-26.01-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-doca-ofed-26.01-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-doca-ofed-26.01-oracle/resolute-updates,resolute-security 7.0.0-1012.12 amd64
 linux-modules-doca-ofed-26.01-unsigned-aws/resolute-updates,resolute-security 7.0.0-1013.13 amd64
 linux-modules-doca-ofed-26.01-unsigned-azure-fde-lts-26.04/resolute-updates,resolute-security 7.0.0-1013.13 amd64
@@ -55291,8 +55305,8 @@ linux-modules-doca-ofed-26.01-unsigned-gcp/resolute-updates,resolute-security 7.
 linux-modules-doca-ofed-26.01-unsigned-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-modules-doca-ofed-26.01-unsigned-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-modules-doca-ofed-26.01-unsigned-generic/resolute-updates,resolute-security 7.0.0-34.34 amd64
-linux-modules-doca-ofed-26.01-unsigned-gke-hwe-26.04/resolute-updates,resolute-security 7.0.0-1007.8 amd64
-linux-modules-doca-ofed-26.01-unsigned-gke/resolute-updates,resolute-security 7.0.0-1007.8 amd64
+linux-modules-doca-ofed-26.01-unsigned-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-doca-ofed-26.01-unsigned-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-doca-ofed-26.01-unsigned-oracle/resolute-updates,resolute-security 7.0.0-1012.12 amd64
 linux-modules-doca-ofed-3.4-aws/resolute-updates,resolute-security 7.0.0-1013.13 amd64
 linux-modules-doca-ofed-3.4-azure-fde-lts-26.04/resolute-updates,resolute-security 7.0.0-1013.13 amd64
@@ -55303,8 +55317,8 @@ linux-modules-doca-ofed-3.4-gcp/resolute-updates,resolute-security 7.0.0-1013.13
 linux-modules-doca-ofed-3.4-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-modules-doca-ofed-3.4-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-modules-doca-ofed-3.4-generic/resolute-updates,resolute-security 7.0.0-34.34 amd64
-linux-modules-doca-ofed-3.4-gke-hwe-26.04/resolute-updates,resolute-security 7.0.0-1007.8 amd64
-linux-modules-doca-ofed-3.4-gke/resolute-updates,resolute-security 7.0.0-1007.8 amd64
+linux-modules-doca-ofed-3.4-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-doca-ofed-3.4-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-doca-ofed-3.4-oracle/resolute-updates,resolute-security 7.0.0-1012.12 amd64
 linux-modules-doca-ofed-3.4-unsigned-aws/resolute-updates,resolute-security 7.0.0-1013.13 amd64
 linux-modules-doca-ofed-3.4-unsigned-azure-fde-lts-26.04/resolute-updates,resolute-security 7.0.0-1013.13 amd64
@@ -55315,8 +55329,8 @@ linux-modules-doca-ofed-3.4-unsigned-gcp/resolute-updates,resolute-security 7.0.
 linux-modules-doca-ofed-3.4-unsigned-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-modules-doca-ofed-3.4-unsigned-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-modules-doca-ofed-3.4-unsigned-generic/resolute-updates,resolute-security 7.0.0-34.34 amd64
-linux-modules-doca-ofed-3.4-unsigned-gke-hwe-26.04/resolute-updates,resolute-security 7.0.0-1007.8 amd64
-linux-modules-doca-ofed-3.4-unsigned-gke/resolute-updates,resolute-security 7.0.0-1007.8 amd64
+linux-modules-doca-ofed-3.4-unsigned-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-doca-ofed-3.4-unsigned-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-doca-ofed-3.4-unsigned-oracle/resolute-updates,resolute-security 7.0.0-1012.12 amd64
 linux-modules-evdi-generic-hwe-24.04-edge/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-modules-evdi-generic-hwe-24.04/resolute-updates,resolute-security 7.0.0-34.34 amd64
@@ -55488,9 +55502,9 @@ linux-modules-nvidia-525-server-generic-7.0/resolute-updates,resolute-security 7
 linux-modules-nvidia-525-server-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-525-server-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-525-server-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-525-server-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-525-server-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-525-server-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-525-server-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-525-server-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-525-server-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-525-server-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-525-server-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-525-server-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -55513,9 +55527,9 @@ linux-modules-nvidia-525-server-open-generic-7.0/resolute-updates,resolute-secur
 linux-modules-nvidia-525-server-open-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-525-server-open-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-525-server-open-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-525-server-open-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-525-server-open-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-525-server-open-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-525-server-open-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-525-server-open-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-525-server-open-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-525-server-open-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-525-server-open-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-525-server-open-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -55542,9 +55556,9 @@ linux-modules-nvidia-535-generic-7.0/resolute-updates,resolute-security 7.0.0-34
 linux-modules-nvidia-535-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-535-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-535-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-535-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-535-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-535-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-535-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-535-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-535-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-535-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-535-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-535-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -55573,9 +55587,9 @@ linux-modules-nvidia-535-open-generic-7.0/resolute-updates,resolute-security 7.0
 linux-modules-nvidia-535-open-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-535-open-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-535-open-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-535-open-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-535-open-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-535-open-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-535-open-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-535-open-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-535-open-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-535-open-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-535-open-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-535-open-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -55608,9 +55622,9 @@ linux-modules-nvidia-535-server-generic-7.0/resolute-updates,resolute-security 7
 linux-modules-nvidia-535-server-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-535-server-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-535-server-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-535-server-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-535-server-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-535-server-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-535-server-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-535-server-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-535-server-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-535-server-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-535-server-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-535-server-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -55633,9 +55647,9 @@ linux-modules-nvidia-535-server-open-generic-7.0/resolute-updates,resolute-secur
 linux-modules-nvidia-535-server-open-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-535-server-open-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-535-server-open-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-535-server-open-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-535-server-open-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-535-server-open-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-535-server-open-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-535-server-open-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-535-server-open-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-535-server-open-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-535-server-open-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-535-server-open-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -55662,9 +55676,9 @@ linux-modules-nvidia-550-generic-7.0/resolute-updates,resolute-security 7.0.0-34
 linux-modules-nvidia-550-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-550-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-550-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-550-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-550-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-550-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-550-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-550-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-550-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-550-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-550-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-550-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -55691,9 +55705,9 @@ linux-modules-nvidia-550-open-generic-7.0/resolute-updates,resolute-security 7.0
 linux-modules-nvidia-550-open-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-550-open-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-550-open-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-550-open-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-550-open-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-550-open-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-550-open-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-550-open-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-550-open-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-550-open-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-550-open-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-550-open-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -55724,9 +55738,9 @@ linux-modules-nvidia-550-server-generic-7.0/resolute-updates,resolute-security 7
 linux-modules-nvidia-550-server-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-550-server-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-550-server-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-550-server-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-550-server-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-550-server-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-550-server-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-550-server-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-550-server-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-550-server-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-550-server-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-550-server-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -55749,9 +55763,9 @@ linux-modules-nvidia-550-server-open-generic-7.0/resolute-updates,resolute-secur
 linux-modules-nvidia-550-server-open-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-550-server-open-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-550-server-open-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-550-server-open-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-550-server-open-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-550-server-open-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-550-server-open-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-550-server-open-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-550-server-open-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-550-server-open-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-550-server-open-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-550-server-open-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -55778,9 +55792,9 @@ linux-modules-nvidia-560-generic-7.0/resolute-updates,resolute-security 7.0.0-34
 linux-modules-nvidia-560-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-560-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-560-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-560-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-560-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-560-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-560-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-560-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-560-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-560-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-560-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-560-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -55807,9 +55821,9 @@ linux-modules-nvidia-560-open-generic-7.0/resolute-updates,resolute-security 7.0
 linux-modules-nvidia-560-open-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-560-open-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-560-open-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-560-open-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-560-open-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-560-open-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-560-open-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-560-open-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-560-open-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-560-open-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-560-open-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-560-open-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -55840,9 +55854,9 @@ linux-modules-nvidia-565-server-generic-7.0/resolute-updates,resolute-security 7
 linux-modules-nvidia-565-server-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-565-server-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-565-server-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-565-server-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-565-server-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-565-server-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-565-server-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-565-server-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-565-server-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-565-server-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-565-server-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-565-server-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -55865,9 +55879,9 @@ linux-modules-nvidia-565-server-open-generic-7.0/resolute-updates,resolute-secur
 linux-modules-nvidia-565-server-open-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-565-server-open-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-565-server-open-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-565-server-open-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-565-server-open-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-565-server-open-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-565-server-open-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-565-server-open-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-565-server-open-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-565-server-open-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-565-server-open-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-565-server-open-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -55894,9 +55908,9 @@ linux-modules-nvidia-570-generic-7.0/resolute-updates,resolute-security 7.0.0-34
 linux-modules-nvidia-570-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-570-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-570-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-570-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-570-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-570-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-570-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-570-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-570-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-570-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-570-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-570-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -55925,9 +55939,9 @@ linux-modules-nvidia-570-open-generic-7.0/resolute-updates,resolute-security 7.0
 linux-modules-nvidia-570-open-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-570-open-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-570-open-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-570-open-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-570-open-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-570-open-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-570-open-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-570-open-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-570-open-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-570-open-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-570-open-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-570-open-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -55960,9 +55974,9 @@ linux-modules-nvidia-570-server-generic-7.0/resolute-updates,resolute-security 7
 linux-modules-nvidia-570-server-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-570-server-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-570-server-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-570-server-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-570-server-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-570-server-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-570-server-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-570-server-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-570-server-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-570-server-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-570-server-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-570-server-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -55985,9 +55999,9 @@ linux-modules-nvidia-570-server-open-generic-7.0/resolute-updates,resolute-secur
 linux-modules-nvidia-570-server-open-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-570-server-open-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-570-server-open-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-570-server-open-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-570-server-open-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-570-server-open-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-570-server-open-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-570-server-open-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-570-server-open-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-570-server-open-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-570-server-open-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-570-server-open-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -56021,6 +56035,7 @@ linux-modules-nvidia-580-7.0.0-1007-oracle/resolute-updates,resolute-security 7.
 linux-modules-nvidia-580-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-modules-nvidia-580-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8+1 amd64
 linux-modules-nvidia-580-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
+linux-modules-nvidia-580-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-580-7.0.0-1008-oem/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-modules-nvidia-580-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
 linux-modules-nvidia-580-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
@@ -56089,9 +56104,9 @@ linux-modules-nvidia-580-generic-hwe-24.04/resolute-updates,resolute-security 7.
 linux-modules-nvidia-580-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-580-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-580-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-580-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-580-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-580-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-580-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-580-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-580-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-580-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-580-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-580-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -56127,6 +56142,7 @@ linux-modules-nvidia-580-open-7.0.0-1007-oracle/resolute-updates,resolute-securi
 linux-modules-nvidia-580-open-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-modules-nvidia-580-open-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8+1 amd64
 linux-modules-nvidia-580-open-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
+linux-modules-nvidia-580-open-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-580-open-7.0.0-1008-oem/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-modules-nvidia-580-open-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
 linux-modules-nvidia-580-open-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
@@ -56195,9 +56211,9 @@ linux-modules-nvidia-580-open-generic-hwe-24.04/resolute-updates,resolute-securi
 linux-modules-nvidia-580-open-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-580-open-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-580-open-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-580-open-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-580-open-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-580-open-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-580-open-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-580-open-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-580-open-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-580-open-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-580-open-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-580-open-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -56236,6 +56252,7 @@ linux-modules-nvidia-580-server-7.0.0-1007-oracle/resolute-updates,resolute-secu
 linux-modules-nvidia-580-server-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-modules-nvidia-580-server-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8+1 amd64
 linux-modules-nvidia-580-server-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
+linux-modules-nvidia-580-server-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-580-server-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
 linux-modules-nvidia-580-server-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
 linux-modules-nvidia-580-server-7.0.0-1009-azure-fde/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
@@ -56298,9 +56315,9 @@ linux-modules-nvidia-580-server-generic-hwe-24.04/resolute-updates,resolute-secu
 linux-modules-nvidia-580-server-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-580-server-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-580-server-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-580-server-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-580-server-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-580-server-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-580-server-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-580-server-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-580-server-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-580-server-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-580-server-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-580-server-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -56329,6 +56346,7 @@ linux-modules-nvidia-580-server-open-7.0.0-1007-oracle/resolute-updates,resolute
 linux-modules-nvidia-580-server-open-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-modules-nvidia-580-server-open-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8+1 amd64
 linux-modules-nvidia-580-server-open-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
+linux-modules-nvidia-580-server-open-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-580-server-open-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
 linux-modules-nvidia-580-server-open-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
 linux-modules-nvidia-580-server-open-7.0.0-1009-azure-fde/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
@@ -56391,9 +56409,9 @@ linux-modules-nvidia-580-server-open-generic-hwe-24.04/resolute-updates,resolute
 linux-modules-nvidia-580-server-open-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-580-server-open-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-580-server-open-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-580-server-open-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-580-server-open-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-580-server-open-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-580-server-open-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-580-server-open-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-580-server-open-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-580-server-open-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-580-server-open-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-580-server-open-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -56422,9 +56440,9 @@ linux-modules-nvidia-590-generic-hwe-24.04/resolute-updates,resolute-security 7.
 linux-modules-nvidia-590-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-590-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-590-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-590-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-590-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-590-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-590-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-590-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-590-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-590-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-590-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-590-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -56455,9 +56473,9 @@ linux-modules-nvidia-590-open-generic-hwe-24.04/resolute-updates,resolute-securi
 linux-modules-nvidia-590-open-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-590-open-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-590-open-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-590-open-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-590-open-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-590-open-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-590-open-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-590-open-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-590-open-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-590-open-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-590-open-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-590-open-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -56492,9 +56510,9 @@ linux-modules-nvidia-590-server-generic-hwe-24.04/resolute-updates,resolute-secu
 linux-modules-nvidia-590-server-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-590-server-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-590-server-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-590-server-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-590-server-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-590-server-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-590-server-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-590-server-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-590-server-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-590-server-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-590-server-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-590-server-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -56519,9 +56537,9 @@ linux-modules-nvidia-590-server-open-generic-hwe-24.04/resolute-updates,resolute
 linux-modules-nvidia-590-server-open-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-590-server-open-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-590-server-open-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-590-server-open-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-590-server-open-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-590-server-open-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-590-server-open-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-590-server-open-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-590-server-open-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-590-server-open-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-590-server-open-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-590-server-open-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -56555,6 +56573,7 @@ linux-modules-nvidia-595-7.0.0-1007-oracle/resolute-updates,resolute-security 7.
 linux-modules-nvidia-595-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-modules-nvidia-595-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8+1 amd64
 linux-modules-nvidia-595-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
+linux-modules-nvidia-595-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-595-7.0.0-1008-oem/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-modules-nvidia-595-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
 linux-modules-nvidia-595-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
@@ -56621,9 +56640,9 @@ linux-modules-nvidia-595-generic-7.0/resolute-updates,resolute-security 7.0.0-34
 linux-modules-nvidia-595-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-595-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-595-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-595-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-595-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-595-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-595-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-595-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-595-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-595-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-595-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-595-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -56657,6 +56676,7 @@ linux-modules-nvidia-595-open-7.0.0-1007-oracle/resolute-updates,resolute-securi
 linux-modules-nvidia-595-open-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-modules-nvidia-595-open-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8+1 amd64
 linux-modules-nvidia-595-open-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
+linux-modules-nvidia-595-open-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-595-open-7.0.0-1008-oem/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-modules-nvidia-595-open-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
 linux-modules-nvidia-595-open-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
@@ -56723,9 +56743,9 @@ linux-modules-nvidia-595-open-generic-7.0/resolute-updates,resolute-security 7.0
 linux-modules-nvidia-595-open-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-595-open-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-595-open-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-595-open-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-595-open-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-595-open-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-595-open-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-595-open-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-595-open-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-595-open-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-595-open-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-595-open-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -56762,6 +56782,7 @@ linux-modules-nvidia-595-server-7.0.0-1007-oracle/resolute-updates,resolute-secu
 linux-modules-nvidia-595-server-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-modules-nvidia-595-server-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8+1 amd64
 linux-modules-nvidia-595-server-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
+linux-modules-nvidia-595-server-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-595-server-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
 linux-modules-nvidia-595-server-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
 linux-modules-nvidia-595-server-7.0.0-1009-azure-fde/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
@@ -56822,9 +56843,9 @@ linux-modules-nvidia-595-server-generic-7.0/resolute-updates,resolute-security 7
 linux-modules-nvidia-595-server-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-595-server-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-595-server-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-595-server-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-595-server-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-595-server-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-595-server-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-595-server-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-595-server-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-595-server-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-595-server-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-595-server-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -56853,6 +56874,7 @@ linux-modules-nvidia-595-server-open-7.0.0-1007-oracle/resolute-updates,resolute
 linux-modules-nvidia-595-server-open-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-modules-nvidia-595-server-open-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8+1 amd64
 linux-modules-nvidia-595-server-open-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
+linux-modules-nvidia-595-server-open-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-595-server-open-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
 linux-modules-nvidia-595-server-open-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
 linux-modules-nvidia-595-server-open-7.0.0-1009-azure-fde/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
@@ -56913,9 +56935,9 @@ linux-modules-nvidia-595-server-open-generic-7.0/resolute-updates,resolute-secur
 linux-modules-nvidia-595-server-open-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-595-server-open-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-595-server-open-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-595-server-open-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-595-server-open-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-595-server-open-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-595-server-open-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-595-server-open-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-595-server-open-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-595-server-open-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-595-server-open-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-595-server-open-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -56932,6 +56954,7 @@ linux-modules-nvidia-610-7.0.0-1006-gke/resolute-updates,resolute-security 7.0.0
 linux-modules-nvidia-610-7.0.0-1007-gke/resolute-updates 7.0.0-1007.8 amd64
 linux-modules-nvidia-610-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8+1 amd64
 linux-modules-nvidia-610-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
+linux-modules-nvidia-610-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-610-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
 linux-modules-nvidia-610-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
 linux-modules-nvidia-610-7.0.0-1009-azure-fde/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
@@ -56991,9 +57014,9 @@ linux-modules-nvidia-610-generic-7.0/resolute-updates,resolute-security 7.0.0-34
 linux-modules-nvidia-610-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-610-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-610-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-610-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-610-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-610-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-610-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-610-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-610-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-610-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-610-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-610-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -57008,6 +57031,7 @@ linux-modules-nvidia-610-open-7.0.0-1006-gke/resolute-updates,resolute-security 
 linux-modules-nvidia-610-open-7.0.0-1007-gke/resolute-updates,resolute-security 7.0.0-1007.8 amd64
 linux-modules-nvidia-610-open-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8+1 amd64
 linux-modules-nvidia-610-open-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
+linux-modules-nvidia-610-open-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-610-open-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
 linux-modules-nvidia-610-open-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
 linux-modules-nvidia-610-open-7.0.0-1009-azure-fde/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
@@ -57067,9 +57091,9 @@ linux-modules-nvidia-610-open-generic-7.0/resolute-updates,resolute-security 7.0
 linux-modules-nvidia-610-open-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-610-open-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
 linux-modules-nvidia-610-open-generic/resolute-updates,resolute-security 7.0.0-34.34+1 amd64
-linux-modules-nvidia-610-open-gke-7.0/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-610-open-gke-hwe-26.04/resolute-updates 7.0.0-1007.8 amd64
-linux-modules-nvidia-610-open-gke/resolute-updates 7.0.0-1007.8 amd64
+linux-modules-nvidia-610-open-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-610-open-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-nvidia-610-open-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-nvidia-610-open-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-610-open-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-nvidia-610-open-nvidia-7.0/resolute-updates,resolute-security 7.0.0-1018.18+1 amd64
@@ -57161,8 +57185,8 @@ linux-modules-zfs-gcp/resolute-updates,resolute-security 7.0.0-1013.13 amd64
 linux-modules-zfs-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-modules-zfs-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-modules-zfs-generic/resolute-updates,resolute-security 7.0.0-34.34 amd64
-linux-modules-zfs-gke-hwe-26.04/resolute-updates,resolute-security 7.0.0-1007.8 amd64
-linux-modules-zfs-gke/resolute-updates,resolute-security 7.0.0-1007.8 amd64
+linux-modules-zfs-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-zfs-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-zfs-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-zfs-oem-26.04/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-zfs-oem-26.04a/resolute-updates,resolute-security 7.0.0-1014.14 amd64
@@ -57177,8 +57201,8 @@ linux-modules-zfs-unsigned-gcp/resolute-updates,resolute-security 7.0.0-1013.13 
 linux-modules-zfs-unsigned-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-modules-zfs-unsigned-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-modules-zfs-unsigned-generic/resolute-updates,resolute-security 7.0.0-34.34 amd64
-linux-modules-zfs-unsigned-gke-hwe-26.04/resolute-updates,resolute-security 7.0.0-1007.8 amd64
-linux-modules-zfs-unsigned-gke/resolute-updates,resolute-security 7.0.0-1007.8 amd64
+linux-modules-zfs-unsigned-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-modules-zfs-unsigned-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-modules-zfs-unsigned-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-zfs-unsigned-oem-26.04/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-modules-zfs-unsigned-oem-26.04a/resolute-updates,resolute-security 7.0.0-1014.14 amd64
@@ -57239,6 +57263,7 @@ linux-objects-nvidia-580-7.0.0-1007-oracle/resolute-updates,resolute-security 7.
 linux-objects-nvidia-580-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-objects-nvidia-580-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8+1 amd64
 linux-objects-nvidia-580-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
+linux-objects-nvidia-580-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-objects-nvidia-580-7.0.0-1008-oem/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-objects-nvidia-580-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
 linux-objects-nvidia-580-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
@@ -57312,6 +57337,7 @@ linux-objects-nvidia-580-open-7.0.0-1007-oracle/resolute-updates,resolute-securi
 linux-objects-nvidia-580-open-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-objects-nvidia-580-open-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8+1 amd64
 linux-objects-nvidia-580-open-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
+linux-objects-nvidia-580-open-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-objects-nvidia-580-open-7.0.0-1008-oem/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-objects-nvidia-580-open-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
 linux-objects-nvidia-580-open-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
@@ -57384,6 +57410,7 @@ linux-objects-nvidia-580-server-7.0.0-1007-oracle/resolute-updates,resolute-secu
 linux-objects-nvidia-580-server-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-objects-nvidia-580-server-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8+1 amd64
 linux-objects-nvidia-580-server-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
+linux-objects-nvidia-580-server-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-objects-nvidia-580-server-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
 linux-objects-nvidia-580-server-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
 linux-objects-nvidia-580-server-7.0.0-1009-azure-fde/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
@@ -57450,6 +57477,7 @@ linux-objects-nvidia-580-server-open-7.0.0-1007-oracle/resolute-updates,resolute
 linux-objects-nvidia-580-server-open-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-objects-nvidia-580-server-open-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8+1 amd64
 linux-objects-nvidia-580-server-open-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
+linux-objects-nvidia-580-server-open-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-objects-nvidia-580-server-open-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
 linux-objects-nvidia-580-server-open-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
 linux-objects-nvidia-580-server-open-7.0.0-1009-azure-fde/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
@@ -57517,6 +57545,7 @@ linux-objects-nvidia-595-7.0.0-1007-oracle/resolute-updates,resolute-security 7.
 linux-objects-nvidia-595-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-objects-nvidia-595-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8+1 amd64
 linux-objects-nvidia-595-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
+linux-objects-nvidia-595-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-objects-nvidia-595-7.0.0-1008-oem/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-objects-nvidia-595-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
 linux-objects-nvidia-595-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
@@ -57590,6 +57619,7 @@ linux-objects-nvidia-595-open-7.0.0-1007-oracle/resolute-updates,resolute-securi
 linux-objects-nvidia-595-open-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-objects-nvidia-595-open-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8+1 amd64
 linux-objects-nvidia-595-open-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
+linux-objects-nvidia-595-open-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-objects-nvidia-595-open-7.0.0-1008-oem/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-objects-nvidia-595-open-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
 linux-objects-nvidia-595-open-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
@@ -57662,6 +57692,7 @@ linux-objects-nvidia-595-server-7.0.0-1007-oracle/resolute-updates,resolute-secu
 linux-objects-nvidia-595-server-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-objects-nvidia-595-server-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8+1 amd64
 linux-objects-nvidia-595-server-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
+linux-objects-nvidia-595-server-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-objects-nvidia-595-server-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
 linux-objects-nvidia-595-server-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
 linux-objects-nvidia-595-server-7.0.0-1009-azure-fde/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
@@ -57728,6 +57759,7 @@ linux-objects-nvidia-595-server-open-7.0.0-1007-oracle/resolute-updates,resolute
 linux-objects-nvidia-595-server-open-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-objects-nvidia-595-server-open-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8+1 amd64
 linux-objects-nvidia-595-server-open-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
+linux-objects-nvidia-595-server-open-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-objects-nvidia-595-server-open-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
 linux-objects-nvidia-595-server-open-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
 linux-objects-nvidia-595-server-open-7.0.0-1009-azure-fde/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
@@ -57778,6 +57810,7 @@ linux-objects-nvidia-610-7.0.0-1006-gke/resolute-updates,resolute-security 7.0.0
 linux-objects-nvidia-610-7.0.0-1007-gke/resolute-updates 7.0.0-1007.8 amd64
 linux-objects-nvidia-610-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8+1 amd64
 linux-objects-nvidia-610-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
+linux-objects-nvidia-610-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-objects-nvidia-610-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
 linux-objects-nvidia-610-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
 linux-objects-nvidia-610-7.0.0-1009-azure-fde/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
@@ -57827,6 +57860,7 @@ linux-objects-nvidia-610-open-7.0.0-1006-gke/resolute-updates,resolute-security 
 linux-objects-nvidia-610-open-7.0.0-1007-gke/resolute-updates 7.0.0-1007.8 amd64
 linux-objects-nvidia-610-open-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8+1 amd64
 linux-objects-nvidia-610-open-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
+linux-objects-nvidia-610-open-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-objects-nvidia-610-open-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
 linux-objects-nvidia-610-open-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
 linux-objects-nvidia-610-open-7.0.0-1009-azure-fde/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
@@ -57972,6 +58006,7 @@ linux-signatures-nvidia-7.0.0-1007-oracle/resolute-updates,resolute-security 7.0
 linux-signatures-nvidia-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-signatures-nvidia-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8+1 amd64
 linux-signatures-nvidia-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
+linux-signatures-nvidia-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-signatures-nvidia-7.0.0-1008-oem/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-signatures-nvidia-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8+1 amd64
 linux-signatures-nvidia-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9+1 amd64
@@ -58056,6 +58091,7 @@ linux-tools-7.0.0-1007-oracle/resolute-updates,resolute-security 7.0.0-1007.7 am
 linux-tools-7.0.0-1008-aws/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-tools-7.0.0-1008-azure-fde/resolute-updates 7.0.0-1008.8 amd64
 linux-tools-7.0.0-1008-gcp/resolute-updates,resolute-security 7.0.0-1008.8 amd64
+linux-tools-7.0.0-1008-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-tools-7.0.0-1008-oem/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-tools-7.0.0-1008-oracle/resolute-updates,resolute-security 7.0.0-1008.8 amd64
 linux-tools-7.0.0-1009-aws/resolute-updates,resolute-security 7.0.0-1009.9 amd64
@@ -58142,9 +58178,9 @@ linux-tools-generic-hwe-24.04/resolute-updates,resolute-security 7.0.0-34.34 amd
 linux-tools-generic-hwe-26.04-edge/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-tools-generic-hwe-26.04/resolute-updates,resolute-security 7.0.0-34.34 amd64
 linux-tools-generic/resolute-updates,resolute-security 7.0.0-34.34 amd64
-linux-tools-gke-7.0/resolute-updates,resolute-security 7.0.0-1007.8 amd64
-linux-tools-gke-hwe-26.04/resolute-updates,resolute-security 7.0.0-1007.8 amd64
-linux-tools-gke/resolute-updates,resolute-security 7.0.0-1007.8 amd64
+linux-tools-gke-7.0/resolute-updates 7.0.0-1008.9 amd64
+linux-tools-gke-hwe-26.04/resolute-updates 7.0.0-1008.9 amd64
+linux-tools-gke/resolute-updates 7.0.0-1008.9 amd64
 linux-tools-host/resolute-updates,resolute-updates,resolute-security,resolute-security 7.0.0-34.34 all
 linux-tools-ibm-7.0/resolute-updates,resolute-security 7.0.0-1014.14 amd64
 linux-tools-ibm/resolute-updates,resolute-security 7.0.0-1014.14 amd64
@@ -60729,7 +60765,7 @@ nasty/resolute 0.6+git20220929.9830b7a-3build1 amd64
 nat-traverse/resolute,resolute 0.7-2build1 all
 native-architecture-is/resolute 0.2.6build1 amd64
 native-architecture-is/resolute 0.2.6build1 i386
-native-architecture/resolute,resolute 0.2.6build1 all
+native-architecture/resolute,resolute,now 0.2.6build1 all [installed,automatic]
 natlog/resolute 3.01.00-2 amd64
 natpmpc/resolute,now 20230423-1.2build4 amd64 [installed]
 nats-server/resolute 2.10.27-1build1 amd64
@@ -64504,7 +64540,7 @@ pandoc/resolute,now 3.7.0.2+ds-1 amd64 [installed]
 pandorafms-agent/resolute,resolute 6.0-1build1 all
 pango1.0-tests/resolute 1.57.0-1 amd64
 pango1.0-tests/resolute 1.57.0-1 i386
-pango1.0-tools/resolute 1.57.0-1 amd64
+pango1.0-tools/resolute,now 1.57.0-1 amd64 [installed,automatic]
 pango1.0-tools/resolute 1.57.0-1 i386
 pangzero/resolute,resolute 1.4.1+git20121103-6build1 all
 panicparse/resolute 2.3.1-3build2 amd64
@@ -67282,7 +67318,7 @@ python-django-csp-doc/resolute,resolute 3.8-1 all
 python-django-debreach-doc/resolute,resolute 2.1.0-3build1 all
 python-django-debug-toolbar-doc/resolute,resolute 1:6.2.0-1 all
 python-django-dirtyfields-doc/resolute,resolute 1.3.1-5 all
-python-django-doc/resolute-security,resolute-security 3:5.2.9-0ubuntu4.3 all
+python-django-doc/resolute-updates,resolute-updates,resolute-security,resolute-security 3:5.2.9-0ubuntu4.3 all
 python-django-dynamic-fixture-doc/resolute,resolute 4.0.1-1ubuntu1 all
 python-django-extensions-doc/resolute,resolute 4.1-2 all
 python-django-extra-views-doc/resolute,resolute 0.14.0-4ubuntu1 all
@@ -68702,7 +68738,7 @@ python3-cdio/resolute 2.1.1-1.2build5 amd64
 python3-cdo/resolute 1.6.0-5 amd64
 python3-cdsapi/resolute,resolute 0.7.3-1 all
 python3-cdsetool/resolute,resolute 0.2.13-1build1 all
-python3-ceilometer/resolute,resolute 2:26.0.0-0ubuntu1 all
+python3-ceilometer/resolute-updates,resolute-updates 2:26.0.0-0ubuntu1.1 all
 python3-ceilometermiddleware/resolute,resolute 3.10.0-1 all
 python3-celery-haystack-ng/resolute,resolute 2.0.1-1build1 all
 python3-celery-progress/resolute,resolute 0.1.1-1.1build1 all
@@ -69323,7 +69359,7 @@ python3-django-widget-tweaks/resolute,resolute 1.4.8-1.1build1 all
 python3-django-xmlrpc/resolute,resolute 0.1.8-4build1 all
 python3-django-yarnpkg/resolute,resolute 6.1.3-1 all
 python3-django-zeal/resolute,resolute 2.0.4-1 all
-python3-django/resolute-security,resolute-security 3:5.2.9-0ubuntu4.3 all
+python3-django/resolute-updates,resolute-updates,resolute-security,resolute-security 3:5.2.9-0ubuntu4.3 all
 python3-djangorestframework-api-key/resolute,resolute 3.1.0-1 all
 python3-djangorestframework-extensions/resolute,resolute 0.8.0-2 all
 python3-djangorestframework-flex-fields/resolute,resolute 1.0.2-2build1 all
@@ -69550,7 +69586,7 @@ python3-extractor/resolute,resolute 1:0.6-16 all
 python3-extranormal3/resolute,resolute 0.0.3-3 all
 python3-extras/resolute,resolute 1.0.0-6 all
 python3-extruct/resolute,resolute 0.18.0-1build1 all
-python3-eyed3/resolute,resolute 0.9.7-2build1 all
+python3-eyed3/resolute-updates,resolute-updates 0.9.7-2ubuntu1 all
 python3-ezdxf/resolute,resolute 1.4.3-1 all
 python3-ezsnmp/resolute 1.1.0-2.1build1 amd64
 python3-faadelays/resolute,resolute 2023.9.1-2build1 all
@@ -83198,7 +83234,7 @@ waycheck/resolute 1.7.0-1build1 amd64
 wayfire-dev/resolute 0.10.0-1 amd64
 wayfire-plugin-winshadows/resolute 0.0~git20250720.453c217-1 amd64
 wayfire/resolute 0.10.0-1 amd64
-wayland-protocols/resolute,resolute 1.47-1 all
+wayland-protocols/resolute,resolute,now 1.47-1 all [installed,automatic]
 wayland-scanner++/resolute 1.0.1-1 amd64
 wayland-utils/resolute 1.3.0-1 amd64
 waylandpp-dev/resolute 1.0.1-1 amd64
