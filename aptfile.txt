@@ -23,9 +23,14 @@ gh
 arp-scan
 1password
 1password-cli
+libglib2.0-dev
+libgtk-3-dev
+libwebkit2gtk-4.1-dev
+libayatana-appindicator3-dev
+librsvg2-dev
+libxdo-dev
 
 # Terraform
-gnome-shell-pomodoro
 gnupg
 software-properties-common
 terraform
@@ -71,7 +76,6 @@ steam
 zsh
 blueman
 gimp
-python3-pydrive
 p7zip-full
 vlc
 rclone
@@ -83,11 +87,10 @@ libxcb-xtest0
 
 # Proton VPN
 protonvpn
-gnome-shell-extension-appindicator
+gnome-shell-ubuntu-extensions
 gir1.2-appindicator3-0.1
 
 # Terraform
-gnome-shell-pomodoro
 gnupg
 software-properties-common
 terraform
