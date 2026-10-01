@@ -6524,8 +6524,8 @@ enca/resolute 1.21-1 amd64
 encfs/resolute 1.9.5-3build1 amd64
 enchant-2/resolute,now 2.8.2+dfsg1-3build1 amd64 [installed,automatic]
 enchant-2/resolute 2.8.2+dfsg1-3build1 i386
-endeavour-common/resolute,resolute,now 43.0-7build1 all [installed,auto-removable]
-endeavour/resolute,now 43.0-7build1 amd64 [installed,auto-removable]
+endeavour-common/resolute,resolute 43.0-7build1 all
+endeavour/resolute 43.0-7build1 amd64
 endless-sky-data/resolute,resolute 0.10.16-3 all
 endless-sky-high-dpi/resolute,resolute 0.9.8-1build1 all
 endless-sky/resolute 0.10.16-3 amd64
@@ -17272,7 +17272,7 @@ gst123/resolute 0.4.1-2 amd64
 gstreamer-qapt/resolute 3.0.5-5ubuntu1 amd64
 gstreamer1.0-alsa/resolute-updates,resolute-security,now 1.28.2-1ubuntu0.1 amd64 [installed]
 gstreamer1.0-alsa/resolute-updates,resolute-security 1.28.2-1ubuntu0.1 i386
-gstreamer1.0-clutter-3.0/resolute,now 3.0.27-4build2 amd64 [installed,auto-removable]
+gstreamer1.0-clutter-3.0/resolute 3.0.27-4build2 amd64
 gstreamer1.0-espeak/resolute 0.5.0-2build1 amd64
 gstreamer1.0-fallbackswitch/resolute 0.14.3-1 amd64
 gstreamer1.0-fdkaac/resolute 1.28.2-1 amd64
@@ -23561,7 +23561,7 @@ libcanberra-gstreamer/resolute 0.30-18ubuntu3 i386
 libcanberra-gtk-common-dev/resolute,resolute 0.30-18ubuntu3 all
 libcanberra-gtk3-0/resolute,now 0.30-18ubuntu3 amd64 [installed,automatic]
 libcanberra-gtk3-0/resolute 0.30-18ubuntu3 i386
-libcanberra-gtk3-0t64/resolute,now 0.30-18ubuntu3 amd64 [installed,auto-removable]
+libcanberra-gtk3-0t64/resolute 0.30-18ubuntu3 amd64
 libcanberra-gtk3-0t64/resolute 0.30-18ubuntu3 i386
 libcanberra-gtk3-dev/resolute 0.30-18ubuntu3 amd64
 libcanberra-gtk3-dev/resolute 0.30-18ubuntu3 i386
@@ -24426,14 +24426,14 @@ libclucene-core1t64/resolute,now 2.3.3.4+dfsg-1.3 amd64 [installed,automatic]
 libclucene-dev/resolute 2.3.3.4+dfsg-1.3 amd64
 libclustalo-dev/resolute 1.2.4-8build2 amd64
 libclustalo-doc/resolute,resolute 1.2.4-8build2 all
-libclutter-1.0-0/resolute,now 1.26.4+git2779b932+dfsg-8 amd64 [installed,auto-removable]
-libclutter-1.0-common/resolute,resolute,now 1.26.4+git2779b932+dfsg-8 all [installed,auto-removable]
+libclutter-1.0-0/resolute 1.26.4+git2779b932+dfsg-8 amd64
+libclutter-1.0-common/resolute,resolute 1.26.4+git2779b932+dfsg-8 all
 libclutter-1.0-dev/resolute 1.26.4+git2779b932+dfsg-8 amd64
 libclutter-1.0-doc/resolute,resolute 1.26.4+git2779b932+dfsg-8 all
-libclutter-gst-3.0-0/resolute,now 3.0.27-4build2 amd64 [installed,auto-removable]
+libclutter-gst-3.0-0/resolute 3.0.27-4build2 amd64
 libclutter-gst-3.0-dev/resolute 3.0.27-4build2 amd64
 libclutter-gst-3.0-doc/resolute,resolute 3.0.27-4build2 all
-libclutter-gtk-1.0-0/resolute,now 1.8.4-6build1 amd64 [installed,auto-removable]
+libclutter-gtk-1.0-0/resolute 1.8.4-6build1 amd64
 libclutter-gtk-1.0-dev/resolute 1.8.4-6build1 amd64
 libclutter-gtk-1.0-doc/resolute,resolute 1.8.4-6build1 all
 libclxclient-dev/resolute 3.9.2-2.1build2 amd64
@@ -24518,14 +24518,14 @@ libcodenarc-groovy-java-doc/resolute,resolute 0.23-6build1 all
 libcodenarc-groovy-java/resolute,resolute 0.23-6build1 all
 libcodesize-java/resolute,resolute 1.2-3 all
 libcofoja-java/resolute,resolute 1.3-4.1build1 all
-libcogl-common/resolute,resolute,now 1.22.8-6 all [installed,auto-removable]
+libcogl-common/resolute,resolute 1.22.8-6 all
 libcogl-dev/resolute 1.22.8-6 amd64
 libcogl-doc/resolute,resolute 1.22.8-6 all
 libcogl-pango-dev/resolute 1.22.8-6 amd64
-libcogl-pango20/resolute,now 1.22.8-6 amd64 [installed,auto-removable]
+libcogl-pango20/resolute 1.22.8-6 amd64
 libcogl-path-dev/resolute 1.22.8-6 amd64
-libcogl-path20/resolute,now 1.22.8-6 amd64 [installed,auto-removable]
-libcogl20/resolute,now 1.22.8-6 amd64 [installed,auto-removable]
+libcogl-path20/resolute 1.22.8-6 amd64
+libcogl20/resolute 1.22.8-6 amd64
 libcognitect-test-runner-clojure/resolute,resolute 0.5.1-2build2 all
 libcohttp-lwt-jsoo-ocaml-dev/resolute 5.3.0-2build8 amd64
 libcohttp-lwt-jsoo-ocaml/resolute 5.3.0-2build8 amd64
@@ -25656,7 +25656,7 @@ libdbus-c++-glib-1-0/resolute 0.9.0-16 amd64
 libdbus-c++-glib-1-0/resolute 0.9.0-16 i386
 libdbus-cpp-dev/resolute 5.0.6-5 amd64
 libdbus-cpp5/resolute 5.0.6-5 amd64
-libdbus-glib-1-2/resolute,now 0.114-2 amd64 [installed,auto-removable]
+libdbus-glib-1-2/resolute 0.114-2 amd64
 libdbus-glib-1-2/resolute 0.114-2 i386
 libdbus-glib-1-dev-bin/resolute 0.114-2 amd64
 libdbus-glib-1-dev-bin/resolute 0.114-2 i386
@@ -34947,7 +34947,7 @@ libivykis-dev/resolute 0.43.2-1build1 amd64
 libivykis0-dbg/resolute 0.43.2-1build1 amd64
 libivykis0t64/resolute 0.43.2-1build1 amd64
 libiw-dev/resolute 30~pre9-18ubuntu2 amd64
-libiw30t64/resolute,now 30~pre9-18ubuntu2 amd64 [installed,auto-removable]
+libiw30t64/resolute 30~pre9-18ubuntu2 amd64
 libixion-0.20-0/resolute 0.20.0-7 amd64
 libixion-dev/resolute 0.20.0-7 amd64
 libixion-doc/resolute,resolute 0.20.0-7 all
@@ -59712,6 +59712,7 @@ mednaffe/resolute 0.9.3-1build1 amd64
 medusa/resolute 2.3-3 amd64
 meep-mpi-default/resolute 1.29.0-2build1 amd64
 meep/resolute 1.29.0-2build1 amd64
+meetily/now 0.4.1 amd64 [installed,local]
 megactl/resolute 0.4.5-1build1 amd64
 megadepth/resolute 1.2.0-5build2 amd64
 megaglest-data/resolute,resolute 3.13.0-4 all
@@ -68685,9 +68686,9 @@ python3-bytesize/resolute 2.12-1 amd64
 python3-bytesize/resolute 2.12-1 i386
 python3-cachecontrol/resolute,resolute 0.14.3-1 all
 python3-cached-ipaddress/resolute,resolute 1.0.1-2 all
-python3-cached-property/resolute,resolute,now 2.0.1-2build1 all [installed,auto-removable]
+python3-cached-property/resolute,resolute 2.0.1-2build1 all
 python3-cachelib/resolute,resolute 0.13.0-2syncable1build1 all
-python3-cachetools/resolute,resolute,now 7.0.1-1 all [installed,auto-removable]
+python3-cachetools/resolute,resolute 7.0.1-1 all
 python3-cachey/resolute,resolute 0.2.1-3build1 all
 python3-cachy/resolute,resolute 0.3.0-4build1 all
 python3-cads-api-client/resolute,resolute 1.3.2-1 all
@@ -69391,11 +69392,11 @@ python3-dnsq/resolute,resolute 1.3.0-1build1 all
 python3-doc8/resolute,resolute 0.10.1-5 all
 python3-doc/resolute,resolute 3.14.3-0ubuntu2 all
 python3-docformatter/resolute,resolute 1.7.7-1 all
-python3-docker/resolute,resolute,now 7.1.0-2ubuntu1 all [installed,auto-removable]
-python3-dockerpty/resolute,resolute,now 0.4.1-5build1 all [installed,auto-removable]
+python3-docker/resolute,resolute 7.1.0-2ubuntu1 all
+python3-dockerpty/resolute,resolute 0.4.1-5build1 all
 python3-dockerpycreds/resolute,resolute 0.4.0-1.1build1 all
 python3-docopt-ng/resolute,resolute 0.9.0-3 all
-python3-docopt/resolute,resolute,now 0.6.2-7 all [installed,auto-removable]
+python3-docopt/resolute,resolute 0.6.2-7 all
 python3-docs-theme/resolute,resolute 2026.3-1 all
 python3-docstring-parser/resolute,resolute 0.17.0-1 all
 python3-docstring-to-markdown/resolute,resolute 0.15-1 all
@@ -69421,7 +69422,7 @@ python3-donfig/resolute,resolute 0.8.1+dfsg-3build1 all
 python3-doorbirdpy/resolute,resolute 3.0.12-1 all
 python3-doris/resolute,resolute 5.0.3~beta+dfsg-19build1 all
 python3-dotenv-cli/resolute,resolute 3.4.1-1build1 all
-python3-dotenv/resolute,resolute,now 1.0.1-1build1 all [installed,auto-removable]
+python3-dotenv/resolute,resolute 1.0.1-1build1 all
 python3-dotmap/resolute,resolute 1.3.30-2 all
 python3-dotty-dict/resolute,resolute 1.3.1-2build1 all
 python3-doubleratchet/resolute,resolute 1.2.0-2ubuntu3 all
@@ -69608,7 +69609,7 @@ python3-fastbencode/resolute 0.3.8-1build1 amd64
 python3-fastchunking/resolute 0.0.3-4build7 amd64
 python3-fastcluster/resolute 1.3.0-1build2 amd64
 python3-fastdtw/resolute 0.3.4-4build3 amd64
-python3-fasteners/resolute,resolute,now 0.19-2build1 all [installed,auto-removable]
+python3-fasteners/resolute,resolute 0.19-2build1 all
 python3-fastimport/resolute,resolute 0.9.14-2.1build1 all
 python3-fastjsonschema/resolute,resolute 2.21.1-1 all
 python3-fastkml/resolute,resolute 1.1.0-1build1 all
@@ -69906,14 +69907,14 @@ python3-goalzero/resolute,resolute 0.2.2-2build1 all
 python3-goocalendar/resolute,resolute 0.8.0-2build1 all
 python3-goodvibes/resolute,resolute 3.2+dfsg-6 all
 python3-goodwe/resolute,resolute 0.4.9-1 all
-python3-google-api-core/resolute,resolute,now 2.23.0-1ubuntu1 all [installed,auto-removable]
-python3-google-auth-httplib2/resolute,resolute,now 0.3.0-1 all [installed,auto-removable]
+python3-google-api-core/resolute,resolute 2.23.0-1ubuntu1 all
+python3-google-auth-httplib2/resolute,resolute 0.3.0-1 all
 python3-google-auth-oauthlib/resolute,resolute 1.2.1-1build1 all
-python3-google-auth/resolute,resolute,now 2.40.3-2 all [installed,auto-removable]
+python3-google-auth/resolute,resolute 2.40.3-2 all
 python3-google-i18n-address/resolute,resolute 2.4.0-2.1build1 all
 python3-googleapi-samples/resolute,resolute 2.188.0-1 all
-python3-googleapi/resolute,resolute,now 2.188.0-1 all [installed,auto-removable]
-python3-googleapis-common-protos/resolute,resolute,now 1.66.0-1 all [installed,auto-removable]
+python3-googleapi/resolute,resolute 2.188.0-1 all
+python3-googleapis-common-protos/resolute,resolute 1.66.0-1 all
 python3-googlemaps/resolute,resolute 4.10.0-2 all
 python3-googlesearch/resolute,resolute 1.3.0-2 all
 python3-goslide-api/resolute,resolute 0.7.4-2 all
@@ -70287,7 +70288,7 @@ python3-jsbeautifier/resolute,resolute 1.15.3-1 all
 python3-jschema-to-python/resolute,resolute 1.2.3-3build1 all
 python3-jsmin/resolute,resolute 3.0.1-4 all
 python3-json-log-formatter/resolute,resolute 1.1.1-1 all
-python3-json-pointer/resolute,resolute,now 2.4-4 all [installed,auto-removable]
+python3-json-pointer/resolute,resolute,now 2.4-4 all [residual-config]
 python3-json-schema-to-pydantic/resolute,resolute 0.4.9-1 all
 python3-json-tricks/resolute,resolute 3.17.3-2 all
 python3-json5/resolute,resolute 0.10.0-1 all
@@ -70308,8 +70309,8 @@ python3-jsonrpc-websocket/resolute,resolute 3.2.0-1 all
 python3-jsonrpc/resolute,resolute 1.13.0-5 all
 python3-jsonrpclib-pelix/resolute,resolute 0.4.2-2build1 all
 python3-jsonschema-path/resolute,resolute 0.3.4-1 all
-python3-jsonschema-specifications/resolute,resolute,now 2023.12.1-4 all [installed,auto-removable]
-python3-jsonschema/resolute,resolute,now 4.19.2-6ubuntu2 all [installed,auto-removable]
+python3-jsonschema-specifications/resolute,resolute 2023.12.1-4 all
+python3-jsonschema/resolute,resolute,now 4.19.2-6ubuntu2 all [residual-config]
 python3-jstyleson/resolute,resolute 0.0.2-2build1 all
 python3-jujuclient/resolute,resolute 0.50.5-0ubuntu4 all
 python3-juliandate/resolute,resolute 1.0.5-2 all
@@ -70799,7 +70800,7 @@ python3-monascaclient/resolute,resolute 2.8.0-0ubuntu2 all
 python3-moneyed/resolute,resolute 2.0-1build1 all
 python3-mongoengine/resolute,resolute 0.29.1-1 all
 python3-mongomock/resolute,resolute 4.3.0-4 all
-python3-monotonic/resolute,resolute,now 1.6-3build1 all [installed,auto-removable]
+python3-monotonic/resolute,resolute 1.6-3build1 all
 python3-montagepy/resolute 6.1+dfsg-2build2 amd64
 python3-monty/resolute,resolute 2025.3.3-1build1 all
 python3-monzopy/resolute,resolute 1.5.1-1 all
@@ -71513,9 +71514,9 @@ python3-propcache/resolute,now 0.3.1-1build2 amd64 [installed,automatic]
 python3-propka/resolute,resolute 3.5.1-3 all
 python3-proselint/resolute,resolute 0.14.0-2 all
 python3-protego/resolute,resolute 0.6.0+dfsg-1 all
-python3-proto-plus/resolute,resolute,now 1.27.1-1 all [installed,auto-removable]
+python3-proto-plus/resolute,resolute 1.27.1-1 all
 python3-protobix/resolute,resolute 1.0.2-16 all
-python3-protobuf/resolute,now 3.21.12-15ubuntu1 amd64 [installed,auto-removable]
+python3-protobuf/resolute 3.21.12-15ubuntu1 amd64
 python3-protobuf/resolute 3.21.12-15ubuntu1 i386
 python3-proton-core/resolute,resolute,now 0.7.0-1 all [installed,automatic]
 python3-proton-keyring-linux/resolute,resolute,now 0.2.1-1 all [installed,automatic]
@@ -71591,8 +71592,8 @@ python3-pyani/resolute 0.2.13-1 amd64
 python3-pyao/resolute 0.82+ds1-7build6 amd64
 python3-pyaps3/resolute,resolute 0.3.7-1 all
 python3-pyarrow/resolute 23.0.1-9 amd64
-python3-pyasn1-modules/resolute,resolute,now 0.4.1-2build1 all [installed,auto-removable]
-python3-pyasn1/resolute-updates,resolute-updates,resolute-security,resolute-security,now 0.6.3-1ubuntu0.1 all [installed,auto-removable]
+python3-pyasn1-modules/resolute,resolute 0.4.1-2build1 all
+python3-pyasn1/resolute-updates,resolute-updates,resolute-security,resolute-security 0.6.3-1ubuntu0.1 all
 python3-pyasn/resolute 1.6.2-1build2 amd64
 python3-pyassimp/resolute,resolute 6.0.4+ds-1build1 all
 python3-pyasuswrt/resolute,resolute 0.1.21-2 all
@@ -72255,7 +72256,7 @@ python3-pytrellis/resolute 1.4-3 amd64
 python3-pytrydan/resolute,resolute 0.8.1-2build1 all
 python3-pytweening/resolute,resolute 1.2.0-6build1 all
 python3-pytz/resolute,resolute 2025.2-5 all
-python3-pyu2f/resolute,resolute,now 0.1.5-4 all [installed,auto-removable]
+python3-pyu2f/resolute,resolute 0.1.5-4 all
 python3-pyuca/resolute,resolute 1.2-5build1 all
 python3-pyudev/resolute,resolute 0.24.3+tests-0ubuntu2 all
 python3-pyuefivars/resolute,resolute 1.2-0ubuntu1 all
@@ -72396,7 +72397,7 @@ python3-redis/resolute,resolute 6.4.0-1 all
 python3-rediscluster/resolute,resolute 2.0.0-2build1 all
 python3-redminelib/resolute,resolute 2.5.0-1 all
 python3-reedsolo/resolute 1.7.0-1build6 amd64
-python3-referencing/resolute,resolute,now 0.36.2-1ubuntu2 all [installed,auto-removable]
+python3-referencing/resolute,resolute 0.36.2-1ubuntu2 all
 python3-reflink/resolute 0.2.2-1build1 amd64
 python3-refnx/resolute 0.1.61-1build1 amd64
 python3-regenmaschine/resolute,resolute 2024.3.0-2.1build1 all
@@ -72443,7 +72444,7 @@ python3-requirements/resolute,resolute 0.13.0-1 all
 python3-resample/resolute,resolute 1.10.1-2 all
 python3-resampy/resolute,resolute 0.4.3+ds-6 all
 python3-resolvelib/resolute,resolute 1.2.1-2 all
-python3-responses/resolute,resolute,now 0.26.0-1 all [installed,auto-removable]
+python3-responses/resolute,resolute 0.26.0-1 all
 python3-respx/resolute,resolute 0.22.0-3 all
 python3-restless/resolute,resolute 2.2.0-3 all
 python3-restrictedpython/resolute,resolute 8.1-1 all
@@ -72497,7 +72498,7 @@ python3-rova/resolute,resolute 0.4.1-2 all
 python3-rows/resolute,resolute 0.5.0~dev0~1~1d5a326-1.1 all
 python3-rpaths/resolute,resolute 1.0.0-2 all
 python3-rpcq/resolute,resolute 3.11.0-3 all
-python3-rpds-py/resolute,now 0.27.1-2ubuntu3 amd64 [installed,auto-removable]
+python3-rpds-py/resolute 0.27.1-2ubuntu3 amd64
 python3-rpi-bad-power/resolute,resolute 0.1.0-2build1 all
 python3-rpi-lgpio/resolute,resolute 0.6-0ubuntu2 all
 python3-rply/resolute,resolute 0.7.8-3 all
@@ -72507,7 +72508,7 @@ python3-rpyc-doc/resolute,resolute 6.0.2-1 all
 python3-rpyc/resolute,resolute 6.0.2-1 all
 python3-rq/resolute,resolute 2.7-1 all
 python3-rrdtool/resolute 1.9.0-2build1 amd64
-python3-rsa/resolute,resolute,now 4.9-2build1 all [installed,auto-removable]
+python3-rsa/resolute,resolute 4.9-2build1 all
 python3-rshell/resolute,resolute 0.0.31-0ubuntu2 all
 python3-rst2ansi/resolute,resolute 0.1.5-5 all
 python3-rstcheck/resolute,resolute 6.2.4+~1.2.1-1build1 all
@@ -72928,11 +72929,11 @@ python3-spyder/resolute,resolute 6.1.3+ds-5 all
 python3-spyne/resolute,resolute 2.14.0-8 all
 python3-spython/resolute,resolute 0.3.13-2build1 all
 python3-sql/resolute,resolute 1.6.0-1 all
-python3-sqlalchemy-ext/resolute,now 2.0.45+ds1-1build1 amd64 [installed,auto-removable]
+python3-sqlalchemy-ext/resolute 2.0.45+ds1-1build1 amd64
 python3-sqlalchemy-i18n/resolute,resolute 1.1.0-3build1 all
 python3-sqlalchemy-utc/resolute,resolute 0.14.0-5 all
 python3-sqlalchemy-utils/resolute,resolute 0.41.2-3ubuntu2 all
-python3-sqlalchemy/resolute,resolute,now 2.0.45+ds1-1build1 all [installed,auto-removable]
+python3-sqlalchemy/resolute,resolute 2.0.45+ds1-1build1 all
 python3-sqlglot/resolute,resolute 28.10.1-1 all
 python3-sqlite-fts4/resolute,resolute 1.0.3-2build1 all
 python3-sqlite-migrate/resolute,resolute 0.1~beta0-3 all
@@ -73129,7 +73130,7 @@ python3-text-unidecode/resolute,resolute 1.3-3 all
 python3-textdistance/resolute,resolute 4.6.3-7 all
 python3-textfsm/resolute,resolute 2.1.0-1 all
 python3-textile/resolute,resolute 1:4.0.3-1 all
-python3-texttable/resolute,resolute,now 1.7.0-1build1 all [installed,auto-removable]
+python3-texttable/resolute,resolute 1.7.0-1build1 all
 python3-textual-autocomplete/resolute,resolute 4.0.6-2 all
 python3-textual-fastdatatable/resolute,resolute 0.14.0-1 all
 python3-textual-textarea/resolute,resolute 0.17.2-1 all
@@ -73345,7 +73346,7 @@ python3-update-manager/resolute,resolute,now 1:26.04.5 all [installed,automatic]
 python3-upsetplot/resolute,resolute 0.9.0-3 all
 python3-upstream-ontologist/resolute 0.2.8-1build1 amd64
 python3-uranium/resolute,resolute 5.0.0-7build1 all
-python3-uritemplate/resolute,resolute,now 4.2.0-3 all [installed,auto-removable]
+python3-uritemplate/resolute,resolute 4.2.0-3 all
 python3-uritools/resolute,resolute 6.0.1-1 all
 python3-urjtag/resolute 2021.03-5build2 amd64
 python3-url-normalize/resolute,resolute 2.2.1-1 all
@@ -73473,7 +73474,7 @@ python3-webmin-xmlrpc/resolute,resolute 0.0.2-2build1 all
 python3-webob/resolute-updates,resolute-updates,resolute-security,resolute-security 1:1.8.9-1ubuntu0.1 all
 python3-webpy/resolute,resolute 1:0.62-6 all
 python3-webrtc-models/resolute,resolute 0.3.0-2 all
-python3-websocket/resolute,resolute,now 1.9.0-1 all [installed,auto-removable]
+python3-websocket/resolute,resolute 1.9.0-1 all
 python3-websocketd-doc/resolute,resolute 0.5-1build1 all
 python3-websocketd/resolute,resolute 0.5-1build1 all
 python3-websockets/resolute,now 15.0.1-1build2 amd64 [installed,automatic]
