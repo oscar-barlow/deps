@@ -86,6 +86,7 @@ handbrake-cli
 libxcb-xtest0
 
 # Proton VPN
+proton-vpn-gnome-desktop
 gnome-shell-ubuntu-extensions
 gir1.2-appindicator3-0.1
 

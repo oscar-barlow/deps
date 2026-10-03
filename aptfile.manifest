@@ -67026,10 +67026,14 @@ protoc-gen-yarpc/resolute 0.0.1-2build2 amd64
 protoc-grpclib/resolute,resolute 0.4.9-1 all
 proton-caller/resolute 3.1.2-2 amd64
 proton-mail/now 1.0.0 amd64 [installed,local]
-proton-vpn-gnome-desktop/now 0.9.0 all [installed,local]
-proton-vpn-gtk-app/resolute,resolute,now 4.15.2-1 all [installed,automatic]
+proton-vpn-cli/unknown,now 1.0.5 all [installed,automatic]
+proton-vpn-daemon/unknown,now 0.13.8 all [installed,automatic]
+proton-vpn-gnome-desktop/unknown,now 0.11.0 all [installed]
+proton-vpn-gtk-app/unknown,now 4.18.5 all [installed,automatic]
 protontricks/resolute,resolute 1.13.1+ds-1 all
-protonvpn-stable-release/now 1.0.6 all [installed,local]
+protonvpn-beta-release/unknown 1.0.8 all
+protonvpn-gui/unknown 1.12.0-1 all
+protonvpn-stable-release/unknown,now 1.0.8 all [installed]
 prottest/resolute,resolute 3.4.2+dfsg-8build1 all
 prov-tools/resolute,resolute 2.1.1-1 all
 provd/resolute 0.1.5 amd64
@@ -69358,7 +69362,7 @@ python3-dbf/resolute,resolute 0.99.10-1 all
 python3-dbfread/resolute,resolute 2.0.7-5build1 all
 python3-dbg/resolute 3.14.3-0ubuntu2 amd64
 python3-dbg/resolute 3.14.3-0ubuntu2 i386
-python3-dbus-fast/resolute 4.0.0-1build1 amd64
+python3-dbus-fast/resolute,now 4.0.0-1build1 amd64 [installed,automatic]
 python3-dbus-next/resolute,resolute 0.2.3-6 all
 python3-dbus-tests/resolute 1.4.0-1build2 amd64
 python3-dbus-tests/resolute 1.4.0-1build2 i386
@@ -71804,12 +71808,25 @@ python3-proto-plus/resolute,resolute 1.27.1-1 all
 python3-protobix/resolute,resolute 1.0.2-16 all
 python3-protobuf/resolute 3.21.12-15ubuntu1 amd64
 python3-protobuf/resolute 3.21.12-15ubuntu1 i386
-python3-proton-core/resolute,resolute,now 0.7.0-1 all [installed,automatic]
-python3-proton-keyring-linux/resolute,resolute,now 0.2.1-1 all [installed,automatic]
-python3-proton-vpn-api-core/resolute-updates,resolute-updates,now 4.19.1-0ubuntu1 all [installed,automatic]
+python3-proton-client/unknown 0.7.1-2 all
+python3-proton-core/unknown 0.7.4 all [upgradable from: 0.7.0-1]
+python3-proton-keyring-linux-secretservice/unknown 0.1.0 all
+python3-proton-keyring-linux/unknown,now 0.2.3 all [installed,automatic]
+python3-proton-vpn-api-core-dbgsym/unknown 5.8.3 amd64
+python3-proton-vpn-api-core/unknown,now 5.8.3 amd64 [installed,automatic]
+python3-proton-vpn-connection/unknown 0.14.4 all
 python3-proton-vpn-gtk-app/resolute,resolute 4.15.2-1 all
-python3-proton-vpn-local-agent/resolute,now 1.6.1-1ubuntu1 amd64 [installed,automatic]
-python3-proton-vpn-network-manager/now 0.10.1 all [installed,local]
+python3-proton-vpn-killswitch-network-manager-wireguard/unknown 0.2.1 all
+python3-proton-vpn-killswitch-network-manager/unknown 0.6.1 all
+python3-proton-vpn-killswitch/unknown 0.4.0 all
+python3-proton-vpn-lib/unknown 0.1.1 amd64
+python3-proton-vpn-local-agent/unknown 1.6.3 amd64
+python3-proton-vpn-logger/unknown 0.2.1 all
+python3-proton-vpn-network-manager-openvpn/unknown 0.1.1 all
+python3-proton-vpn-network-manager-wireguard/unknown 0.4.7 all
+python3-proton-vpn-network-manager/unknown 0.13.5 all
+python3-proton-vpn-session/unknown 0.6.7 all
+python3-protonvpn-nm-lib/unknown 3.16.0-1 all
 python3-prov/resolute,resolute 2.1.1-1 all
 python3-proxmoxer/resolute,resolute 2.2.0-2 all
 python3-psautohint/resolute 2.4.0-2build1 amd64
@@ -73355,7 +73372,7 @@ python3-tables-lib/resolute 3.10.2-3build3 amd64
 python3-tables/resolute,resolute 3.10.2-3build3 all
 python3-tablib/resolute,resolute 3.9.0-1 all
 python3-tabnet/resolute,resolute 4.1.0+ds-2build1 all
-python3-tabulate/resolute,resolute 0.9.0-1build1 all
+python3-tabulate/resolute,resolute,now 0.9.0-1build1 all [installed,automatic]
 python3-tackerclient/resolute,resolute 2.5.0-1 all
 python3-tado/resolute,resolute 0.19.2-1 all
 python3-taglib/resolute 3.1.0-1build1 amd64
@@ -83770,7 +83787,7 @@ wipe/resolute 0.24-10build1 amd64
 wiredpanda/resolute 4.3.0-1 amd64
 wiredtiger/resolute 3.2.1-1ubuntu5 amd64
 wireguard-go/resolute 0.0.20231211-1build1 amd64
-wireguard-tools/resolute 1.0.20250521-1ubuntu1 amd64
+wireguard-tools/resolute,now 1.0.20250521-1ubuntu1 amd64 [installed,automatic]
 wireguard/resolute,resolute 1.0.20250521-1ubuntu1 all
 wireless-regdb/resolute-updates,resolute-updates,resolute-security,resolute-security,now 2026.05.30-0ubuntu1~26.04.1 all [installed,automatic]
 wireplumber-doc/resolute,resolute 0.5.13-1ubuntu1 all
