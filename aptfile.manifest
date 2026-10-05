@@ -314,7 +314,7 @@ alsa-tools-gui/resolute 1.2.15-1 amd64
 alsa-tools/resolute 1.2.15-1 amd64
 alsa-topology-conf/resolute,resolute,now 1.2.5.1-3build1 all [installed,automatic]
 alsa-ucm-conf-asahi/resolute,resolute 8-3 all
-alsa-ucm-conf/resolute-updates,resolute-updates 1.2.15.3-1ubuntu1.7 all [upgradable from: 1.2.15.3-1ubuntu1.5]
+alsa-ucm-conf/resolute-updates,resolute-updates,now 1.2.15.3-1ubuntu1.7 all [installed,automatic]
 alsa-utils/resolute,now 1.2.15.2-1ubuntu1 amd64 [installed]
 alsa-utils/resolute 1.2.15.2-1ubuntu1 i386
 alsamixergui/resolute 0.9.0rc2-1-13 amd64
@@ -2071,7 +2071,7 @@ bpfcc-lua/resolute 0.35.0+ds-1ubuntu2 amd64
 bpfcc-tools/resolute,resolute,now 0.35.0+ds-1ubuntu2 all [installed,automatic]
 bpfilter/resolute 0.5.2-1 amd64
 bpfmon/resolute 2.53-1build1 amd64
-bpftool/resolute-updates 7.7.0+7.0.0-38.38 amd64 [upgradable from: 7.7.0+7.0.0-34.34]
+bpftool/resolute-updates,now 7.7.0+7.0.0-38.38 amd64 [installed,automatic]
 bpftop/resolute 0.7.1.4.gd579e4e-2 amd64
 bpftrace/resolute,now 0.25.0-1ubuntu1 amd64 [installed,automatic]
 bpftune/resolute 0.0~git20251206.4bcc284-1 amd64
@@ -43212,7 +43212,7 @@ libradare2-dev/resolute 6.0.7+ds-1 amd64
 libradcli-dev/resolute 1.2.11-1build4 amd64
 libradcli4/resolute 1.2.11-1build4 amd64
 librados-dev/resolute-security 20.2.0-0ubuntu2.1 amd64
-librados2/resolute-security 20.2.0-0ubuntu2.1 amd64 [upgradable from: 20.2.0-0ubuntu2]
+librados2/resolute-security,now 20.2.0-0ubuntu2.1 amd64 [installed,automatic]
 libradospp-dev/resolute-security 20.2.0-0ubuntu2.1 amd64
 libradosstriper-dev/resolute-security 20.2.0-0ubuntu2.1 amd64
 libradosstriper1/resolute-security 20.2.0-0ubuntu2.1 amd64
@@ -43274,7 +43274,7 @@ libraw23t64/resolute-updates,resolute-security 0.21.5b-1ubuntu1.1 i386
 libraynes-fs-clojure/resolute,resolute 1.5.2-1build2 all
 librbac-client-clojure/resolute,resolute 1.1.5-3build2 all
 librbd-dev/resolute-security 20.2.0-0ubuntu2.1 amd64
-librbd1/resolute-security 20.2.0-0ubuntu2.1 amd64 [upgradable from: 20.2.0-0ubuntu2]
+librbd1/resolute-security,now 20.2.0-0ubuntu2.1 amd64 [installed,automatic]
 librbio4/resolute 1:7.12.2+dfsg-1ubuntu1 amd64
 librbl-dev/resolute 2.11.0~beta2-9.2build1 amd64
 librbl1/resolute 2.11.0~beta2-9.2build1 amd64
@@ -54716,7 +54716,7 @@ linux-libc-dev-s390x-cross/resolute,resolute 7.0.0-13.13cross1 all
 linux-libc-dev-sh4-cross/resolute,resolute 7.0.0-13.13cross1 all
 linux-libc-dev-sparc64-cross/resolute,resolute 7.0.0-13.13cross1 all
 linux-libc-dev-x32-cross/resolute,resolute 7.0.0-13.13cross1 all
-linux-libc-dev/resolute-updates 7.0.0-38.38 amd64 [upgradable from: 7.0.0-34.34]
+linux-libc-dev/resolute-updates,now 7.0.0-38.38 amd64 [installed,automatic]
 linux-libc-dev/resolute-updates 7.0.0-38.38 i386
 linux-lowlatency-7.0/resolute-updates 7.0.0-38.38 amd64
 linux-lowlatency-hwe-24.04-edge/resolute-updates 7.0.0-38.38 amd64
@@ -58214,7 +58214,7 @@ linux-oracle-tools-7.0.0-1011/resolute-updates,resolute-security 7.0.0-1011.11 a
 linux-oracle-tools-7.0.0-1012/resolute-updates,resolute-security 7.0.0-1012.12 amd64
 linux-oracle-tools-7.0.0-1013/resolute-updates 7.0.0-1013.13 amd64
 linux-oracle/resolute-updates 7.0.0-1013.13 amd64
-linux-perf/resolute-updates 7.0.0-38.38 amd64 [upgradable from: 7.0.0-34.34]
+linux-perf/resolute-updates,now 7.0.0-38.38 amd64 [installed,automatic]
 linux-realtime-7.0/resolute-updates 7.0.0-38.38.1 amd64
 linux-realtime-cloud-tools-7.0.0-14/resolute 7.0.0-14.14.1 amd64
 linux-realtime-cloud-tools-7.0.0-22/resolute-updates,resolute-security 7.0.0-22.22.1 amd64
@@ -58456,7 +58456,7 @@ linux-tools-azure-fde-lts-26.04/resolute-updates,resolute-security 7.0.0-1013.13
 linux-tools-azure-fde/resolute-updates,resolute-security 7.0.0-1013.13 amd64
 linux-tools-azure-lts-26.04/resolute-updates 7.0.0-1017.17 amd64
 linux-tools-azure/resolute-updates 7.0.0-1017.17 amd64
-linux-tools-common/resolute-updates,resolute-updates 7.0.0-38.38 all [upgradable from: 7.0.0-34.34]
+linux-tools-common/resolute-updates,resolute-updates,now 7.0.0-38.38 all [installed,automatic]
 linux-tools-gcp-7.0/resolute-updates 7.0.0-1014.14 amd64
 linux-tools-gcp/resolute-updates 7.0.0-1014.14 amd64
 linux-tools-generic-7.0/resolute-updates 7.0.0-38.38 amd64
@@ -64700,15 +64700,15 @@ overlay-scrollbar-gtk2/resolute 0.2.17.1+16.04.20151117-0ubuntu5 amd64
 overlay-scrollbar/resolute,resolute 0.2.17.1+16.04.20151117-0ubuntu5 all
 overlayroot/resolute,resolute 0.58ubuntu all
 ovmf-amdsev-hwe/resolute-updates,resolute-updates 2025.11-3ubuntu8.2 all
-ovmf-amdsev/resolute-security,resolute-security 2025.11-3ubuntu7.3 all [upgradable from: 2025.11-3ubuntu7.2]
+ovmf-amdsev/resolute-security,resolute-security,now 2025.11-3ubuntu7.3 all [installed,automatic]
 ovmf-generic-hwe/resolute-updates,resolute-updates 2025.11-3ubuntu8.2 all
-ovmf-generic/resolute-security,resolute-security 2025.11-3ubuntu7.3 all [upgradable from: 2025.11-3ubuntu7.2]
+ovmf-generic/resolute-security,resolute-security,now 2025.11-3ubuntu7.3 all [installed,automatic]
 ovmf-hwe/resolute-updates,resolute-updates 2025.11-3ubuntu8.2 all
 ovmf-inteltdx-hwe/resolute-updates,resolute-updates 2025.11-3ubuntu8.2 all
-ovmf-inteltdx/resolute-security,resolute-security 2025.11-3ubuntu7.3 all [upgradable from: 2025.11-3ubuntu7.2]
+ovmf-inteltdx/resolute-security,resolute-security,now 2025.11-3ubuntu7.3 all [installed,automatic]
 ovmf-legacy-hwe/resolute-updates,resolute-updates 2025.11-3ubuntu8.2 all
 ovmf-legacy/resolute-security,resolute-security 2025.11-3ubuntu7.3 all
-ovmf/resolute-security,resolute-security 2025.11-3ubuntu7.3 all [upgradable from: 2025.11-3ubuntu7.2]
+ovmf/resolute-security,resolute-security,now 2025.11-3ubuntu7.3 all [installed,automatic]
 ovn-bgp-agent/resolute,resolute 6.0.0-0ubuntu1 all
 ovn-central/resolute 26.03.0-2 amd64
 ovn-common/resolute 26.03.0-2 amd64
@@ -67029,7 +67029,7 @@ proton-mail/now 1.0.0 amd64 [installed,local]
 proton-vpn-cli/unknown,now 1.0.5 all [installed,automatic]
 proton-vpn-daemon/unknown,now 0.13.8 all [installed,automatic]
 proton-vpn-gnome-desktop/unknown,now 0.11.0 all [installed]
-proton-vpn-gtk-app/unknown 4.18.6 all [upgradable from: 4.18.5]
+proton-vpn-gtk-app/unknown,now 4.18.6 all [installed,automatic]
 protontricks/resolute,resolute 1.13.1+ds-1 all
 protonvpn-beta-release/unknown 1.0.8 all
 protonvpn-gui/unknown 1.12.0-1 all
@@ -71809,11 +71809,11 @@ python3-protobix/resolute,resolute 1.0.2-16 all
 python3-protobuf/resolute 3.21.12-15ubuntu1 amd64
 python3-protobuf/resolute 3.21.12-15ubuntu1 i386
 python3-proton-client/unknown 0.7.1-2 all
-python3-proton-core/unknown 0.7.4 all [upgradable from: 0.7.0-1]
+python3-proton-core/unknown,now 0.7.4 all [installed,automatic]
 python3-proton-keyring-linux-secretservice/unknown 0.1.0 all
 python3-proton-keyring-linux/unknown,now 0.2.3 all [installed,automatic]
 python3-proton-vpn-api-core-dbgsym/unknown 5.8.7 amd64
-python3-proton-vpn-api-core/unknown 5.8.7 amd64 [upgradable from: 5.8.3]
+python3-proton-vpn-api-core/unknown,now 5.8.7 amd64 [installed,automatic]
 python3-proton-vpn-connection/unknown 0.14.4 all
 python3-proton-vpn-gtk-app/resolute,resolute 4.15.2-1 all
 python3-proton-vpn-killswitch-network-manager-wireguard/unknown 0.2.1 all
