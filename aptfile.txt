@@ -29,11 +29,7 @@ libwebkit2gtk-4.1-dev
 libayatana-appindicator3-dev
 librsvg2-dev
 libxdo-dev
-
-# Terraform
-gnupg
-software-properties-common
-terraform
+neovim
 
 # Remote Storage
 nfs-common
@@ -70,8 +66,6 @@ docker-compose-plugin
 
 # Desktop
 kdeconnect
-
-# Desktop Software
 steam
 zsh
 blueman

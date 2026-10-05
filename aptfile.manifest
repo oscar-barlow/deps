@@ -2761,31 +2761,31 @@ cenon.app-common/resolute,resolute 4.0.6+ds1-6 all
 cenon.app/resolute 4.0.6+ds1-6 amd64
 centreon-plugins/resolute,resolute 0.0~20250303+dfsg-1 all
 centrifuge/resolute 1.0.4.2-1build1 amd64
-ceph-base/resolute 20.2.0-0ubuntu2 amd64
-ceph-common/resolute 20.2.0-0ubuntu2 amd64
-ceph-exporter/resolute 20.2.0-0ubuntu2 amd64
-ceph-fuse/resolute 20.2.0-0ubuntu2 amd64
-ceph-grafana-dashboards/resolute,resolute 20.2.0-0ubuntu2 all
-ceph-immutable-object-cache/resolute 20.2.0-0ubuntu2 amd64
+ceph-base/resolute-security 20.2.0-0ubuntu2.1 amd64
+ceph-common/resolute-security 20.2.0-0ubuntu2.1 amd64
+ceph-exporter/resolute-security 20.2.0-0ubuntu2.1 amd64
+ceph-fuse/resolute-security 20.2.0-0ubuntu2.1 amd64
+ceph-grafana-dashboards/resolute-security,resolute-security 20.2.0-0ubuntu2.1 all
+ceph-immutable-object-cache/resolute-security 20.2.0-0ubuntu2.1 amd64
 ceph-iscsi/resolute,resolute 3.9-1build1 all
-ceph-mds/resolute 20.2.0-0ubuntu2 amd64
-ceph-mgr-cephadm/resolute,resolute 20.2.0-0ubuntu2 all
-ceph-mgr-dashboard/resolute,resolute 20.2.0-0ubuntu2 all
-ceph-mgr-diskprediction-local/resolute,resolute 20.2.0-0ubuntu2 all
-ceph-mgr-k8sevents/resolute,resolute 20.2.0-0ubuntu2 all
-ceph-mgr-modules-core/resolute,resolute 20.2.0-0ubuntu2 all
-ceph-mgr-rook/resolute,resolute 20.2.0-0ubuntu2 all
-ceph-mgr/resolute 20.2.0-0ubuntu2 amd64
-ceph-mon/resolute 20.2.0-0ubuntu2 amd64
-ceph-osd/resolute 20.2.0-0ubuntu2 amd64
-ceph-prometheus-alerts/resolute,resolute 20.2.0-0ubuntu2 all
-ceph-resource-agents/resolute,resolute 20.2.0-0ubuntu2 all
+ceph-mds/resolute-security 20.2.0-0ubuntu2.1 amd64
+ceph-mgr-cephadm/resolute-security,resolute-security 20.2.0-0ubuntu2.1 all
+ceph-mgr-dashboard/resolute-security,resolute-security 20.2.0-0ubuntu2.1 all
+ceph-mgr-diskprediction-local/resolute-security,resolute-security 20.2.0-0ubuntu2.1 all
+ceph-mgr-k8sevents/resolute-security,resolute-security 20.2.0-0ubuntu2.1 all
+ceph-mgr-modules-core/resolute-security,resolute-security 20.2.0-0ubuntu2.1 all
+ceph-mgr-rook/resolute-security,resolute-security 20.2.0-0ubuntu2.1 all
+ceph-mgr/resolute-security 20.2.0-0ubuntu2.1 amd64
+ceph-mon/resolute-security 20.2.0-0ubuntu2.1 amd64
+ceph-osd/resolute-security 20.2.0-0ubuntu2.1 amd64
+ceph-prometheus-alerts/resolute-security,resolute-security 20.2.0-0ubuntu2.1 all
+ceph-resource-agents/resolute-security,resolute-security 20.2.0-0ubuntu2.1 all
 ceph-tools/resolute,resolute 0.0.40build1 all
-ceph-volume/resolute,resolute 20.2.0-0ubuntu2 all
-ceph/resolute 20.2.0-0ubuntu2 amd64
-cephadm/resolute,resolute 20.2.0-0ubuntu2 all
-cephfs-mirror/resolute 20.2.0-0ubuntu2 amd64
-cephfs-shell/resolute,resolute 20.2.0-0ubuntu2 all
+ceph-volume/resolute-security,resolute-security 20.2.0-0ubuntu2.1 all
+ceph/resolute-security 20.2.0-0ubuntu2.1 amd64
+cephadm/resolute-security,resolute-security 20.2.0-0ubuntu2.1 all
+cephfs-mirror/resolute-security 20.2.0-0ubuntu2.1 amd64
+cephfs-shell/resolute-security,resolute-security 20.2.0-0ubuntu2.1 all
 ceres-solver-doc/resolute,resolute 2.2.0+dfsg-4.1ubuntu3 all
 certbot/resolute,resolute 4.0.0-4 all
 certinfo/resolute 1.0.6+ds1-2build2 amd64
@@ -4071,7 +4071,7 @@ creddump7/resolute,resolute 0.1+git20190429-1.1build1 all
 credential-sheets/resolute,resolute 0.0.3-5 all
 creduce/resolute 2.11.0~20240909-3 amd64
 cricket/resolute 1.0.5-23build1 amd64
-crimson-osd/resolute 20.2.0-0ubuntu2 amd64
+crimson-osd/resolute-security 20.2.0-0ubuntu2.1 amd64
 crimson/resolute 0.5.3-1build1 amd64
 crip/resolute,resolute 3.9-6 all
 crispy-doom/resolute 7.1-1build1 amd64
@@ -5929,13 +5929,13 @@ eekboek-gui/resolute,resolute 2.04-1build2 all
 eekboek/resolute,resolute 2.04-1build2 all
 efax/resolute 1:0.9a-25 amd64
 efi-shell-aa64-hwe/resolute-updates,resolute-updates 2025.11-3ubuntu8.2 all
-efi-shell-aa64/resolute-updates,resolute-updates 2025.11-3ubuntu7.2 all
+efi-shell-aa64/resolute-security,resolute-security 2025.11-3ubuntu7.3 all
 efi-shell-loongarch64-hwe/resolute-updates,resolute-updates 2025.11-3ubuntu8.2 all
-efi-shell-loongarch64/resolute-updates,resolute-updates 2025.11-3ubuntu7.2 all
+efi-shell-loongarch64/resolute-security,resolute-security 2025.11-3ubuntu7.3 all
 efi-shell-riscv64-hwe/resolute-updates,resolute-updates 2025.11-3ubuntu8.2 all
-efi-shell-riscv64/resolute-updates,resolute-updates 2025.11-3ubuntu7.2 all
+efi-shell-riscv64/resolute-security,resolute-security 2025.11-3ubuntu7.3 all
 efi-shell-x64-hwe/resolute-updates,resolute-updates 2025.11-3ubuntu8.2 all
-efi-shell-x64/resolute-updates,resolute-updates 2025.11-3ubuntu7.2 all
+efi-shell-x64/resolute-security,resolute-security 2025.11-3ubuntu7.3 all
 efibootguard/resolute 0.19-1 amd64
 efibootmgr/resolute,now 18-4ubuntu1 amd64 [installed,automatic]
 efingerd/resolute 1.6.7-1build2 amd64
@@ -23884,10 +23884,10 @@ libcec-dev/resolute 7.1.1-2 amd64
 libcec7/resolute 7.1.1-2 amd64
 libcellbroadcast-0.0-0/resolute 0.0.3-1 amd64
 libcellbroadcast-dev/resolute 0.0.3-1 amd64
-libcephfs-dev/resolute 20.2.0-0ubuntu2 amd64
-libcephfs-java/resolute,resolute 20.2.0-0ubuntu2 all
-libcephfs-jni/resolute 20.2.0-0ubuntu2 amd64
-libcephfs2/resolute 20.2.0-0ubuntu2 amd64
+libcephfs-dev/resolute-security 20.2.0-0ubuntu2.1 amd64
+libcephfs-java/resolute-security,resolute-security 20.2.0-0ubuntu2.1 all
+libcephfs-jni/resolute-security 20.2.0-0ubuntu2.1 amd64
+libcephfs2/resolute-security 20.2.0-0ubuntu2.1 amd64
 libcereal-dev/resolute 1.3.2+dfsg-6 amd64
 libcereal-doc/resolute,resolute 1.3.2+dfsg-6 all
 libceres-dev/resolute 2.2.0+dfsg-4.1ubuntu3 amd64
@@ -43211,11 +43211,11 @@ libradare2-common/resolute,resolute 6.0.7+ds-1 all
 libradare2-dev/resolute 6.0.7+ds-1 amd64
 libradcli-dev/resolute 1.2.11-1build4 amd64
 libradcli4/resolute 1.2.11-1build4 amd64
-librados-dev/resolute 20.2.0-0ubuntu2 amd64
-librados2/resolute,now 20.2.0-0ubuntu2 amd64 [installed,automatic]
-libradospp-dev/resolute 20.2.0-0ubuntu2 amd64
-libradosstriper-dev/resolute 20.2.0-0ubuntu2 amd64
-libradosstriper1/resolute 20.2.0-0ubuntu2 amd64
+librados-dev/resolute-security 20.2.0-0ubuntu2.1 amd64
+librados2/resolute-security 20.2.0-0ubuntu2.1 amd64 [upgradable from: 20.2.0-0ubuntu2]
+libradospp-dev/resolute-security 20.2.0-0ubuntu2.1 amd64
+libradosstriper-dev/resolute-security 20.2.0-0ubuntu2.1 amd64
+libradosstriper1/resolute-security 20.2.0-0ubuntu2.1 amd64
 libradsec-dev/resolute 0.0.5-5.1build3 amd64
 libradsec0t64/resolute 0.0.5-5.1build3 amd64
 libraft-dev/resolute 0.22.1-1build1 amd64
@@ -43273,8 +43273,8 @@ libraw23t64/resolute-updates,resolute-security,now 0.21.5b-1ubuntu1.1 amd64 [ins
 libraw23t64/resolute-updates,resolute-security 0.21.5b-1ubuntu1.1 i386
 libraynes-fs-clojure/resolute,resolute 1.5.2-1build2 all
 librbac-client-clojure/resolute,resolute 1.1.5-3build2 all
-librbd-dev/resolute 20.2.0-0ubuntu2 amd64
-librbd1/resolute,now 20.2.0-0ubuntu2 amd64 [installed,automatic]
+librbd-dev/resolute-security 20.2.0-0ubuntu2.1 amd64
+librbd1/resolute-security 20.2.0-0ubuntu2.1 amd64 [upgradable from: 20.2.0-0ubuntu2]
 librbio4/resolute 1:7.12.2+dfsg-1ubuntu1 amd64
 librbl-dev/resolute 2.11.0~beta2-9.2build1 amd64
 librbl1/resolute 2.11.0~beta2-9.2build1 amd64
@@ -43733,8 +43733,8 @@ librg-reprof-bundle-perl/resolute,resolute 1.0.1-9build1 all
 librg-utils-perl/resolute,resolute 1.0.43-9 all
 librgpio-dev/resolute 0.2.0.0-0ubuntu6 amd64
 librgpio1/resolute 0.2.0.0-0ubuntu6 amd64
-librgw-dev/resolute 20.2.0-0ubuntu2 amd64
-librgw2/resolute 20.2.0-0ubuntu2 amd64
+librgw-dev/resolute-security 20.2.0-0ubuntu2.1 amd64
+librgw2/resolute-security 20.2.0-0ubuntu2.1 amd64
 librgxg-dev/resolute 0.1.2-8 amd64
 librgxg0/resolute 0.1.2-8 amd64
 librhash-dev/resolute 1.4.6-1.1 amd64
@@ -48924,8 +48924,8 @@ libsqlite3-ext-csv/resolute-updates,resolute-security 3.46.1-9ubuntu0.3 i386
 libsqlite3-ext-icu/resolute-updates,resolute-security 3.46.1-9ubuntu0.3 amd64
 libsqlite3-ext-icu/resolute-updates,resolute-security 3.46.1-9ubuntu0.3 i386
 libsqlite3-mod-blobtoxy/resolute 0.99991-5 amd64
-libsqlite3-mod-ceph-dev/resolute 20.2.0-0ubuntu2 amd64
-libsqlite3-mod-ceph/resolute 20.2.0-0ubuntu2 amd64
+libsqlite3-mod-ceph-dev/resolute-security 20.2.0-0ubuntu2.1 amd64
+libsqlite3-mod-ceph/resolute-security 20.2.0-0ubuntu2.1 amd64
 libsqlite3-mod-csvtable/resolute 0.99991-5 amd64
 libsqlite3-mod-impexp/resolute 0.99991-5 amd64
 libsqlite3-mod-rasterlite2/resolute 1.1.0~beta1-4build2 amd64
@@ -64700,15 +64700,15 @@ overlay-scrollbar-gtk2/resolute 0.2.17.1+16.04.20151117-0ubuntu5 amd64
 overlay-scrollbar/resolute,resolute 0.2.17.1+16.04.20151117-0ubuntu5 all
 overlayroot/resolute,resolute 0.58ubuntu all
 ovmf-amdsev-hwe/resolute-updates,resolute-updates 2025.11-3ubuntu8.2 all
-ovmf-amdsev/resolute-updates,resolute-updates,now 2025.11-3ubuntu7.2 all [installed,automatic]
+ovmf-amdsev/resolute-security,resolute-security 2025.11-3ubuntu7.3 all [upgradable from: 2025.11-3ubuntu7.2]
 ovmf-generic-hwe/resolute-updates,resolute-updates 2025.11-3ubuntu8.2 all
-ovmf-generic/resolute-updates,resolute-updates,now 2025.11-3ubuntu7.2 all [installed,automatic]
+ovmf-generic/resolute-security,resolute-security 2025.11-3ubuntu7.3 all [upgradable from: 2025.11-3ubuntu7.2]
 ovmf-hwe/resolute-updates,resolute-updates 2025.11-3ubuntu8.2 all
 ovmf-inteltdx-hwe/resolute-updates,resolute-updates 2025.11-3ubuntu8.2 all
-ovmf-inteltdx/resolute-updates,resolute-updates,now 2025.11-3ubuntu7.2 all [installed,automatic]
+ovmf-inteltdx/resolute-security,resolute-security 2025.11-3ubuntu7.3 all [upgradable from: 2025.11-3ubuntu7.2]
 ovmf-legacy-hwe/resolute-updates,resolute-updates 2025.11-3ubuntu8.2 all
-ovmf-legacy/resolute-updates,resolute-updates 2025.11-3ubuntu7.2 all
-ovmf/resolute-updates,resolute-updates,now 2025.11-3ubuntu7.2 all [installed,automatic]
+ovmf-legacy/resolute-security,resolute-security 2025.11-3ubuntu7.3 all
+ovmf/resolute-security,resolute-security 2025.11-3ubuntu7.3 all [upgradable from: 2025.11-3ubuntu7.2]
 ovn-bgp-agent/resolute,resolute 6.0.0-0ubuntu1 all
 ovn-central/resolute 26.03.0-2 amd64
 ovn-common/resolute 26.03.0-2 amd64
@@ -67029,7 +67029,7 @@ proton-mail/now 1.0.0 amd64 [installed,local]
 proton-vpn-cli/unknown,now 1.0.5 all [installed,automatic]
 proton-vpn-daemon/unknown,now 0.13.8 all [installed,automatic]
 proton-vpn-gnome-desktop/unknown,now 0.11.0 all [installed]
-proton-vpn-gtk-app/unknown,now 4.18.5 all [installed,automatic]
+proton-vpn-gtk-app/unknown 4.18.6 all [upgradable from: 4.18.5]
 protontricks/resolute,resolute 1.13.1+ds-1 all
 protonvpn-beta-release/unknown 1.0.8 all
 protonvpn-gui/unknown 1.12.0-1 all
@@ -69036,10 +69036,10 @@ python3-celery-progress/resolute,resolute 0.1.1-1.1build1 all
 python3-celery/resolute,resolute 5.6.2-3 all
 python3-censys/resolute,resolute 2.2.19-1 all
 python3-cepces/resolute,resolute 0.3.7-0ubuntu2 all
-python3-ceph-argparse/resolute 20.2.0-0ubuntu2 amd64
-python3-ceph-common/resolute,resolute 20.2.0-0ubuntu2 all
-python3-ceph/resolute,resolute 20.2.0-0ubuntu2 all
-python3-cephfs/resolute 20.2.0-0ubuntu2 amd64
+python3-ceph-argparse/resolute-security 20.2.0-0ubuntu2.1 amd64
+python3-ceph-common/resolute-security,resolute-security 20.2.0-0ubuntu2.1 all
+python3-ceph/resolute-security,resolute-security 20.2.0-0ubuntu2.1 all
+python3-cephfs/resolute-security 20.2.0-0ubuntu2.1 amd64
 python3-cerberus/resolute,resolute 1.3.7-1 all
 python3-cerealizer/resolute,resolute 0.8.4-2build1 all
 python3-certbot-apache/resolute,resolute 4.0.0-3 all
@@ -71812,8 +71812,8 @@ python3-proton-client/unknown 0.7.1-2 all
 python3-proton-core/unknown 0.7.4 all [upgradable from: 0.7.0-1]
 python3-proton-keyring-linux-secretservice/unknown 0.1.0 all
 python3-proton-keyring-linux/unknown,now 0.2.3 all [installed,automatic]
-python3-proton-vpn-api-core-dbgsym/unknown 5.8.3 amd64
-python3-proton-vpn-api-core/unknown,now 5.8.3 amd64 [installed,automatic]
+python3-proton-vpn-api-core-dbgsym/unknown 5.8.7 amd64
+python3-proton-vpn-api-core/unknown 5.8.7 amd64 [upgradable from: 5.8.3]
 python3-proton-vpn-connection/unknown 0.14.4 all
 python3-proton-vpn-gtk-app/resolute,resolute 4.15.2-1 all
 python3-proton-vpn-killswitch-network-manager-wireguard/unknown 0.2.1 all
@@ -72658,7 +72658,7 @@ python3-radio-beam/resolute,resolute 0.3.9-2 all
 python3-radios/resolute,resolute 0.3.2-1 all
 python3-radiotherm/resolute,resolute 2.1.0-3build1 all
 python3-radix/resolute 0.10.0-5build4 amd64
-python3-rados/resolute 20.2.0-0ubuntu2 amd64
+python3-rados/resolute-security 20.2.0-0ubuntu2.1 amd64
 python3-railroad-diagrams/resolute,resolute 3.0.1-1 all
 python3-rally-openstack/resolute,resolute 3.0.0-9 all
 python3-rally/resolute,resolute 5.0.0-6 all
@@ -72671,7 +72671,7 @@ python3-raritan-json-rpc/resolute,resolute 4.3.11+ds-1 all
 python3-rasterio/resolute 1.5.0-1build1 amd64
 python3-ratelimit/resolute,resolute 2.2.1-2 all
 python3-ratelimitqueue/resolute,resolute 0.2.2-1.1 all
-python3-rbd/resolute 20.2.0-0ubuntu2 amd64
+python3-rbd/resolute-security 20.2.0-0ubuntu2.1 amd64
 python3-rcon/resolute,resolute 2.4.9-1 all
 python3-rcssmin/resolute 1:1.1.2-5build1 amd64
 python3-rdata/resolute,resolute 0.11.2-1 all
@@ -72764,7 +72764,7 @@ python3-rfc3987/resolute,resolute 1.3.8-3 all
 python3-rfc6555/resolute,resolute 0.0~git20190913.1a181b4-3build1 all
 python3-rfc8785/resolute,resolute 0.1.4-2 all
 python3-rgpio/resolute,resolute 0.2.0.0-0ubuntu6 all
-python3-rgw/resolute 20.2.0-0ubuntu2 amd64
+python3-rgw/resolute-security 20.2.0-0ubuntu2.1 amd64
 python3-rich-argparse/resolute,resolute 1.6.0-2 all
 python3-rich-click/resolute,resolute 1.6.0-2 all
 python3-rich-rst/resolute,resolute 1.3.1+dfsg-3 all
@@ -74148,11 +74148,11 @@ qemu-block-extra/resolute-updates,now 1:10.2.1+ds-1ubuntu3.2 amd64 [installed,au
 qemu-block-supplemental-hwe/resolute-updates 1:10.2.1+ds-1ubuntu4.3 amd64
 qemu-block-supplemental/resolute-updates 1:10.2.1+ds-1ubuntu3.2 amd64
 qemu-efi-aarch64-hwe/resolute-updates,resolute-updates 2025.11-3ubuntu8.2 all
-qemu-efi-aarch64/resolute-updates,resolute-updates 2025.11-3ubuntu7.2 all
+qemu-efi-aarch64/resolute-security,resolute-security 2025.11-3ubuntu7.3 all
 qemu-efi-loongarch64-hwe/resolute-updates,resolute-updates 2025.11-3ubuntu8.2 all
-qemu-efi-loongarch64/resolute-updates,resolute-updates 2025.11-3ubuntu7.2 all
+qemu-efi-loongarch64/resolute-security,resolute-security 2025.11-3ubuntu7.3 all
 qemu-efi-riscv64-hwe/resolute-updates,resolute-updates 2025.11-3ubuntu8.2 all
-qemu-efi-riscv64/resolute-updates,resolute-updates 2025.11-3ubuntu7.2 all
+qemu-efi-riscv64/resolute-security,resolute-security 2025.11-3ubuntu7.3 all
 qemu-guest-agent-hwe/resolute-updates 1:10.2.1+ds-1ubuntu4.3 amd64
 qemu-guest-agent/resolute-updates 1:10.2.1+ds-1ubuntu3.2 amd64
 qemu-system-arm-hwe/resolute-updates 1:10.2.1+ds-1ubuntu4.3 amd64
@@ -76485,8 +76485,8 @@ radioclk/resolute 1.0.pristine-4build1 amd64
 radium-compressor/resolute 0.5.1+git20190909-1build4 amd64
 radlib-dev/resolute 2.12.0-9 amd64
 radon/resolute,resolute 6.0.1+ds1-4build1 all
-rados-objclass-dev/resolute 20.2.0-0ubuntu2 amd64
-radosgw/resolute 20.2.0-0ubuntu2 amd64
+rados-objclass-dev/resolute-security 20.2.0-0ubuntu2.1 amd64
+radosgw/resolute-security 20.2.0-0ubuntu2.1 amd64
 radsecproxy/resolute 1.11.2-1build1 amd64
 radvd/resolute 1:2.20-1build1 amd64
 radvdump/resolute 1:2.20-1build1 amd64
@@ -76584,9 +76584,9 @@ ray/resolute 2.3.1-9 amd64
 raysession/resolute,resolute 0.17.4-0ubuntu1 all
 razercfg/resolute 0.43-6 amd64
 razor/resolute 1:2.85-11build1 amd64
-rbd-fuse/resolute 20.2.0-0ubuntu2 amd64
-rbd-mirror/resolute 20.2.0-0ubuntu2 amd64
-rbd-nbd/resolute 20.2.0-0ubuntu2 amd64
+rbd-fuse/resolute-security 20.2.0-0ubuntu2.1 amd64
+rbd-mirror/resolute-security 20.2.0-0ubuntu2.1 amd64
+rbd-nbd/resolute-security 20.2.0-0ubuntu2.1 amd64
 rbdoom3bfg/resolute 1.4.0+dfsg-8ubuntu2 amd64
 rbenv/resolute,resolute 1.3.2-1 all
 rblcheck/resolute 20231210-1build3 amd64
