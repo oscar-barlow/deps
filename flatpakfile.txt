@@ -15,3 +15,4 @@ com.valvesoftware.SteamLink
 dev.zed.Zed
 com.discordapp.Discord
 com.rtosta.zapzap
+io.github.diegopvlk.Tomatillo
