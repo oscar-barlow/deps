@@ -59,12 +59,9 @@ pipx
 ca-certificates
 gnupg
 lsb-release
-docker-ce
-docker-ce-cli
-containerd.io
-docker-compose-plugin
 
 # Desktop
+stow
 kdeconnect
 steam
 zsh
@@ -87,4 +84,3 @@ gir1.2-appindicator3-0.1
 # Terraform
 gnupg
 software-properties-common
-terraform
