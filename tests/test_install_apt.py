@@ -1,10 +1,12 @@
 import hashlib
+import io
 import json
 import os
 from pathlib import Path
 import shutil
 import subprocess
 import sys
+import tarfile
 import tempfile
 import unittest
 
@@ -65,7 +67,7 @@ class BootstrapTests(unittest.TestCase):
         shutil.copytree(MAKEFILE.parent / "sources", self.root / "sources")
         shutil.copytree(MAKEFILE.parent / "config", self.root / "config")
         shutil.copytree(MAKEFILE.parent / "stow", self.root / "stow")
-        for tool in ("install", "mktemp", "rm", "sed", "cmp", "cp", "grep", "git", "awk", "cat", "date", "sha256sum", "mv", "chmod"):
+        for tool in ("install", "mktemp", "rm", "sed", "cmp", "cp", "grep", "git", "awk", "cat", "date", "sha256sum", "mv", "chmod", "tar", "gzip", "ln"):
             (self.bin / tool).symlink_to(shutil.which(tool))
         (self.bin / "python3").symlink_to(sys.executable)
         if STOW:
@@ -368,6 +370,62 @@ class BootstrapTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         staged = json.loads((self.root / "staged-packages.jsonl").read_text())
         self.assertFalse(Path(staged["path"]).parent.exists())
+
+    def prepare_ai_archives(self, missing_executable=False):
+        self.write_tool("extrepo")
+        self.write_tool("curl")
+        cache = self.root / ".cache/deps/ai-tools"
+        cache.mkdir(parents=True)
+        entries = []
+        for name, executable in [("codex", "codex-linux"), ("pi", "pi/pi")]:
+            archive = cache / f"{name}.tar.gz"
+            with tarfile.open(archive, "w:gz") as tar:
+                files = {executable: b"#!/bin/sh\nprintf 'test version\\n'\n", "resources/readme.txt": b"bundled resource"}
+                if missing_executable:
+                    del files[executable]
+                for path, content in files.items():
+                    info = tarfile.TarInfo(path)
+                    info.size = len(content)
+                    info.mode = 0o755 if path == executable else 0o644
+                    tar.addfile(info, io.BytesIO(content))
+            checksum = hashlib.sha256(archive.read_bytes()).hexdigest()
+            entries.append(f"{name} 1.0 https://example.invalid/{archive.name} {checksum} {executable}\n")
+        (self.root / "ai-tools.txt").write_text("# native tools\n" + "".join(entries))
+
+    def test_ai_install_preserves_resources_settings_and_existing_launchers(self):
+        self.prepare_ai_archives()
+        launcher = self.root / ".local/bin/codex"
+        launcher.parent.mkdir(parents=True)
+        launcher.write_text("existing launcher\n")
+        settings = self.root / ".codex/config.toml"
+        settings.parent.mkdir()
+        settings.write_text("existing private configuration\n")
+        for _ in range(2):
+            result = self.run_bootstrap("ai-install")
+            self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(launcher.resolve(), self.root / ".local/share/deps/ai-tools/codex/1.0/codex-linux")
+        self.assertEqual((launcher.parent / "pi").resolve(), self.root / ".local/share/deps/ai-tools/pi/1.0/pi/pi")
+        self.assertEqual(launcher.with_name("codex.~1~").read_text(), "existing launcher\n")
+        self.assertEqual(len(list(launcher.parent.glob("codex.~*~"))), 1)
+        self.assertEqual((self.root / ".local/share/deps/ai-tools/pi/1.0/resources/readme.txt").read_text(), "bundled resource")
+        self.assertEqual(settings.read_text(), "existing private configuration\n")
+        self.assertFalse(any(cmd[0] == "curl" for cmd in self.commands()))
+        self.assertIn(["apt-get", "install", "--yes", "curl", "ca-certificates", "tar", "claude-code"], self.commands())
+
+    def test_ai_install_rejects_corrupt_download_before_linking_tools(self):
+        self.prepare_ai_archives()
+        (self.root / ".cache/deps/ai-tools/codex.tar.gz").write_text("corrupt cache")
+        result = self.run_bootstrap("ai-install")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertFalse((self.root / ".local/bin/codex").exists())
+        self.assertFalse((self.root / ".local/share/deps/ai-tools/codex/1.0").exists())
+
+    def test_ai_install_rejects_archive_without_expected_executable(self):
+        self.prepare_ai_archives(missing_executable=True)
+        result = self.run_bootstrap("ai-install")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("Missing executable for codex", result.stderr)
+        self.assertFalse((self.root / ".local/share/deps/ai-tools/codex/1.0").exists())
 
     def test_nfs_replaces_only_the_share_and_preserves_boot_configuration(self):
         self.write_tool("extrepo")

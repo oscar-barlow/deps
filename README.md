@@ -11,7 +11,7 @@ change the NVIDIA driver, import SSH configuration or open applications.
 
 | Target | What it does |
 | --- | --- |
-| `make setup` | APT packages, Nix daemon, Neovim, Kitty, shell, Git signing, NFS, selected apps and audiobook applications. |
+| `make setup` | APT packages, Nix daemon, Neovim, Kitty, shell, Git signing, NFS, selected apps, audiobook applications and the three AI CLIs. |
 | `make install` | Configure external sources, refresh APT and install `aptfile.txt`; record the package inventory. |
 | `make repos` | Install public fallback keys/source files, ensure extrepo is installed, enable `apt-repos.txt` and refresh APT. |
 | `make dotfiles` | Use GNU Stow to link all five user configuration packages and include the Git settings; no package installation or service changes. |
@@ -23,6 +23,8 @@ change the NVIDIA driver, import SSH configuration or open applications.
 | `make nfs-install` | Back up fstab, replace only the `/srv/data` entry, and arrange a network automount. |
 | `make apps-install` | Native Brave and Signal; Obsidian from Flathub. |
 | `make books-install` | Calibre from Flathub; pinned, SHA256-checked Libation and OpenAudible publisher packages. |
+| `make ai-install` | Install Codex and pi publisher archives for the current user, plus Claude Code from its signed APT source. |
+| `make ai-check` | Show the executable paths and versions of Codex, pi and Claude Code; no login or model requests. |
 | `make steam-install` | Detect the installed NVIDIA graphics-library package and install its matching i386 package, Steam and recommended dependencies. |
 | `make check` | Tests using temporary files and mocked privileged commands; no system setup. |
 
@@ -59,6 +61,32 @@ installation is retained, so this target does not install a second Nix over
 an upstream installation. LSP executables referenced by Neovim (`deno`,
 `terraform-ls`, `bash-language-server`, `nil`) should be supplied by each
 project's flake. The same applies to language-based tools such as `audiblez`.
+
+AI tools are installed separately from language toolchains:
+
+```sh
+make ai-install
+# Open a fresh terminal if ~/.local/bin was not already on PATH.
+make ai-check
+```
+
+Codex and pi use Ubuntu amd64 native release archives pinned by version and
+SHA256 in `ai-tools.txt`. Downloads are cached, their complete distributions
+are kept under `~/.local/share/deps/ai-tools/NAME/VERSION`, and launchers are
+linked from `~/.local/bin`. Existing launchers receive numbered `.~N~` backups;
+reruns leave matching links alone. Keep bundled pi resources beside its binary.
+`BIN_HOME`, `DATA_HOME` and `CACHE_HOME` can override these destinations.
+Review the publisher release URL, version and GitHub release-asset SHA256
+together when updating the pins, then rerun `make ai-install`. Old releases
+are retained. `make ai-check` shows which executable your PATH actually selects.
+
+Claude Code uses Anthropic's signed stable APT repository and updates through
+APT. This target does not copy settings, credentials, sessions or MCP config,
+and requires no global npm installation. Start `codex`, `pi` and `claude` to
+sign in on the new laptop; use `/login` inside pi. MCP consolidation belongs
+in your separate repo. See the [official OpenAI documentation](https://developers.openai.com/codex/cli/),
+[pi's upstream docs](https://github.com/earendil-works/pi/tree/main/packages/coding-agent)
+and [Claude Code setup](https://code.claude.com/docs/en/setup).
 
 An already-active `nix-daemon.service` is retained without starting its socket
 again. This supports an existing daemon that owns its listening socket itself;
@@ -173,7 +201,7 @@ Proton VPN, Yarn and Brave entries use distribution-independent vendor suites.
 Docker/HashiCorp need Ubuntu-specific sources; their reviewed declarations and
 public keys live in `sources/`. Signal and 1Password use publisher-standard
 filenames/key paths there too. See `sources/README.md` for provenance.
-Before first adopting extrepo, retire overlapping vendor Proton/Yarn sources
+Before first adopting extrepo, retire overlapping vendor Proton/Yarn/Brave sources
 so APT does not see conflicting signing-key paths. A source disabled by an
 Ubuntu upgrade is restored by the appropriate target on the next run.
 

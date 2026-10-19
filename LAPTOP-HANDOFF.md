@@ -16,9 +16,52 @@ software/configuration targets in order; each can also be run individually.
 User configs are linked from `stow/` using GNU Stow; keep the checkout at a
 stable path. Existing config files and fstab are backed up. To apply only the
 config links after installing Stow yourself, run `make dotfiles`; this does
-not install applications or alter services. This branch
-has been tested with temporary directories and mocked privileged commands;
-the installation targets have not been run on either laptop during preparation.
+not install applications or alter services. Development tests use temporary
+directories and mocked privileged commands. The user has run setup on the new
+laptop and merged the Nix-daemon and APT staging fixes.
+
+The user reports Zsh, Oh My Zsh, Nix and direnv are all looking fine on the
+new laptop. SSH configuration was also handled separately. Focus the remaining
+checks on AI tool installation, Neovim, Kitty, GPU libraries and personal data.
+
+## Install the three AI tools
+
+```sh
+make ai-install
+make ai-check
+```
+
+Codex and pi use checksum-pinned native publisher archives; Claude Code uses
+its signed stable APT repository. No global Node/npm toolchain is required.
+Only the applications are installed. Their configurations, credentials,
+sessions and MCP setup are not selected for migration. MCP configuration will
+be rationalised in a separate repository.
+
+Open a new terminal if needed for `~/.local/bin`, then start each application
+and sign in. Pi offers `/login`. Start Codex from this repo and point the new
+session at this handoff; the old CLI conversation history is not copied.
+
+## Neovim and Kitty
+
+Open Neovim on a file in a project whose flake supplies its language server.
+Check the UI, `:DiffviewOpen` and `gd` after the server attaches. The two plugins
+are installed by `make nvim-install`; language tools remain project-specific.
+
+Kitty was already configured on the new laptop using its website instructions.
+Use these commands there to identify the active installation and config:
+
+```sh
+type -a kitty
+readlink -f "${XDG_CONFIG_HOME:-$HOME/.config}/kitty/kitty.conf"
+ls -l "${XDG_CONFIG_HOME:-$HOME/.config}/kitty"
+```
+
+Compare the saved `kitty.conf.deps-backup` (or numbered backup) with the active
+config. Keep the desired settings in `stow/kitty/kitty/kitty.conf`; editing
+the live Stow link edits that tracked file. It currently contains only font
+size 12 and remote-control socket settings. No new-laptop Kitty config has
+been inspected from the old laptop. Check for a website installation shadowing
+APT's `/usr/bin/kitty` before removing either installation.
 
 ## NVIDIA and Steam: finish here
 
@@ -53,14 +96,6 @@ vendor driver packaging. Kernel/driver replacement is outside this target.
 
 - Sign in to 1Password, enable its SSH agent/signing integration, and authenticate
   GitHub CLI. SSH configuration has already been migrated separately.
-- Start a new terminal after `shell-install`. Oh My Zsh includes the `z` plugin;
-  its history is optional. Project flakes supply language tools through direnv.
-- Nix was already installed on the new laptop, with its daemon reported active.
-  The bootstrap now preserves an active daemon rather than starting its socket
-  again. Rerun `nix-install` after pulling the fix.
-- Kitty was already configured on the new laptop using its website instructions.
-  Compare any saved pre-Stow config with the three tracked settings before
-  deciding what to keep; no new-laptop configuration has been inspected here.
 - Connect Obsidian Sync and enable both active and installed community plugin
   lists on this device. Run the vault checks from the README after syncing.
 - Transfer Brave data separately using your chosen pairing/transfer method.
@@ -70,10 +105,18 @@ vendor driver packaging. Kernel/driver replacement is outside this target.
   `libraries-plan` and `libraries-copy`; keep their databases closed during
   transfer. Settings can contain credentials and stay outside Git.
 
-AI-tool migration is limited to installing Codex, pi and Claude Code themselves.
-Their configuration is not selected for migration. MCP configuration will be
-rationalised in a separate repository; that work is outside this bootstrap.
-The CLI installation target is still to be added.
+Check NFS access on the home network with `id` and `ls /srv/data/`. This
+triggers the automount; confirm the intended read/write access before changing
+any ownership. For book transfers, close Calibre/Libation/OpenAudible, replace
+`old-laptop` with a reachable SSH name or IP, and run:
+
+```sh
+make libraries-plan LIBRARY_SOURCE=oscar@old-laptop:/home/oscar
+make libraries-copy LIBRARY_SOURCE=oscar@old-laptop:/home/oscar
+```
+
+After Obsidian sync completes, run the appropriate vault checks from README.md.
+Library files and app databases remain outside Git; browser transfer is manual.
 
 Deferred: VS Code/Cursor and whisper-talk
 are for later. `Documents/ProStudioMasters/YUNGBLUD` and the two small Meetily
