@@ -14,6 +14,7 @@ change the NVIDIA driver, import SSH configuration or open applications.
 | `make setup` | APT packages, Nix daemon, Neovim, Kitty, shell, Git signing, NFS, selected apps and audiobook applications. |
 | `make install` | Configure external sources, refresh APT and install `aptfile.txt`; record the package inventory. |
 | `make repos` | Install public fallback keys/source files, ensure extrepo is installed, enable `apt-repos.txt` and refresh APT. |
+| `make dotfiles` | Use GNU Stow to link all five user configuration packages and include the Git settings; no package installation or service changes. |
 | `make nix-install` | Install Ubuntu's `nix-bin`/`nix-setup-systemd` if Nix is absent, enable its daemon socket, install direnv and enable flakes in the user config. |
 | `make nvim-install` | Install Neovim, your `init.lua`, and the two plugins pinned in `config/nvim/plugins.txt`. |
 | `make kitty-install` | Install Kitty and the three active settings from your existing configuration. |
@@ -25,12 +26,32 @@ change the NVIDIA driver, import SSH configuration or open applications.
 | `make steam-install` | Detect the installed NVIDIA graphics-library package and install its matching i386 package, Steam and recommended dependencies. |
 | `make check` | Tests using temporary files and mocked privileged commands; no system setup. |
 
-User configuration is copied from `config/`. Existing differing files receive
-numbered `.deps-backup` backups; unchanged files are left alone. Git settings
-are included from `~/.config/git/deps.config`, preserving the existing global
-config and adding the include only once. Only the public SSH signing key is
-committed. Sign in to 1Password and enable its SSH agent on the new laptop.
-The existing migrated SSH configuration is left alone.
+User configuration lives in `stow/` and is linked into place using GNU Stow.
+`stow` is listed in `aptfile.txt`, or install it yourself before linking:
+
+```sh
+sudo apt install stow
+make dotfiles
+```
+
+The `nvim`, `kitty`, `nix` and `git` packages target `XDG_CONFIG_HOME` (default
+`~/.config`); `shell` targets your home directory. Individual installation
+targets link just their own package. Existing files, including copies from
+the earlier bootstrap, are moved to numbered `.deps-backup` backups before
+linking. Reruns preserve correct links. Existing symlinks for whole application
+directories are left for you to resolve rather than modifying another checkout.
+Stow uses `--no-folding` to link individual files, keeping generated data such
+as downloaded Neovim plugins outside this repo.
+
+Keep this checkout at a stable path: the live configs point into it. Edits
+through either path change the Git-tracked file, and pulling changes updates
+the active configuration. Auxiliary declarations, such as plugin pins and the
+NFS entry, remain in `config/`.
+
+Git settings are included from `~/.config/git/deps.config`, preserving the
+existing global config and adding the include only once. Only the public SSH
+signing key is committed. Sign in to 1Password and enable its SSH agent on the
+new laptop. The existing migrated SSH configuration is left alone.
 
 Nix remains a daemon plus flakes/direnv workflow. No global profiles, channels,
 old language-runtime directories or Nix store are migrated. An existing Nix

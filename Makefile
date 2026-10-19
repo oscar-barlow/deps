@@ -26,14 +26,33 @@ read_list() {
         entries+=("$$entry")
     done < "$$1"
 }
-copy_config() {
-    local source=$$1 target=$$2
-    install -d "$${target%/*}"
-    if [[ -e $$target || -L $$target ]]; then
-        cmp -s "$$source" "$$target" && return
-        cp -a --backup=numbered -- "$$target" "$$target.deps-backup"
+stow_config() {
+    local package=$$1 root=$$2 source target parent
+    command -v stow >/dev/null 2>&1 || { printf 'Install GNU Stow first: sudo apt install stow\n' >&2; return 1; }
+    install -d "$$root"
+    root="$$(cd "$$root" && pwd -P)"
+    shopt -s dotglob globstar nullglob
+    for source in "$(CURDIR)/stow/$$package"/**; do
+        [[ -f $$source || -L $$source ]] || continue
+        target="$$root/$${source#"$(CURDIR)/stow/$$package/"}"
+        parent=$${target%/*}
+        while [[ $$parent != "$$root" ]]; do
+            [[ ! -L $$parent ]] || { printf 'Config directory is already a symlink: %s\n' "$$parent" >&2; return 1; }
+            parent=$${parent%/*}
+        done
+        if [[ -L $$target && $$target -ef $$source ]]; then continue; fi
+        if [[ -e $$target || -L $$target ]]; then
+            [[ ! -d $$target || -L $$target ]] || { printf 'Expected a config file: %s\n' "$$target" >&2; return 1; }
+            mv -T --backup=numbered -- "$$target" "$$target.deps-backup"
+        fi
+    done
+    stow --dir="$(CURDIR)/stow" --target="$$root" --no-folding --restow "$$package"
+}
+include_git_config() {
+    if ! git config --global --get-all include.path | grep -Fxq "$(CONFIG_HOME)/git/deps.config"; then
+        if [[ -e "$(HOME)/.gitconfig" ]]; then cp -a --backup=numbered "$(HOME)/.gitconfig" "$(HOME)/.gitconfig.deps-backup"; fi
+        git config --global --add include.path "$(CONFIG_HOME)/git/deps.config"
     fi
-    install -m 0644 -- "$$source" "$$target"
 }
 checkout() {
     local target=$$1 url=$$2 revision=$$3
@@ -51,6 +70,16 @@ endef
 
 .PHONY: setup
 setup: install nix-install nvim-install kitty-install shell-install git-install nfs-install apps-install books-install
+
+.PHONY: dotfiles
+dotfiles:
+	@$(helpers)
+	stow_config nvim "$(CONFIG_HOME)"
+	stow_config kitty "$(CONFIG_HOME)"
+	stow_config nix "$(CONFIG_HOME)"
+	stow_config git "$(CONFIG_HOME)"
+	include_git_config
+	stow_config shell "$(HOME)"
 
 .PHONY: preflight
 preflight:
@@ -110,13 +139,13 @@ nix-install: repos
 	fi
 	sudo apt-get install --yes direnv
 	sudo systemctl enable --now nix-daemon.socket
-	copy_config config/nix/nix.conf "$(CONFIG_HOME)/nix/nix.conf"
+	stow_config nix "$(CONFIG_HOME)"
 
 .PHONY: nvim-install
 nvim-install: repos
 	@$(helpers)
 	sudo apt-get install --yes neovim git
-	copy_config config/nvim/init.lua "$(CONFIG_HOME)/nvim/init.lua"
+	stow_config nvim "$(CONFIG_HOME)"
 	while read -r name url revision; do
 	    checkout "$(CONFIG_HOME)/nvim/pack/plugins/start/$$name" "$$url" "$$revision"
 	done < config/nvim/plugins.txt
@@ -125,14 +154,14 @@ nvim-install: repos
 kitty-install: repos
 	@$(helpers)
 	sudo apt-get install --yes kitty
-	copy_config config/kitty/kitty.conf "$(CONFIG_HOME)/kitty/kitty.conf"
+	stow_config kitty "$(CONFIG_HOME)"
 
 .PHONY: shell-install
 shell-install: repos
 	@$(helpers)
 	sudo apt-get install --yes zsh git direnv zsh-syntax-highlighting wl-clipboard xclip
 	checkout "$(DATA_HOME)/deps/oh-my-zsh" https://github.com/ohmyzsh/ohmyzsh.git 50550c70eaa36e79fdf380bdc4ddad4a1ad581a0
-	copy_config config/shell/zshrc "$(HOME)/.zshrc"
+	stow_config shell "$(HOME)"
 	chsh -s /usr/bin/zsh
 	printf 'Start a new terminal to load Oh My Zsh, z and direnv.\n'
 
@@ -140,11 +169,8 @@ shell-install: repos
 git-install: repos
 	@$(helpers)
 	sudo apt-get install --yes git gh 1password 1password-cli
-	copy_config config/git/config "$(CONFIG_HOME)/git/deps.config"
-	if ! git config --global --get-all include.path | grep -Fxq "$(CONFIG_HOME)/git/deps.config"; then
-	    if [[ -e "$(HOME)/.gitconfig" ]]; then cp -a --backup=numbered "$(HOME)/.gitconfig" "$(HOME)/.gitconfig.deps-backup"; fi
-	    git config --global --add include.path "$(CONFIG_HOME)/git/deps.config"
-	fi
+	stow_config git "$(CONFIG_HOME)"
+	include_git_config
 	printf 'Sign in to 1Password and enable its SSH agent; SSH configuration is left as already migrated.\n'
 
 .PHONY: nfs-install

@@ -10,6 +10,7 @@ import unittest
 
 MAKEFILE = Path(__file__).resolve().parents[1] / "Makefile"
 MAKE = shutil.which("make")
+STOW = shutil.which("stow")
 MOCK = """#!{python}
 import json
 import os
@@ -52,9 +53,12 @@ class BootstrapTests(unittest.TestCase):
         shutil.copyfile(MAKEFILE, self.root / "Makefile")
         shutil.copytree(MAKEFILE.parent / "sources", self.root / "sources")
         shutil.copytree(MAKEFILE.parent / "config", self.root / "config")
+        shutil.copytree(MAKEFILE.parent / "stow", self.root / "stow")
         for tool in ("install", "mktemp", "rm", "sed", "cmp", "cp", "grep", "git", "awk", "cat", "date", "sha256sum", "mv"):
             (self.bin / tool).symlink_to(shutil.which(tool))
         (self.bin / "python3").symlink_to(sys.executable)
+        if STOW:
+            (self.bin / "stow").symlink_to(STOW)
         (self.root / "apt-repos.txt").write_text("protonvpn\nyarnpkg\n")
         (self.root / "aptfile.txt").write_text("git\ncurl\n")
         (self.bin / "sudo").write_text('#!/bin/bash\nif [[ $1 == install && ${@: -1} == /srv/data ]]; then exit 0; fi\nexec "$@"\n')
@@ -69,6 +73,9 @@ class BootstrapTests(unittest.TestCase):
             "PATH": str(self.bin),
             "BOOTSTRAP_TEST_LOG": str(self.log),
             "HOME": str(self.root),
+            "XDG_CONFIG_HOME": str(self.root / ".config"),
+            "XDG_DATA_HOME": str(self.root / ".local/share"),
+            "XDG_CACHE_HOME": str(self.root / ".cache"),
         }
         self.env.pop("FAIL_REPOSITORY", None)
         self.env.pop("FAIL_APT_COMMAND", None)
@@ -195,6 +202,7 @@ class BootstrapTests(unittest.TestCase):
         self.assertTrue((self.root / "vendor-keys/signal-desktop-keyring.gpg").is_file())
         self.assertEqual(self.commands(), [])
 
+    @unittest.skipUnless(STOW, "Install GNU Stow to test config links")
     def test_config_install_backs_up_existing_file_and_is_repeatable(self):
         self.write_tool("extrepo")
         target = self.root / ".config/kitty/kitty.conf"
@@ -203,10 +211,12 @@ class BootstrapTests(unittest.TestCase):
         for _ in range(2):
             result = self.run_bootstrap("kitty-install")
             self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertEqual(target.read_text(), (self.root / "config/kitty/kitty.conf").read_text())
+        self.assertTrue(target.is_symlink())
+        self.assertEqual(target.resolve(), self.root / "stow/kitty/kitty/kitty.conf")
         self.assertEqual(target.with_name("kitty.conf.deps-backup").read_text(), "font_size 10\n")
         self.assertEqual(len(list(target.parent.glob("*.deps-backup*"))), 1)
 
+    @unittest.skipUnless(STOW, "Install GNU Stow to test config links")
     def test_git_include_preserves_existing_config_and_is_not_duplicated(self):
         self.write_tool("extrepo")
         gitconfig = self.root / ".gitconfig"
@@ -217,6 +227,59 @@ class BootstrapTests(unittest.TestCase):
         self.assertIn("st = status", gitconfig.read_text())
         self.assertEqual(gitconfig.read_text().count("deps.config"), 1)
         self.assertEqual((self.root / ".gitconfig.deps-backup").read_text(), "[alias]\n\tst = status\n")
+
+    @unittest.skipUnless(STOW, "Install GNU Stow to test config links")
+    def test_dotfiles_links_all_configs_without_system_commands_or_folded_directories(self):
+        result = self.run_bootstrap("dotfiles")
+        self.assertEqual(result.returncode, 0, result.stderr)
+        paths = {
+            ".config/nvim/init.lua": "nvim/nvim/init.lua",
+            ".config/kitty/kitty.conf": "kitty/kitty/kitty.conf",
+            ".config/nix/nix.conf": "nix/nix/nix.conf",
+            ".config/git/deps.config": "git/git/deps.config",
+            ".zshrc": "shell/.zshrc",
+        }
+        for target, source in paths.items():
+            link = self.root / target
+            self.assertTrue(link.is_symlink(), target)
+            self.assertEqual(link.resolve(), self.root / "stow" / source)
+            self.assertFalse(link.parent.is_symlink())
+        self.assertIn("deps.config", (self.root / ".gitconfig").read_text())
+        generated = self.root / ".config/nvim/pack/plugins/start/generated"
+        generated.mkdir(parents=True)
+        result = self.run_bootstrap("dotfiles")
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertTrue(generated.is_dir())
+        self.assertFalse((self.root / "stow/nvim/nvim/pack").exists())
+        self.assertEqual(self.commands(), [])
+
+    @unittest.skipUnless(STOW, "Install GNU Stow to test config links")
+    def test_dotfiles_respects_custom_config_home(self):
+        config_home = self.root / "custom-config"
+        result = self.run_bootstrap("dotfiles", f"CONFIG_HOME={config_home}")
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual((config_home / "kitty/kitty.conf").resolve(), self.root / "stow/kitty/kitty/kitty.conf")
+        self.assertTrue((self.root / ".zshrc").is_symlink())
+
+    @unittest.skipUnless(STOW, "Install GNU Stow to test config links")
+    def test_dotfiles_refuses_to_modify_another_config_checkout(self):
+        other = self.root / "other-checkout"
+        other.mkdir()
+        (other / "init.lua").write_text("existing config\n")
+        (self.root / ".config").mkdir()
+        (self.root / ".config/nvim").symlink_to(other, target_is_directory=True)
+        result = self.run_bootstrap("dotfiles")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("Config directory is already a symlink", result.stderr)
+        self.assertEqual((other / "init.lua").read_text(), "existing config\n")
+        self.assertFalse((other / "init.lua.deps-backup").exists())
+
+    def test_missing_stow_fails_without_system_commands(self):
+        (self.bin / "stow").unlink(missing_ok=True)
+        result = self.run_bootstrap("dotfiles")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("sudo apt install stow", result.stderr)
+        self.assertEqual(self.commands(), [])
 
     def test_nfs_replaces_only_the_share_and_preserves_boot_configuration(self):
         self.write_tool("extrepo")

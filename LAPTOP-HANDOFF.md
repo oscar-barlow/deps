@@ -11,7 +11,10 @@ make check
 
 Read the target table in [README.md](README.md). `make setup` runs the selected
 software/configuration targets in order; each can also be run individually.
-Existing differing user configuration and fstab are backed up. This branch
+User configs are linked from `stow/` using GNU Stow; keep the checkout at a
+stable path. Existing config files and fstab are backed up. To apply only the
+config links after installing Stow yourself, run `make dotfiles`; this does
+not install applications or alter services. This branch
 has been tested with temporary directories and mocked privileged commands;
 the installation targets have not been run on either laptop during preparation.
 

@@ -32,6 +32,7 @@ libxdo-dev
 neovim
 kitty
 direnv
+stow
 zsh-syntax-highlighting
 wl-clipboard
 brave-browser
