@@ -206,15 +206,20 @@ books-install: repos
 	sudo flatpak remote-add --system --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 	sudo flatpak install --system --noninteractive -y flathub com.calibre_ebook.calibre
 	install -d "$(CACHE_HOME)/deps/debs"
+	apt_temp=$$(mktemp -d /tmp/deps-debs.XXXXXXXX)
+	trap 'rm -rf -- "$$apt_temp"' EXIT
+	chmod 0755 "$$apt_temp"
 	while read -r name url checksum; do
 	    [[ -z $$name || $$name == \#* ]] && continue
 	    file="$(CACHE_HOME)/deps/debs/$${url##*/}"
-	    if ! printf '%s  %s\n' "$$checksum" "$$file" | sha256sum --check --status; then
+	    if [[ ! -f $$file ]] || ! printf '%s  %s\n' "$$checksum" "$$file" | sha256sum --check --status; then
 	        curl --fail --location --silent --show-error "$$url" --output "$$file.part"
 	        printf '%s  %s\n' "$$checksum" "$$file.part" | sha256sum --check --status
 	        mv "$$file.part" "$$file"
 	    fi
-	    sudo apt-get install --yes -- "$$file"
+	    staged="$$apt_temp/$${file##*/}"
+	    install -m 0644 -- "$$file" "$$staged"
+	    sudo apt-get install --yes -- "$$staged"
 	done < book-debs.txt
 
 .PHONY: obsidian-check
