@@ -1,3 +1,4 @@
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -27,6 +28,14 @@ if name == 'dpkg-query':
     sys.exit(0)
 with open(os.environ['BOOTSTRAP_TEST_LOG'], 'a') as log:
     log.write(json.dumps([name, *sys.argv[1:]]) + '\\n')
+if name == 'curl':
+    Path(sys.argv[sys.argv.index('--output') + 1]).write_text(os.environ.get('BOOK_DOWNLOAD_CONTENT', 'test package'))
+if name == 'apt-get' and sys.argv[1] == 'install' and sys.argv[-1].endswith('.deb'):
+    package = Path(sys.argv[-1])
+    with open(os.environ['STAGED_PACKAGE_LOG'], 'a') as log:
+        log.write(json.dumps(dict(path=str(package), contents=package.read_text(), file_mode=package.stat().st_mode & 0o777, directory_mode=package.parent.stat().st_mode & 0o777)) + '\\n')
+    if os.environ.get('FAIL_LOCAL_PACKAGE') == '1':
+        sys.exit(100)
 if name == 'apt-get' and sys.argv[1:] == ['install', '--yes', 'extrepo']:
     shutil.copyfile(__file__, Path(__file__).with_name('extrepo'))
     Path(__file__).with_name('extrepo').chmod(0o755)
@@ -56,7 +65,7 @@ class BootstrapTests(unittest.TestCase):
         shutil.copytree(MAKEFILE.parent / "sources", self.root / "sources")
         shutil.copytree(MAKEFILE.parent / "config", self.root / "config")
         shutil.copytree(MAKEFILE.parent / "stow", self.root / "stow")
-        for tool in ("install", "mktemp", "rm", "sed", "cmp", "cp", "grep", "git", "awk", "cat", "date", "sha256sum", "mv"):
+        for tool in ("install", "mktemp", "rm", "sed", "cmp", "cp", "grep", "git", "awk", "cat", "date", "sha256sum", "mv", "chmod"):
             (self.bin / tool).symlink_to(shutil.which(tool))
         (self.bin / "python3").symlink_to(sys.executable)
         if STOW:
@@ -78,10 +87,13 @@ class BootstrapTests(unittest.TestCase):
             "XDG_CONFIG_HOME": str(self.root / ".config"),
             "XDG_DATA_HOME": str(self.root / ".local/share"),
             "XDG_CACHE_HOME": str(self.root / ".cache"),
+            "STAGED_PACKAGE_LOG": str(self.root / "staged-packages.jsonl"),
         }
         self.env.pop("FAIL_REPOSITORY", None)
         self.env.pop("FAIL_APT_COMMAND", None)
         self.env.pop("NIX_DAEMON_ACTIVE", None)
+        self.env.pop("FAIL_LOCAL_PACKAGE", None)
+        self.env.pop("BOOK_DOWNLOAD_CONTENT", None)
         for name in ("MAKEFLAGS", "MFLAGS", "MAKELEVEL"):
             self.env.pop(name, None)
 
@@ -312,6 +324,50 @@ class BootstrapTests(unittest.TestCase):
             ["systemctl", "is-active", "--quiet", "nix-daemon.service"],
             ["systemctl", "enable", "--now", "nix-daemon.socket"],
         ])
+
+    def prepare_book_package(self, cached=True):
+        self.write_tool("extrepo")
+        self.write_tool("flatpak")
+        self.write_tool("curl")
+        self.root.chmod(0o700)
+        package = self.root / ".cache/deps/debs/OpenAudible.deb"
+        package.parent.mkdir(parents=True)
+        checksum = hashlib.sha256(b"test package").hexdigest()
+        (self.root / "book-debs.txt").write_text(f"openaudible https://example.invalid/OpenAudible.deb {checksum}\n")
+        if cached:
+            package.write_text("test package")
+            package.chmod(0o600)
+        return package
+
+    def test_books_stages_verified_cache_for_apt_and_cleans_up(self):
+        cached = self.prepare_book_package()
+        result = self.run_bootstrap("books-install")
+        self.assertEqual(result.returncode, 0, result.stderr)
+        staged = json.loads((self.root / "staged-packages.jsonl").read_text())
+        path = Path(staged["path"])
+        self.assertEqual(path.parent.parent, Path("/tmp"))
+        self.assertEqual(staged["contents"], "test package")
+        self.assertEqual(staged["file_mode"], 0o644)
+        self.assertEqual(staged["directory_mode"], 0o755)
+        self.assertFalse(path.parent.exists())
+        self.assertEqual(cached.stat().st_mode & 0o777, 0o600)
+        self.assertEqual(self.root.stat().st_mode & 0o777, 0o700)
+        self.assertFalse(any(cmd[0] == "curl" for cmd in self.commands()))
+
+    def test_books_rejects_bad_download_before_local_package_install(self):
+        self.prepare_book_package(cached=False)
+        self.env["BOOK_DOWNLOAD_CONTENT"] = "wrong package"
+        result = self.run_bootstrap("books-install")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertFalse((self.root / "staged-packages.jsonl").exists())
+
+    def test_books_removes_staging_directory_when_apt_fails(self):
+        self.prepare_book_package()
+        self.env["FAIL_LOCAL_PACKAGE"] = "1"
+        result = self.run_bootstrap("books-install")
+        self.assertNotEqual(result.returncode, 0)
+        staged = json.loads((self.root / "staged-packages.jsonl").read_text())
+        self.assertFalse(Path(staged["path"]).parent.exists())
 
     def test_nfs_replaces_only_the_share_and_preserves_boot_configuration(self):
         self.write_tool("extrepo")

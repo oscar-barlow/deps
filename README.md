@@ -152,6 +152,14 @@ the new laptop and select the transferred library paths; vendor sign-in or
 license activation may still be needed. `book-debs.txt` records publisher
 release URLs and SHA256 hashes, which must be reviewed together when updating.
 
+Verified publisher packages are cached under `~/.cache/deps/debs`, then copied
+to a temporary directory in `/tmp` with directory mode 0755 and file mode 0644
+for APT to read as `_apt`. The temporary copies are removed on success or
+failure. This avoids the unsandboxed-download notice when the home/cache path
+is private, without changing home-directory permissions or disabling APT's
+sandbox. That notice alone does not mean installation failed; check with
+`dpkg-query -W -f='${Status}\n' openaudible` if needed.
+
 `aptfile.txt` declares APT packages; `apt-repos.txt` declares extrepo catalogue
 identifiers. Both accept one name per line, leading/trailing whitespace, blank
 lines and full-line comments starting with `#`. Inline comments are not used.
