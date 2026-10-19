@@ -1,83 +1,161 @@
 # deps
-A repository with many long-lived branches, which defines the dependencies that live on my various machines. These take the form of:
-* `Brewfile` and associated lockfile
-* A `txt` file with apt dependencies in it, and a `Makefile` with convenience commands
-* Same deal, but a snapfile, sigh
 
-The machines currently supported by this repo are:
-* A Macbook Pro, mostly for work (`mbp`)
-* A personal laptop running Ubuntu (`ubuntu-laptop`)
-* A Raspberry Pi (`raspberry-pi`)
+Machine dependencies and selected personal configuration. Long-lived branches
+include `ubuntu-laptop`, `mbp`, `m1`, `raspberry-pi` and `geekom-mini-air12`.
+The targets below apply to the Ubuntu amd64 laptop branch.
 
-On the `ubuntu-laptop` branch, `aptfile.txt` declares packages and
-`apt-repos.txt` declares third-party repositories managed by `extrepo`.
-Both files contain one name per line. Leading and trailing whitespace is
-trimmed; blank lines and lines whose first non-whitespace character is `#`
-are ignored. Inline comments are not supported.
+Run targets from this directory. `make setup` performs the selected laptop
+setup in order; targets are serialised to avoid concurrent APT operations.
+It installs software and configuration but does not copy personal libraries,
+change the NVIDIA driver, import SSH configuration or open applications.
 
-Run `make install` from this directory. Its Makefile recipe uses Bash strict
-mode and:
+| Target | What it does |
+| --- | --- |
+| `make setup` | APT packages, Nix daemon, Neovim, Kitty, shell, Git signing, NFS, selected apps and audiobook applications. |
+| `make install` | Configure external sources, refresh APT and install `aptfile.txt`; record the package inventory. |
+| `make repos` | Install public fallback keys/source files, ensure extrepo is installed, enable `apt-repos.txt` and refresh APT. |
+| `make dotfiles` | Use GNU Stow to link all five user configuration packages and include the Git settings; no package installation or service changes. |
+| `make nix-install` | Install Ubuntu's `nix-bin`/`nix-setup-systemd` if Nix is absent, enable its daemon socket, install direnv and enable flakes in the user config. |
+| `make nvim-install` | Install Neovim, your `init.lua`, and the two plugins pinned in `config/nvim/plugins.txt`. |
+| `make kitty-install` | Install Kitty and the three active settings from your existing configuration. |
+| `make shell-install` | Install Zsh, pinned Oh My Zsh, syntax highlighting, the bundled `z` plugin, clipboard integration and direnv; select Zsh as the login shell. |
+| `make git-install` | Install Git/GitHub CLI/1Password and include your Git identity and SSH signing settings. |
+| `make nfs-install` | Back up fstab, replace only the `/srv/data` entry, and arrange a network automount. |
+| `make apps-install` | Native Brave and Signal; Obsidian from Flathub. |
+| `make books-install` | Calibre from Flathub; pinned, SHA256-checked Libation and OpenAudible publisher packages. |
+| `make steam-install` | Detect the installed NVIDIA graphics-library package and install its matching i386 package, Steam and recommended dependencies. |
+| `make check` | Tests using temporary files and mocked privileged commands; no system setup. |
 
-1. Reads both lists before making changes.
-2. If `extrepo` is missing, refreshes APT's indexes and installs it from Ubuntu
-   Universe.
-3. Runs `sudo extrepo enable NAME` for every declared repository, every time.
-4. Refreshes APT's indexes after repository configuration.
-5. Installs the packages declared in `aptfile.txt`.
+User configuration lives in `stow/` and is linked into place using GNU Stow.
+`stow` is listed in `aptfile.txt`, or install it yourself before linking:
 
-When adopting `extrepo` on an existing machine, retire any overlapping vendor
-`.list` or `.sources` entries once, retaining backups outside APT's active file
-extensions. On the current laptop these are `protonvpn-stable.sources`
-(already disabled) and `yarn.sources` under `/etc/apt/sources.list.d/`.
-Otherwise duplicate sources can conflict over `Signed-By`. The bootstrap does
-not automatically rewrite vendor-owned files; subsequent runs manage the
-`extrepo_*.sources` files created by `extrepo`.
+```sh
+sudo apt install stow
+make dotfiles
+```
 
-After successful installation, Make records the existing APT manifest. Package
-removal is a separate, explicit `make autoremove` operation.
+The `nvim`, `kitty`, `nix` and `git` packages target `XDG_CONFIG_HOME` (default
+`~/.config`); `shell` targets your home directory. Individual installation
+targets link just their own package. Existing files, including copies from
+the earlier bootstrap, are moved to numbered `.deps-backup` backups before
+linking. Reruns preserve correct links. Existing symlinks for whole application
+directories are left for you to resolve rather than modifying another checkout.
+Stow uses `--no-folding` to link individual files, keeping generated data such
+as downloaded Neovim plugins outside this repo.
 
-Rerunning `make install` is expected, including after an Ubuntu release upgrade
-disables third-party repositories. In `extrepo` 0.15, enabling an existing
-repository sets `Enabled: yes` even if it is already enabled. It does not
-refresh the existing URL, suite or signing key; use `sudo extrepo update NAME`
-when those need updating. A failed enable stops the bootstrap before the final
-APT refresh and package installation.
+Keep this checkout at a stable path: the live configs point into it. Edits
+through either path change the Git-tracked file, and pulling changes updates
+the active configuration. Auxiliary declarations, such as plugin pins and the
+NFS entry, remain in `config/`.
 
-Discover catalogue identifiers with `extrepo search TERM`, for example
-`extrepo search proton` or `extrepo search yarn`. The verified identifiers are
-`protonvpn` and `yarnpkg`, even though the Yarn package is named `yarn`.
-The online catalogue is signature-checked by `extrepo`; the bootstrap uses its
-normal configuration and does not bypass signature or licensing checks.
+Git settings are included from `~/.config/git/deps.config`, preserving the
+existing global config and adding the include only once. Only the public SSH
+signing key is committed. Sign in to 1Password and enable its SSH agent on the
+new laptop. The existing migrated SSH configuration is left alone.
 
-This first change manages Proton VPN and Yarn. A complete fresh-machine install
-still needs the other external sources below. Ubuntu 26.04's `extrepo` 0.15
-ships with `dist: debian`, `version: trixie` and only the `main` licensing policy
-enabled. A catalogue entry's presence does not imply an Ubuntu-compatible
-source. Check the source and policy printed by `extrepo search` before adding
-an entry to `apt-repos.txt`.
+Nix remains a daemon plus flakes/direnv workflow. No global profiles, channels,
+old language-runtime directories or Nix store are migrated. An existing Nix
+installation is retained, so this target does not install a second Nix over
+an upstream installation. LSP executables referenced by Neovim (`deno`,
+`terraform-ls`, `bash-language-server`, `nil`) should be supplied by each
+project's flake. The same applies to language-based tools such as `audiblez`.
 
-| Existing software | Catalogue entry | Remaining setup |
-| --- | --- | --- |
-| Proton VPN | `protonvpn` | Declared; uses the vendor's distribution-independent `stable` source. |
-| Yarn | `yarnpkg` | Declared; uses the vendor's distribution-independent `stable` source. |
-| Docker CE | `docker-ce` | Needs an Ubuntu `.sources` fallback: the default catalogue entry selects Debian Trixie. |
-| Terraform | `hashicorp` | Needs an Ubuntu `.sources` fallback: the default entry selects Trixie and requires the `non-free` policy. |
-| 1Password and CLI | `1password` | Catalogue-supported, but requires the `non-free` policy, which this bootstrap leaves unchanged. Its initial enable also installs the desktop app through catalogue post-enable commands. Review that policy and behaviour before declaring it, or use a `.sources` fallback. |
-| TUXEDO support software | No entry found | Needs a vendor `.sources` fallback if the laptop's factory setup has not already configured it. |
+The shell files have different roles:
 
-TODO: add a small `sources/` fallback containing reviewed deb822 `.sources`
-files and their public signing keys. Install the keys under `/etc/apt/keyrings`
-and reference each key with that source's `Signed-By`. Ubuntu-specific suites
-must match the running release. This change does not copy fallback files,
-rewrite existing vendor sources, or enable Debian Docker/HashiCorp sources on
-Ubuntu. Packages already installed without an active source do not demonstrate
-that a fresh-machine bootstrap is complete.
+| File | Role and migration choice |
+| --- | --- |
+| `.zshrc` | Interactive Zsh setup: Oh My Zsh/theme/plugins, aliases and direnv. This is the file installed here. |
+| `.zshenv` | Runs for every Zsh invocation, including scripts. The old one loads Cargo; it is left to your flake workflow. |
+| `.zlogin` | Runs for login Zsh sessions. The old one loads RVM; it is left to your flake workflow. |
+| `.profile` | General login environment used by some shells/sessions. Preserve the new machine's defaults. |
+| `.bash_profile` | Bash login setup; the old file mostly loads `.profile` and legacy runtimes. It is not migrated. |
 
-Catalogue entries were checked against the
-[signed Trixie index](https://extrepo-team.pages.debian.net/extrepo-data/debian/trixie/index.yaml)
-using the keyring shipped in Ubuntu's `extrepo` 0.15 package. Recheck with
-`extrepo search` when changing the list; catalogue contents can change.
+Oh My Zsh supplies the existing `mh` theme, Git shortcuts and the `z` directory
+navigation plugin. No separate `~/Projects/util/z` checkout is needed.
+Navigation history is optional and not copied. The GDrive function and old
+pyenv/NVM/RVM/Deno startup hooks are omitted. `clip` uses `wl-copy` on Wayland
+and `xclip` on X11. Start a new terminal after `shell-install`.
 
-Run `make check` for lightweight tests of the actual Makefile recipe. The
-tests use temporary package lists and mocked commands; they do not use sudo,
-install packages or change system repositories.
+The NFS entry is in `config/system/fstab.nfs`. The target preserves the new
+laptop's root, EFI and swap entries, backs up the old fstab, verifies the result
+and uses `nofail` plus systemd automount so the laptop can boot away from the
+home network. It does not change user IDs, group IDs or server ownership.
+The old laptop uses UID 1001 and a `mediaadmin` group: check server permissions
+if the new account uses different numeric IDs.
+
+`steam-install` expects an NVIDIA graphics stack already installed. It accepts
+Ubuntu's versioned `libnvidia-gl-<branch>` packages and NVIDIA's unversioned
+`libnvidia-gl`, ignores uninstalled/unknown records and transitional branches,
+and stops if it cannot identify one installed native graphics library. It
+then enables i386, refreshes APT and explicitly installs recommendations.
+It does not install or switch a kernel driver. Ubuntu's package names differ
+from Debian's `nvidia-driver-libs:i386`.
+
+Finish NVIDIA setup on the new laptop. Its driver version and package layout
+have not yet been confirmed; do not choose a driver branch from the RTX 5070
+model alone. Use `nvidia-smi` and `dpkg -l | grep -Ei 'nvidia|libnvidia'` there
+to inspect the installed stack. A `un` entry in `dpkg-query` means the package
+is not installed, so it cannot identify the active driver. See Ubuntu's
+[Steam GPU instructions](https://ubuntu.com/docs/steam/howto/dedicated-gpu/).
+The optional `make steam-install` target stops before making changes if its
+detection is inconclusive; it is separate from `make setup` and still needs
+validation on the new laptop. There is no need to relay diagnostic output
+back to the old laptop. See [LAPTOP-HANDOFF.md](LAPTOP-HANDOFF.md) to resume.
+
+Obsidian vaults and plugins are supplied by sync. On each device, enable both
+**Active community plugin list** and **Installed community plugin list** in
+Obsidian Sync's vault configuration settings. After syncing, check:
+
+```sh
+make obsidian-check VAULT="$HOME/obsidian"
+make obsidian-check VAULT="$HOME/Projects/obsidian-gtd" OBSIDIAN_PLUGINS=config/obsidian-gtd-plugins.json
+```
+
+This checks the selected vault's enabled plugin IDs and downloaded plugin
+files. It does not change vault contents or copy plugin credentials into Git.
+The expected personal-vault and GTD-vault plugin lists are stored separately.
+Brave profile transfer/pairing is handled separately; this repo installs the
+native browser. Signal uses its official signed APT source; its old Flatpak
+entry has been removed. Existing Flatpak installations are not uninstalled.
+
+Books and audiobook files stay outside Git. After setup, run these on the new
+laptop, substituting the old laptop's SSH name:
+
+```sh
+make libraries-plan LIBRARY_SOURCE=oscar@old-laptop:/home/oscar
+make libraries-copy LIBRARY_SOURCE=oscar@old-laptop:/home/oscar
+```
+
+The first target previews the transfer. The second uses rsync over SSH, copies
+only `config/library-paths.txt`, keeps destination ownership with the current
+user, and backs up overwritten files under `~/.local/share/deps/library-backups`.
+It does not delete destination files. The selection includes Calibre's library
+and both native and Flatpak plugin/settings directories, OpenAudible's
+library/settings, Libation's
+settings/database and `Documents/Libation` books. Those app directories may
+contain credentials; they are transferred privately and never committed here.
+Close the library applications while copying their databases. Reopen them on
+the new laptop and select the transferred library paths; vendor sign-in or
+license activation may still be needed. `book-debs.txt` records publisher
+release URLs and SHA256 hashes, which must be reviewed together when updating.
+
+`aptfile.txt` declares APT packages; `apt-repos.txt` declares extrepo catalogue
+identifiers. Both accept one name per line, leading/trailing whitespace, blank
+lines and full-line comments starting with `#`. Inline comments are not used.
+`extrepo search TERM` discovers identifiers. Declared entries are enabled every
+run, restoring disabled extrepo sources after upgrades. `enable` preserves
+existing metadata; use `sudo extrepo update NAME` when its key/URL needs a
+reviewed refresh. A failed enable stops the bootstrap.
+
+Ubuntu's extrepo 0.15 defaults to Debian's Trixie catalogue. The selected
+Proton VPN, Yarn and Brave entries use distribution-independent vendor suites.
+Docker/HashiCorp need Ubuntu-specific sources; their reviewed declarations and
+public keys live in `sources/`. Signal and 1Password use publisher-standard
+filenames/key paths there too. See `sources/README.md` for provenance.
+Before first adopting extrepo, retire overlapping vendor Proton/Yarn sources
+so APT does not see conflicting signing-key paths. A source disabled by an
+Ubuntu upgrade is restored by the appropriate target on the next run.
+
+`make flatpak-install` installs the broader existing `flatpakfile.txt` list;
+`apps-install` and `books-install` install only the selected applications.
+Package removal stays a separate explicit `make autoremove` operation.

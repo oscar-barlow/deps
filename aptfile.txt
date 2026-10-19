@@ -11,7 +11,7 @@ libdvdnav4
 ttf-mscorefonts-installer
 ubuntu-restricted-extras
 update-manager-core
-p7zip-full
+7zip
 yarn
 xdg-desktop-portal-gtk
 flatpak
@@ -30,6 +30,14 @@ libayatana-appindicator3-dev
 librsvg2-dev
 libxdo-dev
 neovim
+kitty
+direnv
+stow
+zsh-syntax-highlighting
+wl-clipboard
+brave-browser
+signal-desktop
+rsync
 
 # Remote Storage
 nfs-common
@@ -46,7 +54,7 @@ libreadline-dev
 libsqlite3-dev
 wget
 llvm
-libncursesw5-dev
+libncurses-dev
 xz-utils
 tk-dev
 libxml2-dev
@@ -63,11 +71,10 @@ lsb-release
 # Desktop
 stow
 kdeconnect
-steam
+steam-installer
 zsh
 blueman
 gimp
-p7zip-full
 vlc
 rclone
 handbrake

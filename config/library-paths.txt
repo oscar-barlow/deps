@@ -1,0 +1,7 @@
+Calibre Library/
+.config/calibre/
+.var/app/com.calibre_ebook.calibre/config/calibre/
+OpenAudible/
+.local/share/OpenAudible/
+.local/share/Libation/
+Documents/Libation/

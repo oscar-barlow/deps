@@ -1,3 +1,4 @@
 # Third-party APT repositories managed by extrepo
 protonvpn
 yarnpkg
+brave_release
