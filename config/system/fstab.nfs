@@ -1,0 +1,1 @@
+192.168.1.11:/srv/data /srv/data nfs nofail,_netdev,x-systemd.automount,x-systemd.idle-timeout=300 0 0
