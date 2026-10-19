@@ -15,7 +15,7 @@ change the NVIDIA driver, import SSH configuration or open applications.
 | `make install` | Configure external sources, refresh APT and install `aptfile.txt`; record the package inventory. |
 | `make repos` | Install public fallback keys/source files, ensure extrepo is installed, enable `apt-repos.txt` and refresh APT. |
 | `make dotfiles` | Use GNU Stow to link all five user configuration packages and include the Git settings; no package installation or service changes. |
-| `make nix-install` | Install Ubuntu's `nix-bin`/`nix-setup-systemd` if Nix is absent, enable its daemon socket, install direnv and enable flakes in the user config. |
+| `make nix-install` | Retain an active Nix daemon, or install Ubuntu's Nix packages if absent and enable the daemon socket; install direnv and enable flakes in the user config. |
 | `make nvim-install` | Install Neovim, your `init.lua`, and the two plugins pinned in `config/nvim/plugins.txt`. |
 | `make kitty-install` | Install Kitty and the three active settings from your existing configuration. |
 | `make shell-install` | Install Zsh, pinned Oh My Zsh, syntax highlighting, the bundled `z` plugin, clipboard integration and direnv; select Zsh as the login shell. |
@@ -59,6 +59,19 @@ installation is retained, so this target does not install a second Nix over
 an upstream installation. LSP executables referenced by Neovim (`deno`,
 `terraform-ls`, `bash-language-server`, `nil`) should be supplied by each
 project's flake. The same applies to language-based tools such as `audiblez`.
+
+An already-active `nix-daemon.service` is retained without starting its socket
+again. This supports an existing daemon that owns its listening socket itself;
+direnv installation and the user configuration link still run. If the daemon
+is inactive, the target enables and starts `nix-daemon.socket` as before.
+
+If you configured Kitty on the new laptop before using this repo, compare the
+saved `kitty.conf.deps-backup` with `stow/kitty/kitty/kitty.conf` and keep the
+settings you want in the tracked file. It currently contains only font size
+12 and the remote-control socket settings. Edits to the linked live file also
+edit the repository file. Kitty's application installation and its config
+are separate; its [configuration documentation](https://sw.kovidgoyal.net/kitty/conf/)
+describes the configuration search paths.
 
 The shell files have different roles:
 

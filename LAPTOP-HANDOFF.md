@@ -1,11 +1,13 @@
 # Continue on the new laptop
 
-This work is on `feat/laptop-config`, based on `ubuntu-laptop` with the merged
-extrepo bootstrap. Fetch and check out the branch in your existing clone:
+The laptop configuration and extrepo bootstrap are merged into `ubuntu-laptop`.
+Update that branch in your existing clone, keeping the checkout at its stable
+path for Stow:
 
 ```sh
 git fetch origin
-git switch feat/laptop-config
+git switch ubuntu-laptop
+git pull --ff-only
 make check
 ```
 
@@ -53,6 +55,12 @@ vendor driver packaging. Kernel/driver replacement is outside this target.
   GitHub CLI. SSH configuration has already been migrated separately.
 - Start a new terminal after `shell-install`. Oh My Zsh includes the `z` plugin;
   its history is optional. Project flakes supply language tools through direnv.
+- Nix was already installed on the new laptop, with its daemon reported active.
+  The bootstrap now preserves an active daemon rather than starting its socket
+  again. Rerun `nix-install` after pulling the fix.
+- Kitty was already configured on the new laptop using its website instructions.
+  Compare any saved pre-Stow config with the three tracked settings before
+  deciding what to keep; no new-laptop configuration has been inspected here.
 - Connect Obsidian Sync and enable both active and installed community plugin
   lists on this device. Run the vault checks from the README after syncing.
 - Transfer Brave data separately using your chosen pairing/transfer method.
@@ -62,7 +70,12 @@ vendor driver packaging. Kernel/driver replacement is outside this target.
   `libraries-plan` and `libraries-copy`; keep their databases closed during
   transfer. Settings can contain credentials and stay outside Git.
 
-Deferred: AI/Codex/Claude setup needs discussion. VS Code/Cursor and whisper-talk
+AI-tool migration is limited to installing Codex, pi and Claude Code themselves.
+Their configuration is not selected for migration. MCP configuration will be
+rationalised in a separate repository; that work is outside this bootstrap.
+The CLI installation target is still to be added.
+
+Deferred: VS Code/Cursor and whisper-talk
 are for later. `Documents/ProStudioMasters/YUNGBLUD` and the two small Meetily
 recording directories have not been selected for transfer. GDrive, language
 runtime directories, container databases, browser/Signal/Proton indexes and

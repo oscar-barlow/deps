@@ -40,6 +40,8 @@ if name == 'apt' and sys.argv[1:] == ['list']:
     print('Mock APT manifest')
 if name == 'mountpoint':
     sys.exit(1)
+if name == 'systemctl' and sys.argv[1:] == ['is-active', '--quiet', 'nix-daemon.service']:
+    sys.exit(0 if os.environ.get('NIX_DAEMON_ACTIVE') == '1' else 3)
 """
 
 
@@ -79,6 +81,7 @@ class BootstrapTests(unittest.TestCase):
         }
         self.env.pop("FAIL_REPOSITORY", None)
         self.env.pop("FAIL_APT_COMMAND", None)
+        self.env.pop("NIX_DAEMON_ACTIVE", None)
         for name in ("MAKEFLAGS", "MFLAGS", "MAKELEVEL"):
             self.env.pop(name, None)
 
@@ -280,6 +283,35 @@ class BootstrapTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("sudo apt install stow", result.stderr)
         self.assertEqual(self.commands(), [])
+
+    @unittest.skipUnless(STOW, "Install GNU Stow to test config links")
+    def test_nix_preserves_active_daemon_and_still_links_config(self):
+        self.write_tool("extrepo")
+        self.write_tool("nix")
+        self.write_tool("systemctl")
+        self.env["NIX_DAEMON_ACTIVE"] = "1"
+        result = self.run_bootstrap("nix-install")
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertIn("Using the existing active Nix daemon", result.stdout)
+        self.assertEqual([cmd for cmd in self.commands() if cmd[0] == "systemctl"], [
+            ["systemctl", "is-active", "--quiet", "nix-daemon.service"],
+        ])
+        self.assertEqual([cmd for cmd in self.commands() if cmd[0:2] == ["apt-get", "install"]], [
+            ["apt-get", "install", "--yes", "direnv"],
+        ])
+        self.assertEqual((self.root / ".config/nix/nix.conf").resolve(), self.root / "stow/nix/nix/nix.conf")
+
+    @unittest.skipUnless(STOW, "Install GNU Stow to test config links")
+    def test_nix_starts_socket_when_daemon_is_inactive(self):
+        self.write_tool("extrepo")
+        self.write_tool("nix")
+        self.write_tool("systemctl")
+        result = self.run_bootstrap("nix-install")
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual([cmd for cmd in self.commands() if cmd[0] == "systemctl"], [
+            ["systemctl", "is-active", "--quiet", "nix-daemon.service"],
+            ["systemctl", "enable", "--now", "nix-daemon.socket"],
+        ])
 
     def test_nfs_replaces_only_the_share_and_preserves_boot_configuration(self):
         self.write_tool("extrepo")
