@@ -7,6 +7,7 @@ SHELL := /bin/bash
 CONFIG_HOME ?= $(or $(XDG_CONFIG_HOME),$(HOME)/.config)
 DATA_HOME ?= $(or $(XDG_DATA_HOME),$(HOME)/.local/share)
 CACHE_HOME ?= $(or $(XDG_CACHE_HOME),$(HOME)/.cache)
+BIN_HOME ?= $(HOME)/.local/bin
 APT_SOURCE_DIR ?= /etc/apt/sources.list.d
 APT_KEY_DIR ?= /etc/apt/keyrings
 VENDOR_KEY_DIR ?= /usr/share/keyrings
@@ -69,7 +70,7 @@ checkout() {
 endef
 
 .PHONY: setup
-setup: install nix-install nvim-install kitty-install shell-install git-install nfs-install apps-install books-install
+setup: install nix-install nvim-install kitty-install shell-install git-install nfs-install apps-install books-install ai-install
 
 .PHONY: dotfiles
 dotfiles:
@@ -235,6 +236,43 @@ obsidian-check:
 	if missing: sys.exit('Plugins missing or disabled: ' + ', '.join(missing))
 	print('All expected community plugins are installed and enabled.')
 	PY
+
+.PHONY: ai-install
+ai-install: repos
+	@sudo apt-get install --yes curl ca-certificates tar claude-code
+	install -d "$(CACHE_HOME)/deps/ai-tools" "$(DATA_HOME)/deps/ai-tools" "$(BIN_HOME)"
+	temp=$$(mktemp -d)
+	trap 'rm -rf -- "$$temp"' EXIT
+	while read -r name version url checksum executable; do
+	    [[ -z $$name || $$name == \#* ]] && continue
+	    file="$(CACHE_HOME)/deps/ai-tools/$${url##*/}"
+	    if [[ ! -f $$file ]] || ! printf '%s  %s\n' "$$checksum" "$$file" | sha256sum --check --status; then
+	        printf 'Downloading %s %s\n' "$$name" "$$version"
+	        curl --fail --location --silent --show-error "$$url" --output "$$file.part"
+	        printf '%s  %s\n' "$$checksum" "$$file.part" | sha256sum --check --status
+	        mv "$$file.part" "$$file"
+	    fi
+	    release="$(DATA_HOME)/deps/ai-tools/$$name/$$version"
+	    if [[ ! -e $$release ]]; then
+	        install -d "$$temp/$$name" "$${release%/*}"
+	        tar --extract --gzip --no-same-owner --file="$$file" --directory="$$temp/$$name"
+	        [[ -x $$temp/$$name/$$executable ]] || { printf 'Missing executable for %s: %s\n' "$$name" "$$executable" >&2; exit 1; }
+	        mv -T -- "$$temp/$$name" "$$release"
+	    fi
+	    [[ -x $$release/$$executable ]] || { printf 'Incomplete installation: %s\n' "$$release" >&2; exit 1; }
+	    target="$(BIN_HOME)/$$name"
+	    if [[ ! -L $$target || ! $$target -ef $$release/$$executable ]]; then
+	        ln -sTf --backup=numbered -- "$$release/$$executable" "$$target"
+	    fi
+	done < ai-tools.txt
+	printf 'Installed Codex, pi and Claude Code. Open a fresh terminal and sign in to each tool.\n'
+
+.PHONY: ai-check
+ai-check:
+	@for tool in codex pi claude; do
+	    command -v "$$tool" || { printf '%s is not on PATH; run make ai-install and open a fresh terminal.\n' "$$tool" >&2; exit 1; }
+	    "$$tool" --version
+	done
 
 .PHONY: steam-install
 steam-install:
