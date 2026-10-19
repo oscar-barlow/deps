@@ -134,11 +134,15 @@ repos: sources-install
 .PHONY: nix-install
 nix-install: repos
 	@$(helpers)
-	if ! command -v nix >/dev/null 2>&1 && [[ ! -x /nix/var/nix/profiles/default/bin/nix ]]; then
+	if ! command -v nix >/dev/null 2>&1 && [[ ! -x /nix/var/nix/profiles/default/bin/nix ]] && ! systemctl is-active --quiet nix-daemon.service; then
 	    sudo apt-get install --yes nix-bin nix-setup-systemd
 	fi
 	sudo apt-get install --yes direnv
-	sudo systemctl enable --now nix-daemon.socket
+	if systemctl is-active --quiet nix-daemon.service; then
+	    printf 'Using the existing active Nix daemon.\n'
+	else
+	    sudo systemctl enable --now nix-daemon.socket
+	fi
 	stow_config nix "$(CONFIG_HOME)"
 
 .PHONY: nvim-install
