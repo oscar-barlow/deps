@@ -38,6 +38,8 @@ wl-clipboard
 brave-browser
 signal-desktop
 rsync
+software-properties-common
+openssh-server
 
 # Remote Storage
 nfs-common
@@ -69,13 +71,10 @@ gnupg
 lsb-release
 
 # Desktop
-stow
 kdeconnect
 steam-installer
 zsh
 blueman
-gimp
-vlc
 rclone
 handbrake
 handbrake-cli
@@ -87,7 +86,3 @@ libxcb-xtest0
 proton-vpn-gnome-desktop
 gnome-shell-ubuntu-extensions
 gir1.2-appindicator3-0.1
-
-# Terraform
-gnupg
-software-properties-common

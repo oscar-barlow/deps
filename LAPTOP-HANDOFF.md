@@ -8,7 +8,6 @@ path for Stow:
 git fetch origin
 git switch ubuntu-laptop
 git pull --ff-only
-make check
 ```
 
 Read the target table in [README.md](README.md). `make setup` runs the selected
@@ -16,8 +15,7 @@ software/configuration targets in order; each can also be run individually.
 User configs are linked from `stow/` using GNU Stow; keep the checkout at a
 stable path. Existing config files and fstab are backed up. To apply only the
 config links after installing Stow yourself, run `make dotfiles`; this does
-not install applications or alter services. Development tests use temporary
-directories and mocked privileged commands. The user has run setup on the new
+not install applications or alter services. The user has run setup on the new
 laptop and merged the Nix-daemon and APT staging fixes.
 
 The user reports Zsh, Oh My Zsh, Nix and direnv are all looking fine on the
@@ -26,39 +24,12 @@ checks on AI tool installation, Neovim, Kitty, GPU libraries and personal data.
 
 ## Install the three AI tools
 
-The previous bare Codex archive required `--no-daemon` on the new laptop. The
-user has now installed language toolchains and wants the official package
-installs. Activate Node.js/npm (Node.js 22.19+) and, after closing running
-agents, run from an ordinary terminal:
-
-```sh
-make ai-reinstall
-rehash
-make ai-check
-```
-
-This installs all three official npm packages into the user-owned `~/.local`
-prefix, checks their versions, then removes the repo's previous AI archive
-trees and Claude APT installation/source. It keeps existing configurations,
-credentials and sessions. Later updates use `make ai-install`. The cleanup
-does not recursively remove other manual installations. MCP configuration will
-be rationalised in a separate repository.
-
-Open a new terminal if needed for `~/.local/bin`, then start each application.
-Start `codex` without `--no-daemon` and check `codex resume` against existing
-sessions. Remove any shell alias you added to force `--no-daemon`; no aliases
-or agent settings are modified by the Make targets. If daemon startup still
-fails, inspect `codex doctor` on the new laptop; version checks alone do not
-verify interactive daemon/resume behaviour. Start Codex from this repo and
-point the new session at this handoff; old-laptop conversation history is not
-transferred, while any existing new-laptop agent data is preserved.
-
-Development verification installed the real npm packages successfully in an
-isolated home. A subsequent daemon-start attempt in the agent's execution
-environment failed with namespace and socket-ownership checks, even with a
-private socket directory; the test daemon was stopped. Treat daemon startup
-and interactive resume on the new laptop as pending verification, rather than
-assuming the package-method change alone resolves the reported problem.
+AI tools now use the official npm packages. Activate Node.js/npm (Node.js
+22.19+) and run `make ai-install` followed by `make ai-check`. `make install`
+also includes AI installation. Existing configuration and sessions stay in
+place; verify interactive startup and resume locally. The one-time AI cleanup
+and reinstall targets have been retired. MCP configuration belongs in the
+separate repository.
 
 ## Neovim and Kitty
 
@@ -106,8 +77,7 @@ instructions in the README.
 to match one installed amd64 NVIDIA graphics-library package, enables i386,
 refreshes APT, then installs Steam and that package's i386 counterpart with
 recommended dependencies. It stops without system changes if detection is
-ambiguous or finds nothing. Tests cover versioned, transitional, unversioned
-and uninstalled records; actual hardware validation remains to do. Review the
+ambiguous or finds nothing. Actual hardware validation remains to do. Review the
 APT transaction on the new machine before relying on this target with its
 vendor driver packaging. Kernel/driver replacement is outside this target.
 

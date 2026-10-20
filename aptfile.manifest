@@ -957,9 +957,9 @@ aspell-zu/resolute,resolute 20070207-5ubuntu5 all
 aspell/resolute,now 0.60.8.2-3 amd64 [installed,automatic]
 aspell/resolute 0.60.8.2-3 i386
 aspic/resolute 2.00+dfsg-4build1 amd64
-aspnetcore-runtime-10.0/resolute-updates,resolute-security 10.0.12-0ubuntu1~26.04.1 amd64
-aspnetcore-runtime-dbg-10.0/resolute-updates,resolute-security 10.0.12-0ubuntu1~26.04.1 amd64
-aspnetcore-targeting-pack-10.0/resolute-updates,resolute-security 10.0.12-0ubuntu1~26.04.1 amd64
+aspnetcore-runtime-10.0/resolute-security 10.0.13-0ubuntu1~26.04.1 amd64
+aspnetcore-runtime-dbg-10.0/resolute-security 10.0.13-0ubuntu1~26.04.1 amd64
+aspnetcore-targeting-pack-10.0/resolute-security 10.0.13-0ubuntu1~26.04.1 amd64
 asql/resolute,resolute 1.7-1build1 all
 assaultcube/resolute 1.3.0.2+dfsg-5build1 amd64
 assembly-stats/resolute 1.0.1+ds-8 amd64
@@ -1091,7 +1091,6 @@ atftp/resolute 0.8.0-8build1 amd64
 atftpd/resolute 0.8.0-8build1 amd64
 atheme-services-contrib/resolute 7.2.12-2 amd64
 atheme-services/resolute 7.2.12-2 amd64
-athena-cli/resolute 0.1.2-1 amd64
 athena-jot/resolute 9.0-8build1 amd64
 atinout/resolute 0.9.1+git20150607.4976a6c-1 amd64
 atlc-examples/resolute,resolute 4.6.1-6build2 all
@@ -2056,9 +2055,6 @@ botch/resolute 0.24-6.1 amd64
 bottlerocket/resolute 0.05b3-22build1 amd64
 boulder-game/resolute 1.02+ds-2 amd64
 bouncy/resolute,resolute 0.6.20071104-10build1 all
-boundary-enterprise/resolute 1.0.2+ent-1 amd64
-boundary-worker-hcp/resolute 0.12.3+hcp-1 amd64
-boundary/resolute 0.21.3-1 amd64
 bovo/resolute 4:25.12.3-0ubuntu1 amd64
 bowtie-examples/resolute,resolute 1.3.1-3build1 all
 bowtie2-examples/resolute,resolute 2.5.4-1build1 all
@@ -2408,7 +2404,6 @@ cafeobj-mode/resolute,resolute 1.6.0-2build1 all
 cafeobj/resolute 1.6.0-2build1 amd64
 caffeine/resolute,resolute 2.9.14-1 all
 cage/resolute 0.2.1-1 amd64
-cagent/resolute 1.23.3-1~ubuntu.26.04~resolute amd64
 cairo-5c/resolute 1.24 amd64
 cairo-dock-alsamixer-plug-in/resolute 3.5.1-1.1 amd64
 cairo-dock-animated-icons-plug-in/resolute 3.5.1-1.1 amd64
@@ -2940,7 +2935,7 @@ cidr/resolute 2.3.0-1 amd64
 cif-linguist/resolute 0.4.2-6build1 amd64
 cif-tools/resolute 1.0.13-1 amd64
 cif2hkl/resolute 1.4.7+ds1-1build1 amd64
-cifs-utils/resolute-security 2:7.4-1ubuntu0.26.04.4 amd64 [upgradable from: 2:7.4-1ubuntu0.26.04.3]
+cifs-utils/resolute-security,now 2:7.4-1ubuntu0.26.04.4 amd64 [installed]
 cifs-utils/resolute-security 2:7.4-1ubuntu0.26.04.4 i386
 cil/resolute,resolute 0.07.00-12.1build1 all
 cim-schema/resolute,resolute 2.48.0-0ubuntu3 all
@@ -3628,23 +3623,8 @@ console-setup/resolute-updates,resolute-updates,now 1.237ubuntu3.1 all [installe
 consolefonts-bedstead/resolute,resolute 3.261-1 all
 consolekit/resolute 1.2.6-5 amd64
 conspy/resolute 1.16-1build1 amd64
-consul-cni-fips/resolute 2.0.4+fips1403-1 amd64
-consul-cni/resolute 2.0.4-1 amd64
-consul-dataplane-fips/resolute 2.0.4+fips1403-1 amd64
-consul-dataplane/resolute 2.0.4-1 amd64
-consul-enterprise-fips/resolute 2.0.4+ent.fips1403-1 amd64
-consul-enterprise/resolute 2.0.4+ent-1 amd64
-consul-esm/resolute 0.11.1-1 amd64
-consul-k8s-fips/resolute 2.0.4+fips1403-1 amd64
-consul-k8s/resolute 2.0.4-1 amd64
-consul-telemetry-collector/resolute 0.0.2-1 amd64
-consul-template/resolute 0.43.0-1 amd64
-consul-terraform-sync-enterprise/resolute 0.9.2+ent-1 amd64
-consul-terraform-sync/resolute 0.9.2-1 amd64
-consul/resolute 2.0.4-1 amd64
 contactsd/resolute 1.4.15-1build1 amd64
 containerd-stable/resolute-updates,resolute-security 2.2.2-0ubuntu1.1 amd64
-containerd.io/resolute 2.4.2-2~ubuntu.26.04~resolute amd64
 containerd/resolute-updates,resolute-security 2.2.2-0ubuntu1.1 amd64
 containernetworking-plugins/resolute 1.1.1+ds1-3build2 amd64
 containers-storage/resolute 1.61.0+ds1-6 amd64
@@ -4137,8 +4117,6 @@ crowdsec/resolute 1.4.6-10.1 amd64
 crrcsim-data/resolute,resolute 0.9.13-3.2build3 all
 crrcsim-doc/resolute,resolute 0.9.13-3.2build3 all
 crrcsim/resolute 0.9.13-3.2build3 amd64
-crt-core-helloworld-enterprise/resolute 1.1.6+ent.fips1403-1 amd64
-crt-core-helloworld/resolute 1.11.1-1 amd64
 crudini/resolute 0.9.6-1build1 amd64
 cruft-ng/resolute 0.9.78 amd64
 crun/resolute 1.21-1ubuntu3 amd64
@@ -5501,20 +5479,11 @@ docbook5-xml/resolute,resolute 5.0-4build1 all
 docbook/resolute,resolute 4.5-11build1 all
 docdiff/resolute,resolute 0.6.1-2 all
 dochelp/resolute 0.1.8+nmu1 amd64
-docker-buildx-plugin/resolute 0.38.0-1~ubuntu.26.04~resolute amd64
 docker-buildx/resolute 0.30.1-0ubuntu1 amd64
-docker-ce-cli/resolute 5:29.9.1-1~ubuntu.26.04~resolute amd64
-docker-ce-rootless-extras/resolute 5:29.9.1-1~ubuntu.26.04~resolute amd64
-docker-ce/resolute 5:29.9.1-1~ubuntu.26.04~resolute amd64
 docker-clean/resolute,resolute 2.0.4-5build1 all
-docker-compose-plugin/resolute 5.6.0-1~ubuntu.26.04~resolute amd64
 docker-compose-v2/resolute 2.40.3+ds1-0ubuntu1 amd64
 docker-doc/resolute-updates,resolute-updates,resolute-security,resolute-security 29.1.3-0ubuntu4.1 all
-docker-model-plugin/resolute 1.2.6-1~ubuntu.26.04~resolute amd64
 docker-registry/resolute 2.8.3+ds1-2build1 amd64
-docker-sbx/resolute 0.48.0-1~ubuntu.26.04~resolute amd64
-docker-secrets-engine-plugins/resolute 0.11.0~ubuntu.26.04~resolute all
-docker-secrets-engine/resolute 0.11.0~ubuntu.26.04~resolute amd64
 docker.io/resolute-updates,resolute-security 29.1.3-0ubuntu4.1 amd64
 docknot/resolute,resolute 8.0.1-1build1 all
 doclava-aosp/resolute,resolute 6.0.1+r55-1.1ubuntu3 all
@@ -5579,18 +5548,18 @@ dotdrop/resolute,resolute 1.15.0-2 all
 dotenv-cli/resolute,resolute 3.4.1-1build1 all
 dothost/resolute 0.2.1-2build1 amd64
 dotmcp/resolute 0.2.2.1-7build3 amd64
-dotnet-apphost-pack-10.0/resolute-updates,resolute-security 10.0.12-0ubuntu1~26.04.1 amd64
-dotnet-host-10.0/resolute-updates,resolute-security 10.0.12-0ubuntu1~26.04.1 amd64
-dotnet-hostfxr-10.0/resolute-updates,resolute-security 10.0.12-0ubuntu1~26.04.1 amd64
-dotnet-runtime-10.0/resolute-updates,resolute-security 10.0.12-0ubuntu1~26.04.1 amd64
-dotnet-runtime-dbg-10.0/resolute-updates,resolute-security 10.0.12-0ubuntu1~26.04.1 amd64
-dotnet-sdk-10.0-source-built-artifacts/resolute-updates,resolute-security 10.0.112-0ubuntu1~26.04.1 amd64
-dotnet-sdk-10.0/resolute-updates,resolute-security 10.0.112-0ubuntu1~26.04.1 amd64
-dotnet-sdk-aot-10.0/resolute-updates,resolute-security 10.0.112-0ubuntu1~26.04.1 amd64
-dotnet-sdk-dbg-10.0/resolute-updates,resolute-security 10.0.112-0ubuntu1~26.04.1 amd64
-dotnet-targeting-pack-10.0/resolute-updates,resolute-security 10.0.12-0ubuntu1~26.04.1 amd64
-dotnet-templates-10.0/resolute-updates,resolute-security 10.0.112-0ubuntu1~26.04.1 amd64
-dotnet10/resolute-updates,resolute-security 10.0.112-10.0.12-0ubuntu1~26.04.1 amd64
+dotnet-apphost-pack-10.0/resolute-security 10.0.13-0ubuntu1~26.04.1 amd64
+dotnet-host-10.0/resolute-security 10.0.13-0ubuntu1~26.04.1 amd64
+dotnet-hostfxr-10.0/resolute-security 10.0.13-0ubuntu1~26.04.1 amd64
+dotnet-runtime-10.0/resolute-security 10.0.13-0ubuntu1~26.04.1 amd64
+dotnet-runtime-dbg-10.0/resolute-security 10.0.13-0ubuntu1~26.04.1 amd64
+dotnet-sdk-10.0-source-built-artifacts/resolute-security 10.0.113-0ubuntu1~26.04.1 amd64
+dotnet-sdk-10.0/resolute-security 10.0.113-0ubuntu1~26.04.1 amd64
+dotnet-sdk-aot-10.0/resolute-security 10.0.113-0ubuntu1~26.04.1 amd64
+dotnet-sdk-dbg-10.0/resolute-security 10.0.113-0ubuntu1~26.04.1 amd64
+dotnet-targeting-pack-10.0/resolute-security 10.0.13-0ubuntu1~26.04.1 amd64
+dotnet-templates-10.0/resolute-security 10.0.113-0ubuntu1~26.04.1 amd64
+dotnet10/resolute-security 10.0.113-10.0.13-0ubuntu1~26.04.1 amd64
 dotter/resolute 4.44.1+dfsg-8 amd64
 doublecmd-common/resolute,resolute 1.1.32-1 all
 doublecmd-gtk/resolute 1.1.32-1 amd64
@@ -5774,7 +5743,6 @@ duktape/resolute 2.7.0+tests-0ubuntu4 amd64
 duktape/resolute 2.7.0+tests-0ubuntu4 i386
 duma/resolute 2.5.21-11build1 amd64
 dumb-init/resolute 1.2.5-3build1 amd64
-dummy/resolute 0.0.1 amd64
 dummydroid/resolute,resolute 1.2-2build1 all
 dump1090-mutability/resolute 1.15~20180310.4a16df3+dfsg-8.1build2 amd64
 dump/resolute 0.4b52-1 amd64
@@ -6584,7 +6552,6 @@ enum/resolute 1.1-2build1 amd64
 env-assert/resolute,resolute 0.015-1 all
 env-dot/resolute,resolute 0.019-1 all
 env2/resolute,resolute 1.1.0-4build1 all
-envconsul/resolute 0.14.0-1 amd64
 environment-modules/resolute 5.6.1-1 amd64
 envstore/resolute 2.1-7build1 amd64
 eodag/resolute,resolute 3.10.1+ds-1 all
@@ -11839,7 +11806,7 @@ gimagereader-qt5/resolute 3.4.3-2 amd64
 gimagereader-qt/resolute 3.4.3-2 amd64
 gimagereader/resolute 3.4.3-2 amd64
 gimp-data-extras/resolute,resolute 1:2.0.4-0.2build1 all
-gimp-data/resolute-updates,resolute-updates,now 3.2.2-1ubuntu0.26.04.1 all [installed,automatic]
+gimp-data/resolute-updates,resolute-updates,now 3.2.2-1ubuntu0.26.04.1 all [installed,auto-removable]
 gimp-help-bg/resolute,resolute 3.0.2-2 all
 gimp-help-ca/resolute,resolute 3.0.2-2 all
 gimp-help-common/resolute,resolute 3.0.2-2 all
@@ -11874,7 +11841,7 @@ gimp-help-tr/resolute,resolute 3.0.2-2 all
 gimp-help-uk/resolute,resolute 3.0.2-2 all
 gimp-help-zh-cn/resolute,resolute 3.0.2-2 all
 gimp-texturize/resolute 3.0+ds-1build1 amd64
-gimp/resolute-updates,now 3.2.2-1ubuntu0.26.04.1 amd64 [installed]
+gimp/resolute-updates 3.2.2-1ubuntu0.26.04.1 amd64
 ginac-tools/resolute 1.8.10-1 amd64
 ginga/resolute,resolute 5.5.1-1 all
 ginkgo/resolute 2.28.1-1 amd64
@@ -11907,7 +11874,7 @@ gir1.2-ayatanaappindicator3-0.1/resolute,now 0.5.94-1build1 amd64 [installed,aut
 gir1.2-ayatanaappindicatorglib-2.0/resolute 2.0.1-1build1 amd64
 gir1.2-ayatanacommon-0.1/resolute 0.9.11-2build1 amd64
 gir1.2-ayatanaido3-0.4/resolute,now 0.10.4-1build1 amd64 [installed,automatic]
-gir1.2-babl-0.1/resolute,now 1:0.1.124-1 amd64 [installed,automatic]
+gir1.2-babl-0.1/resolute,now 1:0.1.124-1 amd64 [installed,auto-removable]
 gir1.2-bamf-3/resolute 0.5.6+22.04.20220217-0ubuntu6 amd64
 gir1.2-blockdev-3.0/resolute 3.4.0-1 amd64
 gir1.2-blockdev-3.0/resolute 3.4.0-1 i386
@@ -11994,15 +11961,15 @@ gir1.2-gdkpixbuf-2.0/resolute,now 2.44.5+dfsg-4ubuntu1 amd64 [installed,automati
 gir1.2-gdkpixbuf-2.0/resolute 2.44.5+dfsg-4ubuntu1 i386
 gir1.2-gdm-1.0/resolute-updates,now 50.1-0ubuntu0.1 amd64 [installed,automatic]
 gir1.2-gee-0.8/resolute 0.20.8-2 amd64
-gir1.2-gegl-0.4/resolute,now 1:0.4.70-1 amd64 [installed,automatic]
+gir1.2-gegl-0.4/resolute,now 1:0.4.70-1 amd64 [installed,auto-removable]
 gir1.2-geoclue-2.0/resolute,now 2.7.2-2ubuntu3 amd64 [installed,automatic]
 gir1.2-geocodeglib-2.0/resolute 3.26.4-3 amd64
 gir1.2-gepub-0.7/resolute 0.7.3-2build1 amd64
 gir1.2-ges-1.0/resolute 1.28.2-1 amd64
-gir1.2-gexiv2-0.10/resolute,now 0.14.6-2 amd64 [installed,automatic]
+gir1.2-gexiv2-0.10/resolute,now 0.14.6-2 amd64 [installed,auto-removable]
 gir1.2-gfls-1/resolute 0.3.1-2 amd64
 gir1.2-ggit-1.0/resolute 1.2.1-2build1 amd64
-gir1.2-gimp-3.0/resolute-updates,now 3.2.2-1ubuntu0.26.04.1 amd64 [installed,automatic]
+gir1.2-gimp-3.0/resolute-updates,now 3.2.2-1ubuntu0.26.04.1 amd64 [installed,auto-removable]
 gir1.2-girepository-2.0-dev/resolute 1.86.0-6build1 amd64
 gir1.2-girepository-2.0-dev/resolute 1.86.0-6build1 i386
 gir1.2-girepository-2.0/resolute 1.86.0-6build1 amd64
@@ -12271,7 +12238,7 @@ gis-web/resolute,resolute 0.0.22ubuntu1 all
 gis-workstation/resolute,resolute 0.0.22ubuntu1 all
 gist/resolute,resolute 6.0.0-3build1 all
 git-absorb/resolute 0.6.17-2 amd64
-git-all/resolute,resolute 1:2.53.0-1ubuntu1 all
+git-all/resolute-security,resolute-security 1:2.53.0-1ubuntu1.1 all
 git-annex-remote-rclone/resolute,resolute 0.8-1build1 all
 git-annex/resolute 10.20251029-1ubuntu1 amd64
 git-autofixup/resolute,resolute 0.004007-1build1 all
@@ -12286,26 +12253,26 @@ git-crecord/resolute,resolute 20230226.0-2build1 all
 git-credential-azure/resolute 0.3.0-1build1 amd64
 git-credential-oauth/resolute 0.17.2-2 amd64
 git-crypt/resolute 0.8.0-1 amd64
-git-cvs/resolute,resolute 1:2.53.0-1ubuntu1 all
+git-cvs/resolute-security,resolute-security 1:2.53.0-1ubuntu1.1 all
 git-debpush/resolute,resolute 15.5 all
 git-debrebase/resolute,resolute 15.5 all
 git-delete-merged-branches/resolute,resolute 7.5.1-1 all
 git-delta/resolute 0.18.2-8 amd64
-git-doc/resolute,resolute 1:2.53.0-1ubuntu1 all
+git-doc/resolute-security,resolute-security 1:2.53.0-1ubuntu1.1 all
 git-dpm/resolute,resolute 0.10.0-1.2 all
-git-email/resolute,resolute 1:2.53.0-1ubuntu1 all
+git-email/resolute-security,resolute-security 1:2.53.0-1ubuntu1.1 all
 git-evtag-tests/resolute,resolute 2022.1-3 all
 git-evtag/resolute 2022.1-3 amd64
 git-extras/resolute,resolute 7.4.0-1 all
 git-filter-repo/resolute,resolute 2.47.0-3 all
 git-flow/resolute,resolute 1.12.3-3build1 all
 git-ftp/resolute,resolute 1.6.0+dfsg-1build1 all
-git-gui/resolute,resolute 1:2.53.0-1ubuntu1 all
+git-gui/resolute-security,resolute-security 1:2.53.0-1ubuntu1.1 all
 git-hub/resolute,resolute 2.1.3-1build1 all
 git-imerge/resolute,resolute 1.2.0-5build1 all
 git-keeper/resolute,resolute 0.20251024.0 all
 git-lfs/resolute 3.7.1-1 amd64
-git-man/resolute,resolute,now 1:2.53.0-1ubuntu1 all [installed,automatic]
+git-man/resolute-security,resolute-security,now 1:2.53.0-1ubuntu1.1 all [installed,automatic]
 git-mediate/resolute 1.1.0-1 amd64
 git-publish/resolute,resolute 1.8.1-1build1 all
 git-pw/resolute,resolute 2.0.0-2build1 all
@@ -12320,18 +12287,18 @@ git-secret/resolute,resolute 0.5.0-1build1 all
 git-secrets/resolute,resolute 1.3.0-7build1 all
 git-sizer/resolute 1.5.0-3build2 amd64
 git-subrepo/resolute,resolute 0.4.9-3 all
-git-svn/resolute,resolute 1:2.53.0-1ubuntu1 all
+git-svn/resolute-security,resolute-security 1:2.53.0-1ubuntu1.1 all
 git-ubuntu/resolute,resolute 1.1-2build1 all
 git2cl/resolute,resolute 1:3.0-3 all
-git/resolute,now 1:2.53.0-1ubuntu1 amd64 [installed]
-git/resolute 1:2.53.0-1ubuntu1 i386
+git/resolute-security,now 1:2.53.0-1ubuntu1.1 amd64 [installed]
+git/resolute-security 1:2.53.0-1ubuntu1.1 i386
 gita/resolute,resolute 0.16.8.2-1 all
 gitbatch/resolute 0.6.1-1build1 amd64
 gitbrute/resolute 0~15-5 amd64
 gitg/resolute 44-6build2 amd64
 gitinspector/resolute,resolute 0.4.4+dfsg-15build1 all
 gitit/resolute 0.15.1.2+dfsg-2build2 amd64
-gitk/resolute,resolute 1:2.53.0-1ubuntu1 all
+gitk/resolute-security,resolute-security 1:2.53.0-1ubuntu1.1 all
 gitlab-cli/resolute,resolute 1:8.0.0-1 all
 gitlab-rulez/resolute,resolute 0.0~git20250121.3db44276-1build1 all
 gitlabracadabra/resolute,resolute 2.8.0 all
@@ -12344,7 +12311,7 @@ gitsign/resolute 0.13.0-4 amd64
 gitso/resolute,resolute 0.6.2+svn158+dfsg-4build1 all
 gitsome/resolute,resolute 0.8.0+ds-9.3 all
 gittuf/resolute 0.12.0-1 amd64
-gitweb/resolute,resolute 1:2.53.0-1ubuntu1 all
+gitweb/resolute-security,resolute-security 1:2.53.0-1ubuntu1.1 all
 givaro-dev-doc/resolute,resolute 4.2.1-1build1 all
 givaro-user-doc/resolute,resolute 4.2.1-1build1 all
 giza-dev/resolute 1.5.0-3 amd64
@@ -13344,7 +13311,6 @@ go-bluetooth/resolute 5.60-3build2 amd64
 go-cowsql/resolute 1.22.0-2build1 amd64
 go-dqlite/resolute 3.0.3-1 amd64
 go-for-it/resolute 1.9.6-5build2 amd64
-go-getter/resolute 1.8.9-1 amd64
 go-git/resolute 5.16.2-1 amd64
 go-internal/resolute 1.14.1-1 amd64
 go-junit-report/resolute 2.1.0-1.1build1 amd64
@@ -17589,8 +17555,6 @@ hashcat-nvidia/resolute,resolute 20210201build1 all
 hashcat/resolute 7.1.2+ds1-3 amd64
 hashcheck/resolute 1.0.1-1 amd64
 hashdeep/resolute 4.4+git20170824+ds-1build1 amd64
-hashicorp-envoy-fips/resolute 1.39.1+fips1403-1 amd64
-hashicorp-envoy/resolute 1.39.1-1 amd64
 hashid/resolute,resolute 3.1.4-5build1 all
 hashrat/resolute 1.25+ds-2 amd64
 haskell-aeson-diff-utils/resolute 1.1.0.13-4build1 amd64
@@ -17624,11 +17588,7 @@ hatop/resolute,resolute 0.8.2-2build1 all
 haveged/resolute-updates,resolute-security 1.9.19-14ubuntu0.1 amd64
 haxe/resolute 1:4.3.7-1.1 amd64
 haxml/resolute 1:1.25.14-1 amd64
-hc-install/resolute 0.10.0-1 amd64
-hcdiag/resolute 0.5.13-1 amd64
 hcloud-cli/resolute 1.39.0-3 amd64
-hcp/resolute 0.11.0-1 amd64
-hcpvs-gateway/resolute 0.1.3-1 amd64
 hcxdumptool/resolute 7.0.0-1build1 amd64
 hcxkeys/resolute 6.2.1-2build3 amd64
 hcxtools/resolute 7.1.0-1 amd64
@@ -20638,7 +20598,6 @@ less.php/resolute,resolute 4.3.0-3build1 all
 less/resolute,now 668-1build1 amd64 [installed,automatic]
 less/resolute 668-1build1 i386
 letterize/resolute 1.5-1build1 amd64
-levant/resolute 0.4.0-1 amd64
 levee/resolute 4.0-3build1 amd64
 leveldb-doc/resolute,resolute 1.23-6 all
 lexd/resolute 1.3.5-2build1 amd64
@@ -21585,7 +21544,7 @@ libamd-comgr3-rocm/resolute 7.1.0+dfsg-0ubuntu1 amd64
 libamd-comgr3/resolute 7.1.1+dfsg-0ubuntu1 amd64
 libamd-smi-dev/resolute 7.2.0-3 amd64
 libamd-smi26/resolute 7.2.0-3 amd64
-libamd3/resolute,now 1:7.12.2+dfsg-1ubuntu1 amd64 [installed,automatic]
+libamd3/resolute,now 1:7.12.2+dfsg-1ubuntu1 amd64 [installed,auto-removable]
 libamdhip64-7/resolute 7.1.0-0ubuntu2 amd64
 libamdhip64-dev/resolute 7.1.0-0ubuntu2 amd64
 libamgcl-dev/resolute,resolute 1.4.4-1build1 all
@@ -21938,7 +21897,7 @@ libargtable2-dev/resolute 13-4build1 amd64
 libargtable2-docs/resolute,resolute 13-4build1 all
 libaria2-0-dev/resolute 1.37.0+debian-4 amd64
 libaria2-0/resolute 1.37.0+debian-4 amd64
-libaribb24-0t64/resolute,now 1.0.3-3 amd64 [installed,automatic]
+libaribb24-0t64/resolute,now 1.0.3-3 amd64 [installed,auto-removable]
 libaribb24-0t64/resolute 1.0.3-3 i386
 libaribb24-dev/resolute 1.0.3-3 amd64
 libaribb24-dev/resolute 1.0.3-3 i386
@@ -22118,6 +22077,7 @@ libatfs1t64/resolute 1.4pl6-17 amd64
 libatinject-jsr330-api-java-doc/resolute,resolute 1.0+ds1-6build1 all
 libatinject-jsr330-api-java/resolute,resolute 1.0+ds1-6build1 all
 libatinject-jsr330-tck-java/resolute,resolute 1.0+ds1-6build1 all
+libation/now 14.2.2 amd64 [installed,local]
 libatk-adaptor/resolute-updates,now 2.60.4-0ubuntu0.1 amd64 [installed,automatic]
 libatk-adaptor/resolute-updates 2.60.4-0ubuntu0.1 i386
 libatk-bridge2.0-0t64/resolute-updates,now 2.60.4-0ubuntu0.1 amd64 [installed,automatic]
@@ -22454,7 +22414,7 @@ libbabeltrace1/resolute 1.5.11-5build1 i386
 libbabeltrace2-0/resolute 2.1.2-1build2 amd64
 libbabeltrace2-dev/resolute 2.1.2-1build2 amd64
 libbabeltrace2-python-plugin-provider/resolute 2.1.2-1build2 amd64
-libbabl-0.1-0/resolute,now 1:0.1.124-1 amd64 [installed,automatic]
+libbabl-0.1-0/resolute,now 1:0.1.124-1 amd64 [installed,auto-removable]
 libbabl-dev/resolute 1:0.1.124-1 amd64
 libbabl-doc/resolute,resolute 1:0.1.124-1 all
 libbackoff-ocaml-dev/resolute 0.1.1-1build4 amd64
@@ -23541,7 +23501,7 @@ libcallaudio-tools/resolute 0.1.99-1 amd64
 libcallback1/resolute 2.5-2 amd64
 libcallstats-java/resolute,resolute 5.2.0-3 all
 libcam-pdf-perl/resolute,resolute 1.60-5 all
-libcamd3/resolute,now 1:7.12.2+dfsg-1ubuntu1 amd64 [installed,automatic]
+libcamd3/resolute,now 1:7.12.2+dfsg-1ubuntu1 amd64 [installed,auto-removable]
 libcamel-1.2-64t64/resolute,now 3.56.2-8 amd64 [installed,automatic]
 libcamel-snake-kebab-clojure/resolute,resolute 0.4.3-2build1 all
 libcamel1.2-dev/resolute 3.56.2-8 amd64
@@ -23826,7 +23786,7 @@ libccfits-dev/resolute 2.6+dfsg-1ubuntu4 amd64
 libccfits-doc/resolute,resolute 2.6+dfsg-1ubuntu4 all
 libccfits0t64/resolute 2.6+dfsg-1ubuntu4 amd64
 libccid/resolute 1.7.1-1 amd64
-libccolamd3/resolute,now 1:7.12.2+dfsg-1ubuntu1 amd64 [installed,automatic]
+libccolamd3/resolute,now 1:7.12.2+dfsg-1ubuntu1 amd64 [installed,auto-removable]
 libcconv-dev/resolute 0.6.3-1 amd64
 libcconv0/resolute 0.6.3-1 amd64
 libccp4-data/resolute,resolute 8.0.0-5build1 all
@@ -23854,7 +23814,7 @@ libcddb-file-perl/resolute,resolute 1.05-3 all
 libcddb-get-perl/resolute,resolute 2.28-4 all
 libcddb-perl/resolute,resolute 1.222-3 all
 libcddb2-dev/resolute 1.3.2-7.1fakesync1build1 amd64
-libcddb2/resolute,now 1.3.2-7.1fakesync1build1 amd64 [installed,automatic]
+libcddb2/resolute,now 1.3.2-7.1fakesync1build1 amd64 [installed,auto-removable]
 libcdi-api-java/resolute,resolute 1.2-4build1 all
 libcdi-dev/resolute 2.5.4-1 amd64
 libcdi0/resolute 2.5.4-1 amd64
@@ -23934,7 +23894,7 @@ libcfg7/resolute 3.1.9-2ubuntu3 i386
 libcfitsio-bin/resolute 4.6.3-1 amd64
 libcfitsio-dev/resolute 4.6.3-1 amd64
 libcfitsio-doc/resolute,resolute 4.6.3-1 all
-libcfitsio10t64/resolute,now 4.6.3-1 amd64 [installed,automatic]
+libcfitsio10t64/resolute,now 4.6.3-1 amd64 [installed,auto-removable]
 libcg3-1/resolute 1.5.1-1build2 amd64
 libcg3-dev/resolute 1.5.1-1build2 amd64
 libcg/resolute 3.1.0013-5build2 amd64
@@ -24094,7 +24054,7 @@ libchise1t64/resolute 0.3.0-2.5build1 amd64
 libchm-bin/resolute 2:0.40a-9 amd64
 libchm-dev/resolute 2:0.40a-9 amd64
 libchm1/resolute 2:0.40a-9 amd64
-libcholmod5/resolute,now 1:7.12.2+dfsg-1ubuntu1 amd64 [installed,automatic]
+libcholmod5/resolute,now 1:7.12.2+dfsg-1ubuntu1 amd64 [installed,auto-removable]
 libchromaprint-dev/resolute 1.6.0-2build1 amd64
 libchromaprint-dev/resolute 1.6.0-2build1 i386
 libchromaprint-tools/resolute 1.6.0-2build1 amd64
@@ -26304,7 +26264,7 @@ libdv4t64/resolute 1.0.0-17.1build2 i386
 libdvbcsa-dev/resolute 1.1.0-4build1 amd64
 libdvbcsa1/resolute 1.1.0-4build1 amd64
 libdvbpsi-dev/resolute 1.3.3-1build2 amd64
-libdvbpsi10/resolute,now 1.3.3-1build2 amd64 [installed,automatic]
+libdvbpsi10/resolute,now 1.3.3-1build2 amd64 [installed,auto-removable]
 libdvbv5-0t64/resolute 1.32.0-2ubuntu1 amd64
 libdvbv5-0t64/resolute 1.32.0-2ubuntu1 i386
 libdvbv5-dev/resolute 1.32.0-2ubuntu1 amd64
@@ -26371,7 +26331,7 @@ libebackend1.2-dev/resolute 3.56.2-8 amd64
 libebgenv-dev/resolute 0.19-1 amd64
 libebgenv0/resolute 0.19-1 amd64
 libebml-dev/resolute 1.4.5-2 amd64
-libebml5/resolute,now 1.4.5-2 amd64 [installed,automatic]
+libebml5/resolute,now 1.4.5-2 amd64 [installed,auto-removable]
 libebook-1.2-21t64/resolute,now 3.56.2-8 amd64 [installed,automatic]
 libebook-contacts-1.2-4t64/resolute,now 3.56.2-8 amd64 [installed,automatic]
 libebook-contacts1.2-dev/resolute 3.56.2-8 amd64
@@ -28404,8 +28364,8 @@ libgedit-tepl-common/resolute,resolute 6.13.0-3build1 all
 libgedit-tepl-dev/resolute 6.13.0-3build1 amd64
 libgee-0.8-2/resolute,now 0.20.8-2 amd64 [installed,automatic]
 libgee-0.8-dev/resolute 0.20.8-2 amd64
-libgegl-0.4-0t64/resolute,now 1:0.4.70-1 amd64 [installed,automatic]
-libgegl-common/resolute,resolute,now 1:0.4.70-1 all [installed,automatic]
+libgegl-0.4-0t64/resolute,now 1:0.4.70-1 amd64 [installed,auto-removable]
+libgegl-common/resolute,resolute,now 1:0.4.70-1 all [installed,auto-removable]
 libgegl-dev/resolute 1:0.4.70-1 amd64
 libgegl-doc/resolute,resolute 1:0.4.70-1 all
 libgeis-dev/resolute 2.2.17+16.04.20160126-0ubuntu14 amd64
@@ -32052,7 +32012,7 @@ libgiftiio0/resolute 1.0.9-7 amd64
 libgig-dev/resolute 4.5.2-2 amd64
 libgig-doc/resolute,resolute 4.5.2-2 all
 libgig13/resolute 4.5.2-2 amd64
-libgimp-3.0-0/resolute-updates,now 3.2.2-1ubuntu0.26.04.1 amd64 [installed,automatic]
+libgimp-3.0-0/resolute-updates,now 3.2.2-1ubuntu0.26.04.1 amd64 [installed,auto-removable]
 libgimp-3.0-bin/resolute-updates 3.2.2-1ubuntu0.26.04.1 amd64
 libgimp-3.0-dev/resolute-updates 3.2.2-1ubuntu0.26.04.1 amd64
 libgimp-3.0-doc/resolute-updates,resolute-updates 3.2.2-1ubuntu0.26.04.1 all
@@ -34968,7 +34928,7 @@ libiw30t64/resolute 30~pre9-18ubuntu2 amd64
 libixion-0.20-0/resolute 0.20.0-7 amd64
 libixion-dev/resolute 0.20.0-7 amd64
 libixion-doc/resolute,resolute 0.20.0-7 all
-libixml11t64/resolute,now 1:1.14.25-1ubuntu1 amd64 [installed,automatic]
+libixml11t64/resolute,now 1:1.14.25-1ubuntu1 amd64 [installed,auto-removable]
 libj2ssh-java-doc/resolute,resolute 0.2.9-6 all
 libj2ssh-java/resolute,resolute 0.2.9-6 all
 libjaba-client-java/resolute,resolute 2.2.0-2 all
@@ -35890,7 +35850,7 @@ libkasten4okteta2core0/resolute 5:0.26.25-2 amd64
 libkasten4okteta2gui0/resolute 5:0.26.25-2 amd64
 libkate-dev/resolute 0.4.1-12 amd64
 libkate-dev/resolute 0.4.1-12 i386
-libkate1/resolute,now 0.4.1-12 amd64 [installed,automatic]
+libkate1/resolute,now 0.4.1-12 amd64 [installed,auto-removable]
 libkate1/resolute 0.4.1-12 i386
 libkaz-dev/resolute 1.21-3build1 amd64
 libkaz1/resolute 1.21-3build1 amd64
@@ -38073,7 +38033,7 @@ libmatio-dev/resolute 1.5.30-2 amd64
 libmatio-doc/resolute,resolute 1.5.30-2 all
 libmatio14/resolute 1.5.30-2 amd64
 libmatroska-dev/resolute 1.7.1-2 amd64
-libmatroska7/resolute,now 1.7.1-2 amd64 [installed,automatic]
+libmatroska7/resolute,now 1.7.1-2 amd64 [installed,auto-removable]
 libmatthew-debug-java/resolute,resolute 0.8.1-4build1 all
 libmatthew-io-java/resolute,resolute 0.8.1-4build1 all
 libmatthew-java-doc/resolute,resolute 0.8.1-4build1 all
@@ -38580,7 +38540,7 @@ libmms0/resolute 0.6.4-3build2 amd64
 libmmtf-java/resolute,resolute 1.0.11-1build1 all
 libmnemonicsetter-java/resolute,resolute 0.6-1 all
 libmng-dev/resolute 2.0.3+dfsg-5 amd64
-libmng2/resolute,now 2.0.3+dfsg-5 amd64 [installed,automatic]
+libmng2/resolute,now 2.0.3+dfsg-5 amd64 [installed,auto-removable]
 libmnl-dev/resolute 1.0.5-3build1 amd64
 libmnl-dev/resolute 1.0.5-3build1 i386
 libmnl-doc/resolute,resolute 1.0.5-3build1 all
@@ -39142,8 +39102,8 @@ libmygui.ogreplatform0debian1t64/resolute 3.4.3+dfsg-3 amd64
 libmygui.opengl3platform0debian1t64/resolute 3.4.3+dfsg-3 amd64
 libmygui.openglplatform0debian1t64/resolute 3.4.3+dfsg-3 amd64
 libmyguiengine3debian1t64/resolute 3.4.3+dfsg-3 amd64
-libmypaint-1.5-1/resolute,now 1.6.0-4build1 amd64 [installed,automatic]
-libmypaint-common/resolute,resolute,now 1.6.0-4build1 all [installed,automatic]
+libmypaint-1.5-1/resolute,now 1.6.0-4build1 amd64 [installed,auto-removable]
+libmypaint-common/resolute,resolute,now 1.6.0-4build1 all [installed,auto-removable]
 libmypaint-dev/resolute 1.6.0-4build1 amd64
 libmypaint-doc/resolute,resolute 1.6.0-4build1 all
 libmyproxy-dev/resolute 6.2.20-1 amd64
@@ -40883,7 +40843,7 @@ libopenmpt-dev/resolute 0.8.4-1 i386
 libopenmpt-doc/resolute,resolute 0.8.4-1 all
 libopenmpt-modplug-dev/resolute 0.8.9.0-openmpt1-2build3 amd64
 libopenmpt-modplug-dev/resolute 0.8.9.0-openmpt1-2build3 i386
-libopenmpt-modplug1/resolute,now 0.8.9.0-openmpt1-2build3 amd64 [installed,automatic]
+libopenmpt-modplug1/resolute,now 0.8.9.0-openmpt1-2build3 amd64 [installed,auto-removable]
 libopenmpt-modplug1/resolute 0.8.9.0-openmpt1-2build3 i386
 libopenmpt0t64/resolute,now 0.8.4-1 amd64 [installed,automatic]
 libopenmpt0t64/resolute 0.8.4-1 i386
@@ -42496,7 +42456,7 @@ libprotobuf-dev/resolute 3.21.12-15ubuntu1 amd64
 libprotobuf-dev/resolute 3.21.12-15ubuntu1 i386
 libprotobuf-java-format-java/resolute,resolute 1.3-2build1 all
 libprotobuf-java/resolute,resolute 3.21.12-15ubuntu1 all
-libprotobuf-lite32t64/resolute,now 3.21.12-15ubuntu1 amd64 [installed,automatic]
+libprotobuf-lite32t64/resolute,now 3.21.12-15ubuntu1 amd64 [installed,auto-removable]
 libprotobuf-lite32t64/resolute 3.21.12-15ubuntu1 i386
 libprotobuf2-java/resolute,resolute 2.6.1-4build1 all
 libprotobuf32t64/resolute,now 3.21.12-15ubuntu1 amd64 [installed,automatic]
@@ -42515,7 +42475,7 @@ libprotozero-doc/resolute,resolute 1.8.1-1build1 all
 libproxool-java/resolute,resolute 0.9.1-12 all
 libproxy-dev/resolute 0.5.12-1 amd64
 libproxy-dev/resolute 0.5.12-1 i386
-libproxy-tools/resolute,now 0.5.12-1 amd64 [installed,automatic]
+libproxy-tools/resolute,now 0.5.12-1 amd64 [installed,auto-removable]
 libproxy-tools/resolute 0.5.12-1 i386
 libproxy-vole-java/resolute,resolute 1.0.3-3build1 all
 libproxy1v5/resolute,now 0.5.12-1 amd64 [installed,automatic]
@@ -42875,11 +42835,11 @@ libqt5concurrent5t64/resolute 5.15.18+dfsg-1ubuntu1 amd64
 libqt5concurrent5t64/resolute 5.15.18+dfsg-1ubuntu1 i386
 libqt5contact5-plugin-sqlite/resolute 0.3.21-1 amd64
 libqt5contacts5a/resolute 5.0~git20201102.f9a8f0fc+dfsg1-8build2 amd64
-libqt5core5t64/resolute,now 5.15.18+dfsg-1ubuntu1 amd64 [installed,automatic]
+libqt5core5t64/resolute,now 5.15.18+dfsg-1ubuntu1 amd64 [installed,auto-removable]
 libqt5core5t64/resolute 5.15.18+dfsg-1ubuntu1 i386
 libqt5datavisualization5-dev/resolute 5.15.18-1 amd64
 libqt5datavisualization5/resolute 5.15.18-1 amd64
-libqt5dbus5t64/resolute,now 5.15.18+dfsg-1ubuntu1 amd64 [installed,automatic]
+libqt5dbus5t64/resolute,now 5.15.18+dfsg-1ubuntu1 amd64 [installed,auto-removable]
 libqt5dbus5t64/resolute 5.15.18+dfsg-1ubuntu1 i386
 libqt5designer5/resolute 5.15.18-1 amd64
 libqt5designer5/resolute 5.15.18-1 i386
@@ -42890,7 +42850,7 @@ libqt5feedback5/resolute 5.0~git20180903.a14bd0b-7 amd64
 libqt5gamepad5-dev/resolute 5.15.18-1 amd64
 libqt5gamepad5/resolute 5.15.18-1 amd64
 libqt5gui5-gles/resolute 5.15.18+dfsg-1 amd64
-libqt5gui5t64/resolute,now 5.15.18+dfsg-1ubuntu1 amd64 [installed,automatic]
+libqt5gui5t64/resolute,now 5.15.18+dfsg-1ubuntu1 amd64 [installed,auto-removable]
 libqt5gui5t64/resolute 5.15.18+dfsg-1ubuntu1 i386
 libqt5help5/resolute 5.15.18-1 amd64
 libqt5help5/resolute 5.15.18-1 i386
@@ -42912,7 +42872,7 @@ libqt5multimediaquick5/resolute 5.15.18-1 amd64
 libqt5multimediaquick5/resolute 5.15.18-1 i386
 libqt5multimediawidgets5/resolute 5.15.18-1 amd64
 libqt5multimediawidgets5/resolute 5.15.18-1 i386
-libqt5network5t64/resolute,now 5.15.18+dfsg-1ubuntu1 amd64 [installed,automatic]
+libqt5network5t64/resolute,now 5.15.18+dfsg-1ubuntu1 amd64 [installed,auto-removable]
 libqt5network5t64/resolute 5.15.18+dfsg-1ubuntu1 i386
 libqt5networkauth5-dev/resolute 5.15.18-1 amd64
 libqt5networkauth5/resolute 5.15.18-1 amd64
@@ -42933,14 +42893,14 @@ libqt5positioningquick5/resolute 5.15.18+dfsg-1 i386
 libqt5printsupport5t64/resolute 5.15.18+dfsg-1ubuntu1 amd64
 libqt5printsupport5t64/resolute 5.15.18+dfsg-1ubuntu1 i386
 libqt5publishsubscribe5t64/resolute 5.0~git20230712.81e08ee+dfsg-4build2 amd64
-libqt5qml5/resolute,now 5.15.18+dfsg-2 amd64 [installed,automatic]
+libqt5qml5/resolute,now 5.15.18+dfsg-2 amd64 [installed,auto-removable]
 libqt5qml5/resolute 5.15.18+dfsg-2 i386
-libqt5qmlmodels5/resolute,now 5.15.18+dfsg-2 amd64 [installed,automatic]
+libqt5qmlmodels5/resolute,now 5.15.18+dfsg-2 amd64 [installed,auto-removable]
 libqt5qmlmodels5/resolute 5.15.18+dfsg-2 i386
 libqt5qmlworkerscript5/resolute 5.15.18+dfsg-2 amd64
 libqt5qmlworkerscript5/resolute 5.15.18+dfsg-2 i386
 libqt5quick5-gles/resolute 5.15.18+dfsg-1 amd64
-libqt5quick5/resolute,now 5.15.18+dfsg-2 amd64 [installed,automatic]
+libqt5quick5/resolute,now 5.15.18+dfsg-2 amd64 [installed,auto-removable]
 libqt5quick5/resolute 5.15.18+dfsg-2 i386
 libqt5quickcontrols2-5/resolute 5.15.18+dfsg-1 amd64
 libqt5quickparticles5-gles/resolute 5.15.18+dfsg-1 amd64
@@ -42982,7 +42942,7 @@ libqt5sql5t64/resolute 5.15.18+dfsg-1ubuntu1 amd64
 libqt5sql5t64/resolute 5.15.18+dfsg-1ubuntu1 i386
 libqt5svg5-dev/resolute 5.15.18-1 amd64
 libqt5svg5-dev/resolute 5.15.18-1 i386
-libqt5svg5/resolute,now 5.15.18-1 amd64 [installed,automatic]
+libqt5svg5/resolute,now 5.15.18-1 amd64 [installed,auto-removable]
 libqt5svg5/resolute 5.15.18-1 i386
 libqt5systeminfo5t64/resolute 5.0~git20230712.81e08ee+dfsg-4build2 amd64
 libqt5test5t64/resolute 5.15.18+dfsg-1ubuntu1 amd64
@@ -42996,9 +42956,9 @@ libqt5versitorganizer5a/resolute 5.0~git20201102.f9a8f0fc+dfsg1-8build2 amd64
 libqt5virtualkeyboard5-dev/resolute 5.15.18+dfsg-1 amd64
 libqt5virtualkeyboard5/resolute 5.15.18+dfsg-1 amd64
 libqt5waylandclient5-dev/resolute 5.15.18-1 amd64
-libqt5waylandclient5/resolute,now 5.15.18-1 amd64 [installed,automatic]
+libqt5waylandclient5/resolute,now 5.15.18-1 amd64 [installed,auto-removable]
 libqt5waylandcompositor5-dev/resolute 5.15.18-1 amd64
-libqt5waylandcompositor5/resolute,now 5.15.18-1 amd64 [installed,automatic]
+libqt5waylandcompositor5/resolute,now 5.15.18-1 amd64 [installed,auto-removable]
 libqt5webchannel5-dev/resolute 5.15.18-1 amd64
 libqt5webchannel5-dev/resolute 5.15.18-1 i386
 libqt5webchannel5/resolute 5.15.18-1 amd64
@@ -43013,11 +42973,11 @@ libqt5websockets5/resolute 5.15.18-1 amd64
 libqt5websockets5/resolute 5.15.18-1 i386
 libqt5webview5-dev/resolute 5.15.18-1 amd64
 libqt5webview5/resolute 5.15.18-1 amd64
-libqt5widgets5t64/resolute,now 5.15.18+dfsg-1ubuntu1 amd64 [installed,automatic]
+libqt5widgets5t64/resolute,now 5.15.18+dfsg-1ubuntu1 amd64 [installed,auto-removable]
 libqt5widgets5t64/resolute 5.15.18+dfsg-1ubuntu1 i386
 libqt5x11extras5-dev/resolute 5.15.18-1 amd64
 libqt5x11extras5-dev/resolute 5.15.18-1 i386
-libqt5x11extras5/resolute,now 5.15.18-1 amd64 [installed,automatic]
+libqt5x11extras5/resolute,now 5.15.18-1 amd64 [installed,auto-removable]
 libqt5x11extras5/resolute 5.15.18-1 i386
 libqt5xdg-dev/resolute 3.12.0-0ubuntu11 amd64
 libqt5xdg3/resolute 3.12.0-0ubuntu11 amd64
@@ -43743,7 +43703,7 @@ libres-ocaml-dev/resolute 5.0.2-1build4 amd64
 libresample1-dev/resolute 0.1.3-8build1 amd64
 libresample1/resolute 0.1.3-8build1 amd64
 libresid-builder-dev/resolute 2.1.1-16build1 amd64
-libresid-builder0c2a/resolute,now 2.1.1-16build1 amd64 [installed,automatic]
+libresid-builder0c2a/resolute,now 2.1.1-16build1 amd64 [installed,auto-removable]
 libresolv-wrapper/resolute 1.1.8-4 amd64
 librespeed-cli/resolute 1.0.12-1 amd64
 librest-1.0-0/resolute,now 0.10.2-1 amd64 [installed,automatic]
@@ -48383,7 +48343,7 @@ libsidplay1-dev/resolute 1.36.60-1build2 i386
 libsidplay1v5/resolute,now 1.36.60-1build2 amd64 [installed,automatic]
 libsidplay1v5/resolute 1.36.60-1build2 i386
 libsidplay2-dev/resolute 2.1.1-16build1 amd64
-libsidplay2/resolute,now 2.1.1-16build1 amd64 [installed,automatic]
+libsidplay2/resolute,now 2.1.1-16build1 amd64 [installed,auto-removable]
 libsidplayfp-dev/resolute 2.16.0-1 amd64
 libsidplayfp-doc/resolute,resolute 2.16.0-1 all
 libsidplayfp6/resolute 2.16.0-1 amd64
@@ -48828,7 +48788,7 @@ libsparsehash-dev/resolute,resolute 2.0.3-2build1 all
 libspatial4j-0.4-java/resolute,resolute 0.4.1-7build1 all
 libspatial4j-java/resolute,resolute 0.8-1build1 all
 libspatialaudio-dev/resolute 0.3.0+git20180730+dfsg1-3 amd64
-libspatialaudio0t64/resolute,now 0.3.0+git20180730+dfsg1-3 amd64 [installed,automatic]
+libspatialaudio0t64/resolute,now 0.3.0+git20180730+dfsg1-3 amd64 [installed,auto-removable]
 libspatialindex-c8/resolute 2.1.0-1build1 amd64
 libspatialindex-dev/resolute 2.1.0-1build1 amd64
 libspatialindex8/resolute 2.1.0-1build1 amd64
@@ -51258,7 +51218,7 @@ libulfius2.7t64/resolute 2.7.15-2.2build1 amd64
 libumad2sim0/resolute 0.12-1build1 amd64
 libumf-dev/resolute 0.11.0-0ubuntu1~26.04 amd64
 libumf0/resolute 0.11.0-0ubuntu1~26.04 amd64
-libumfpack6/resolute,now 1:7.12.2+dfsg-1ubuntu1 amd64 [installed,automatic]
+libumfpack6/resolute,now 1:7.12.2+dfsg-1ubuntu1 amd64 [installed,auto-removable]
 libumockdev-dev/resolute 0.19.7-1 amd64
 libumockdev-dev/resolute 0.19.7-1 i386
 libumockdev0/resolute 0.19.7-1 amd64
@@ -51404,7 +51364,7 @@ libupnp-dev/resolute 1:1.14.25-1ubuntu1 amd64
 libupnp-doc/resolute,resolute 1:1.14.25-1ubuntu1 all
 libupnp-java-doc/resolute,resolute 1.0.4+triplea-2 all
 libupnp-java/resolute,resolute 1.0.4+triplea-2 all
-libupnp17t64/resolute,now 1:1.14.25-1ubuntu1 amd64 [installed,automatic]
+libupnp17t64/resolute,now 1:1.14.25-1ubuntu1 amd64 [installed,auto-removable]
 libupower-glib-dev/resolute 1.91.1-1 amd64
 libupower-glib3/resolute,now 1.91.1-1 amd64 [installed,automatic]
 libups-nut-perl/resolute,resolute 2.8.4+really-2 all
@@ -51573,7 +51533,7 @@ libva-drm2/resolute,now 2.23.0-1ubuntu1 amd64 [installed,automatic]
 libva-drm2/resolute,now 2.23.0-1ubuntu1 i386 [installed,automatic]
 libva-glx2/resolute,now 2.23.0-1ubuntu1 amd64 [installed,automatic]
 libva-glx2/resolute,now 2.23.0-1ubuntu1 i386 [installed,automatic]
-libva-wayland2/resolute,now 2.23.0-1ubuntu1 amd64 [installed,automatic]
+libva-wayland2/resolute,now 2.23.0-1ubuntu1 amd64 [installed,auto-removable]
 libva-wayland2/resolute 2.23.0-1ubuntu1 i386
 libva-x11-2/resolute,now 2.23.0-1ubuntu1 amd64 [installed,automatic]
 libva-x11-2/resolute,now 2.23.0-1ubuntu1 i386 [installed,automatic]
@@ -51871,11 +51831,11 @@ libvkd3d-shader1/resolute 1.2-15build1 amd64
 libvkd3d-utils1/resolute 1.2-15build1 amd64
 libvkd3d1/resolute 1.2-15build1 amd64
 libvkfft-dev/resolute,resolute 1.3.4+ds2-1build1 all
-libvlc-bin/resolute,now 3.0.23-1 amd64 [installed,automatic]
+libvlc-bin/resolute,now 3.0.23-1 amd64 [installed,auto-removable]
 libvlc-dev/resolute 3.0.23-1 amd64
-libvlc5/resolute,now 3.0.23-1 amd64 [installed,automatic]
+libvlc5/resolute,now 3.0.23-1 amd64 [installed,auto-removable]
 libvlccore-dev/resolute 3.0.23-1 amd64
-libvlccore9/resolute,now 3.0.23-1 amd64 [installed,automatic]
+libvlccore9/resolute,now 3.0.23-1 amd64 [installed,auto-removable]
 libvldocking-java/resolute,resolute 3.0.5-3build1 all
 libvlfeat-dev/resolute 0.9.21+full-5build1 amd64
 libvlfeat-doc/resolute,resolute 0.9.21+full-5build1 all
@@ -52834,7 +52794,7 @@ libxcb-xfixes0/resolute,now 1.17.0-2ubuntu1 amd64 [installed,automatic]
 libxcb-xfixes0/resolute,now 1.17.0-2ubuntu1 i386 [installed,automatic]
 libxcb-xinerama0-dev/resolute 1.17.0-2ubuntu1 amd64
 libxcb-xinerama0-dev/resolute 1.17.0-2ubuntu1 i386
-libxcb-xinerama0/resolute,now 1.17.0-2ubuntu1 amd64 [installed,automatic]
+libxcb-xinerama0/resolute,now 1.17.0-2ubuntu1 amd64 [installed,auto-removable]
 libxcb-xinerama0/resolute 1.17.0-2ubuntu1 i386
 libxcb-xinput-dev/resolute 1.17.0-2ubuntu1 amd64
 libxcb-xinput-dev/resolute 1.17.0-2ubuntu1 i386
@@ -52852,7 +52812,7 @@ libxcb-xtest0/resolute,now 1.17.0-2ubuntu1 amd64 [installed]
 libxcb-xtest0/resolute 1.17.0-2ubuntu1 i386
 libxcb-xv0-dev/resolute 1.17.0-2ubuntu1 amd64
 libxcb-xv0-dev/resolute 1.17.0-2ubuntu1 i386
-libxcb-xv0/resolute,now 1.17.0-2ubuntu1 amd64 [installed,automatic]
+libxcb-xv0/resolute,now 1.17.0-2ubuntu1 amd64 [installed,auto-removable]
 libxcb-xv0/resolute 1.17.0-2ubuntu1 i386
 libxcb-xvmc0-dev/resolute 1.17.0-2ubuntu1 amd64
 libxcb-xvmc0-dev/resolute 1.17.0-2ubuntu1 i386
@@ -53327,8 +53287,8 @@ libxrt-utils-npu/resolute 1:2.21.75+dfsg-4 amd64
 libxrt-utils/resolute 1:2.21.75+dfsg-4 amd64
 libxrt2/resolute 1:2.21.75+dfsg-4 amd64
 libxs-object-magic-perl/resolute 0.05-3build1 amd64
-libxs-parse-keyword-perl/resolute 0.49-1 amd64
-libxs-parse-keyword-perl/resolute 0.49-1 i386
+libxs-parse-keyword-perl/resolute-security 0.49-1ubuntu0.1 amd64
+libxs-parse-keyword-perl/resolute-security 0.49-1ubuntu0.1 i386
 libxs-parse-sublike-perl/resolute 0.41-1 amd64
 libxsettings-client-dev/resolute 0.17-14 amd64
 libxsettings-client-doc/resolute,resolute 0.17-14 all
@@ -53378,11 +53338,11 @@ libxtrxdsp-dev/resolute 0.0.1+git20190830.eec2864-3.1 amd64
 libxtrxdsp0/resolute 0.0.1+git20190830.eec2864-3.1 amd64
 libxtrxll-dev/resolute 0.0.1+git20201202.1b6eddf-1.3 amd64
 libxtrxll0t64/resolute 0.0.1+git20201202.1b6eddf-1.3 amd64
-libxtst-dev/resolute,now 2:1.2.5-1build1 amd64 [installed,automatic]
-libxtst-dev/resolute 2:1.2.5-1build1 i386
-libxtst-doc/resolute,resolute 2:1.2.5-1build1 all
-libxtst6/resolute,now 2:1.2.5-1build1 amd64 [installed,automatic]
-libxtst6/resolute 2:1.2.5-1build1 i386
+libxtst-dev/resolute-security 2:1.2.5-1ubuntu0.1 amd64 [upgradable from: 2:1.2.5-1build1]
+libxtst-dev/resolute-security 2:1.2.5-1ubuntu0.1 i386
+libxtst-doc/resolute-security,resolute-security 2:1.2.5-1ubuntu0.1 all
+libxtst6/resolute-security 2:1.2.5-1ubuntu0.1 amd64 [upgradable from: 2:1.2.5-1build1]
+libxtst6/resolute-security 2:1.2.5-1ubuntu0.1 i386
 libxv-dev/resolute 2:1.0.13-1 amd64
 libxv-dev/resolute 2:1.0.13-1 i386
 libxv1/resolute,now 2:1.0.13-1 amd64 [installed,automatic]
@@ -61116,7 +61076,7 @@ ncurses-doc/resolute,resolute 6.6+20251231-1 all
 ncurses-examples/resolute 6.6+20251231-1 amd64
 ncurses-examples/resolute 6.6+20251231-1 i386
 ncurses-hexedit/resolute 0.9.7+orig-7.3build1 amd64
-ncurses-term/resolute,resolute 6.6+20251231-1 all
+ncurses-term/resolute,resolute,now 6.6+20251231-1 all [installed,automatic]
 nd/resolute 0.8.2-9 amd64
 ndctl/resolute 81-1ubuntu1 amd64
 ndctl/resolute 81-1ubuntu1 i386
@@ -63246,14 +63206,6 @@ noiz2sa/resolute 0.51a-13build1 amd64
 nom/resolute,resolute 0.1.5-7 all
 nomacs-l10n/resolute,resolute 3.21.1+dfsg-1 all
 nomacs/resolute 3.21.1+dfsg-1 amd64
-nomad-autoscaler-enterprise/resolute 0.6.0+ent-1 amd64
-nomad-autoscaler/resolute 0.6.0-1 amd64
-nomad-device-nvidia/resolute 1.1.0-1 amd64
-nomad-driver-exec2/resolute 0.2.0-1 amd64
-nomad-driver-podman/resolute 0.6.5-1 amd64
-nomad-enterprise/resolute 2.0.7+ent-1 amd64
-nomad-pack/resolute 0.4.2-1 amd64
-nomad/resolute 2.0.7-1 amd64
 nomarch/resolute 1.4-5.1build1 amd64
 nordugrid-arc-arc-exporter/resolute,resolute 7.1.1-2build1 all
 nordugrid-arc-arcctl-service/resolute,resolute 7.1.1-2build1 all
@@ -64183,6 +64135,7 @@ openarena-data/resolute,resolute 0.8.5split-17 all
 openarena-oacmp1/resolute,resolute 3-17 all
 openarena-server/resolute 0.8.8+dfsg-11 amd64
 openarena/resolute 0.8.8+dfsg-11 amd64
+openaudible/now 5.0.3 amd64 [installed,local]
 openbabel-gui/resolute 3.1.1+dfsg-11ubuntu5 amd64
 openbabel/resolute 3.1.1+dfsg-11ubuntu5 amd64
 openbgpd/resolute 9.0-1 amd64
@@ -64519,9 +64472,9 @@ openssh-client/resolute-security,now 1:10.2p1-2ubuntu3.8 amd64 [installed,automa
 openssh-client/resolute-security 1:10.2p1-2ubuntu3.8 i386
 openssh-known-hosts/resolute,resolute 0.6.3-1build1 all
 openssh-server-gssapi/resolute-security,resolute-security 1:10.2p1-2ubuntu3.8 all
-openssh-server/resolute-security 1:10.2p1-2ubuntu3.8 amd64
+openssh-server/resolute-security,now 1:10.2p1-2ubuntu3.8 amd64 [installed]
 openssh-server/resolute-security 1:10.2p1-2ubuntu3.8 i386
-openssh-sftp-server/resolute-security 1:10.2p1-2ubuntu3.8 amd64
+openssh-sftp-server/resolute-security,now 1:10.2p1-2ubuntu3.8 amd64 [installed,automatic]
 openssh-sftp-server/resolute-security 1:10.2p1-2ubuntu3.8 i386
 openssh-tests/resolute-security 1:10.2p1-2ubuntu3.8 amd64
 openssl-pkcs11-sign-provider/resolute 1.0.2-0ubuntu2 amd64
@@ -64798,7 +64751,6 @@ packagekit-gtk3-module/resolute-updates 1.3.4-3ubuntu1.2 amd64
 packagekit/resolute-updates,now 1.3.4-3ubuntu1.2 amd64 [installed,automatic]
 packagesearch/resolute 2.10.1build1 amd64
 packaging-tutorial/resolute,resolute 0.30ubuntu1 all
-packer/resolute 1.16.1-1 amd64
 packeth/resolute 3.0-1build1 amd64
 packetq/resolute 1.7.3+dfsg-9 amd64
 packetsender/resolute 8.9.1-2 amd64
@@ -67852,7 +67804,7 @@ python-jupyter-core-doc/resolute,resolute 5.9.1-1 all
 python-jupyter-events-doc/resolute,resolute 0.12.0-2 all
 python-jupyter-server-doc/resolute,resolute 2.17.0-1 all
 python-jupyter-sphinx-doc/resolute,resolute 0.5.3-3 all
-python-jwt-doc/resolute-security,resolute-security 2.10.1-4ubuntu1.2 all
+python-jwt-doc/resolute-security,resolute-security 2.10.1-4ubuntu1.3 all
 python-kafka-doc/resolute,resolute 2.0.2-11 all
 python-kajiki-doc/resolute,resolute 1.0.2-1 all
 python-keystoneauth1-doc/resolute,resolute 5.13.1-1ubuntu1 all
@@ -70659,7 +70611,7 @@ python3-jupytext/resolute,resolute 1.16.4+ds1-1build1 all
 python3-justbackoff/resolute,resolute 0.6.0-2build1 all
 python3-justnimbus/resolute,resolute 0.7.4-2 all
 python3-jwcrypto/resolute,resolute 1.5.6-1 all
-python3-jwt/resolute-security,resolute-security,now 2.10.1-4ubuntu1.2 all [installed,automatic]
+python3-jwt/resolute-security,resolute-security 2.10.1-4ubuntu1.3 all [upgradable from: 2.10.1-4ubuntu1.2]
 python3-kafka/resolute,resolute 2.0.2-11 all
 python3-kaitaistruct/resolute,resolute 0.11-1 all
 python3-kajiki/resolute,resolute 1.0.2-1 all
@@ -74679,7 +74631,7 @@ qt3d5-examples/resolute 5.15.18+dfsg-1ubuntu1 amd64
 qt5-assistant/resolute 5.15.18-1 amd64
 qt5-assistant/resolute 5.15.18-1 i386
 qt5-avif-image-plugin/resolute 0.8.5-1build1 amd64
-qt5-gtk-platformtheme/resolute,now 5.15.18+dfsg-1ubuntu1 amd64 [installed,automatic]
+qt5-gtk-platformtheme/resolute,now 5.15.18+dfsg-1ubuntu1 amd64 [installed,auto-removable]
 qt5-gtk-platformtheme/resolute 5.15.18+dfsg-1ubuntu1 i386
 qt5-image-formats-plugins/resolute 5.15.18-1 amd64
 qt5-qmake-bin/resolute 5.15.18+dfsg-1ubuntu1 amd64
@@ -75050,7 +75002,7 @@ qttools5-examples/resolute 5.15.18-1 amd64
 qttools5-examples/resolute 5.15.18-1 i386
 qttools5-private-dev/resolute 5.15.18-1 amd64
 qttools5-private-dev/resolute 5.15.18-1 i386
-qttranslations5-l10n/resolute,resolute,now 5.15.18-1 all [installed,automatic]
+qttranslations5-l10n/resolute,resolute,now 5.15.18-1 all [installed,auto-removable]
 qtvirtualkeyboard-plugin/resolute 5.15.18+dfsg-1 amd64
 qtvirtualkeyboard5-doc-html/resolute,resolute 5.15.18+dfsg-1 all
 qtvirtualkeyboard5-doc/resolute,resolute 5.15.18+dfsg-1 all
@@ -75060,7 +75012,7 @@ qtwayland5-doc-html/resolute,resolute 5.15.18-1 all
 qtwayland5-doc/resolute,resolute 5.15.18-1 all
 qtwayland5-examples/resolute 5.15.18-1 amd64
 qtwayland5-private-dev/resolute 5.15.18-1 amd64
-qtwayland5/resolute,now 5.15.18-1 amd64 [installed,automatic]
+qtwayland5/resolute,now 5.15.18-1 amd64 [installed,auto-removable]
 qtwebchannel5-doc-html/resolute,resolute 5.15.18-1 all
 qtwebchannel5-doc/resolute,resolute 5.15.18-1 all
 qtwebchannel5-examples/resolute 5.15.18-1 amd64
@@ -79050,7 +79002,6 @@ sensible-mda/resolute 8.18.2-1 amd64
 sensible-utils/resolute,resolute,now 0.0.26build1 all [installed,automatic]
 sent/resolute 1-4build1 amd64
 sentencepiece/resolute 0.2.1-1build1 amd64
-sentinel/resolute 0.41.0-1 amd64
 sentineldl/resolute,resolute 20200319-2build1 all
 sentinelsat/resolute,resolute 1.2.1-2build1 all
 sepia/resolute,resolute 0.992-8build1 all
@@ -79988,7 +79939,7 @@ ssh-contact-client/resolute 0.7-1.1build5 amd64
 ssh-contact-service/resolute 0.7-1.1build5 amd64
 ssh-contact/resolute,resolute 0.7-1.1build5 all
 ssh-cron/resolute 2.00.00-1 amd64
-ssh-import-id/resolute,resolute 5.11-0ubuntu4 all
+ssh-import-id/resolute,resolute,now 5.11-0ubuntu4 all [installed,automatic]
 ssh-proxy-ice-gsocket/resolute 0.2-1 amd64
 ssh-studio/resolute 1.3.1-0ubuntu1 amd64
 ssh-tools/resolute 1.9-1build1 amd64
@@ -81128,10 +81079,7 @@ termrec/resolute 0.19-3 amd64
 termshark/resolute 2.4.0-3 amd64
 termtosvg/resolute,resolute 1.1.0+dfsg-5 all
 terraform-config-inspect/resolute 0.0~git20230614.f32df32-2build1 amd64
-terraform-ls/resolute 0.39.0-1 amd64
-terraform-stacks-cli/resolute 1.4.0-1 amd64
 terraform-switcher/resolute 0.13.1308+ds-1build2 amd64
-terraform/resolute 1.16.6-1 amd64
 terraintool/resolute,resolute 1.19-2build1 all
 terraphast/resolute 0.1.0+dfsg-1 amd64
 terser/resolute,resolute 5.46.1-4 all
@@ -81399,11 +81347,9 @@ texworks-help-fr/resolute,resolute 20240209-2 all
 texworks-scripting-lua/resolute 0.6.11+ds-2 amd64
 texworks-scripting-python/resolute 0.6.11+ds-2 amd64
 texworks/resolute 0.6.11+ds-2 amd64
-tf-migrate/resolute 1.2.0-1 amd64
 tf5-dbgsym/resolute 5.0beta8-14build1 amd64
 tf5/resolute 5.0beta8-14build1 amd64
 tf/resolute 1:4.0s1-22build1 amd64
-tfctl-cli/resolute 0.4.0-1 amd64
 tfdocgen/resolute 1.0-4build3 amd64
 tfk8s/resolute 0.1.10-2build1 amd64
 tfortune/resolute 1.0.2-1build1 amd64
@@ -82329,9 +82275,9 @@ typecatcher/resolute,resolute 0.4-0.1build1 all
 typer/resolute,resolute 0.19.2-1 all
 typespeed/resolute 0.6.5-8build1 amd64
 tzc/resolute 2.6.16.1build1 amd64
-tzdata-icu/resolute-updates,resolute-updates 2026e-0ubuntu0.26.04.1 all
-tzdata-legacy/resolute-updates,resolute-updates 2026e-0ubuntu0.26.04.1 all
-tzdata/resolute-updates,resolute-updates,now 2026e-0ubuntu0.26.04.1 all [installed,automatic]
+tzdata-icu/resolute-updates,resolute-updates,resolute-security,resolute-security 2026e-0ubuntu0.26.04.1 all
+tzdata-legacy/resolute-updates,resolute-updates,resolute-security,resolute-security 2026e-0ubuntu0.26.04.1 all
+tzdata/resolute-updates,resolute-updates,resolute-security,resolute-security,now 2026e-0ubuntu0.26.04.1 all [installed,automatic]
 tzdiff/resolute,resolute 1.2.1-1build1 all
 tzwatch/resolute,resolute 1.5.0-1 all
 u-boot-efi-dtb/resolute,resolute 5 all
@@ -83074,8 +83020,6 @@ v86d/resolute 0.1.10-5build1 amd64
 va-driver-all/resolute 2.23.0-1ubuntu1 amd64
 va-driver-all/resolute 2.23.0-1ubuntu1 i386
 vacation/resolute 3.3.3build3 amd64
-vagrant-vmware-utility/resolute 1:1.0.24 amd64
-vagrant/resolute 2.4.9-1 amd64
 vainfo/resolute 2.22.0+ds1-2build1 amd64
 val-and-rick-data/resolute,resolute 0.1a.dfsg1-7build2 all
 val-and-rick/resolute 0.1a.dfsg1-7build2 amd64
@@ -83137,16 +83081,6 @@ varnish-vmod-digest/resolute 6.4+20230816-6 amd64
 varnish/resolute 7.7.3-1build1 amd64
 varscan/resolute 2.4.3+dfsg-5 amd64
 vasttrafik-cli/resolute,resolute 1.14-1 all
-vault-benchmark/resolute 0.3.0-1 amd64
-vault-enterprise-fips1402/resolute 1.19.3+ent-1 amd64
-vault-enterprise-fips1403/resolute 2.2.0+ent-1 amd64
-vault-enterprise-hsm-fips1402/resolute 1.19.3+ent-1 amd64
-vault-enterprise-hsm-fips1403/resolute 2.2.0+ent-1 amd64
-vault-enterprise-hsm/resolute 2.2.0+ent-1 amd64
-vault-enterprise/resolute 2.2.0+ent-1 amd64
-vault-radar/resolute 0.55.0-1 amd64
-vault-secrets-gateway/resolute 0.1.5-1 amd64
-vault/resolute 2.2.0-1 amd64
 vaultlocker/resolute,resolute 1.0.6-0ubuntu2 all
 vbackup/resolute,resolute 1.0.1-2 all
 vbetool/resolute 1.1-7build1 amd64
@@ -83420,27 +83354,26 @@ vkeybd/resolute 1:0.1.18d-4build4 amd64
 vkmark/resolute 2025.01-1build1 amd64
 vkroots-headers/resolute 0~202404300106git5106d8a-2build1 amd64
 vlan/resolute,resolute 2.0.5+nmu3ubuntu2 all
-vlc-bin/resolute,now 3.0.23-1 amd64 [installed,automatic]
-vlc-data/resolute,resolute,now 3.0.23-1 all [installed,automatic]
-vlc-l10n/resolute,resolute,now 3.0.23-1 all [installed,automatic]
-vlc-plugin-access-extra/resolute,now 3.0.23-1 amd64 [installed,automatic]
-vlc-plugin-base/resolute,now 3.0.23-1 amd64 [installed,automatic]
+vlc-bin/resolute,now 3.0.23-1 amd64 [installed,auto-removable]
+vlc-data/resolute,resolute,now 3.0.23-1 all [installed,auto-removable]
+vlc-l10n/resolute,resolute,now 3.0.23-1 all [installed,auto-removable]
+vlc-plugin-access-extra/resolute,now 3.0.23-1 amd64 [installed,auto-removable]
+vlc-plugin-base/resolute,now 3.0.23-1 amd64 [installed,auto-removable]
 vlc-plugin-bittorrent/resolute 2.16-1 amd64
 vlc-plugin-fluidsynth/resolute 3.0.23-1 amd64
 vlc-plugin-jack/resolute 3.0.23-1 amd64
-vlc-plugin-notify/resolute,now 3.0.23-1 amd64 [installed,automatic]
+vlc-plugin-notify/resolute,now 3.0.23-1 amd64 [installed,auto-removable]
 vlc-plugin-pipewire/resolute 3-3build3 amd64
-vlc-plugin-qt/resolute,now 3.0.23-1 amd64 [installed,automatic]
-vlc-plugin-samba/resolute,now 3.0.23-1 amd64 [installed,automatic]
-vlc-plugin-skins2/resolute,now 3.0.23-1 amd64 [installed,automatic]
+vlc-plugin-qt/resolute,now 3.0.23-1 amd64 [installed,auto-removable]
+vlc-plugin-samba/resolute,now 3.0.23-1 amd64 [installed,auto-removable]
+vlc-plugin-skins2/resolute,now 3.0.23-1 amd64 [installed,auto-removable]
 vlc-plugin-svg/resolute 3.0.23-1 amd64
-vlc-plugin-video-output/resolute,now 3.0.23-1 amd64 [installed,automatic]
-vlc-plugin-video-splitter/resolute,now 3.0.23-1 amd64 [installed,automatic]
-vlc-plugin-visualization/resolute,now 3.0.23-1 amd64 [installed,automatic]
-vlc/resolute,now 3.0.23-1 amd64 [installed]
+vlc-plugin-video-output/resolute,now 3.0.23-1 amd64 [installed,auto-removable]
+vlc-plugin-video-splitter/resolute,now 3.0.23-1 amd64 [installed,auto-removable]
+vlc-plugin-visualization/resolute,now 3.0.23-1 amd64 [installed,auto-removable]
+vlc/resolute 3.0.23-1 amd64
 vlevel/resolute 0.5.2-1build1 amd64
 vlock/resolute 2.2.2-13 amd64
-vlt/resolute 1.0.0-1 amd64
 vm/resolute,resolute 8.2.0b-11.1build1 all
 vmatch/resolute 2.3.1+git20240412.b3b8ac0+dfsg-2 amd64
 vmdb2/resolute,resolute 0.41-1 all
@@ -83623,7 +83556,6 @@ waylandpp-doc/resolute,resolute 1.0.1-1 all
 waymore/resolute,resolute 3.7-1.1build1 all
 wayout/resolute 0.1.4-1build1 amd64
 waypipe/resolute 0.11.0-1build1 amd64
-waypoint/resolute 0.11.4-1 amd64
 wayvnc/resolute 0.9.1-1build1 amd64
 wazero/resolute 1.11.0-5 amd64
 wbar/resolute 2.3.4-14 amd64

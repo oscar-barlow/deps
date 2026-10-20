@@ -12,7 +12,8 @@ change the NVIDIA driver, import SSH configuration or open applications.
 | Target | What it does |
 | --- | --- |
 | `make setup` | APT packages, Nix daemon, Neovim, Kitty, shell, Git signing, NFS, selected apps, audiobook applications and the three AI CLIs. |
-| `make install` | Configure external sources, refresh APT and install `aptfile.txt`; record the package inventory. |
+| `make install` | Install APT packages, Flatpak apps and AI CLIs; record package inventories. |
+| `make apt-install` | Configure external sources, refresh APT and install `aptfile.txt`; record the APT inventory. |
 | `make repos` | Install public fallback keys/source files, ensure extrepo is installed, enable `apt-repos.txt` and refresh APT. |
 | `make dotfiles` | Use GNU Stow to link all five user configuration packages and include the Git settings; no package installation or service changes. |
 | `make nix-install` | Retain an active Nix daemon, or install Ubuntu's Nix packages if absent and enable the daemon socket; install direnv and enable flakes in the user config. |
@@ -21,14 +22,11 @@ change the NVIDIA driver, import SSH configuration or open applications.
 | `make shell-install` | Install Zsh, pinned Oh My Zsh, syntax highlighting, the bundled `z` plugin, clipboard integration and direnv; select Zsh as the login shell. |
 | `make git-install` | Install Git/GitHub CLI/1Password and include your Git identity and SSH signing settings. |
 | `make nfs-install` | Back up fstab, replace only the `/srv/data` entry, and arrange a network automount. |
-| `make apps-install` | Native Brave and Signal; Obsidian from Flathub. |
-| `make books-install` | Calibre from Flathub; pinned, SHA256-checked Libation and OpenAudible publisher packages. |
-| `make ai-reinstall` | Install and check the official npm packages, then clean up the previous repo-managed archive/APT installations. |
+| `make books-install` | Pinned, SHA256-checked Libation and OpenAudible publisher packages. |
+| `make flatpak-install` | Install the apps in `flatpakfile.txt` from Flathub and record the inventory. |
 | `make ai-install` | Install/update Codex, pi and Claude Code using the Node.js/npm toolchain on PATH. |
-| `make ai-clean` | Remove previous repo-managed AI archives, cache, launchers and Claude APT package/source; preserve agent data and unrelated launchers. |
 | `make ai-check` | Show the executable paths and versions of Codex, pi and Claude Code; no login or model requests. |
 | `make steam-install` | Detect the installed NVIDIA graphics-library package and install its matching i386 package, Steam and recommended dependencies. |
-| `make check` | Tests using temporary files and mocked privileged commands; no system setup. |
 
 User configuration lives in `stow/` and is linked into place using GNU Stow.
 `stow` is listed in `aptfile.txt`, or install it yourself before linking:
@@ -65,11 +63,14 @@ an upstream installation. LSP executables referenced by Neovim (`deno`,
 project's flake. The same applies to language-based tools such as `audiblez`.
 
 AI tools use your existing Node.js/npm toolchain (Node.js 22.19 or newer).
-Activate that toolchain first. On a machine using the previous archive/APT
-installation, close the agents and run this from a normal terminal:
+AI targets use Node.js/npm on PATH, or load NVM from `NVM_DIR` (default
+`~/.nvm`) when they are missing. `make toolchains` installs uv, Rust, NVM and
+Node.js 24 LTS (Krypton), sets it as the default Node version, and adds NVM startup hooks to
+Bash and Zsh. Open a new terminal afterwards to load it in your shell.
+To install or update only the AI tools, run:
 
 ```sh
-make ai-reinstall
+make ai-install
 rehash
 make ai-check
 ```
@@ -82,25 +83,9 @@ into the user-owned `~/.local` prefix; no `sudo npm` or persistent npm config
 changes are used. Set `AI_NPM_PREFIX` to use a different prefix and add its
 `bin` directory to PATH. Keep your Node toolchain available for the npm launchers.
 
-The complete Codex npm package includes its launcher, platform package,
-package metadata and helper resources. The old target used only a bare Codex
-binary, whose version check did not exercise daemon startup. The replacement
-does not add `--no-daemon` or change Codex configuration. Start `codex` normally
-afterwards, and check `codex resume` on the new laptop. If you added an alias
-that forces `--no-daemon`, remove that workaround yourself; `type -a codex`
-shows command resolution. `make ai-check` reports paths and versions, and does
-not claim to test interactive session resumption.
-
-`ai-reinstall` installs and checks the npm executables before cleanup. Existing
-non-npm launchers receive `.deps-backup` backups; if npm fails, those launchers
-are restored and cleanup does not run. `ai-clean` removes only the old
-`DATA_HOME/deps/ai-tools` and `CACHE_HOME/deps/ai-tools` trees, links in
-`BIN_HOME` pointing into that old application tree, and the `claude-code` APT
-package plus this repo's `claude-code.sources`/`claude-code.asc` files. Other
-manual installations are not recursively removed. The global npm installation
-and all agent configuration, credentials, session databases and MCP settings
-are preserved. The Claude APT source has been removed from this repo so later
-bootstrap runs do not reinstall it.
+Existing non-npm launchers receive `.deps-backup` backups; if npm fails,
+those launchers are restored. `make ai-check` reports executable paths and
+versions; check interactive startup and session resumption separately.
 
 Start `codex`, `pi` and `claude` normally; existing agent data stays in place.
 MCP consolidation belongs in your separate repo. See the [official OpenAI documentation](https://developers.openai.com/codex/cli/),
@@ -217,13 +202,24 @@ reviewed refresh. A failed enable stops the bootstrap.
 
 Ubuntu's extrepo 0.15 defaults to Debian's Trixie catalogue. The selected
 Proton VPN, Yarn and Brave entries use distribution-independent vendor suites.
-Docker/HashiCorp need Ubuntu-specific sources; their reviewed declarations and
-public keys live in `sources/`. Signal and 1Password use publisher-standard
-filenames/key paths there too. See `sources/README.md` for provenance.
+Signal and 1Password source declarations and public keys live in `sources/`,
+using publisher-standard filenames and key paths. See `sources/README.md` for provenance.
 Before first adopting extrepo, retire overlapping vendor Proton/Yarn/Brave sources
 so APT does not see conflicting signing-key paths. A source disabled by an
 Ubuntu upgrade is restored by the appropriate target on the next run.
 
-`make flatpak-install` installs the broader existing `flatpakfile.txt` list;
-`apps-install` and `books-install` install only the selected applications.
+`aptfile.txt` is the shared list for ordinary APT packages. Individual
+configuration targets depend on `apt-install`, so they install that full list.
+Nix bootstrap packages, detected Steam graphics libraries and downloaded book
+packages retain their conditional installation logic. `make install` installs
+software; `make setup` additionally applies configuration and special setup.
+
+`flatpakfile.txt` is the shared app list, including Obsidian, Calibre, VLC and
+GIMP. `make install` includes `flatpak-install`; `flatpak-update` updates all
+system Flatpaks. Existing APT copies of overlapping apps are not removed.
+
+The tracked manifests are historical snapshots for investigation. APT's
+snapshot includes available packages as well as installed status; it does not
+pin versions or act as a reproducible lockfile. Install/update targets refresh
+them, and `make manifest` refreshes both explicitly.
 Package removal stays a separate explicit `make autoremove` operation.
