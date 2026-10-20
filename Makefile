@@ -8,6 +8,7 @@ CONFIG_HOME ?= $(or $(XDG_CONFIG_HOME),$(HOME)/.config)
 DATA_HOME ?= $(or $(XDG_DATA_HOME),$(HOME)/.local/share)
 CACHE_HOME ?= $(or $(XDG_CACHE_HOME),$(HOME)/.cache)
 BIN_HOME ?= $(HOME)/.local/bin
+AI_NPM_PREFIX ?= $(HOME)/.local
 APT_SOURCE_DIR ?= /etc/apt/sources.list.d
 APT_KEY_DIR ?= /etc/apt/keyrings
 VENDOR_KEY_DIR ?= /usr/share/keyrings
@@ -237,35 +238,65 @@ obsidian-check:
 	print('All expected community plugins are installed and enabled.')
 	PY
 
+.PHONY: ai-preflight
+ai-preflight:
+	@command -v node >/dev/null && command -v npm >/dev/null || { printf 'Activate your Node.js/npm toolchain first.\n' >&2; exit 1; }
+	node -e 'const [major, minor] = process.versions.node.split(".").map(Number); if (major < 22 || (major === 22 && minor < 19)) { console.error("AI tools require Node.js 22.19 or newer."); process.exit(1); }'
+	[[ -r ai-tools.txt ]] || { printf 'Cannot read ai-tools.txt\n' >&2; exit 1; }
+
 .PHONY: ai-install
-ai-install: repos
-	@sudo apt-get install --yes curl ca-certificates tar claude-code
-	install -d "$(CACHE_HOME)/deps/ai-tools" "$(DATA_HOME)/deps/ai-tools" "$(BIN_HOME)"
-	temp=$$(mktemp -d)
-	trap 'rm -rf -- "$$temp"' EXIT
-	while read -r name version url checksum executable; do
-	    [[ -z $$name || $$name == \#* ]] && continue
-	    file="$(CACHE_HOME)/deps/ai-tools/$${url##*/}"
-	    if [[ ! -f $$file ]] || ! printf '%s  %s\n' "$$checksum" "$$file" | sha256sum --check --status; then
-	        printf 'Downloading %s %s\n' "$$name" "$$version"
-	        curl --fail --location --silent --show-error "$$url" --output "$$file.part"
-	        printf '%s  %s\n' "$$checksum" "$$file.part" | sha256sum --check --status
-	        mv "$$file.part" "$$file"
+ai-install: ai-preflight
+	@$(helpers)
+	read_list ai-tools.txt
+	(($${#entries[@]})) || { printf 'No npm packages in ai-tools.txt\n' >&2; exit 1; }
+	install -d "$(AI_NPM_PREFIX)/bin"
+	prefix="$$(cd "$(AI_NPM_PREFIX)" && pwd -P)"
+	backups=()
+	for tool in codex pi claude; do
+	    target="$$prefix/bin/$$tool"
+	    if [[ -e $$target || -L $$target ]]; then
+	        case "$$(readlink -m -- "$$target")" in
+	            "$$prefix/lib/node_modules/@openai/codex/"*|"$$prefix/lib/node_modules/@earendil-works/pi-coding-agent/"*|"$$prefix/lib/node_modules/@anthropic-ai/claude-code/"*) continue ;;
+	        esac
+	        [[ ! -d $$target || -L $$target ]] || { printf 'Expected an executable file: %s\n' "$$target" >&2; exit 1; }
+	        mv -T --backup=numbered -- "$$target" "$$target.deps-backup"
+	        backups+=("$$target")
 	    fi
-	    release="$(DATA_HOME)/deps/ai-tools/$$name/$$version"
-	    if [[ ! -e $$release ]]; then
-	        install -d "$$temp/$$name" "$${release%/*}"
-	        tar --extract --gzip --no-same-owner --file="$$file" --directory="$$temp/$$name"
-	        [[ -x $$temp/$$name/$$executable ]] || { printf 'Missing executable for %s: %s\n' "$$name" "$$executable" >&2; exit 1; }
-	        mv -T -- "$$temp/$$name" "$$release"
+	done
+	if ! npm install --global --prefix "$$prefix" --include=optional -- "$${entries[@]}"; then
+	    for target in "$${backups[@]}"; do
+	        rm -f -- "$$target"
+	        mv -T -- "$$target.deps-backup" "$$target"
+	    done
+	    exit 1
+	fi
+	for tool in codex pi claude; do "$$prefix/bin/$$tool" --version; done
+	printf 'Installed AI packages in %s. Ensure %s/bin is on PATH.\n' "$$prefix" "$$prefix"
+
+.PHONY: ai-clean
+ai-clean:
+	@prefix="$$(readlink -m -- "$(AI_NPM_PREFIX)")/"
+	for path in "$(DATA_HOME)/deps/ai-tools" "$(CACHE_HOME)/deps/ai-tools"; do
+	    case "$$prefix" in "$$(readlink -m -- "$$path")/"*) printf 'Cannot clean %s: it contains AI_NPM_PREFIX. Choose a different npm prefix.\n' "$$path" >&2; exit 1 ;; esac
+	done
+	if [[ "$$(dpkg-query -W -f='$${db:Status-Status}' claude-code 2>/dev/null || true)" == installed ]]; then
+	    sudo apt-get remove --yes claude-code
+	fi
+	for file in "$(APT_SOURCE_DIR)/claude-code.sources" "$(APT_KEY_DIR)/claude-code.asc"; do
+	    if [[ -f $$file ]]; then sudo rm -- "$$file"; fi
+	done
+	legacy="$$(readlink -m -- "$(DATA_HOME)/deps/ai-tools")"
+	for tool in codex pi; do
+	    target="$(BIN_HOME)/$$tool"
+	    if [[ -L $$target ]]; then
+	        case "$$(readlink -m -- "$$target")" in "$$legacy/"*) rm -- "$$target" ;; esac
 	    fi
-	    [[ -x $$release/$$executable ]] || { printf 'Incomplete installation: %s\n' "$$release" >&2; exit 1; }
-	    target="$(BIN_HOME)/$$name"
-	    if [[ ! -L $$target || ! $$target -ef $$release/$$executable ]]; then
-	        ln -sTf --backup=numbered -- "$$release/$$executable" "$$target"
-	    fi
-	done < ai-tools.txt
-	printf 'Installed Codex, pi and Claude Code. Open a fresh terminal and sign in to each tool.\n'
+	done
+	rm -rf -- "$(DATA_HOME)/deps/ai-tools" "$(CACHE_HOME)/deps/ai-tools"
+	printf 'Removed the previous repo-managed AI archive/APT installations. Agent data was preserved.\n'
+
+.PHONY: ai-reinstall
+ai-reinstall: ai-install ai-clean
 
 .PHONY: ai-check
 ai-check:

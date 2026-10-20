@@ -1,12 +1,10 @@
 import hashlib
-import io
 import json
 import os
 from pathlib import Path
 import shutil
 import subprocess
 import sys
-import tarfile
 import tempfile
 import unittest
 
@@ -26,10 +24,26 @@ if name == 'dpkg' and sys.argv[1:] == ['--print-architecture']:
     print('amd64')
     sys.exit(0)
 if name == 'dpkg-query':
-    sys.stdout.write(os.environ.get('NVIDIA_PACKAGES', ''))
+    sys.stdout.write(os.environ.get('CLAUDE_STATUS', '') if sys.argv[-1] == 'claude-code' else os.environ.get('NVIDIA_PACKAGES', ''))
     sys.exit(0)
 with open(os.environ['BOOTSTRAP_TEST_LOG'], 'a') as log:
     log.write(json.dumps([name, *sys.argv[1:]]) + '\\n')
+if name == 'node' and os.environ.get('FAIL_NODE') == '1':
+    print('AI tools require Node.js 22.19 or newer.', file=sys.stderr)
+    sys.exit(1)
+if name == 'npm' and sys.argv[1] == 'install':
+    prefix = Path(sys.argv[sys.argv.index('--prefix') + 1])
+    for tool, package in [('codex', '@openai/codex'), ('pi', '@earendil-works/pi-coding-agent'), ('claude', '@anthropic-ai/claude-code')]:
+        binary = prefix / 'lib/node_modules' / package / 'cli'
+        binary.parent.mkdir(parents=True, exist_ok=True)
+        binary.write_text('#!/bin/sh\\nprintf "npm agent version\\\\n"\\n')
+        binary.chmod(0o755)
+        launcher = prefix / 'bin' / tool
+        launcher.unlink(missing_ok=True)
+        launcher.symlink_to(binary)
+    if os.environ.get('FAIL_NPM') == '1':
+        print('npm install failed', file=sys.stderr)
+        sys.exit(1)
 if name == 'curl':
     Path(sys.argv[sys.argv.index('--output') + 1]).write_text(os.environ.get('BOOK_DOWNLOAD_CONTENT', 'test package'))
 if name == 'apt-get' and sys.argv[1] == 'install' and sys.argv[-1].endswith('.deb'):
@@ -67,7 +81,7 @@ class BootstrapTests(unittest.TestCase):
         shutil.copytree(MAKEFILE.parent / "sources", self.root / "sources")
         shutil.copytree(MAKEFILE.parent / "config", self.root / "config")
         shutil.copytree(MAKEFILE.parent / "stow", self.root / "stow")
-        for tool in ("install", "mktemp", "rm", "sed", "cmp", "cp", "grep", "git", "awk", "cat", "date", "sha256sum", "mv", "chmod", "tar", "gzip", "ln"):
+        for tool in ("install", "mktemp", "rm", "sed", "cmp", "cp", "grep", "git", "awk", "cat", "date", "sha256sum", "mv", "chmod", "readlink"):
             (self.bin / tool).symlink_to(shutil.which(tool))
         (self.bin / "python3").symlink_to(sys.executable)
         if STOW:
@@ -96,6 +110,8 @@ class BootstrapTests(unittest.TestCase):
         self.env.pop("NIX_DAEMON_ACTIVE", None)
         self.env.pop("FAIL_LOCAL_PACKAGE", None)
         self.env.pop("BOOK_DOWNLOAD_CONTENT", None)
+        for name in ("CLAUDE_STATUS", "FAIL_NODE", "FAIL_NPM"):
+            self.env.pop(name, None)
         for name in ("MAKEFLAGS", "MFLAGS", "MAKELEVEL"):
             self.env.pop(name, None)
 
@@ -371,61 +387,112 @@ class BootstrapTests(unittest.TestCase):
         staged = json.loads((self.root / "staged-packages.jsonl").read_text())
         self.assertFalse(Path(staged["path"]).parent.exists())
 
-    def prepare_ai_archives(self, missing_executable=False):
-        self.write_tool("extrepo")
-        self.write_tool("curl")
-        cache = self.root / ".cache/deps/ai-tools"
-        cache.mkdir(parents=True)
-        entries = []
-        for name, executable in [("codex", "codex-linux"), ("pi", "pi/pi")]:
-            archive = cache / f"{name}.tar.gz"
-            with tarfile.open(archive, "w:gz") as tar:
-                files = {executable: b"#!/bin/sh\nprintf 'test version\\n'\n", "resources/readme.txt": b"bundled resource"}
-                if missing_executable:
-                    del files[executable]
-                for path, content in files.items():
-                    info = tarfile.TarInfo(path)
-                    info.size = len(content)
-                    info.mode = 0o755 if path == executable else 0o644
-                    tar.addfile(info, io.BytesIO(content))
-            checksum = hashlib.sha256(archive.read_bytes()).hexdigest()
-            entries.append(f"{name} 1.0 https://example.invalid/{archive.name} {checksum} {executable}\n")
-        (self.root / "ai-tools.txt").write_text("# native tools\n" + "".join(entries))
+    def prepare_ai_migration(self):
+        self.write_tool("node")
+        self.write_tool("npm")
+        shutil.copyfile(MAKEFILE.parent / "ai-tools.txt", self.root / "ai-tools.txt")
+        self.legacy_ai = self.root / ".local/share/deps/ai-tools"
+        self.ai_cache = self.root / ".cache/deps/ai-tools"
+        self.ai_cache.mkdir(parents=True)
+        (self.ai_cache / "download.tar.gz").write_text("cached archive")
+        launchers = self.root / ".local/bin"
+        launchers.mkdir(parents=True)
+        for name in ("codex", "pi"):
+            binary = self.legacy_ai / name / "1.0" / name
+            binary.parent.mkdir(parents=True)
+            binary.write_text("old agent")
+            (launchers / name).symlink_to(binary)
+        (launchers / "claude").write_text("old manual launcher")
+        for name in ("apt-sources", "apt-keys"):
+            (self.root / name).mkdir()
+        self.claude_source = self.root / "apt-sources/claude-code.sources"
+        self.claude_key = self.root / "apt-keys/claude-code.asc"
+        self.claude_source.write_text("old Claude repository")
+        self.claude_key.write_text("old public key")
+        self.agent_data = [".codex/state.sqlite", ".codex/auth.json", ".claude/settings.json", ".claude.json", ".pi/agent/sessions/session.jsonl"]
+        for name in self.agent_data:
+            file = self.root / name
+            file.parent.mkdir(parents=True, exist_ok=True)
+            file.write_text("private agent data")
+        self.env["CLAUDE_STATUS"] = "installed"
 
-    def test_ai_install_preserves_resources_settings_and_existing_launchers(self):
-        self.prepare_ai_archives()
-        launcher = self.root / ".local/bin/codex"
-        launcher.parent.mkdir(parents=True)
-        launcher.write_text("existing launcher\n")
-        settings = self.root / ".codex/config.toml"
-        settings.parent.mkdir()
-        settings.write_text("existing private configuration\n")
-        for _ in range(2):
-            result = self.run_bootstrap("ai-install")
-            self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertEqual(launcher.resolve(), self.root / ".local/share/deps/ai-tools/codex/1.0/codex-linux")
-        self.assertEqual((launcher.parent / "pi").resolve(), self.root / ".local/share/deps/ai-tools/pi/1.0/pi/pi")
-        self.assertEqual(launcher.with_name("codex.~1~").read_text(), "existing launcher\n")
-        self.assertEqual(len(list(launcher.parent.glob("codex.~*~"))), 1)
-        self.assertEqual((self.root / ".local/share/deps/ai-tools/pi/1.0/resources/readme.txt").read_text(), "bundled resource")
-        self.assertEqual(settings.read_text(), "existing private configuration\n")
-        self.assertFalse(any(cmd[0] == "curl" for cmd in self.commands()))
-        self.assertIn(["apt-get", "install", "--yes", "curl", "ca-certificates", "tar", "claude-code"], self.commands())
-
-    def test_ai_install_rejects_corrupt_download_before_linking_tools(self):
-        self.prepare_ai_archives()
-        (self.root / ".cache/deps/ai-tools/codex.tar.gz").write_text("corrupt cache")
+    def test_ai_reinstall_installs_npm_before_cleaning_and_preserves_agent_data(self):
+        self.prepare_ai_migration()
+        result = self.run_bootstrap("ai-reinstall")
+        self.assertEqual(result.returncode, 0, result.stderr)
+        prefix = self.root / ".local"
+        npm = ["npm", "install", "--global", "--prefix", str(prefix), "--include=optional", "--", "@openai/codex@latest", "@earendil-works/pi-coding-agent@latest", "@anthropic-ai/claude-code@latest"]
+        remove = ["apt-get", "remove", "--yes", "claude-code"]
+        self.assertLess(self.commands().index(npm), self.commands().index(remove))
+        for tool, package in [("codex", "@openai/codex"), ("pi", "@earendil-works/pi-coding-agent"), ("claude", "@anthropic-ai/claude-code")]:
+            self.assertEqual((prefix / "bin" / tool).resolve(), prefix / "lib/node_modules" / package / "cli")
+        self.assertFalse(self.legacy_ai.exists())
+        self.assertFalse(self.ai_cache.exists())
+        self.assertFalse(self.claude_source.exists())
+        self.assertFalse(self.claude_key.exists())
+        for name in self.agent_data:
+            self.assertEqual((self.root / name).read_text(), "private agent data")
         result = self.run_bootstrap("ai-install")
-        self.assertNotEqual(result.returncode, 0)
-        self.assertFalse((self.root / ".local/bin/codex").exists())
-        self.assertFalse((self.root / ".local/share/deps/ai-tools/codex/1.0").exists())
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertFalse((prefix / "bin/codex.deps-backup.~1~").exists())
 
-    def test_ai_install_rejects_archive_without_expected_executable(self):
-        self.prepare_ai_archives(missing_executable=True)
-        result = self.run_bootstrap("ai-install")
+    def test_ai_reinstall_restores_launchers_and_skips_cleanup_when_npm_fails(self):
+        self.prepare_ai_migration()
+        old_codex = (self.root / ".local/bin/codex").resolve()
+        self.env["FAIL_NPM"] = "1"
+        result = self.run_bootstrap("ai-reinstall")
         self.assertNotEqual(result.returncode, 0)
-        self.assertIn("Missing executable for codex", result.stderr)
-        self.assertFalse((self.root / ".local/share/deps/ai-tools/codex/1.0").exists())
+        self.assertEqual((self.root / ".local/bin/codex").resolve(), old_codex)
+        self.assertEqual((self.root / ".local/bin/claude").read_text(), "old manual launcher")
+        self.assertTrue(self.legacy_ai.exists())
+        self.assertTrue(self.ai_cache.exists())
+        self.assertTrue(self.claude_source.exists())
+        self.assertFalse(any(cmd[0] == "apt-get" for cmd in self.commands()))
+
+    def test_ai_reinstall_requires_toolchain_before_touching_old_installations(self):
+        self.prepare_ai_migration()
+        (self.bin / "node").unlink()
+        result = self.run_bootstrap("ai-reinstall")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("Activate your Node.js/npm toolchain", result.stderr)
+        self.assertTrue(self.legacy_ai.exists())
+        self.assertTrue((self.root / ".local/bin/codex").is_symlink())
+        self.assertEqual(self.commands(), [])
+
+    def test_ai_reinstall_stops_on_unsupported_node_version(self):
+        self.prepare_ai_migration()
+        self.env["FAIL_NODE"] = "1"
+        result = self.run_bootstrap("ai-reinstall")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("Node.js 22.19", result.stderr)
+        self.assertTrue(self.legacy_ai.exists())
+        self.assertFalse(any(cmd[0] == "npm" for cmd in self.commands()))
+
+    def test_ai_clean_preserves_unrelated_launchers_and_does_not_require_node(self):
+        self.prepare_ai_migration()
+        codex = self.root / ".local/bin/codex"
+        codex.unlink()
+        codex.write_text("unrelated executable")
+        (self.bin / "node").unlink()
+        self.env["CLAUDE_STATUS"] = "config-files"
+        result = self.run_bootstrap("ai-clean")
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(codex.read_text(), "unrelated executable")
+        self.assertEqual((self.root / ".local/bin/claude").read_text(), "old manual launcher")
+        self.assertFalse((self.root / ".local/bin/pi").is_symlink())
+        self.assertFalse(self.legacy_ai.exists())
+        self.assertFalse(any(cmd[0] == "apt-get" for cmd in self.commands()))
+        for name in self.agent_data:
+            self.assertEqual((self.root / name).read_text(), "private agent data")
+
+    def test_ai_clean_refuses_to_remove_a_new_npm_prefix_inside_old_installations(self):
+        self.prepare_ai_migration()
+        result = self.run_bootstrap("ai-clean", f"AI_NPM_PREFIX={self.legacy_ai / 'npm'}")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("it contains AI_NPM_PREFIX", result.stderr)
+        self.assertTrue(self.legacy_ai.exists())
+        self.assertTrue(self.claude_source.exists())
+        self.assertEqual(self.commands(), [])
 
     def test_nfs_replaces_only_the_share_and_preserves_boot_configuration(self):
         self.write_tool("extrepo")
