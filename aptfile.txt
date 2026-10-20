@@ -37,7 +37,6 @@ zsh-syntax-highlighting
 wl-clipboard
 brave-browser
 signal-desktop
-claude-code
 rsync
 
 # Remote Storage

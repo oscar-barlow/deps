@@ -23,7 +23,9 @@ change the NVIDIA driver, import SSH configuration or open applications.
 | `make nfs-install` | Back up fstab, replace only the `/srv/data` entry, and arrange a network automount. |
 | `make apps-install` | Native Brave and Signal; Obsidian from Flathub. |
 | `make books-install` | Calibre from Flathub; pinned, SHA256-checked Libation and OpenAudible publisher packages. |
-| `make ai-install` | Install Codex and pi publisher archives for the current user, plus Claude Code from its signed APT source. |
+| `make ai-reinstall` | Install and check the official npm packages, then clean up the previous repo-managed archive/APT installations. |
+| `make ai-install` | Install/update Codex, pi and Claude Code using the Node.js/npm toolchain on PATH. |
+| `make ai-clean` | Remove previous repo-managed AI archives, cache, launchers and Claude APT package/source; preserve agent data and unrelated launchers. |
 | `make ai-check` | Show the executable paths and versions of Codex, pi and Claude Code; no login or model requests. |
 | `make steam-install` | Detect the installed NVIDIA graphics-library package and install its matching i386 package, Steam and recommended dependencies. |
 | `make check` | Tests using temporary files and mocked privileged commands; no system setup. |
@@ -62,29 +64,46 @@ an upstream installation. LSP executables referenced by Neovim (`deno`,
 `terraform-ls`, `bash-language-server`, `nil`) should be supplied by each
 project's flake. The same applies to language-based tools such as `audiblez`.
 
-AI tools are installed separately from language toolchains:
+AI tools use your existing Node.js/npm toolchain (Node.js 22.19 or newer).
+Activate that toolchain first. On a machine using the previous archive/APT
+installation, close the agents and run this from a normal terminal:
 
 ```sh
-make ai-install
-# Open a fresh terminal if ~/.local/bin was not already on PATH.
+make ai-reinstall
+rehash
 make ai-check
 ```
 
-Codex and pi use Ubuntu amd64 native release archives pinned by version and
-SHA256 in `ai-tools.txt`. Downloads are cached, their complete distributions
-are kept under `~/.local/share/deps/ai-tools/NAME/VERSION`, and launchers are
-linked from `~/.local/bin`. Existing launchers receive numbered `.~N~` backups;
-reruns leave matching links alone. Keep bundled pi resources beside its binary.
-`BIN_HOME`, `DATA_HOME` and `CACHE_HOME` can override these destinations.
-Review the publisher release URL, version and GitHub release-asset SHA256
-together when updating the pins, then rerun `make ai-install`. Old releases
-are retained. `make ai-check` shows which executable your PATH actually selects.
+For a fresh install or later updates, use `make ai-install`. `ai-tools.txt`
+contains one official npm package per line with optional blank lines and
+full-line comments. The default `@latest` tags can be replaced with exact
+versions. Packages are installed with `npm install --global --include=optional`
+into the user-owned `~/.local` prefix; no `sudo npm` or persistent npm config
+changes are used. Set `AI_NPM_PREFIX` to use a different prefix and add its
+`bin` directory to PATH. Keep your Node toolchain available for the npm launchers.
 
-Claude Code uses Anthropic's signed stable APT repository and updates through
-APT. This target does not copy settings, credentials, sessions or MCP config,
-and requires no global npm installation. Start `codex`, `pi` and `claude` to
-sign in on the new laptop; use `/login` inside pi. MCP consolidation belongs
-in your separate repo. See the [official OpenAI documentation](https://developers.openai.com/codex/cli/),
+The complete Codex npm package includes its launcher, platform package,
+package metadata and helper resources. The old target used only a bare Codex
+binary, whose version check did not exercise daemon startup. The replacement
+does not add `--no-daemon` or change Codex configuration. Start `codex` normally
+afterwards, and check `codex resume` on the new laptop. If you added an alias
+that forces `--no-daemon`, remove that workaround yourself; `type -a codex`
+shows command resolution. `make ai-check` reports paths and versions, and does
+not claim to test interactive session resumption.
+
+`ai-reinstall` installs and checks the npm executables before cleanup. Existing
+non-npm launchers receive `.deps-backup` backups; if npm fails, those launchers
+are restored and cleanup does not run. `ai-clean` removes only the old
+`DATA_HOME/deps/ai-tools` and `CACHE_HOME/deps/ai-tools` trees, links in
+`BIN_HOME` pointing into that old application tree, and the `claude-code` APT
+package plus this repo's `claude-code.sources`/`claude-code.asc` files. Other
+manual installations are not recursively removed. The global npm installation
+and all agent configuration, credentials, session databases and MCP settings
+are preserved. The Claude APT source has been removed from this repo so later
+bootstrap runs do not reinstall it.
+
+Start `codex`, `pi` and `claude` normally; existing agent data stays in place.
+MCP consolidation belongs in your separate repo. See the [official OpenAI documentation](https://developers.openai.com/codex/cli/),
 [pi's upstream docs](https://github.com/earendil-works/pi/tree/main/packages/coding-agent)
 and [Claude Code setup](https://code.claude.com/docs/en/setup).
 

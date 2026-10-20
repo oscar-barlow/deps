@@ -26,20 +26,39 @@ checks on AI tool installation, Neovim, Kitty, GPU libraries and personal data.
 
 ## Install the three AI tools
 
+The previous bare Codex archive required `--no-daemon` on the new laptop. The
+user has now installed language toolchains and wants the official package
+installs. Activate Node.js/npm (Node.js 22.19+) and, after closing running
+agents, run from an ordinary terminal:
+
 ```sh
-make ai-install
+make ai-reinstall
+rehash
 make ai-check
 ```
 
-Codex and pi use checksum-pinned native publisher archives; Claude Code uses
-its signed stable APT repository. No global Node/npm toolchain is required.
-Only the applications are installed. Their configurations, credentials,
-sessions and MCP setup are not selected for migration. MCP configuration will
+This installs all three official npm packages into the user-owned `~/.local`
+prefix, checks their versions, then removes the repo's previous AI archive
+trees and Claude APT installation/source. It keeps existing configurations,
+credentials and sessions. Later updates use `make ai-install`. The cleanup
+does not recursively remove other manual installations. MCP configuration will
 be rationalised in a separate repository.
 
-Open a new terminal if needed for `~/.local/bin`, then start each application
-and sign in. Pi offers `/login`. Start Codex from this repo and point the new
-session at this handoff; the old CLI conversation history is not copied.
+Open a new terminal if needed for `~/.local/bin`, then start each application.
+Start `codex` without `--no-daemon` and check `codex resume` against existing
+sessions. Remove any shell alias you added to force `--no-daemon`; no aliases
+or agent settings are modified by the Make targets. If daemon startup still
+fails, inspect `codex doctor` on the new laptop; version checks alone do not
+verify interactive daemon/resume behaviour. Start Codex from this repo and
+point the new session at this handoff; old-laptop conversation history is not
+transferred, while any existing new-laptop agent data is preserved.
+
+Development verification installed the real npm packages successfully in an
+isolated home. A subsequent daemon-start attempt in the agent's execution
+environment failed with namespace and socket-ownership checks, even with a
+private socket directory; the test daemon was stopped. Treat daemon startup
+and interactive resume on the new laptop as pending verification, rather than
+assuming the package-method change alone resolves the reported problem.
 
 ## Neovim and Kitty
 
