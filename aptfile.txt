@@ -86,3 +86,7 @@ libxcb-xtest0
 proton-vpn-gnome-desktop
 gnome-shell-ubuntu-extensions
 gir1.2-appindicator3-0.1
+
+# Local model inference
+llama.cpp-tools
+libggml0-backend-vulkan
