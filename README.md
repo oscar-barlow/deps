@@ -190,16 +190,15 @@ then enables i386, refreshes APT and explicitly installs recommendations.
 It does not install or switch a kernel driver. Ubuntu's package names differ
 from Debian's `nvidia-driver-libs:i386`.
 
-Finish NVIDIA setup on the new laptop. Its driver version and package layout
-have not yet been confirmed; do not choose a driver branch from the RTX 5070
-model alone. Use `nvidia-smi` and `dpkg -l | grep -Ei 'nvidia|libnvidia'` there
-to inspect the installed stack. A `un` entry in `dpkg-query` means the package
+The laptop's RTX 5070 uses TUXEDO's NVIDIA 580.178.04 open driver and
+unversioned library packages; driver access and Vulkan inference were verified.
+Use `nvidia-smi` and `dpkg -l | grep -Ei 'nvidia|libnvidia'` to inspect the
+installed stack after upgrades. A `un` entry in `dpkg-query` means the package
 is not installed, so it cannot identify the active driver. See Ubuntu's
 [Steam GPU instructions](https://ubuntu.com/docs/steam/howto/dedicated-gpu/).
 The optional `make steam-install` target stops before making changes if its
 detection is inconclusive; it is separate from `make setup` and still needs
-validation on the new laptop. There is no need to relay diagnostic output
-back to the old laptop. See [LAPTOP-HANDOFF.md](LAPTOP-HANDOFF.md) to resume.
+validation on this laptop.
 
 Obsidian vaults and plugins are supplied by sync. On each device, enable both
 **Active community plugin list** and **Installed community plugin list** in
