@@ -66,6 +66,39 @@ an upstream installation. LSP executables referenced by Neovim (`deno`,
 project's flake. The same applies to language-based tools such as `audiblez`.
 
 AI tools use your existing Node.js/npm toolchain (Node.js 22.19 or newer).
+Local inference uses the APT packages `llama.cpp-tools` and
+`libggml0-backend-vulkan` in `aptfile.txt`. Run `llama-cli --list-devices`
+to identify the NVIDIA device before starting the server. On this laptop,
+`Vulkan0` is Intel graphics and `Vulkan1` is the RTX 5070. Device numbering
+may change; select the device reported on the current machine.
+
+For pi's built-in llama.cpp integration, create `~/models` and run:
+
+```sh
+mkdir -p ~/models
+llama-server --models-dir ~/models --no-models-autoload --jinja \
+  --device Vulkan1 -ngl 999 -c 8192 --host 127.0.0.1 --port 8080
+```
+
+In pi, use `/login llama.cpp` with `http://127.0.0.1:8080`, then `/llama`
+to download/load a GGUF model and `/model` to select it. Model weights stay
+outside Git. Context size and model size must fit available memory.
+GPU access is required: an agent sandbox that hides GPU devices will report
+no Vulkan devices even when the host driver works.
+
+Vulkan inference was verified on the RTX 5070 with Ubuntu's llama.cpp build
+8681 and `Qwen/Qwen2.5-0.5B-Instruct-GGUF:Q4_K_M`. This small model is a
+hardware smoke test, not a recommended coding model. The verification command is:
+
+```sh
+llama-cli -hf Qwen/Qwen2.5-0.5B-Instruct-GGUF:Q4_K_M \
+  --device Vulkan1 -ngl 999 -c 2048 -n 32 --single-turn \
+  --verbosity 4 -p 'Reply with one short sentence: what is 2 plus 2?'
+```
+
+Check the logs for layers offloaded to GPU, model buffers on `Vulkan1`, and
+successful generation. The first run downloads weights into llama.cpp's cache.
+
 AI targets use Node.js/npm on PATH, or load NVM from `NVM_DIR` (default
 `~/.nvm`) when they are missing. `make toolchains` installs uv, Rust, NVM and
 Node.js 24 LTS (Krypton), sets it as the default Node version, and adds NVM startup hooks to
