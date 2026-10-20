@@ -72,6 +72,10 @@ to identify the NVIDIA device before starting the server. On this laptop,
 `Vulkan0` is Intel graphics and `Vulkan1` is the RTX 5070. Device numbering
 may change; select the device reported on the current machine.
 
+See [LOCAL-MODELS.md](LOCAL-MODELS.md) for the downloaded OmniCoder-9B model,
+pi configuration, and a cloud adviser subagent setup. OmniCoder was verified
+with the APT build, full NVIDIA GPU layer offloading, and a structured tool call.
+
 For pi's built-in llama.cpp integration, create `~/models` and run:
 
 ```sh
@@ -98,6 +102,20 @@ llama-cli -hf Qwen/Qwen2.5-0.5B-Instruct-GGUF:Q4_K_M \
 
 Check the logs for layers offloaded to GPU, model buffers on `Vulkan1`, and
 successful generation. The first run downloads weights into llama.cpp's cache.
+
+Qwen3.8-27B `UD-Q4_K_M` was also tested with an 8192-token context. Ubuntu's
+build 8681 cannot load its MTP prediction-head tensors (`missing tensor
+'blk.64.ssm_conv1d.weight'`); overriding the block count also fails. This
+model needs a newer runtime. A temporary official upstream Vulkan build
+b11669 (v0.7.0, commit `620d2225c`) loaded it without overrides, offloading
+24/66 reported layers and about 5977 MiB of weights to the RTX 5070, with
+about 9380 MiB of weights in host RAM. The initial short test measured
+4.4 prompt tokens/s and 2.8 generated tokens/s using the default three CPU
+threads. This is a short-prompt result, not a coding-agent benchmark.
+Repeating with `-t 8 -tb 8` measured 20.2 prompt tokens/s and 4.0 generated
+tokens/s; use eight threads as the starting point for this laptop.
+The APT installation remains in place; the newer test runtime is under
+`/tmp/llama-b11669` and is not a persistent installation.
 
 AI targets use Node.js/npm on PATH, or load NVM from `NVM_DIR` (default
 `~/.nvm`) when they are missing. `make toolchains` installs uv, Rust, NVM and
