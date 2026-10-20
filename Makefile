@@ -147,6 +147,10 @@ nix-install: apt-install
 	if ! command -v nix >/dev/null 2>&1 && [[ ! -x /nix/var/nix/profiles/default/bin/nix ]] && ! systemctl is-active --quiet nix-daemon.service; then
 	    sudo apt-get install --yes nix-bin nix-setup-systemd
 	fi
+	if getent group nix-users >/dev/null && ! id -nG "$$(id -un)" | tr ' ' '\n' | grep -Fxq nix-users; then
+	    sudo usermod --append --groups nix-users "$$(id -un)"
+	    printf 'Added you to nix-users. Reboot to refresh group membership in all sessions.\n'
+	fi
 	if systemctl is-active --quiet nix-daemon.service; then
 	    printf 'Using the existing active Nix daemon.\n'
 	else

@@ -55,7 +55,10 @@ existing global config and adding the include only once. Only the public SSH
 signing key is committed. Sign in to 1Password and enable its SSH agent on the
 new laptop. The existing migrated SSH configuration is left alone.
 
-Nix remains a daemon plus flakes/direnv workflow. No global profiles, channels,
+Nix remains a daemon plus flakes/direnv workflow. On installations with a
+`nix-users` group, `nix-install` adds the current user to it for daemon socket
+access. Reboot after a new group membership is added to refresh all sessions.
+No global profiles, channels,
 old language-runtime directories or Nix store are migrated. An existing Nix
 installation is retained, so this target does not install a second Nix over
 an upstream installation. LSP executables referenced by Neovim (`deno`,
