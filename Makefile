@@ -366,3 +366,22 @@ flatpak-update:
 manifest:
 	sudo apt list > aptfile.manifest
 	flatpak list > flatpak.manifest
+
+.PHONY: toolchains
+toolchains:
+	@command -v curl >/dev/null
+	@command -v git >/dev/null
+	curl --proto '=https' --tlsv1.2 -LsSf https://astral.sh/uv/install.sh | sh
+	curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y --profile minimal
+	@set -eu; \
+	export NVM_DIR="$${NVM_DIR:-$$HOME/.nvm}"; \
+	if [ ! -s "$$NVM_DIR/nvm.sh" ]; then \
+		git clone https://github.com/nvm-sh/nvm.git "$$NVM_DIR"; \
+		tag=$$(git -C "$$NVM_DIR" tag --list 'v[0-9]*' --sort=-version:refname | head -n 1); \
+		git -C "$$NVM_DIR" checkout "$$tag"; \
+	fi; \
+	line='export NVM_DIR="$$HOME/.nvm"; [ ! -s "$$NVM_DIR/nvm.sh" ] || . "$$NVM_DIR/nvm.sh"'; \
+	for profile in "$$HOME/.bashrc" "$${ZDOTDIR:-$$HOME}/.zshrc"; do \
+		touch "$$profile"; \
+		grep -Fqx "$$line" "$$profile" || printf '\n%s\n' "$$line" >> "$$profile"; \
+	done
