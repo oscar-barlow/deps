@@ -40,6 +40,15 @@ signal-desktop
 rsync
 software-properties-common
 openssh-server
+tailscale
+
+# Meetily Community Edition build dependencies
+cmake
+pkg-config
+libasound2-dev
+libclang-dev
+libvulkan-dev
+glslc
 
 # Remote Storage
 nfs-common

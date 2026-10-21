@@ -15,6 +15,10 @@ FSTAB ?= /etc/fstab
 VAULT ?=
 OBSIDIAN_PLUGINS ?= config/obsidian-plugins.json
 LIBRARY_SOURCE ?=
+MEETILY_DIR ?= $(DATA_HOME)/deps/meetily
+MEETILY_TOOLS ?= $(DATA_HOME)/deps/meetily-tools
+MEETILY_GPU ?= vulkan
+include config/meetily.mk
 
 define helpers
 load_node() {
@@ -96,7 +100,7 @@ preflight:
 	if grep -Eq '^[[:space:]]*steam(-installer)?[[:space:]]*$$' aptfile.txt; then sudo dpkg --add-architecture i386; fi
 
 .PHONY: install
-install: apt-install flatpak-install ai-install
+install: apt-install flatpak-install ai-install tailscale-install meetily-install
 
 .PHONY: apt-install
 apt-install: preflight repos
@@ -281,6 +285,43 @@ ai-check:
 	    command -v "$$tool" || { printf '%s is not on PATH; run make ai-install and open a fresh terminal.\n' "$$tool" >&2; exit 1; }
 	    "$$tool" --version
 	done
+
+.PHONY: tailscale-install
+tailscale-install: apt-install
+	@sudo systemctl enable --now tailscaled
+	tailscale version
+	printf 'To join your tailnet, run: sudo tailscale up\n'
+
+.PHONY: meetily-build
+meetily-build: apt-install
+	@$(helpers)
+	load_node
+	command -v node >/dev/null && command -v npm >/dev/null && command -v cargo >/dev/null && command -v rustc >/dev/null || { printf 'Node.js/npm and Rust are required; run make toolchains first.\n' >&2; exit 1; }
+	case "$(MEETILY_GPU)" in vulkan|cuda|cpu) ;; *) printf 'MEETILY_GPU must be vulkan, cuda or cpu.\n' >&2; exit 1 ;; esac
+	checkout "$(MEETILY_DIR)" "$(MEETILY_URL)" "$(MEETILY_REVISION)"
+	install -d "$(MEETILY_TOOLS)"
+	npm install --prefix "$(MEETILY_TOOLS)" --no-save --package-lock=false pnpm@$(MEETILY_PNPM_VERSION)
+	export PATH="$(MEETILY_TOOLS)/node_modules/.bin:$$PATH"
+	cd "$(MEETILY_DIR)/frontend"
+	pnpm install --frozen-lockfile
+	features=()
+	if [[ "$(MEETILY_GPU)" != cpu ]]; then features=(--features "$(MEETILY_GPU)"); fi
+	cargo build --locked --release --manifest-path ../llama-helper/Cargo.toml "$${features[@]}"
+	triple=$$(rustc -vV | awk '/^host:/ { print $$2 }')
+	install -d src-tauri/binaries
+	install -m 0755 "../target/release/llama-helper" "src-tauri/binaries/llama-helper-$$triple"
+	pnpm exec tauri build --bundles deb --config '{"bundle":{"createUpdaterArtifacts":false}}' -- --locked "$${features[@]}"
+
+.PHONY: meetily-install
+meetily-install: meetily-build
+	@shopt -s nullglob
+	packages=("$(MEETILY_DIR)"/target/release/bundle/deb/*.deb)
+	[[ $${#packages[@]} == 1 ]] || { printf 'Expected one Meetily Debian package. Inspect %s/target/release/bundle/deb\n' "$(MEETILY_DIR)" >&2; exit 1; }
+	apt_temp=$$(mktemp -d /tmp/deps-meetily.XXXXXXXX)
+	trap 'rm -rf -- "$$apt_temp"' EXIT
+	chmod 0755 "$$apt_temp"
+	install -m 0644 "$${packages[0]}" "$$apt_temp/meetily.deb"
+	sudo apt-get install --yes -- "$$apt_temp/meetily.deb"
 
 .PHONY: steam-install
 steam-install:

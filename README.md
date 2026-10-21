@@ -12,7 +12,7 @@ change the NVIDIA driver, import SSH configuration or open applications.
 | Target | What it does |
 | --- | --- |
 | `make setup` | APT packages, Nix daemon, Neovim, Kitty, shell, Git signing, NFS, selected apps, audiobook applications and the three AI CLIs. |
-| `make install` | Install APT packages, Flatpak apps and AI CLIs; record package inventories. |
+| `make install` | Install APT packages, Flatpak apps, AI CLIs, Tailscale and Meetily; record package inventories. |
 | `make apt-install` | Configure external sources, refresh APT and install `aptfile.txt`; record the APT inventory. |
 | `make repos` | Install public fallback keys/source files, ensure extrepo is installed, enable `apt-repos.txt` and refresh APT. |
 | `make dotfiles` | Use GNU Stow to link all five user configuration packages and include the Git settings; no package installation or service changes. |
@@ -27,6 +27,34 @@ change the NVIDIA driver, import SSH configuration or open applications.
 | `make ai-install` | Install/update Codex, pi and Claude Code using the Node.js/npm toolchain on PATH. |
 | `make ai-check` | Show the executable paths and versions of Codex, pi and Claude Code; no login or model requests. |
 | `make steam-install` | Detect the installed NVIDIA graphics-library package and install its matching i386 package, Steam and recommended dependencies. |
+| `make tailscale-install` | Install Tailscale through extrepo/APT and enable its daemon; prints the command for account login. |
+| `make meetily-build` | Build pinned Meetily Community Edition into a Debian package with Vulkan acceleration. |
+| `make meetily-install` | Build Meetily and install its Debian package through APT; included in `make install` and `make setup`. |
+
+Tailscale is declared in `apt-repos.txt` and `aptfile.txt`, using the existing
+extrepo machinery for its source and signing key. Run `make tailscale-install`,
+then `sudo tailscale up` to authenticate this machine to your tailnet. Login
+is interactive and is separate from machine setup. The local extrepo Trixie
+catalogue supplies Tailscale's Debian Trixie stable repository.
+
+Meetily Community Edition is built from the [official source](https://github.com/Zackriya-Solutions/meetily)
+using the revision and pnpm version in `config/meetily.mk`. Node.js/npm and
+Rust must be available (`make toolchains` supplies them). APT build dependencies
+are in `aptfile.txt`; frontend installation uses the frozen pnpm lockfile and
+Rust builds use `--locked`. Source/build output lives under
+`~/.local/share/deps/meetily`, and the dedicated pnpm installation under
+`~/.local/share/deps/meetily-tools`. Neither is stored in this repository.
+Override `MEETILY_DIR` or `MEETILY_TOOLS` to relocate them.
+
+Run `make meetily-install` to build and install the desktop app. Vulkan is the
+default for this laptop; `make meetily-install MEETILY_GPU=cpu` builds without
+GPU features. `MEETILY_GPU=cuda` requires a compatible CUDA toolkit installed
+separately. The build downloads npm/Cargo dependencies and upstream build-time
+assets, including FFmpeg. The Debian package is under
+`$(MEETILY_DIR)/target/release/bundle/deb/`. Local builds disable updater
+artifact signing; rebuild through this repo to update. Models and recording
+setup are configured in Meetily after launch. A completed build and a desktop
+recording smoke test are still required to validate it on Ubuntu 26.04.
 
 User configuration lives in `stow/` and is linked into place using GNU Stow.
 `stow` is listed in `aptfile.txt`, or install it yourself before linking:
@@ -71,10 +99,6 @@ Local inference uses the APT packages `llama.cpp-tools` and
 to identify the NVIDIA device before starting the server. On this laptop,
 `Vulkan0` is Intel graphics and `Vulkan1` is the RTX 5070. Device numbering
 may change; select the device reported on the current machine.
-
-See [LOCAL-MODELS.md](LOCAL-MODELS.md) for the downloaded OmniCoder-9B model,
-pi configuration, and a cloud adviser subagent setup. OmniCoder was verified
-with the APT build, full NVIDIA GPU layer offloading, and a structured tool call.
 
 For pi's built-in llama.cpp integration, create `~/models` and run:
 

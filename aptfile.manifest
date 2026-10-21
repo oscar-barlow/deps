@@ -7,7 +7,7 @@ Listing...
 0xffff/resolute 0.9-1build1 amd64
 1oom/resolute 1.11.7-1 amd64
 1password-cli/stable,now 2.41.0-1 amd64 [installed]
-1password/stable,now 8.12.40 amd64 [installed]
+1password/stable,now 8.12.42 amd64 [installed]
 2048-qt/resolute 0.1.6-2ubuntu2 amd64
 2048/resolute 1.0.3-1build1 amd64
 2ping/resolute,resolute 4.5-2 all
@@ -2385,7 +2385,7 @@ c2hs/resolute 0.28.8-2 amd64
 c2x/resolute 2.42.a+ds-2 amd64
 c3270/resolute 4.3ga10-5build1 amd64
 ca-certificates-java/resolute,resolute 20260311 all
-ca-certificates/resolute-updates,resolute-updates,resolute-security,resolute-security,now 20260601~26.04.1 all [installed]
+ca-certificates/resolute-security,resolute-security,now 20260816ubuntu0.26.04.1 all [installed]
 cabal-debian/resolute 5.5-1 amd64
 cabal-install/resolute 3.12.1.0-1 amd64
 cabextract/resolute,now 1.11-2build1 amd64 [installed,automatic]
@@ -3369,13 +3369,13 @@ cm-super-minimal/resolute,resolute 0.3.4-17build1 all
 cm-super-x11/resolute,resolute 0.3.4-17build1 all
 cm-super/resolute,resolute 0.3.4-17build1 all
 cmake-curses-gui/resolute 4.2.3-2ubuntu2 amd64
-cmake-data/resolute,resolute 4.2.3-2ubuntu2 all
+cmake-data/resolute,resolute,now 4.2.3-2ubuntu2 all [installed,automatic]
 cmake-doc/resolute,resolute 4.2.3-2ubuntu2 all
 cmake-extras/resolute,resolute 1.9-1 all
 cmake-format/resolute,resolute 0.6.13-7 all
 cmake-qt-gui/resolute 4.2.3-2ubuntu2 amd64
 cmake-vala/resolute,resolute 3-1build1 all
-cmake/resolute 4.2.3-2ubuntu2 amd64
+cmake/resolute,now 4.2.3-2ubuntu2 amd64 [installed]
 cmake/resolute 4.2.3-2ubuntu2 i386
 cmark-gfm/resolute 0.29.0.gfm.13-7 amd64
 cmark/resolute 0.30.2-6build2 amd64
@@ -6354,7 +6354,7 @@ elpa-pos-tip/resolute,resolute 0.4.6+git20191227-3build1 all
 elpa-posframe/resolute,resolute 1.5.1-1 all
 elpa-powerline/resolute,resolute 2.4-5build1 all
 elpa-projectile/resolute,resolute 2.8.0-2build1 all
-elpa-protobuf-mode/resolute,resolute 3.21.12-15ubuntu1 all
+elpa-protobuf-mode/resolute-security,resolute-security 3.21.12-15ubuntu1.1 all
 elpa-ps-ccrypt/resolute,resolute 1.11-6 all
 elpa-puppet-mode/resolute,resolute 0.4-5build1 all
 elpa-py-autopep8/resolute,resolute 2016.1-4 all
@@ -12454,7 +12454,7 @@ glslang-dev/resolute 16.2.0-2 amd64
 glslang-dev/resolute 16.2.0-2 i386
 glslang-tools/resolute 16.2.0-2 amd64
 glslang-tools/resolute 16.2.0-2 i386
-glslc/resolute 2026.1-1 amd64
+glslc/resolute,now 2026.1-1 amd64 [installed]
 glslc/resolute 2026.1-1 i386
 gltfpack/resolute 0.22+dfsg-1build1 amd64
 gltron/resolute 0.70final-14build1 amd64
@@ -20673,7 +20673,7 @@ lib32gcc-s1-amd64-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
 lib32gcc-s1-ppc64-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
 lib32gcc-s1-sparc64-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
 lib32gcc-s1-x32-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
-lib32gcc-s1/resolute 16-20260322-1ubuntu1 amd64
+lib32gcc-s1/resolute,now 16-20260322-1ubuntu1 amd64 [installed,automatic]
 lib32gfortran-11-dev-amd64-cross/resolute,resolute 11.5.0-11ubuntu2cross1 all
 lib32gfortran-11-dev-ppc64-cross/resolute,resolute 11.5.0-11ubuntu2cross1 all
 lib32gfortran-11-dev-sparc64-cross/resolute,resolute 11.5.0-11ubuntu2cross1 all
@@ -20946,7 +20946,7 @@ lib32stdc++6-amd64-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
 lib32stdc++6-ppc64-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
 lib32stdc++6-sparc64-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
 lib32stdc++6-x32-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
-lib32stdc++6/resolute 16-20260322-1ubuntu1 amd64
+lib32stdc++6/resolute,now 16-20260322-1ubuntu1 amd64 [installed,automatic]
 lib32tinfo6/resolute 6.6+20251231-1 amd64
 lib32ubsan1-amd64-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
 lib32ubsan1-ppc64-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
@@ -21984,7 +21984,7 @@ libasn1-8t64-heimdal/resolute 7.8.git20221117.28daf24+dfsg-11ubuntu1 i386
 libasn1-combinators-ocaml-dev/resolute 0.3.2-1build6 amd64
 libasn1-combinators-ocaml/resolute 0.3.2-1build6 amd64
 libasound2-data/resolute-updates,resolute-updates,resolute-security,resolute-security,now 1.2.15.3-1ubuntu1.1 all [installed,automatic]
-libasound2-dev/resolute-updates,resolute-security 1.2.15.3-1ubuntu1.1 amd64
+libasound2-dev/resolute-updates,resolute-security,now 1.2.15.3-1ubuntu1.1 amd64 [installed]
 libasound2-dev/resolute-updates,resolute-security 1.2.15.3-1ubuntu1.1 i386
 libasound2-doc/resolute-updates,resolute-updates,resolute-security,resolute-security 1.2.15.3-1ubuntu1.1 all
 libasound2-plugin-bluez/resolute 4.3.1-3.1 amd64
@@ -23391,7 +23391,7 @@ libc6-hppa-cross/resolute,resolute 2.43-2ubuntu2cross1 all
 libc6-i386-amd64-cross/resolute,resolute 2.43-2ubuntu2cross1 all
 libc6-i386-cross/resolute,resolute 2.43-2ubuntu2cross1 all
 libc6-i386-x32-cross/resolute,resolute 2.43-2ubuntu2cross1 all
-libc6-i386/resolute-updates,resolute-security 2.43-2ubuntu2.4 amd64
+libc6-i386/resolute-updates,resolute-security,now 2.43-2ubuntu2.4 amd64 [installed,automatic]
 libc6-loong64-cross/resolute,resolute 2.43-2ubuntu2cross1 all
 libc6-m68k-cross/resolute,resolute 2.43-2ubuntu2cross1 all
 libc6-powerpc-cross/resolute,resolute 2.43-2ubuntu2cross1 all
@@ -24121,7 +24121,7 @@ libclang-19-dev/resolute 1:19.1.7-20ubuntu4 amd64
 libclang-19-dev/resolute 1:19.1.7-20ubuntu4 i386
 libclang-20-dev/resolute 1:20.1.8-2ubuntu8 amd64
 libclang-20-dev/resolute 1:20.1.8-2ubuntu8 i386
-libclang-21-dev/resolute 1:21.1.8-6ubuntu1 amd64
+libclang-21-dev/resolute,now 1:21.1.8-6ubuntu1 amd64 [installed,automatic]
 libclang-21-dev/resolute 1:21.1.8-6ubuntu1 i386
 libclang-22-dev/resolute 1:22.1.2-1ubuntu1 amd64
 libclang-22-dev/resolute 1:22.1.2-1ubuntu1 i386
@@ -24133,7 +24133,7 @@ libclang-common-19-dev/resolute 1:19.1.7-20ubuntu4 amd64
 libclang-common-19-dev/resolute 1:19.1.7-20ubuntu4 i386
 libclang-common-20-dev/resolute 1:20.1.8-2ubuntu8 amd64
 libclang-common-20-dev/resolute 1:20.1.8-2ubuntu8 i386
-libclang-common-21-dev/resolute 1:21.1.8-6ubuntu1 amd64
+libclang-common-21-dev/resolute,now 1:21.1.8-6ubuntu1 amd64 [installed,automatic]
 libclang-common-21-dev/resolute 1:21.1.8-6ubuntu1 i386
 libclang-common-22-dev/resolute 1:22.1.2-1ubuntu1 amd64
 libclang-common-22-dev/resolute 1:22.1.2-1ubuntu1 i386
@@ -24166,7 +24166,7 @@ libclang-cpp22-dev/resolute 1:22.1.2-1ubuntu1 amd64
 libclang-cpp22-dev/resolute 1:22.1.2-1ubuntu1 i386
 libclang-cpp22/resolute 1:22.1.2-1ubuntu1 amd64
 libclang-cpp22/resolute 1:22.1.2-1ubuntu1 i386
-libclang-dev/resolute 1:21.1.6-71 amd64
+libclang-dev/resolute,now 1:21.1.6-71 amd64 [installed]
 libclang-dev/resolute 1:21.1.6-71 i386
 libclang-dpcpp-6-dev/resolute 6.2.0-0ubuntu2 amd64
 libclang-dpcpp-6/resolute 6.2.0-0ubuntu2 amd64
@@ -24193,7 +24193,7 @@ libclang-rt-20-dev/resolute 1:20.1.8-2ubuntu8 i386
 libclang-rt-21-dev-wasm32/resolute,resolute 1:21.1.8-6ubuntu1 all
 libclang-rt-21-dev-wasm64/resolute,resolute 1:21.1.8-6ubuntu1 all
 libclang-rt-21-dev-win/resolute,resolute 1:21.1.8-6ubuntu1 all
-libclang-rt-21-dev/resolute 1:21.1.8-6ubuntu1 amd64
+libclang-rt-21-dev/resolute,now 1:21.1.8-6ubuntu1 amd64 [installed,automatic]
 libclang-rt-21-dev/resolute 1:21.1.8-6ubuntu1 i386
 libclang-rt-22-dev-wasm32/resolute,resolute 1:22.1.2-1ubuntu1 all
 libclang-rt-22-dev-wasm64/resolute,resolute 1:22.1.2-1ubuntu1 all
@@ -35712,7 +35712,7 @@ libjsoncons-doc/resolute,resolute 1.5.0-2 all
 libjsoncpp-dev/resolute 1.9.6-5 amd64
 libjsoncpp-dev/resolute 1.9.6-5 i386
 libjsoncpp-doc/resolute,resolute 1.9.6-5 all
-libjsoncpp26/resolute 1.9.6-5 amd64
+libjsoncpp26/resolute,now 1.9.6-5 amd64 [installed,automatic]
 libjsoncpp26/resolute 1.9.6-5 i386
 libjsonld-java/resolute,resolute 0.13.6-1build1 all
 libjsonld-perl/resolute,resolute 0.006-1 all
@@ -37695,11 +37695,11 @@ liblzf-dev/resolute 3.6-4build1 amd64
 liblzf1/resolute,now 3.6-4build1 amd64 [installed,automatic]
 liblzfse-dev/resolute 1.0-2 amd64
 liblzfse1/resolute 1.0-2 amd64
-liblzma-dev/resolute,now 5.8.3-1 amd64 [installed]
-liblzma-dev/resolute 5.8.3-1 i386
-liblzma-doc/resolute,resolute 5.8.3-1 all
-liblzma5/resolute,now 5.8.3-1 amd64 [installed,automatic]
-liblzma5/resolute,now 5.8.3-1 i386 [installed,automatic]
+liblzma-dev/resolute-security,now 5.8.3-1ubuntu0.1 amd64 [installed]
+liblzma-dev/resolute-security 5.8.3-1ubuntu0.1 i386
+liblzma-doc/resolute-security,resolute-security 5.8.3-1ubuntu0.1 all
+liblzma5/resolute-security,now 5.8.3-1ubuntu0.1 amd64 [installed,automatic]
+liblzma5/resolute-security,now 5.8.3-1ubuntu0.1 i386 [installed,automatic]
 liblzo2-2/resolute,now 2.10-3build2 amd64 [installed,automatic]
 liblzo2-2/resolute 2.10-3build2 i386
 liblzo2-dev/resolute 2.10-3build2 amd64
@@ -40283,7 +40283,7 @@ libobjc-15-dev-s390x-cross/resolute,resolute 15.2.0-16ubuntu1cross1 all
 libobjc-15-dev-sh4-cross/resolute,resolute 15.2.0-16ubuntu1cross2 all
 libobjc-15-dev-sparc64-cross/resolute,resolute 15.2.0-16ubuntu1cross2 all
 libobjc-15-dev-x32-cross/resolute,resolute 15.2.0-16ubuntu1cross2 all
-libobjc-15-dev/resolute 15.2.0-16ubuntu1 amd64
+libobjc-15-dev/resolute,now 15.2.0-16ubuntu1 amd64 [installed,automatic]
 libobjc-15-dev/resolute 15.2.0-16ubuntu1 i386
 libobjc-16-dev-alpha-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
 libobjc-16-dev-amd64-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
@@ -40323,7 +40323,7 @@ libobjc4-s390x-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
 libobjc4-sh4-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
 libobjc4-sparc64-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
 libobjc4-x32-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
-libobjc4/resolute 16-20260322-1ubuntu1 amd64
+libobjc4/resolute,now 16-20260322-1ubuntu1 amd64 [installed,automatic]
 libobjc4/resolute 16-20260322-1ubuntu1 i386
 libobjcryst-dev/resolute 2022.1.4+ds1-2 amd64
 libobjcryst0/resolute 2022.1.4+ds1-2 amd64
@@ -42452,19 +42452,19 @@ libprotobuf-c-dev/resolute 1.5.1-1ubuntu2 amd64
 libprotobuf-c-dev/resolute 1.5.1-1ubuntu2 i386
 libprotobuf-c1/resolute 1.5.1-1ubuntu2 amd64
 libprotobuf-c1/resolute 1.5.1-1ubuntu2 i386
-libprotobuf-dev/resolute 3.21.12-15ubuntu1 amd64
-libprotobuf-dev/resolute 3.21.12-15ubuntu1 i386
+libprotobuf-dev/resolute-security 3.21.12-15ubuntu1.1 amd64
+libprotobuf-dev/resolute-security 3.21.12-15ubuntu1.1 i386
 libprotobuf-java-format-java/resolute,resolute 1.3-2build1 all
-libprotobuf-java/resolute,resolute 3.21.12-15ubuntu1 all
-libprotobuf-lite32t64/resolute,now 3.21.12-15ubuntu1 amd64 [installed,auto-removable]
-libprotobuf-lite32t64/resolute 3.21.12-15ubuntu1 i386
+libprotobuf-java/resolute-security,resolute-security 3.21.12-15ubuntu1.1 all
+libprotobuf-lite32t64/resolute-security,now 3.21.12-15ubuntu1.1 amd64 [installed,auto-removable]
+libprotobuf-lite32t64/resolute-security 3.21.12-15ubuntu1.1 i386
 libprotobuf2-java/resolute,resolute 2.6.1-4build1 all
-libprotobuf32t64/resolute,now 3.21.12-15ubuntu1 amd64 [installed,automatic]
-libprotobuf32t64/resolute 3.21.12-15ubuntu1 i386
-libprotoc-dev/resolute 3.21.12-15ubuntu1 amd64
-libprotoc-dev/resolute 3.21.12-15ubuntu1 i386
-libprotoc32t64/resolute 3.21.12-15ubuntu1 amd64
-libprotoc32t64/resolute 3.21.12-15ubuntu1 i386
+libprotobuf32t64/resolute-security,now 3.21.12-15ubuntu1.1 amd64 [installed,automatic]
+libprotobuf32t64/resolute-security 3.21.12-15ubuntu1.1 i386
+libprotoc-dev/resolute-security 3.21.12-15ubuntu1.1 amd64
+libprotoc-dev/resolute-security 3.21.12-15ubuntu1.1 i386
+libprotoc32t64/resolute-security 3.21.12-15ubuntu1.1 amd64
+libprotoc32t64/resolute-security 3.21.12-15ubuntu1.1 i386
 libprotocol-http2-perl/resolute,resolute 1.11-1 all
 libprotocol-irc-perl/resolute,resolute 0.13-2 all
 libprotocol-osc-perl/resolute,resolute 0.09-1build1 all
@@ -43754,7 +43754,7 @@ librgxg-dev/resolute 0.1.2-8 amd64
 librgxg0/resolute 0.1.2-8 amd64
 librhash-dev/resolute 1.4.6-1.1 amd64
 librhash-dev/resolute 1.4.6-1.1 i386
-librhash1/resolute 1.4.6-1.1 amd64
+librhash1/resolute,now 1.4.6-1.1 amd64 [installed,automatic]
 librhash1/resolute 1.4.6-1.1 i386
 librheolef-dev/resolute 7.2-7build1 amd64
 librheolef1/resolute 7.2-7build1 amd64
@@ -48271,7 +48271,7 @@ libsha-ocaml-dev/resolute 1.15.4-3build6 amd64
 libsha-ocaml/resolute 1.15.4-3build6 amd64
 libshaderc-dev/resolute 2026.1-1 amd64
 libshaderc-dev/resolute 2026.1-1 i386
-libshaderc1/resolute 2026.1-1 amd64
+libshaderc1/resolute,now 2026.1-1 amd64 [installed,automatic]
 libshaderc1/resolute 2026.1-1 i386
 libshadowsocks-libev-dev/resolute 3.3.5+ds-16build1 amd64
 libshadowsocks-libev2/resolute 3.3.5+ds-16build1 amd64
@@ -51962,7 +51962,7 @@ libvtkdicom0.8t64/resolute 0.8.17-2build2 amd64
 libvtkgdcm-9.1t64/resolute 3.0.24-9ubuntu1 amd64
 libvtkgdcm-dev/resolute 3.0.24-9ubuntu1 amd64
 libvtkgdcm-tools/resolute 3.0.24-9ubuntu1 amd64
-libvulkan-dev/resolute 1.4.341.0-1 amd64
+libvulkan-dev/resolute,now 1.4.341.0-1 amd64 [installed]
 libvulkan-dev/resolute 1.4.341.0-1 i386
 libvulkan-memory-allocator-dev/resolute,resolute 3.3.0+dfsg-2 all
 libvulkan-volk-dev/resolute 1.4.341.0-1 amd64
@@ -53338,10 +53338,10 @@ libxtrxdsp-dev/resolute 0.0.1+git20190830.eec2864-3.1 amd64
 libxtrxdsp0/resolute 0.0.1+git20190830.eec2864-3.1 amd64
 libxtrxll-dev/resolute 0.0.1+git20201202.1b6eddf-1.3 amd64
 libxtrxll0t64/resolute 0.0.1+git20201202.1b6eddf-1.3 amd64
-libxtst-dev/resolute-security 2:1.2.5-1ubuntu0.1 amd64 [upgradable from: 2:1.2.5-1build1]
+libxtst-dev/resolute-security,now 2:1.2.5-1ubuntu0.1 amd64 [installed,automatic]
 libxtst-dev/resolute-security 2:1.2.5-1ubuntu0.1 i386
 libxtst-doc/resolute-security,resolute-security 2:1.2.5-1ubuntu0.1 all
-libxtst6/resolute-security 2:1.2.5-1ubuntu0.1 amd64 [upgradable from: 2:1.2.5-1build1]
+libxtst6/resolute-security,now 2:1.2.5-1ubuntu0.1 amd64 [installed,automatic]
 libxtst6/resolute-security 2:1.2.5-1ubuntu0.1 i386
 libxv-dev/resolute 2:1.0.13-1 amd64
 libxv-dev/resolute 2:1.0.13-1 i386
@@ -65485,7 +65485,7 @@ php-gmagick/resolute,resolute 2.0.6~rc1++-5ubuntu1 all
 php-gmp/resolute,resolute 2:8.5+99ubuntu1 all
 php-gnupg-all-dev/resolute,resolute 1.5.4-1ubuntu1 all
 php-gnupg/resolute,resolute 1.5.4-1ubuntu1 all
-php-google-protobuf/resolute,resolute 3.21.12-15ubuntu1 all
+php-google-protobuf/resolute-security,resolute-security 3.21.12-15ubuntu1.1 all
 php-google-recaptcha/resolute,resolute 1.3.1-1 all
 php-graham-campbell-result-type/resolute,resolute 1.1.3-1 all
 php-gregwar-captcha/resolute,resolute 1.2.1+ds-2build1 all
@@ -66242,7 +66242,7 @@ pkcs11-dump/resolute 0.3.5-1 amd64
 pkcs11-provider/resolute 1.2.0-1 amd64
 pkexec/resolute-updates,resolute-security,now 127-2ubuntu1.1 amd64 [installed,automatic]
 pkexec/resolute-updates,resolute-security 127-2ubuntu1.1 i386
-pkg-config/resolute,now 2.5.1-4 amd64 [installed,automatic]
+pkg-config/resolute,now 2.5.1-4 amd64 [installed]
 pkg-config/resolute 2.5.1-4 i386
 pkg-haskell-tools/resolute 0.12.6 amd64
 pkg-js-autopkgtest/resolute,resolute 0.17.1 all
@@ -66998,8 +66998,8 @@ protobuf-c-compiler/resolute 1.5.1-1ubuntu2 i386
 protobuf-codegen/resolute 3.7.2-1 amd64
 protobuf-compiler-grpc-java-plugin/resolute 1.41.3+ds-5build1 amd64
 protobuf-compiler-grpc/resolute 1.51.1-8ubuntu1 amd64
-protobuf-compiler/resolute 3.21.12-15ubuntu1 amd64
-protobuf-compiler/resolute 3.21.12-15ubuntu1 i386
+protobuf-compiler/resolute-security 3.21.12-15ubuntu1.1 amd64
+protobuf-compiler/resolute-security 3.21.12-15ubuntu1.1 i386
 protobuild/resolute 0.3.0-2build1 amd64
 protoc-betterproto/resolute,resolute 2.0.0b7-2 all
 protoc-gen-connect-go/resolute 1.14.0-1build1 amd64
@@ -70611,7 +70611,7 @@ python3-jupytext/resolute,resolute 1.16.4+ds1-1build1 all
 python3-justbackoff/resolute,resolute 0.6.0-2build1 all
 python3-justnimbus/resolute,resolute 0.7.4-2 all
 python3-jwcrypto/resolute,resolute 1.5.6-1 all
-python3-jwt/resolute-security,resolute-security 2.10.1-4ubuntu1.3 all [upgradable from: 2.10.1-4ubuntu1.2]
+python3-jwt/resolute-security,resolute-security,now 2.10.1-4ubuntu1.3 all [installed,automatic]
 python3-kafka/resolute,resolute 2.0.2-11 all
 python3-kaitaistruct/resolute,resolute 0.11-1 all
 python3-kajiki/resolute,resolute 1.0.2-1 all
@@ -71789,8 +71789,8 @@ python3-proselint/resolute,resolute 0.14.0-2 all
 python3-protego/resolute,resolute 0.6.0+dfsg-1 all
 python3-proto-plus/resolute,resolute 1.27.1-1 all
 python3-protobix/resolute,resolute 1.0.2-16 all
-python3-protobuf/resolute 3.21.12-15ubuntu1 amd64
-python3-protobuf/resolute 3.21.12-15ubuntu1 i386
+python3-protobuf/resolute-security 3.21.12-15ubuntu1.1 amd64
+python3-protobuf/resolute-security 3.21.12-15ubuntu1.1 i386
 python3-proton-client/unknown 0.7.1-2 all
 python3-proton-core/unknown,now 0.7.4 all [installed,automatic]
 python3-proton-keyring-linux-secretservice/unknown 0.1.0 all
@@ -77581,8 +77581,8 @@ ruby-google-cloud-errors/resolute,resolute 1.5.0-1 all
 ruby-google-cloud-logging-v2/resolute,resolute 1.5.1-2 all
 ruby-google-cloud-logging/resolute,resolute 2.6.1-2 all
 ruby-google-logging-utils/resolute,resolute 0.2.0-2 all
-ruby-google-protobuf/resolute 3.21.12-15ubuntu1 amd64
-ruby-google-protobuf/resolute 3.21.12-15ubuntu1 i386
+ruby-google-protobuf/resolute-security 3.21.12-15ubuntu1.1 amd64
+ruby-google-protobuf/resolute-security 3.21.12-15ubuntu1.1 i386
 ruby-googleapis-common-protos-types/resolute,resolute 1.22.0-1 all
 ruby-googleapis-common-protos/resolute,resolute 1.9.0-2 all
 ruby-googleauth/resolute,resolute 1.16.1-2 all
@@ -79178,8 +79178,8 @@ sightviewer/resolute 25.1.0-1build2 amd64
 sigil-data/resolute,resolute 2.4.2+dfsg-1build1 all
 sigil/resolute 2.4.2+dfsg-1build1 amd64
 sigma-align/resolute 1.1.3-9build2 amd64
-signal-desktop-beta/xenial 8.32.0~beta.1 amd64
-signal-desktop/xenial,now 8.31.0 amd64 [installed]
+signal-desktop-beta/xenial 8.33.0~beta.1 amd64
+signal-desktop/xenial,now 8.32.0 amd64 [installed]
 signal-estimator-gui/resolute 0.1.0-2 amd64
 signal-estimator/resolute 0.1.0-2 amd64
 signalbackup-tools/resolute 20250313.1-1build1 amd64
@@ -80612,6 +80612,10 @@ tack/resolute 1.11+20251210-1 amd64
 tad/resolute,resolute 3.1.1+~cs11.23.43-1 all
 taggrepper/resolute 0.10-3build2 amd64
 taglog/resolute,resolute 0.2.6-1build1 all
+tailscale-archive-keyring/unknown,now 1.35.181 all [installed,automatic]
+tailscale-nginx-auth/unknown 0.1.3 amd64
+tailscale/unknown,now 1.104.2 amd64 [installed]
+tailscale/unknown 1.104.2 i386
 tailspin/resolute 5.5.0+dfsg-3 amd64
 taisei-data/resolute,resolute 1.4.4+dfsg-3 all
 taisei/resolute 1.4.4+dfsg-3 amd64
@@ -84839,10 +84843,10 @@ xymon-client/resolute 4.3.30-5 amd64
 xymon/resolute 4.3.30-5 amd64
 xymonq/resolute,resolute 0.8-1.1 all
 xyscan/resolute 4.68-1 amd64
-xz-utils/resolute,now 5.8.3-1 amd64 [installed]
-xz-utils/resolute 5.8.3-1 i386
-xzdec/resolute 5.8.3-1 amd64
-xzdec/resolute 5.8.3-1 i386
+xz-utils/resolute-security,now 5.8.3-1ubuntu0.1 amd64 [installed]
+xz-utils/resolute-security 5.8.3-1ubuntu0.1 i386
+xzdec/resolute-security 5.8.3-1ubuntu0.1 amd64
+xzdec/resolute-security 5.8.3-1ubuntu0.1 i386
 xzgv/resolute 0.9.2-2build3 amd64
 xzip/resolute 1:1.8.2-5build1 amd64
 xzoom/resolute 0.3-28build1 amd64
