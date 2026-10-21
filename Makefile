@@ -18,6 +18,7 @@ LIBRARY_SOURCE ?=
 MEETILY_DIR ?= $(DATA_HOME)/deps/meetily
 MEETILY_TOOLS ?= $(DATA_HOME)/deps/meetily-tools
 MEETILY_GPU ?= vulkan
+MEETILY_FORCE ?= 0
 include config/meetily.mk
 
 define helpers
@@ -293,8 +294,15 @@ tailscale-install: apt-install
 	printf 'To join your tailnet, run: sudo tailscale up\n'
 
 .PHONY: meetily-build
-meetily-build: apt-install
+meetily-build:
 	@$(helpers)
+	shopt -s nullglob
+	packages=("$(MEETILY_DIR)"/target/release/bundle/deb/*.deb)
+	if [[ "$(MEETILY_FORCE)" != 1 && $${#packages[@]} -eq 1 ]]; then
+	    printf 'Reusing Meetily package: %s\n' "$${packages[0]}"
+	    exit 0
+	fi
+	$(MAKE) apt-install
 	load_node
 	command -v node >/dev/null && command -v npm >/dev/null && command -v cargo >/dev/null && command -v rustc >/dev/null || { printf 'Node.js/npm and Rust are required; run make toolchains first.\n' >&2; exit 1; }
 	case "$(MEETILY_GPU)" in vulkan|cuda|cpu) ;; *) printf 'MEETILY_GPU must be vulkan, cuda or cpu.\n' >&2; exit 1 ;; esac
@@ -313,8 +321,13 @@ meetily-build: apt-install
 	pnpm exec tauri build --bundles deb --config '{"bundle":{"createUpdaterArtifacts":false}}' -- --locked "$${features[@]}"
 
 .PHONY: meetily-install
-meetily-install: meetily-build
-	@shopt -s nullglob
+meetily-install:
+	@if [[ "$(MEETILY_FORCE)" != 1 && "$$(dpkg-query -W -f='$${Status}' meetily 2>/dev/null || true)" == 'install ok installed' ]]; then
+	    printf 'Meetily is already installed.\n'
+	    exit 0
+	fi
+	$(MAKE) meetily-build
+	shopt -s nullglob
 	packages=("$(MEETILY_DIR)"/target/release/bundle/deb/*.deb)
 	[[ $${#packages[@]} == 1 ]] || { printf 'Expected one Meetily Debian package. Inspect %s/target/release/bundle/deb\n' "$(MEETILY_DIR)" >&2; exit 1; }
 	apt_temp=$$(mktemp -d /tmp/deps-meetily.XXXXXXXX)

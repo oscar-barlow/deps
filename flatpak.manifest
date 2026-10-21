@@ -10,6 +10,7 @@ Steam Link	com.valvesoftware.SteamLink	1.4.2.321	stable	system
 Zed	dev.zed.Zed	v1.24.2	stable	system
 Beekeeper Studio	io.beekeeperstudio.Studio	5.8.1	stable	system
 Tomatillo	io.github.diegopvlk.Tomatillo	1.1.1	stable	system
+Hidamari	io.github.jeffshee.Hidamari	3.7	stable	system
 Bazaar	io.github.kolunmi.Bazaar	0.9.9	stable	system
 Obsidian	md.obsidian.Obsidian	1.14.4	stable	system
 Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-24.08.37	24.08	system

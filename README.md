@@ -46,7 +46,10 @@ Rust builds use `--locked`. Source/build output lives under
 `~/.local/share/deps/meetily-tools`. Neither is stored in this repository.
 Override `MEETILY_DIR` or `MEETILY_TOOLS` to relocate them.
 
-Run `make meetily-install` to build and install the desktop app. Vulkan is the
+Run `make meetily-install` to build and install the desktop app. Installation
+skips an already installed Meetily, and builds reuse an existing Debian package.
+Use `MEETILY_FORCE=1` to rebuild and reinstall after changing the pinned revision
+or GPU mode. Vulkan is the
 default for this laptop; `make meetily-install MEETILY_GPU=cpu` builds without
 GPU features. `MEETILY_GPU=cuda` requires a compatible CUDA toolkit installed
 separately. The build downloads npm/Cargo dependencies and upstream build-time
