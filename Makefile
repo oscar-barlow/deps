@@ -81,7 +81,7 @@ checkout() {
 endef
 
 .PHONY: setup
-setup: install nix-install nvim-install kitty-install shell-install git-install nfs-install books-install
+setup: install nix-install nvim-install kitty-install shell-install git-install brave-config nfs-install books-install
 
 .PHONY: dotfiles
 dotfiles:
@@ -92,6 +92,14 @@ dotfiles:
 	stow_config git "$(CONFIG_HOME)"
 	include_git_config
 	stow_config shell "$(HOME)"
+	stow_config brave "$(HOME)"
+
+.PHONY: brave-config
+brave-config:
+	@$(helpers)
+	command -v brave-browser >/dev/null 2>&1 || { printf 'Brave is not installed; run make apt-install first.\n' >&2; exit 1; }
+	stow_config brave "$(HOME)"
+	printf 'Run %s/.local/bin/brave-agent to start Brave with CDP on 127.0.0.1:9222.\n' "$(HOME)"
 
 .PHONY: preflight
 preflight:

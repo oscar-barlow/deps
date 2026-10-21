@@ -15,7 +15,8 @@ change the NVIDIA driver, import SSH configuration or open applications.
 | `make install` | Install APT packages, Flatpak apps, AI CLIs, Tailscale and Meetily; record package inventories. |
 | `make apt-install` | Configure external sources, refresh APT and install `aptfile.txt`; record the APT inventory. |
 | `make repos` | Install public fallback keys/source files, ensure extrepo is installed, enable `apt-repos.txt` and refresh APT. |
-| `make dotfiles` | Use GNU Stow to link all five user configuration packages and include the Git settings; no package installation or service changes. |
+| `make dotfiles` | Use GNU Stow to link all user configuration packages and include the Git settings; no package installation or service changes. |
+| `make brave-config` | Link the `brave-agent` launcher for a dedicated Brave profile with CDP on localhost port 9222; requires Brave already installed. |
 | `make nix-install` | Retain an active Nix daemon, or install Ubuntu's Nix packages if absent and enable the daemon socket; install direnv and enable flakes in the user config. |
 | `make nvim-install` | Install Neovim, your `init.lua`, and the two plugins pinned in `config/nvim/plugins.txt`. |
 | `make kitty-install` | Install Kitty and the three active settings from your existing configuration. |
@@ -68,7 +69,7 @@ make dotfiles
 ```
 
 The `nvim`, `kitty`, `nix` and `git` packages target `XDG_CONFIG_HOME` (default
-`~/.config`); `shell` targets your home directory. Individual installation
+`~/.config`); `shell` and `brave` target your home directory. Individual installation
 targets link just their own package. Existing files, including copies from
 the earlier bootstrap, are moved to numbered `.deps-backup` backups before
 linking. Reruns preserve correct links. Existing symlinks for whole application
@@ -240,7 +241,17 @@ This checks the selected vault's enabled plugin IDs and downloaded plugin
 files. It does not change vault contents or copy plugin credentials into Git.
 The expected personal-vault and GTD-vault plugin lists are stored separately.
 Brave profile transfer/pairing is handled separately; this repo installs the
-native browser. Signal uses its official signed APT source; its old Flatpak
+native browser. Run `make brave-config` (also included in `make setup` and
+`make dotfiles`), then `~/.local/bin/brave-agent` to open a dedicated agent
+profile with Chrome DevTools Protocol at `127.0.0.1:9222`. The launcher is on
+PATH with this repo's shell configuration and forwards arguments, for example
+`brave-agent https://example.com`. Profile data stays outside Git under
+`${XDG_CONFIG_HOME:-$HOME/.config}/brave-agent`. Check the running endpoint with
+`curl --fail http://127.0.0.1:9222/json/version`; its response includes the
+browser WebSocket URL. CDP clients can control this profile's tabs and data.
+Close its Brave windows to stop the endpoint.
+
+Signal uses its official signed APT source; its old Flatpak
 entry has been removed. Existing Flatpak installations are not uninstalled.
 
 Books and audiobook files stay outside Git. After setup, run these on the new

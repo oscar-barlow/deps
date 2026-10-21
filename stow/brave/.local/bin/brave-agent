@@ -1,0 +1,6 @@
+#!/bin/sh
+exec brave-browser \
+    --user-data-dir="${XDG_CONFIG_HOME:-$HOME/.config}/brave-agent" \
+    --remote-debugging-address=127.0.0.1 \
+    --remote-debugging-port=9222 \
+    "$@"
