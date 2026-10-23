@@ -4542,7 +4542,7 @@ dconf-cli/resolute,now 0.49.0-4 amd64 [installed,automatic]
 dconf-cli/resolute 0.49.0-4 i386
 dconf-editor/resolute 49.0-1 amd64
 dconf-gsettings-backend/resolute,now 0.49.0-4 amd64 [installed,automatic]
-dconf-gsettings-backend/resolute,now 0.49.0-4 i386 [installed,automatic]
+dconf-gsettings-backend/resolute,now 0.49.0-4 i386 [installed,auto-removable]
 dconf-service/resolute,now 0.49.0-4 amd64 [installed,automatic]
 dconf-service/resolute 0.49.0-4 i386
 dcraw/resolute 9.28-8build1 amd64
@@ -25702,7 +25702,7 @@ libdconf-dev/resolute 0.49.0-4 amd64
 libdconf-dev/resolute 0.49.0-4 i386
 libdconf-doc/resolute,resolute 0.49.0-4 all
 libdconf1/resolute,now 0.49.0-4 amd64 [installed,automatic]
-libdconf1/resolute,now 0.49.0-4 i386 [installed,automatic]
+libdconf1/resolute,now 0.49.0-4 i386 [installed,auto-removable]
 libdcontainers-dev/resolute 0.9.0-2build1 amd64
 libdd-opentracing-dev/resolute 1.3.7-1build3 amd64
 libdd-opentracing0/resolute 1.3.7-1build3 amd64
@@ -66200,8 +66200,8 @@ pipewire-jack/resolute-updates 1.6.2-1ubuntu1.2 amd64
 pipewire-jack/resolute-updates 1.6.2-1ubuntu1.2 i386
 pipewire-libcamera/resolute-updates,resolute-updates 1.6.2-1ubuntu1.2 all
 pipewire-module-xrdp/resolute,resolute 0.2-2build1 all
-pipewire-pulse/resolute-updates 1.6.2-1ubuntu1.2 amd64
-pipewire-pulse/resolute-updates,now 1.6.2-1ubuntu1.2 i386 [installed,automatic]
+pipewire-pulse/resolute-updates,now 1.6.2-1ubuntu1.2 amd64 [installed]
+pipewire-pulse/resolute-updates 1.6.2-1ubuntu1.2 i386
 pipewire-system-services/resolute-updates,resolute-updates 1.6.2-1ubuntu1.2 all
 pipewire-tests/resolute-updates 1.6.2-1ubuntu1.2 amd64
 pipewire-tests/resolute-updates 1.6.2-1ubuntu1.2 i386
