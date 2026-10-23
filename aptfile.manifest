@@ -6,7 +6,7 @@ Listing...
 0install/resolute 2.18-2.2 amd64
 0xffff/resolute 0.9-1build1 amd64
 1oom/resolute 1.11.7-1 amd64
-1password-cli/stable,now 2.41.0-1 amd64 [installed]
+1password-cli/stable,now 2.41.1-1 amd64 [installed]
 1password/stable,now 8.12.42 amd64 [installed]
 2048-qt/resolute 0.1.6-2ubuntu2 amd64
 2048/resolute 1.0.3-1build1 amd64
@@ -2095,9 +2095,9 @@ brandy/resolute 1.23.6-1 amd64
 brasero-cdrkit/resolute 3.12.3-8 amd64
 brasero-common/resolute,resolute 3.12.3-8 all
 brasero/resolute 3.12.3-8 amd64
-brave-browser/stable,now 1.97.59 amd64 [installed]
+brave-browser/stable,now 1.98.60 amd64 [installed]
 brave-keyring/stable,now 1.20 all [installed,automatic]
-brave-origin/stable 1.97.59 amd64
+brave-origin/stable 1.98.60 amd64
 brazilian-conjugate/resolute,resolute 3.0~beta4-26 all
 breathe-doc/resolute,resolute 4.36.0-2 all
 brebis/resolute,resolute 0.10-4build1 all
@@ -4542,7 +4542,7 @@ dconf-cli/resolute,now 0.49.0-4 amd64 [installed,automatic]
 dconf-cli/resolute 0.49.0-4 i386
 dconf-editor/resolute 49.0-1 amd64
 dconf-gsettings-backend/resolute,now 0.49.0-4 amd64 [installed,automatic]
-dconf-gsettings-backend/resolute 0.49.0-4 i386
+dconf-gsettings-backend/resolute,now 0.49.0-4 i386 [installed,automatic]
 dconf-service/resolute,now 0.49.0-4 amd64 [installed,automatic]
 dconf-service/resolute 0.49.0-4 i386
 dcraw/resolute 9.28-8build1 amd64
@@ -5327,7 +5327,7 @@ distcc/resolute 3.4+really3.4-12build1 amd64
 distccmon-gnome/resolute 3.4+really3.4-12build1 amd64
 distributed-net/resolute 2.9112.521+arm64-3build1 amd64
 distribution-gpg-keys/resolute,resolute 1.117+ds-1 all
-distro-info-data/resolute-updates,resolute-updates,resolute-security,resolute-security,now 0.72-0ubuntu0.26.04.1 all [installed,automatic]
+distro-info-data/resolute-security,resolute-security,now 2026.10.12-0ubuntu0.26.04.1 all [installed,automatic]
 distro-info/resolute,now 1.15 amd64 [installed,automatic]
 distro-info/resolute 1.15 i386
 distroav/resolute 6.1.1-0ubuntu3 amd64
@@ -11779,9 +11779,9 @@ ghextris/resolute,resolute 0.9.0-6 all
 ghkl/resolute 5.1.3-1build1 amd64
 ghmm/resolute 0.9~rc3-11.1build1 amd64
 ghostess/resolute 20210101-3 amd64
-ghostscript-doc/resolute-updates,resolute-updates,resolute-security,resolute-security 10.06.0~dfsg-3ubuntu1.1 all
-ghostscript/resolute-updates,resolute-security,now 10.06.0~dfsg-3ubuntu1.1 amd64 [installed,automatic]
-ghostscript/resolute-updates,resolute-security 10.06.0~dfsg-3ubuntu1.1 i386
+ghostscript-doc/resolute-security,resolute-security 10.06.0~dfsg-3ubuntu1.2 all
+ghostscript/resolute-security,now 10.06.0~dfsg-3ubuntu1.2 amd64 [installed,automatic]
+ghostscript/resolute-security 10.06.0~dfsg-3ubuntu1.2 i386
 ghostty/resolute-updates 1.3.0~us1-0ubuntu1.1 amd64
 ghostwriter/resolute 25.12.3-0ubuntu1 amd64
 ghp-import/resolute,resolute,now 2.1.0-3build1 all [installed,automatic]
@@ -12152,8 +12152,8 @@ gir1.2-playerctl-2.0/resolute 2.4.1-3build1 amd64
 gir1.2-pluma-1.0/resolute 1.28.0-3build1 amd64
 gir1.2-polkit-1.0/resolute-updates,resolute-security,now 127-2ubuntu1.1 amd64 [installed,automatic]
 gir1.2-polkit-1.0/resolute-updates,resolute-security 127-2ubuntu1.1 i386
-gir1.2-poppler-0.18/resolute-updates,resolute-security 26.01.0-2ubuntu0.2 amd64
-gir1.2-poppler-0.18/resolute-updates,resolute-security 26.01.0-2ubuntu0.2 i386
+gir1.2-poppler-0.18/resolute-security 26.01.0-2ubuntu0.3 amd64
+gir1.2-poppler-0.18/resolute-security 26.01.0-2ubuntu0.3 i386
 gir1.2-pqmarble-2/resolute 1.3.0-6build2 amd64
 gir1.2-qmi-1.0/resolute 1.38.0-1 amd64
 gir1.2-qmi-1.0/resolute 1.38.0-1 i386
@@ -12386,7 +12386,7 @@ glib-networking-services/resolute 2.80.1-1build2 i386
 glib-networking-tests/resolute 2.80.1-1build2 amd64
 glib-networking-tests/resolute 2.80.1-1build2 i386
 glib-networking/resolute,now 2.80.1-1build2 amd64 [installed,automatic]
-glib-networking/resolute 2.80.1-1build2 i386
+glib-networking/resolute,now 2.80.1-1build2 i386 [installed,automatic]
 glibc-doc-reference/resolute,resolute 2.42-1 all
 glibc-doc/resolute-updates,resolute-updates,resolute-security,resolute-security 2.43-2ubuntu2.4 all
 glibc-source/resolute-updates,resolute-updates,resolute-security,resolute-security 2.43-2ubuntu2.4 all
@@ -20953,8 +20953,8 @@ lib32ubsan1-ppc64-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
 lib32ubsan1-sparc64-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
 lib32ubsan1-x32-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
 lib32ubsan1/resolute 16-20260322-1ubuntu1 amd64
-lib32z1-dev/resolute-updates,resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.1 amd64
-lib32z1/resolute-updates,resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.1 amd64
+lib32z1-dev/resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.2 amd64
+lib32z1/resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.2 amd64
 lib3ds-1-3/resolute 1.3.0-10ubuntu1 amd64
 lib3ds-dev/resolute 1.3.0-10ubuntu1 amd64
 lib3mf-dev/resolute 1.8.1+ds-6 amd64
@@ -21226,8 +21226,8 @@ lib64ubsan1-i386-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
 lib64ubsan1-powerpc-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
 lib64ubsan1-x32-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
 lib64ubsan1/resolute 16-20260322-1ubuntu1 i386
-lib64z1-dev/resolute-updates,resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.1 i386
-lib64z1/resolute-updates,resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.1 i386
+lib64z1-dev/resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.2 i386
+lib64z1/resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.2 i386
 liba11y-profile-manager-0.1-0/resolute 0.1.11-0ubuntu8 amd64
 liba11y-profile-manager-0.1-dev/resolute 0.1.11-0ubuntu8 amd64
 liba11y-profile-manager-data/resolute,resolute 0.1.11-0ubuntu8 all
@@ -21745,7 +21745,7 @@ libapache2-mod-passenger/resolute 6.1.1+ds-1 amd64
 libapache2-mod-perl2-dev/resolute,resolute 2.0.13-2build2 all
 libapache2-mod-perl2-doc/resolute,resolute 2.0.13-2build2 all
 libapache2-mod-perl2/resolute 2.0.13-2build2 amd64
-libapache2-mod-php8.5/resolute-security 8.5.4-0ubuntu1.4 amd64
+libapache2-mod-php8.5/resolute-security 8.5.4-0ubuntu1.5 amd64
 libapache2-mod-php/resolute,resolute 2:8.5+99ubuntu1 all
 libapache2-mod-python-doc/resolute,resolute 3.5.0.7-1 all
 libapache2-mod-python/resolute 3.5.0.7-1 amd64
@@ -23308,9 +23308,9 @@ libc++abi1-18/resolute 1:18.1.8-20ubuntu8 amd64
 libc++abi1-18/resolute 1:18.1.8-20ubuntu8 i386
 libc++abi1/resolute 1:22.1.2-1ubuntu1 amd64
 libc++abi1/resolute 1:22.1.2-1ubuntu1 i386
-libc-ares-dev/resolute-updates,resolute-security 1.34.6-1ubuntu0.1 amd64
-libc-ares-dev/resolute-updates,resolute-security 1.34.6-1ubuntu0.1 i386
-libc-ares2/resolute-updates,resolute-updates,resolute-security,resolute-security 1.34.6-1ubuntu0.1 all
+libc-ares-dev/resolute-security 1.34.6-1ubuntu0.2 amd64
+libc-ares-dev/resolute-security 1.34.6-1ubuntu0.2 i386
+libc-ares2/resolute-security,resolute-security 1.34.6-1ubuntu0.2 all
 libc-bin/resolute-updates,resolute-security,now 2.43-2ubuntu2.4 amd64 [installed,automatic]
 libc-bin/resolute-updates,resolute-security 2.43-2ubuntu2.4 i386
 libc-client2007e-dev/resolute 8:2007f~dfsg-7.1 amd64
@@ -23597,8 +23597,8 @@ libcapsule-maven-nextflow-java/resolute,resolute 1.0.3.1+dfsg-5build1 all
 libcaptcha-recaptcha-perl/resolute,resolute 0.98+ds-3 all
 libcaptcha-recaptcha-v3-perl/resolute,resolute 0.06-1 all
 libcapture-tiny-perl/resolute,resolute 0.50-1 all
-libcares2/resolute-updates,resolute-security,now 1.34.6-1ubuntu0.1 amd64 [installed,automatic]
-libcares2/resolute-updates,resolute-security 1.34.6-1ubuntu0.1 i386
+libcares2/resolute-security,now 1.34.6-1ubuntu0.2 amd64 [installed,automatic]
+libcares2/resolute-security 1.34.6-1ubuntu0.2 i386
 libcaribou-common/resolute,resolute 0.4.21-11 all
 libcaribou-dev/resolute 0.4.21-11 amd64
 libcaribou-gtk3-module/resolute 0.4.21-11 amd64
@@ -25210,7 +25210,7 @@ libcurator-test-java/resolute,resolute 5.7.1+ds-1build1 all
 libcurl-ocaml-dev/resolute 0.9.2-3build21 amd64
 libcurl-ocaml/resolute 0.9.2-3build21 amd64
 libcurl3t64-gnutls/resolute-security,now 8.18.0-1ubuntu2.8 amd64 [installed,automatic]
-libcurl3t64-gnutls/resolute-security 8.18.0-1ubuntu2.8 i386
+libcurl3t64-gnutls/resolute-security,now 8.18.0-1ubuntu2.8 i386 [installed,automatic]
 libcurl4-doc/resolute-security,resolute-security 8.18.0-1ubuntu2.8 all
 libcurl4-gnutls-dev/resolute-security 8.18.0-1ubuntu2.8 amd64
 libcurl4-gnutls-dev/resolute-security 8.18.0-1ubuntu2.8 i386
@@ -25702,7 +25702,7 @@ libdconf-dev/resolute 0.49.0-4 amd64
 libdconf-dev/resolute 0.49.0-4 i386
 libdconf-doc/resolute,resolute 0.49.0-4 all
 libdconf1/resolute,now 0.49.0-4 amd64 [installed,automatic]
-libdconf1/resolute 0.49.0-4 i386
+libdconf1/resolute,now 0.49.0-4 i386 [installed,automatic]
 libdcontainers-dev/resolute 0.9.0-2build1 amd64
 libdd-opentracing-dev/resolute 1.3.7-1build3 amd64
 libdd-opentracing0/resolute 1.3.7-1build3 amd64
@@ -26221,7 +26221,7 @@ libdublintraceroute-dev/resolute 0.4.2-3.1 amd64
 libdublintraceroute0/resolute 0.4.2-3.1 amd64
 libdujour-version-check-clojure/resolute,resolute 0.2.3-1build2 all
 libduktape207/resolute,now 2.7.0+tests-0ubuntu4 amd64 [installed,automatic]
-libduktape207/resolute 2.7.0+tests-0ubuntu4 i386
+libduktape207/resolute,now 2.7.0+tests-0ubuntu4 i386 [installed,automatic]
 libdumb1-dev/resolute 1:0.9.3-7build1 amd64
 libdumb1t64/resolute 1:0.9.3-7build1 amd64
 libdumbnet-dev/resolute 1.18.2-1 amd64
@@ -27270,7 +27270,7 @@ libfftw3-mpi3/resolute 3.3.10-2fakesync1build3 i386
 libfftw3-quad3/resolute 3.3.10-2fakesync1build3 amd64
 libfftw3-quad3/resolute 3.3.10-2fakesync1build3 i386
 libfftw3-single3/resolute,now 3.3.10-2fakesync1build3 amd64 [installed,automatic]
-libfftw3-single3/resolute 3.3.10-2fakesync1build3 i386
+libfftw3-single3/resolute,now 3.3.10-2fakesync1build3 i386 [installed,automatic]
 libfgetdata6/resolute 0.11.0-17build1 amd64
 libfiat-0/resolute 1.6.2-2 amd64
 libfiat-dev/resolute 1.6.2-2 amd64
@@ -33385,12 +33385,12 @@ libgrpc++1.51t64/resolute 1.51.1-8ubuntu1 amd64
 libgrpc-dev/resolute 1.51.1-8ubuntu1 amd64
 libgrpc-java/resolute,resolute 1.41.3+ds-5build1 all
 libgrpc29t64/resolute 1.51.1-8ubuntu1 amd64
-libgs-common/resolute-updates,resolute-updates,resolute-security,resolute-security,now 10.06.0~dfsg-3ubuntu1.1 all [installed,automatic]
-libgs-dev/resolute-updates,resolute-security 10.06.0~dfsg-3ubuntu1.1 amd64
-libgs-dev/resolute-updates,resolute-security 10.06.0~dfsg-3ubuntu1.1 i386
-libgs10-common/resolute-updates,resolute-updates,resolute-security,resolute-security,now 10.06.0~dfsg-3ubuntu1.1 all [installed,automatic]
-libgs10/resolute-updates,resolute-security,now 10.06.0~dfsg-3ubuntu1.1 amd64 [installed,automatic]
-libgs10/resolute-updates,resolute-security 10.06.0~dfsg-3ubuntu1.1 i386
+libgs-common/resolute-security,resolute-security,now 10.06.0~dfsg-3ubuntu1.2 all [installed,automatic]
+libgs-dev/resolute-security 10.06.0~dfsg-3ubuntu1.2 amd64
+libgs-dev/resolute-security 10.06.0~dfsg-3ubuntu1.2 i386
+libgs10-common/resolute-security,resolute-security,now 10.06.0~dfsg-3ubuntu1.2 all [installed,automatic]
+libgs10/resolute-security,now 10.06.0~dfsg-3ubuntu1.2 amd64 [installed,automatic]
+libgs10/resolute-security 10.06.0~dfsg-3ubuntu1.2 i386
 libgsasl-dev/resolute-updates,resolute-security 2.2.2-4ubuntu1.1 amd64
 libgsasl18/resolute-updates,resolute-security 2.2.2-4ubuntu1.1 amd64
 libgsecuredelete-dev/resolute 0.3-3.2build1 amd64
@@ -35681,7 +35681,7 @@ libjson-c-doc/resolute,resolute 0.18+ds-3 all
 libjson-c5/resolute,now 0.18+ds-3 amd64 [installed,automatic]
 libjson-c5/resolute 0.18+ds-3 i386
 libjson-glib-1.0-0/resolute,now 1.10.8+ds-2 amd64 [installed,automatic]
-libjson-glib-1.0-0/resolute 1.10.8+ds-2 i386
+libjson-glib-1.0-0/resolute,now 1.10.8+ds-2 i386 [installed,automatic]
 libjson-glib-1.0-common/resolute,resolute,now 1.10.8+ds-2 all [installed,automatic]
 libjson-glib-dev/resolute 1.10.8+ds-2 amd64
 libjson-glib-dev/resolute 1.10.8+ds-2 i386
@@ -37004,7 +37004,7 @@ libldap-java/resolute,resolute 5.5.0+dfsg1-1build1 all
 libldap-ocaml-dev/resolute 2.5.1-1build13 amd64
 libldap2-dev/resolute,resolute 2.6.10+dfsg-1ubuntu5 all
 libldap2/resolute,now 2.6.10+dfsg-1ubuntu5 amd64 [installed,automatic]
-libldap2/resolute 2.6.10+dfsg-1ubuntu5 i386
+libldap2/resolute,now 2.6.10+dfsg-1ubuntu5 i386 [installed,automatic]
 libldaptive-java/resolute,resolute 2.1.2-1build1 all
 libldb-dev/resolute-updates,resolute-security 2:2.11.0+samba4.23.6+dfsg-1ubuntu2.2 amd64
 libldb-dev/resolute-updates,resolute-security 2:2.11.0+samba4.23.6+dfsg-1ubuntu2.2 i386
@@ -38368,12 +38368,12 @@ libminion-backend-sqlite-perl/resolute,resolute 5.0.7-1 all
 libminion-perl/resolute,resolute 11.0+dfsg-1 all
 libminiupnpc-dev/resolute 2.3.3-2build1 amd64
 libminiupnpc21/resolute,now 2.3.3-2build1 amd64 [installed,automatic]
-libminizip-dev/resolute-updates,resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.1 amd64
-libminizip-dev/resolute-updates,resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.1 i386
+libminizip-dev/resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.2 amd64
+libminizip-dev/resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.2 i386
 libminizip-ng-dev/resolute 4.0.10+dfsg-2 amd64
 libminizip-ng4t64/resolute 4.0.10+dfsg-2 amd64
-libminizip1t64/resolute-updates,resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.1 amd64
-libminizip1t64/resolute-updates,resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.1 i386
+libminizip1t64/resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.2 amd64
+libminizip1t64/resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.2 i386
 libminlog-java/resolute,resolute 1.3.1-1 all
 libminpack1/resolute 19961126+dfsg1-5build2 amd64
 libmiopen-dev/resolute 7.1.1+dfsg-0ubuntu1 amd64
@@ -39571,7 +39571,7 @@ libnftnl-dev/resolute 1.3.1-1 i386
 libnftnl11/resolute,now 1.3.1-1 amd64 [installed,automatic]
 libnftnl11/resolute 1.3.1-1 i386
 libnghttp2-14/resolute-updates,resolute-security,now 1.68.0-2ubuntu0.2 amd64 [installed,automatic]
-libnghttp2-14/resolute-updates,resolute-security 1.68.0-2ubuntu0.2 i386
+libnghttp2-14/resolute-updates,resolute-security,now 1.68.0-2ubuntu0.2 i386 [installed,automatic]
 libnghttp2-dev/resolute-updates,resolute-security,now 1.68.0-2ubuntu0.2 amd64 [installed,automatic]
 libnghttp2-dev/resolute-updates,resolute-security 1.68.0-2ubuntu0.2 i386
 libnghttp2-doc/resolute-updates,resolute-updates,resolute-security,resolute-security 1.68.0-2ubuntu0.2 all
@@ -39804,12 +39804,12 @@ libnss-winbind/resolute-updates,resolute-security 2:4.23.6+dfsg-1ubuntu2.2 amd64
 libnss-winbind/resolute-updates,resolute-security 2:4.23.6+dfsg-1ubuntu2.2 i386
 libnss-wrapper/resolute 1.1.16-5 amd64
 libnss-wrapper/resolute 1.1.16-5 i386
-libnss3-dev/resolute-updates,resolute-security,now 2:3.120-1ubuntu2.1 amd64 [installed,automatic]
-libnss3-dev/resolute-updates,resolute-security 2:3.120-1ubuntu2.1 i386
-libnss3-tools/resolute-updates,resolute-security 2:3.120-1ubuntu2.1 amd64
-libnss3-tools/resolute-updates,resolute-security 2:3.120-1ubuntu2.1 i386
-libnss3/resolute-updates,resolute-security,now 2:3.120-1ubuntu2.1 amd64 [installed,automatic]
-libnss3/resolute-updates,resolute-security 2:3.120-1ubuntu2.1 i386
+libnss3-dev/resolute-security,now 2:3.120-1ubuntu2.2 amd64 [installed,automatic]
+libnss3-dev/resolute-security 2:3.120-1ubuntu2.2 i386
+libnss3-tools/resolute-security 2:3.120-1ubuntu2.2 amd64
+libnss3-tools/resolute-security 2:3.120-1ubuntu2.2 i386
+libnss3/resolute-security,now 2:3.120-1ubuntu2.2 amd64 [installed,automatic]
+libnss3/resolute-security 2:3.120-1ubuntu2.2 i386
 libnsync-cpp1t64/resolute 1.29.2-4 amd64
 libnsync-dev/resolute 1.29.2-4 amd64
 libnsync1t64/resolute 1.29.2-4 amd64
@@ -41794,7 +41794,7 @@ libphp-phpmailer/resolute,resolute 6.9.3-1 all
 libphp-serialization-perl/resolute,resolute 0.34-4 all
 libphp-simplepie/resolute,resolute 1.5.8+dfsg-1build1 all
 libphp-snoopy/resolute,resolute 2.0.0-3build1 all
-libphp8.5-embed/resolute-security 8.5.4-0ubuntu1.4 amd64
+libphp8.5-embed/resolute-security 8.5.4-0ubuntu1.5 amd64
 libphysfs-dev/resolute 3.2.0-1 amd64
 libphysfs1/resolute 3.2.0-1 amd64
 libpiano-dev/resolute 2024.12.21-1build1 amd64
@@ -41829,7 +41829,7 @@ libpipeline-dev/resolute 1.5.8-2 i386
 libpipeline1/resolute,now 1.5.8-2 amd64 [installed,automatic]
 libpipeline1/resolute 1.5.8-2 i386
 libpipewire-0.3-0t64/resolute-updates,now 1.6.2-1ubuntu1.2 amd64 [installed,automatic]
-libpipewire-0.3-0t64/resolute-updates 1.6.2-1ubuntu1.2 i386
+libpipewire-0.3-0t64/resolute-updates,now 1.6.2-1ubuntu1.2 i386 [installed,automatic]
 libpipewire-0.3-common/resolute-updates,resolute-updates,now 1.6.2-1ubuntu1.2 all [installed,automatic]
 libpipewire-0.3-dev/resolute-updates 1.6.2-1ubuntu1.2 amd64
 libpipewire-0.3-dev/resolute-updates 1.6.2-1ubuntu1.2 i386
@@ -41839,7 +41839,7 @@ libpipewire-0.3-modules-x11/resolute-updates 1.6.2-1ubuntu1.2 amd64
 libpipewire-0.3-modules-x11/resolute-updates 1.6.2-1ubuntu1.2 i386
 libpipewire-0.3-modules-xrdp/resolute 0.2-2build1 amd64
 libpipewire-0.3-modules/resolute-updates,now 1.6.2-1ubuntu1.2 amd64 [installed,automatic]
-libpipewire-0.3-modules/resolute-updates 1.6.2-1ubuntu1.2 i386
+libpipewire-0.3-modules/resolute-updates,now 1.6.2-1ubuntu1.2 i386 [installed,automatic]
 libpisp-common/resolute,resolute 1.3.0-1build1 all
 libpisp-dev/resolute 1.3.0-1build1 amd64
 libpisp1/resolute 1.3.0-1build1 amd64
@@ -42202,27 +42202,27 @@ libpomp0/resolute 1.1+dfsg-9build2 amd64
 libpomp2-dev/resolute 2.0.9-1build1 amd64
 libpomp2-doc/resolute,resolute 2.0.9-1build1 all
 libponapi-client-perl/resolute,resolute 0.002012-2 all
-libpoppler-cpp-dev/resolute-updates,resolute-security 26.01.0-2ubuntu0.2 amd64
-libpoppler-cpp-dev/resolute-updates,resolute-security 26.01.0-2ubuntu0.2 i386
-libpoppler-cpp3/resolute-updates,resolute-security,now 26.01.0-2ubuntu0.2 amd64 [installed,automatic]
-libpoppler-cpp3/resolute-updates,resolute-security 26.01.0-2ubuntu0.2 i386
-libpoppler-dev/resolute-updates,resolute-security 26.01.0-2ubuntu0.2 amd64
-libpoppler-dev/resolute-updates,resolute-security 26.01.0-2ubuntu0.2 i386
-libpoppler-glib-dev/resolute-updates,resolute-security 26.01.0-2ubuntu0.2 amd64
-libpoppler-glib-dev/resolute-updates,resolute-security 26.01.0-2ubuntu0.2 i386
-libpoppler-glib-doc/resolute-updates,resolute-updates,resolute-security,resolute-security 26.01.0-2ubuntu0.2 all
-libpoppler-glib8t64/resolute-updates,resolute-security,now 26.01.0-2ubuntu0.2 amd64 [installed,automatic]
-libpoppler-glib8t64/resolute-updates,resolute-security 26.01.0-2ubuntu0.2 i386
-libpoppler-private-dev/resolute-updates,resolute-security 26.01.0-2ubuntu0.2 amd64
-libpoppler-private-dev/resolute-updates,resolute-security 26.01.0-2ubuntu0.2 i386
-libpoppler-qt5-1t64/resolute-updates,resolute-security 26.01.0-2ubuntu0.2 amd64
-libpoppler-qt5-1t64/resolute-updates,resolute-security 26.01.0-2ubuntu0.2 i386
-libpoppler-qt5-dev/resolute-updates,resolute-security 26.01.0-2ubuntu0.2 amd64
-libpoppler-qt5-dev/resolute-updates,resolute-security 26.01.0-2ubuntu0.2 i386
-libpoppler-qt6-3t64/resolute-updates,resolute-security 26.01.0-2ubuntu0.2 amd64
-libpoppler-qt6-dev/resolute-updates,resolute-security 26.01.0-2ubuntu0.2 amd64
-libpoppler156/resolute-updates,resolute-security,now 26.01.0-2ubuntu0.2 amd64 [installed,automatic]
-libpoppler156/resolute-updates,resolute-security 26.01.0-2ubuntu0.2 i386
+libpoppler-cpp-dev/resolute-security 26.01.0-2ubuntu0.3 amd64
+libpoppler-cpp-dev/resolute-security 26.01.0-2ubuntu0.3 i386
+libpoppler-cpp3/resolute-security,now 26.01.0-2ubuntu0.3 amd64 [installed,automatic]
+libpoppler-cpp3/resolute-security 26.01.0-2ubuntu0.3 i386
+libpoppler-dev/resolute-security 26.01.0-2ubuntu0.3 amd64
+libpoppler-dev/resolute-security 26.01.0-2ubuntu0.3 i386
+libpoppler-glib-dev/resolute-security 26.01.0-2ubuntu0.3 amd64
+libpoppler-glib-dev/resolute-security 26.01.0-2ubuntu0.3 i386
+libpoppler-glib-doc/resolute-security,resolute-security 26.01.0-2ubuntu0.3 all
+libpoppler-glib8t64/resolute-security,now 26.01.0-2ubuntu0.3 amd64 [installed,automatic]
+libpoppler-glib8t64/resolute-security 26.01.0-2ubuntu0.3 i386
+libpoppler-private-dev/resolute-security 26.01.0-2ubuntu0.3 amd64
+libpoppler-private-dev/resolute-security 26.01.0-2ubuntu0.3 i386
+libpoppler-qt5-1t64/resolute-security 26.01.0-2ubuntu0.3 amd64
+libpoppler-qt5-1t64/resolute-security 26.01.0-2ubuntu0.3 i386
+libpoppler-qt5-dev/resolute-security 26.01.0-2ubuntu0.3 amd64
+libpoppler-qt5-dev/resolute-security 26.01.0-2ubuntu0.3 i386
+libpoppler-qt6-3t64/resolute-security 26.01.0-2ubuntu0.3 amd64
+libpoppler-qt6-dev/resolute-security 26.01.0-2ubuntu0.3 amd64
+libpoppler156/resolute-security,now 26.01.0-2ubuntu0.3 amd64 [installed,automatic]
+libpoppler156/resolute-security 26.01.0-2ubuntu0.3 i386
 libpopplerkit-dev/resolute 0.0.20051227svn-17build2 amd64
 libpopplerkit0/resolute 0.0.20051227svn-17build2 amd64
 libpopt-dev/resolute 1.19+dfsg-2build1 amd64
@@ -42479,7 +42479,7 @@ libproxy-tools/resolute 0.5.12-1 amd64
 libproxy-tools/resolute 0.5.12-1 i386
 libproxy-vole-java/resolute,resolute 1.0.3-3build1 all
 libproxy1v5/resolute,now 0.5.12-1 amd64 [installed,automatic]
-libproxy1v5/resolute 0.5.12-1 i386
+libproxy1v5/resolute,now 0.5.12-1 i386 [installed,automatic]
 libproxychains-dev/resolute 3.1-9build1 amd64
 libproxychains3/resolute 3.1-9build1 amd64
 libproxychains4/resolute 4.17-3build1 amd64
@@ -42494,7 +42494,7 @@ libpskc0t64/resolute 2.6.14-1 amd64
 libpsl-dev/resolute,now 0.21.2-1.1build2 amd64 [installed,automatic]
 libpsl-dev/resolute 0.21.2-1.1build2 i386
 libpsl5t64/resolute,now 0.21.2-1.1build2 amd64 [installed,automatic]
-libpsl5t64/resolute 0.21.2-1.1build2 i386
+libpsl5t64/resolute,now 0.21.2-1.1build2 i386 [installed,automatic]
 libpsm-infinipath1-dbg/resolute 3.3+20.604758e7-6.4build1 amd64
 libpsm-infinipath1-dev/resolute 3.3+20.604758e7-6.4build1 amd64
 libpsm-infinipath1/resolute 3.3+20.604758e7-6.4build1 amd64
@@ -43827,7 +43827,7 @@ librobottestingframework2/resolute 2.0.1+ds1-3ubuntu5 amd64
 libroc-dev/resolute-updates,resolute-security 0.4.0+dfsg-5ubuntu3.1 amd64
 libroc-dev/resolute-updates,resolute-security 0.4.0+dfsg-5ubuntu3.1 i386
 libroc0.4/resolute-updates,resolute-security,now 0.4.0+dfsg-5ubuntu3.1 amd64 [installed,automatic]
-libroc0.4/resolute-updates,resolute-security 0.4.0+dfsg-5ubuntu3.1 i386
+libroc0.4/resolute-updates,resolute-security,now 0.4.0+dfsg-5ubuntu3.1 i386 [installed,automatic]
 librocalution-dev/resolute 7.1.1-0ubuntu1 amd64
 librocalution-doc/resolute,resolute 7.1.1-0ubuntu1 all
 librocalution1-tests/resolute 7.1.1-0ubuntu1 amd64
@@ -44194,7 +44194,7 @@ librtmidi7/resolute 6.0.0-2build1 amd64
 librtmp-dev/resolute 2.4+20151223.gitfa8646d.1-3 amd64
 librtmp-dev/resolute 2.4+20151223.gitfa8646d.1-3 i386
 librtmp1/resolute,now 2.4+20151223.gitfa8646d.1-3 amd64 [installed,automatic]
-librtmp1/resolute 2.4+20151223.gitfa8646d.1-3 i386
+librtmp1/resolute,now 2.4+20151223.gitfa8646d.1-3 i386 [installed,automatic]
 librtpi-dev/resolute 1.0.0-3 amd64
 librtpi1/resolute 1.0.0-3 amd64
 librtr-dev/resolute 0.8.0-7 amd64
@@ -47878,11 +47878,11 @@ libsanlock-dev/resolute 4.2.0-1build1 i386
 libsanlock1/resolute 4.2.0-1build1 amd64
 libsanlock1/resolute 4.2.0-1build1 i386
 libsasl2-2/resolute,now 2.1.28+dfsg1-9ubuntu3 amd64 [installed,automatic]
-libsasl2-2/resolute 2.1.28+dfsg1-9ubuntu3 i386
+libsasl2-2/resolute,now 2.1.28+dfsg1-9ubuntu3 i386 [installed,automatic]
 libsasl2-dev/resolute 2.1.28+dfsg1-9ubuntu3 amd64
 libsasl2-dev/resolute 2.1.28+dfsg1-9ubuntu3 i386
 libsasl2-modules-db/resolute,now 2.1.28+dfsg1-9ubuntu3 amd64 [installed,automatic]
-libsasl2-modules-db/resolute 2.1.28+dfsg1-9ubuntu3 i386
+libsasl2-modules-db/resolute,now 2.1.28+dfsg1-9ubuntu3 i386 [installed,automatic]
 libsasl2-modules-gssapi-heimdal/resolute 2.1.28+dfsg1-9ubuntu3 amd64
 libsasl2-modules-gssapi-heimdal/resolute 2.1.28+dfsg1-9ubuntu3 i386
 libsasl2-modules-gssapi-mit/resolute,now 2.1.28+dfsg1-9ubuntu3 amd64 [installed,automatic]
@@ -47895,7 +47895,7 @@ libsasl2-modules-otp/resolute 2.1.28+dfsg1-9ubuntu3 i386
 libsasl2-modules-sql/resolute 2.1.28+dfsg1-9ubuntu3 amd64
 libsasl2-modules-sql/resolute 2.1.28+dfsg1-9ubuntu3 i386
 libsasl2-modules/resolute,now 2.1.28+dfsg1-9ubuntu3 amd64 [installed,automatic]
-libsasl2-modules/resolute 2.1.28+dfsg1-9ubuntu3 i386
+libsasl2-modules/resolute,now 2.1.28+dfsg1-9ubuntu3 i386 [installed,automatic]
 libsass-dev/resolute 3.6.6-0ubuntu3 amd64
 libsass-dev/resolute 3.6.6-0ubuntu3 i386
 libsass1/resolute 3.6.6-0ubuntu3 amd64
@@ -48570,7 +48570,7 @@ libsnakeyaml-engine-java/resolute,resolute 2.7+ds-4 all
 libsnap7-1/resolute 1.4.2+dfsg-1build1 amd64
 libsnap7-dev/resolute 1.4.2+dfsg-1build1 amd64
 libsnapd-glib-2-1/resolute,now 1.72-0ubuntu3 amd64 [installed,automatic]
-libsnapd-glib-2-1/resolute 1.72-0ubuntu3 i386
+libsnapd-glib-2-1/resolute,now 1.72-0ubuntu3 i386 [installed,automatic]
 libsnapd-glib-dev/resolute 1.72-0ubuntu3 amd64
 libsnapd-glib-dev/resolute 1.72-0ubuntu3 i386
 libsnapd-qt-2-1/resolute 1.72-0ubuntu3 amd64
@@ -48725,7 +48725,7 @@ libsoundtouch1/resolute,now 2.4.0+ds-1build1 amd64 [installed,automatic]
 libsoundtouch1/resolute 2.4.0+ds-1build1 i386
 libsoup-2.4-1/resolute 2.74.3-10.1ubuntu5 amd64
 libsoup-3.0-0/resolute-updates,resolute-security,now 3.6.6-1ubuntu0.1 amd64 [installed,automatic]
-libsoup-3.0-0/resolute-updates,resolute-security 3.6.6-1ubuntu0.1 i386
+libsoup-3.0-0/resolute-updates,resolute-security,now 3.6.6-1ubuntu0.1 i386 [installed,automatic]
 libsoup-3.0-common/resolute-updates,resolute-updates,resolute-security,resolute-security,now 3.6.6-1ubuntu0.1 all [installed,automatic]
 libsoup-3.0-dev/resolute-updates,resolute-security,now 3.6.6-1ubuntu0.1 amd64 [installed,automatic]
 libsoup-3.0-dev/resolute-updates,resolute-security 3.6.6-1ubuntu0.1 i386
@@ -48778,7 +48778,7 @@ libspa-0.2-libcamera/resolute-updates 1.6.2-1ubuntu1.2 i386
 libspa-0.2-modules-extra/resolute-updates,now 1.6.2-1ubuntu1.2 amd64 [installed,automatic]
 libspa-0.2-modules-extra/resolute-updates 1.6.2-1ubuntu1.2 i386
 libspa-0.2-modules/resolute-updates,now 1.6.2-1ubuntu1.2 amd64 [installed,automatic]
-libspa-0.2-modules/resolute-updates 1.6.2-1ubuntu1.2 i386
+libspa-0.2-modules/resolute-updates,now 1.6.2-1ubuntu1.2 i386 [installed,automatic]
 libspandsp-dev/resolute 0.0.6+dfsg-2.2build2 amd64
 libspandsp-dev/resolute 0.0.6+dfsg-2.2build2 i386
 libspandsp-doc/resolute,resolute 0.0.6+dfsg-2.2build2 all
@@ -48930,7 +48930,7 @@ libsqlcipher2/resolute 4.13.0-1 amd64
 libsqlclient-dev/resolute 1.9.0-6build1 amd64
 libsqlclient1.9/resolute 1.9.0-6build1 amd64
 libsqlite3-0/resolute-updates,resolute-security,now 3.46.1-9ubuntu0.3 amd64 [installed,automatic]
-libsqlite3-0/resolute-updates,resolute-security 3.46.1-9ubuntu0.3 i386
+libsqlite3-0/resolute-updates,resolute-security,now 3.46.1-9ubuntu0.3 i386 [installed,automatic]
 libsqlite3-dev/resolute-updates,resolute-security,now 3.46.1-9ubuntu0.3 amd64 [installed]
 libsqlite3-dev/resolute-updates,resolute-security 3.46.1-9ubuntu0.3 i386
 libsqlite3-ext-csv/resolute-updates,resolute-security 3.46.1-9ubuntu0.3 amd64
@@ -49007,7 +49007,7 @@ libssh-doc/resolute-updates,resolute-updates,resolute-security,resolute-security
 libssh2-1-dev/resolute-updates,resolute-security 1.11.1-1ubuntu0.26.04.4 amd64
 libssh2-1-dev/resolute-updates,resolute-security 1.11.1-1ubuntu0.26.04.4 i386
 libssh2-1t64/resolute-updates,resolute-security,now 1.11.1-1ubuntu0.26.04.4 amd64 [installed,automatic]
-libssh2-1t64/resolute-updates,resolute-security 1.11.1-1ubuntu0.26.04.4 i386
+libssh2-1t64/resolute-updates,resolute-security,now 1.11.1-1ubuntu0.26.04.4 i386 [installed,automatic]
 libssl-dev/resolute-updates,resolute-security,now 3.5.5-1ubuntu3.7 amd64 [installed]
 libssl-dev/resolute-updates,resolute-security 3.5.5-1ubuntu3.7 i386
 libssl-doc/resolute-updates,resolute-updates,resolute-security,resolute-security 3.5.5-1ubuntu3.7 all
@@ -51227,10 +51227,10 @@ libunac1-dev/resolute 1.8.0-11 amd64
 libunac1/resolute 1.8.0-11 amd64
 libunbescape-java-doc/resolute,resolute 1.1.6-1 all
 libunbescape-java/resolute,resolute 1.1.6-1 all
-libunbound-dev/resolute-updates,resolute-security 1.24.2-1ubuntu2.3 amd64
-libunbound-dev/resolute-updates,resolute-security 1.24.2-1ubuntu2.3 i386
-libunbound8/resolute-updates,resolute-security,now 1.24.2-1ubuntu2.3 amd64 [installed,automatic]
-libunbound8/resolute-updates,resolute-security 1.24.2-1ubuntu2.3 i386
+libunbound-dev/resolute-security 1.24.2-1ubuntu2.4 amd64
+libunbound-dev/resolute-security 1.24.2-1ubuntu2.4 i386
+libunbound8/resolute-security,now 1.24.2-1ubuntu2.4 amd64 [installed,automatic]
+libunbound8/resolute-security 1.24.2-1ubuntu2.4 i386
 libuncommons-maths-java-doc/resolute,resolute 1.2.3-2build1 all
 libuncommons-maths-java/resolute,resolute 1.2.3-2build1 all
 libuncommons-watchmaker-framework-java/resolute,resolute 0.7.1-4 all
@@ -51514,7 +51514,7 @@ libuv1-dev/resolute 1.51.0-2ubuntu1 amd64
 libuv1-dev/resolute 1.51.0-2ubuntu1 i386
 libuv1-doc/resolute,resolute 1.51.0-2ubuntu1 all
 libuv1t64/resolute,now 1.51.0-2ubuntu1 amd64 [installed,automatic]
-libuv1t64/resolute 1.51.0-2ubuntu1 i386
+libuv1t64/resolute,now 1.51.0-2ubuntu1 i386 [installed,automatic]
 libuvc-dev/resolute 0.0.7-4 amd64
 libuvc-doc/resolute,resolute 0.0.7-4 all
 libuvc0/resolute 0.0.7-4 amd64
@@ -52086,7 +52086,7 @@ libwebrtc-audio-coding-1-3/resolute 1.3-3build2 i386
 libwebrtc-audio-coding-dev/resolute 1.3-3build2 amd64
 libwebrtc-audio-coding-dev/resolute 1.3-3build2 i386
 libwebrtc-audio-processing-1-3/resolute,now 1.3-3build2 amd64 [installed,automatic]
-libwebrtc-audio-processing-1-3/resolute 1.3-3build2 i386
+libwebrtc-audio-processing-1-3/resolute,now 1.3-3build2 i386 [installed,automatic]
 libwebrtc-audio-processing-dev/resolute 1.3-3build2 amd64
 libwebrtc-audio-processing-dev/resolute 1.3-3build2 i386
 libwebservice-cia-perl/resolute,resolute 1.4-4 all
@@ -52634,10 +52634,10 @@ libx32ubsan1-amd64-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
 libx32ubsan1-i386-cross/resolute,resolute 16-20260322-1ubuntu1cross1 all
 libx32ubsan1/resolute 16-20260322-1ubuntu1 amd64
 libx32ubsan1/resolute 16-20260322-1ubuntu1 i386
-libx32z1-dev/resolute-updates,resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.1 amd64
-libx32z1-dev/resolute-updates,resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.1 i386
-libx32z1/resolute-updates,resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.1 amd64
-libx32z1/resolute-updates,resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.1 i386
+libx32z1-dev/resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.2 amd64
+libx32z1-dev/resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.2 i386
+libx32z1/resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.2 amd64
+libx32z1/resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.2 i386
 libx500-dn-perl/resolute,resolute 0.29-6 all
 libx509-ocaml-dev/resolute 1.0.6-1build6 amd64
 libx509-ocaml/resolute 1.0.6-1build6 amd64
@@ -60217,8 +60217,8 @@ miniupnpd-nftables/resolute 2.3.9-2build1 amd64
 miniupnpd/resolute,resolute 2.3.9-2build1 all
 minizinc-ide/resolute 2.8.5-1build1 amd64
 minizinc/resolute 2.9.3+dfsg1-1 amd64
-minizip/resolute-updates,resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.1 amd64
-minizip/resolute-updates,resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.1 i386
+minizip/resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.2 amd64
+minizip/resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.2 i386
 minlog/resolute,resolute 4.0.99.20100221-8 all
 minpack-dev/resolute 19961126+dfsg1-5build2 amd64
 mint-y-icons/resolute,resolute 1.9.1-1 all
@@ -64541,7 +64541,7 @@ openvpn-auth-radius/resolute 2.1-12 amd64
 openvpn-dco-dkms/resolute,resolute 0.0+git20251017-1 all
 openvpn-systemd-resolved/resolute 1.3.0-5build1 amd64
 openvpn3-client/resolute 27+dfsg-1 amd64
-openvpn/resolute-updates,resolute-security,now 2.7.0-1ubuntu1.3 amd64 [installed,automatic]
+openvpn/resolute-security 2.7.0-1ubuntu1.4 amd64 [upgradable from: 2.7.0-1ubuntu1.3]
 openvswitch-common/resolute 3.7.1-2 amd64
 openvswitch-doc/resolute,resolute 3.7.1-2 all
 openvswitch-ipsec/resolute 3.7.1-2 amd64
@@ -65951,77 +65951,77 @@ php-zumba-json-serializer/resolute,resolute 3.2.2-1 all
 php8.5-amqp/resolute 2.1.2-5ubuntu1 amd64
 php8.5-apcu/resolute 5.1.24-1ubuntu1 amd64
 php8.5-ast/resolute 1.1.3-0ubuntu1 amd64
-php8.5-bcmath/resolute-security 8.5.4-0ubuntu1.4 amd64
-php8.5-bz2/resolute-security 8.5.4-0ubuntu1.4 amd64
-php8.5-cgi/resolute-security 8.5.4-0ubuntu1.4 amd64
-php8.5-cli/resolute-security 8.5.4-0ubuntu1.4 amd64
-php8.5-common/resolute-security 8.5.4-0ubuntu1.4 amd64
-php8.5-curl/resolute-security 8.5.4-0ubuntu1.4 amd64
-php8.5-dba/resolute-security 8.5.4-0ubuntu1.4 amd64
+php8.5-bcmath/resolute-security 8.5.4-0ubuntu1.5 amd64
+php8.5-bz2/resolute-security 8.5.4-0ubuntu1.5 amd64
+php8.5-cgi/resolute-security 8.5.4-0ubuntu1.5 amd64
+php8.5-cli/resolute-security 8.5.4-0ubuntu1.5 amd64
+php8.5-common/resolute-security 8.5.4-0ubuntu1.5 amd64
+php8.5-curl/resolute-security 8.5.4-0ubuntu1.5 amd64
+php8.5-dba/resolute-security 8.5.4-0ubuntu1.5 amd64
 php8.5-decimal/resolute 1.5.0-4ubuntu1 amd64
-php8.5-dev/resolute-security 8.5.4-0ubuntu1.4 amd64
+php8.5-dev/resolute-security 8.5.4-0ubuntu1.5 amd64
 php8.5-ds/resolute 1.6.0-1ubuntu1 amd64
-php8.5-enchant/resolute-security 8.5.4-0ubuntu1.4 amd64
+php8.5-enchant/resolute-security 8.5.4-0ubuntu1.5 amd64
 php8.5-excimer/resolute 1.2.5-1ubuntu1 amd64
-php8.5-fpm/resolute-security 8.5.4-0ubuntu1.4 amd64
-php8.5-gd/resolute-security 8.5.4-0ubuntu1.4 amd64
+php8.5-fpm/resolute-security 8.5.4-0ubuntu1.5 amd64
+php8.5-gd/resolute-security 8.5.4-0ubuntu1.5 amd64
 php8.5-gearman/resolute 2.1.4-1ubuntu1 amd64
 php8.5-gmagick/resolute 2.0.6~rc1++-5ubuntu1 amd64
-php8.5-gmp/resolute-security 8.5.4-0ubuntu1.4 amd64
+php8.5-gmp/resolute-security 8.5.4-0ubuntu1.5 amd64
 php8.5-gnupg/resolute 1.5.4-1ubuntu1 amd64
 php8.5-http/resolute 4.2.6-3.1ubuntu1 amd64
 php8.5-igbinary/resolute 3.2.16-4ubuntu1 amd64
 php8.5-imagick/resolute 3.8.0-3ubuntu1 amd64
 php8.5-inotify/resolute 3.0.0++-3ubuntu1 amd64
-php8.5-interbase/resolute-security 8.5.4-0ubuntu1.4 amd64
-php8.5-intl/resolute-security 8.5.4-0ubuntu1.4 amd64
-php8.5-ldap/resolute-security 8.5.4-0ubuntu1.4 amd64
+php8.5-interbase/resolute-security 8.5.4-0ubuntu1.5 amd64
+php8.5-intl/resolute-security 8.5.4-0ubuntu1.5 amd64
+php8.5-ldap/resolute-security 8.5.4-0ubuntu1.5 amd64
 php8.5-libvirt-php/resolute 0.5.8-7ubuntu1 amd64
-php8.5-litespeed/resolute-security 8.5.4-0ubuntu1.4 amd64
+php8.5-litespeed/resolute-security 8.5.4-0ubuntu1.5 amd64
 php8.5-mailparse/resolute 3.1.9-0ubuntu1 amd64
 php8.5-maxminddb/resolute 1.12.1-1ubuntu1 amd64
-php8.5-mbstring/resolute-security 8.5.4-0ubuntu1.4 amd64
+php8.5-mbstring/resolute-security 8.5.4-0ubuntu1.5 amd64
 php8.5-mcrypt/resolute 3:1.0.7-5ubuntu1 amd64
 php8.5-memcache/resolute 8.2-5ubuntu1 amd64
 php8.5-memcached/resolute 3.4.0-0ubuntu1 amd64
 php8.5-mongodb/resolute 2.1.7-0ubuntu1 amd64
 php8.5-msgpack/resolute 1:3.0.0-1ubuntu1 amd64
-php8.5-mysql/resolute-security 8.5.4-0ubuntu1.4 amd64
+php8.5-mysql/resolute-security 8.5.4-0ubuntu1.5 amd64
 php8.5-oauth/resolute 2.0.10-0ubuntu1 amd64
-php8.5-odbc/resolute-security 8.5.4-0ubuntu1.4 amd64
+php8.5-odbc/resolute-security 8.5.4-0ubuntu1.5 amd64
 php8.5-pcov/resolute 1.0.12-1ubuntu1 amd64
-php8.5-pgsql/resolute-security 8.5.4-0ubuntu1.4 amd64
-php8.5-phpdbg/resolute-security 8.5.4-0ubuntu1.4 amd64
+php8.5-pgsql/resolute-security 8.5.4-0ubuntu1.5 amd64
+php8.5-phpdbg/resolute-security 8.5.4-0ubuntu1.5 amd64
 php8.5-pq/resolute 2.2.3-6ubuntu1 amd64
 php8.5-ps/resolute 1.4.4++-4ubuntu1 amd64
 php8.5-pspell/resolute 3:1.0.1-3ubuntu1 amd64
 php8.5-psr/resolute 1.2.0-9ubuntu1 amd64
 php8.5-raphf/resolute 2.0.1++-4ubuntu1 amd64
-php8.5-readline/resolute-security 8.5.4-0ubuntu1.4 amd64
+php8.5-readline/resolute-security 8.5.4-0ubuntu1.5 amd64
 php8.5-redis/resolute 6.2.0-1ubuntu1 amd64
 php8.5-rrd/resolute 2.0.3++-5ubuntu1 amd64
 php8.5-smbclient/resolute 1.1.2-3ubuntu1 amd64
-php8.5-snmp/resolute-security 8.5.4-0ubuntu1.4 amd64
-php8.5-soap/resolute-security 8.5.4-0ubuntu1.4 amd64
+php8.5-snmp/resolute-security 8.5.4-0ubuntu1.5 amd64
+php8.5-soap/resolute-security 8.5.4-0ubuntu1.5 amd64
 php8.5-solr/resolute 2.9.1-0ubuntu1 amd64
-php8.5-sqlite3/resolute-security 8.5.4-0ubuntu1.4 amd64
+php8.5-sqlite3/resolute-security 8.5.4-0ubuntu1.5 amd64
 php8.5-ssh2/resolute 1.4.1-4ubuntu1 amd64
 php8.5-stomp/resolute 2.0.3-5ubuntu1 amd64
-php8.5-sybase/resolute-security 8.5.4-0ubuntu1.4 amd64
-php8.5-tidy/resolute-security 8.5.4-0ubuntu1.4 amd64
+php8.5-sybase/resolute-security 8.5.4-0ubuntu1.5 amd64
+php8.5-tidy/resolute-security 8.5.4-0ubuntu1.5 amd64
 php8.5-uopz/resolute 7.1.1++-4ubuntu1 amd64
 php8.5-uploadprogress/resolute 2.0.2++-4ubuntu1 amd64
 php8.5-uuid/resolute 1.3.0-1ubuntu1 amd64
 php8.5-xdebug/resolute 3.5.0-0ubuntu3 amd64
-php8.5-xml/resolute-security 8.5.4-0ubuntu1.4 amd64
+php8.5-xml/resolute-security 8.5.4-0ubuntu1.5 amd64
 php8.5-xmlrpc/resolute 3:1.0.0~rc3-10ubuntu1 amd64
-php8.5-xsl/resolute-security,resolute-security 8.5.4-0ubuntu1.4 all
+php8.5-xsl/resolute-security,resolute-security 8.5.4-0ubuntu1.5 all
 php8.5-yac/resolute 2.3.1++-4ubuntu1 amd64
 php8.5-yaml/resolute 2.2.4-1ubuntu1 amd64
-php8.5-zip/resolute-security 8.5.4-0ubuntu1.4 amd64
+php8.5-zip/resolute-security 8.5.4-0ubuntu1.5 amd64
 php8.5-zmq/resolute 1.1.3-30ubuntu1 amd64
 php8.5-zstd/resolute 0.15.2-3ubuntu1 amd64
-php8.5/resolute-security,resolute-security 8.5.4-0ubuntu1.4 all
+php8.5/resolute-security,resolute-security 8.5.4-0ubuntu1.5 all
 php/resolute,resolute 2:8.5+99ubuntu1 all
 phpab/resolute,resolute 1.29.4-1 all
 phpldapadmin/resolute,resolute 1.2.6.7-4 all
@@ -66200,15 +66200,15 @@ pipewire-jack/resolute-updates 1.6.2-1ubuntu1.2 amd64
 pipewire-jack/resolute-updates 1.6.2-1ubuntu1.2 i386
 pipewire-libcamera/resolute-updates,resolute-updates 1.6.2-1ubuntu1.2 all
 pipewire-module-xrdp/resolute,resolute 0.2-2build1 all
-pipewire-pulse/resolute-updates,now 1.6.2-1ubuntu1.2 amd64 [installed,automatic]
-pipewire-pulse/resolute-updates 1.6.2-1ubuntu1.2 i386
+pipewire-pulse/resolute-updates 1.6.2-1ubuntu1.2 amd64
+pipewire-pulse/resolute-updates,now 1.6.2-1ubuntu1.2 i386 [installed,automatic]
 pipewire-system-services/resolute-updates,resolute-updates 1.6.2-1ubuntu1.2 all
 pipewire-tests/resolute-updates 1.6.2-1ubuntu1.2 amd64
 pipewire-tests/resolute-updates 1.6.2-1ubuntu1.2 i386
 pipewire-v4l2/resolute-updates 1.6.2-1ubuntu1.2 amd64
 pipewire-v4l2/resolute-updates 1.6.2-1ubuntu1.2 i386
 pipewire/resolute-updates,now 1.6.2-1ubuntu1.2 amd64 [installed,automatic]
-pipewire/resolute-updates 1.6.2-1ubuntu1.2 i386
+pipewire/resolute-updates,now 1.6.2-1ubuntu1.2 i386 [installed,automatic]
 pipexec/resolute 2.6.2-1build1 amd64
 pipsi/resolute,resolute 0.9-1.1build1 all
 pipx/resolute,resolute,now 1.8.0-1 all [installed]
@@ -66563,8 +66563,8 @@ popa3d/resolute 1.0.3-3 amd64
 popfile/resolute,resolute 1.1.3+dfsg-0ubuntu4 all
 poppass-cgi/resolute,resolute 3-6.2build1 all
 poppler-data/resolute,resolute,now 0.4.12-1build1 all [installed,automatic]
-poppler-utils/resolute-updates,resolute-security,now 26.01.0-2ubuntu0.2 amd64 [installed,automatic]
-poppler-utils/resolute-updates,resolute-security 26.01.0-2ubuntu0.2 i386
+poppler-utils/resolute-security,now 26.01.0-2ubuntu0.3 amd64 [installed,automatic]
+poppler-utils/resolute-security 26.01.0-2ubuntu0.3 i386
 popularity-contest/resolute,resolute 1.79ubuntu1 all
 populations/resolute 1.2.33+svn0120106+dfsg-8 amd64
 porechop/resolute 0.2.4+dfsg-6 amd64
@@ -68300,7 +68300,7 @@ python-tktreectrl-doc/resolute,resolute 2.0.2-5build1 all
 python-tld-doc/resolute,resolute 0.13-3 all
 python-toolz-doc/resolute,resolute 1.1.0-1 all
 python-tooz-doc/resolute,resolute 8.1.0-2ubuntu1 all
-python-tornado-doc/resolute-updates,resolute-updates,resolute-security,resolute-security 6.5.4-0.1ubuntu0.1 all
+python-tornado-doc/resolute-security,resolute-security 6.5.4-0.1ubuntu0.2 all
 python-tosca-parser-doc/resolute,resolute 2.14.0-1 all
 python-tpm2-pytss-doc/resolute,resolute 3.0.0~rc0-3 all
 python-traitlets-doc/resolute,resolute 5.14.3+really5.14.3-3 all
@@ -73488,7 +73488,7 @@ python3-torch-scatter/resolute 2.1.2-4build1 amd64
 python3-torch-sparse/resolute 0.6.18-3build1 amd64
 python3-torch/resolute 2.9.1+dfsg-1~exp1ubuntu2 amd64
 python3-torchaudio/resolute 2.9.1-1 amd64
-python3-tornado/resolute-updates,resolute-security,now 6.5.4-0.1ubuntu0.1 amd64 [installed,automatic]
+python3-tornado/resolute-security,now 6.5.4-0.1ubuntu0.2 amd64 [installed,automatic]
 python3-torrequest/resolute,resolute 0.1.0-3build1 all
 python3-tosca-parser/resolute,resolute 2.14.0-1 all
 python3-tplink-omada-client/resolute,resolute 1.5.3-1 all
@@ -73608,8 +73608,8 @@ python3-ulid/resolute,resolute 2.2.0-4 all
 python3-ulmo/resolute,resolute 0.8.8+dfsg1-8 all
 python3-ultraheat-api/resolute,resolute 0.5.7-2build1 all
 python3-umodbus/resolute,resolute 1.0.4-2 all
-python3-unbound/resolute-updates,resolute-security 1.24.2-1ubuntu2.3 amd64
-python3-unbound/resolute-updates,resolute-security 1.24.2-1ubuntu2.3 i386
+python3-unbound/resolute-security 1.24.2-1ubuntu2.4 amd64
+python3-unbound/resolute-security 1.24.2-1ubuntu2.4 i386
 python3-uncertainties/resolute,resolute 3.2.3-4 all
 python3-undetected-chromedriver/resolute,resolute 3.5.5-2 all
 python3-unearth/resolute,resolute 0.18.2-1 all
@@ -82199,7 +82199,7 @@ tuxedo-board-ahp958/tuxedo,tuxedo 1.0.0 all
 tuxedo-board-nh5xax/tuxedo,tuxedo 1.0.0 all
 tuxedo-board-xxkk4nax-xxsp4nax/tuxedo,tuxedo 1.0.0 all
 tuxedo-calamares-configuration/tuxedo,tuxedo 4.6.0 all
-tuxedo-control-center/tuxedo 3.0.10 amd64
+tuxedo-control-center/tuxedo 3.1.1 amd64
 tuxedo-drivers/tuxedo,tuxedo,now 4.25.0 all [installed]
 tuxedo-fix-acpi-backlight-video/tuxedo,tuxedo 1.0.1 all
 tuxedo-fix-amdgpu-backlight-aux-off/tuxedo,tuxedo 1.0.1 all
@@ -82752,12 +82752,12 @@ unadf/resolute 0.7.11a-7build1 amd64
 unalz/resolute 0.65-9build1 amd64
 unar/resolute 1.10.8+ds1-9build1 amd64
 unattended-upgrades/resolute,resolute,now 2.12ubuntu9 all [installed,automatic]
-unbound-anchor/resolute-updates,resolute-security 1.24.2-1ubuntu2.3 amd64
-unbound-anchor/resolute-updates,resolute-security 1.24.2-1ubuntu2.3 i386
-unbound-host/resolute-updates,resolute-security 1.24.2-1ubuntu2.3 amd64
-unbound-host/resolute-updates,resolute-security 1.24.2-1ubuntu2.3 i386
-unbound/resolute-updates,resolute-security 1.24.2-1ubuntu2.3 amd64
-unbound/resolute-updates,resolute-security 1.24.2-1ubuntu2.3 i386
+unbound-anchor/resolute-security 1.24.2-1ubuntu2.4 amd64
+unbound-anchor/resolute-security 1.24.2-1ubuntu2.4 i386
+unbound-host/resolute-security 1.24.2-1ubuntu2.4 amd64
+unbound-host/resolute-security 1.24.2-1ubuntu2.4 i386
+unbound/resolute-security 1.24.2-1ubuntu2.4 amd64
+unbound/resolute-security 1.24.2-1ubuntu2.4 i386
 uncalled/resolute 2.3+ds-3build4 amd64
 unclutter-startup/resolute,resolute 8-26build1 all
 unclutter-xfixes/resolute 1.6-1build3 amd64
@@ -85141,10 +85141,10 @@ zita-resampler/resolute 1.11.2-1build2 i386
 zita-rev1/resolute 0.2.2-2build4 amd64
 zkg/resolute,resolute 3.1.0-1 all
 zktop/resolute,resolute 1.0.0-6 all
-zlib1g-dev/resolute-updates,resolute-security,now 1:1.3.dfsg+really1.3.1-1ubuntu3.1 amd64 [installed]
-zlib1g-dev/resolute-updates,resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.1 i386
-zlib1g/resolute-updates,resolute-security,now 1:1.3.dfsg+really1.3.1-1ubuntu3.1 amd64 [installed,automatic]
-zlib1g/resolute-updates,resolute-security,now 1:1.3.dfsg+really1.3.1-1ubuntu3.1 i386 [installed,automatic]
+zlib1g-dev/resolute-security,now 1:1.3.dfsg+really1.3.1-1ubuntu3.2 amd64 [installed]
+zlib1g-dev/resolute-security 1:1.3.dfsg+really1.3.1-1ubuntu3.2 i386
+zlib1g/resolute-security,now 1:1.3.dfsg+really1.3.1-1ubuntu3.2 amd64 [installed,automatic]
+zlib1g/resolute-security,now 1:1.3.dfsg+really1.3.1-1ubuntu3.2 i386 [installed,automatic]
 zlint/resolute 3.6.2-4build1 amd64
 zmakebas/resolute 1.2b-0.1build1 amd64
 zmap/resolute 4.3.4-1 amd64

@@ -41,6 +41,7 @@ rsync
 software-properties-common
 openssh-server
 tailscale
+pipewire-pulse
 
 # Meetily Community Edition build dependencies
 cmake
