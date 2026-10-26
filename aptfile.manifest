@@ -82199,7 +82199,7 @@ tuxedo-board-ahp958/tuxedo,tuxedo 1.0.0 all
 tuxedo-board-nh5xax/tuxedo,tuxedo 1.0.0 all
 tuxedo-board-xxkk4nax-xxsp4nax/tuxedo,tuxedo 1.0.0 all
 tuxedo-calamares-configuration/tuxedo,tuxedo 4.6.0 all
-tuxedo-control-center/tuxedo 3.1.1 amd64
+tuxedo-control-center/tuxedo 3.1.2 amd64
 tuxedo-drivers/tuxedo,tuxedo,now 4.25.0 all [installed]
 tuxedo-fix-acpi-backlight-video/tuxedo,tuxedo 1.0.1 all
 tuxedo-fix-amdgpu-backlight-aux-off/tuxedo,tuxedo 1.0.1 all
