@@ -13099,7 +13099,7 @@ gnome-shell-extension-gsconnect-browsers/resolute,resolute 71-1ubuntu1 all
 gnome-shell-extension-gsconnect/resolute,resolute 71-1ubuntu1 all
 gnome-shell-extension-launch-new-instance/resolute,resolute 50.0-1 all
 gnome-shell-extension-light-style/resolute,resolute 50.0-1 all
-gnome-shell-extension-manager/resolute 0.6.5-1 amd64
+gnome-shell-extension-manager/resolute,now 0.6.5-1 amd64 [installed]
 gnome-shell-extension-native-window-placement/resolute,resolute 50.0-1 all
 gnome-shell-extension-pipewire-settings/resolute,resolute 9-0ubuntu1 all
 gnome-shell-extension-places-menu/resolute,resolute 50.0-1 all

@@ -42,6 +42,7 @@ software-properties-common
 openssh-server
 tailscale
 pipewire-pulse
+gnome-shell-extension-manager
 
 # Meetily Community Edition build dependencies
 cmake
